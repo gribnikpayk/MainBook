@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:freshEssentials="using:FreshEssentials"
+             x:Class="MainBook.Views.MasterDetailPage.MainPage">
+  <MasterDetailPage.Master>
+    <ContentPage Title="Меню"
+                 BackgroundColor="{Binding MasterPageBackgroundColor}"
+                 Icon="MenuIcon.png">
+      <StackLayout Spacing="10"
+                   x:Name="Wrapper">
+        <StackLayout.Padding>
+          <Thickness>20</Thickness>
+        </StackLayout.Padding>
+      </StackLayout>
+
+    </ContentPage>
+  </MasterDetailPage.Master>
+
+  <MasterDetailPage.Detail>
+    <NavigationPage>
+
+    </NavigationPage>
+  </MasterDetailPage.Detail>
+</MasterDetailPage>

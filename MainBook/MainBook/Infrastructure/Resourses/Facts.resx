@@ -1,0 +1,1371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="0" xml:space="preserve">
+    <value>Мы забываем 90% того, что нам приснилось.
+В течение пяти минут после пробуждения мы помним половину своего сновидения. Через десять минут после того, как мы проснулись, мы забываем девять десятых того, что нам приснилось.</value>
+  </data>
+  <data name="1" xml:space="preserve">
+    <value>Слепые люди и сновидения.
+Люди, которые когда-то имели зрение, но ослепли, могут видеть во сне пространственные и цветовые образы. Рождённые слепыми картинок не видят, но их сны представляют собой очень яркие впечатления, связанные со звуком, обонянием, осязанием и эмоциями.</value>
+  </data>
+  <data name="2" xml:space="preserve">
+    <value>Все видят сны.
+Сны видит каждый человек. Исключение могут составить только люди, поражённые крайними психическими расстройствами. Если человек уверен в том, что ему никогда ничего не снится – скорее всего, он забывает свои сны сразу после пробуждения, вытесняет их из сознания, как нечто иррациональное и потому разрушительное.</value>
+  </data>
+  <data name="3" xml:space="preserve">
+    <value>Во сне мы можем увидеть только тех людей, которых знаем.
+Ум не может придумать нового персонажа, которого мы бы в своей жизни не встречали. Снятся нам только знакомые. Но могут сниться те, кого мы не запомнили или забыли. На протяжении своей жизни мы встречаем огромное количество людей, сотни тысяч лиц проходят перед нашими глазами. Поэтому у той части сознания, которая ведает сновидениями, нет недостатка в материале для построения разнообразных символов и образов.</value>
+  </data>
+  <data name="4" xml:space="preserve">
+    <value>Цветные и чёрно-белые сны.
+Исследования, проведённые с 1915 года до пятидесятых годов 20-го века, говорят, что среди зрячих людей 12% видят исключительно чёрно-белые сны. С 60-х годов картина изменилась. Сегодня чёрно-белые сны видят 4,4% людей. Скорее всего, такие изменения связаны с тем, что чёрно-белые фильмы уступили место цветным, появилось телевидение и другие медиа, использующие цветное изображение.</value>
+  </data>
+  <data name="5" xml:space="preserve">
+    <value>Символизм сновидений.
+Мы очень редко видим во сне привычные, бытовые вещи и ситуации. Даже когда нам снится что-то, казалось бы, хорошо знакомое, во сне этот объект сновидения приобретает совсем другой смысл. Сны глубоко символичны, во сне мы попадаем в пространство первичных архетипов. Именно в этом заключается причина того трепетного внимания, которое в древности уделяли снам властителей жрецы. Ведь психические процессы вершителей судеб, людей, которые принимают решения эпохальной важности – это, согласитесь, объективная реальность. «Дрожание моей левой икры есть великий признак» – говорил Наполеон, и был, конечно, прав. И дрожание левой икры, и  содержание сновидения властелина – великий признак.</value>
+  </data>
+  <data name="6" xml:space="preserve">
+    <value>Эмоции, которые мы испытываем во сне.
+Самые распространённые эмоции, которые мы чувствуем во сне – тревожность. И в целом отрицательные эмоции во сне мы испытываем чаще, чем положительные.</value>
+  </data>
+  <data name="7" xml:space="preserve">
+    <value>Количество сновидений за одну ночь.
+Еженощно мы можем увидеть от четырёх до семи сновидений. В среднем спящий человек за ночь может видеть сны один-два часа.</value>
+  </data>
+  <data name="8" xml:space="preserve">
+    <value>Животные тоже видят сны.
+Проведённые на животных исследования показывают, что их мозг работает так же, как мозг спящего человека. Впрочем, это известно каждому собаководу. Во сне пёс может поскуливать, дёргать лапами и очень выразительно демонстрировать, что ему снится что-то вроде азартной погони.</value>
+  </data>
+  <data name="9" xml:space="preserve">
+    <value>Фаза телесного паралича во сне.
+Существует фаза сновидений, которая называется фазой быстрых движений глаз, БДГ. Именно в это время мы видим образы, которые запоминаются нами как сновидение. Фаза быстрых движений глаз занимает по 20-25% времени ночного отдыха, то есть 90-120 минут. Во время БДГ в мозге включается особый механизм, парализующий тело. Это помогает предотвратить лишние телодвижения и возможные травмы во сне. Когда фаза быстрых движений глаз оканчивается, мы снова можем двигаться во сне – переворачиваться с боку на бок и т.д.</value>
+  </data>
+  <data name="10" xml:space="preserve">
+    <value>Включение в сновидение объективной реальности.
+Когда мы спим, наш ум интерпретирует внешние раздражители так, чтобы они являлись частью сна. Например, когда вы спите, а ваш младший брат в соседней комнате упражняется в игре на гитаре, вам может сниться, что вы на концерте в консерватории, причём музыканты, против обыкновения, создают ужасную какофонию. Подобных примеров у каждого наберётся сколько угодно.</value>
+  </data>
+  <data name="11" xml:space="preserve">
+    <value>Мужчины и женщины видят разные сны.
+Мужчины чаще всего видят сновидения, в которых фигурируют другие мужчины. В мужском сне около 70% мужских персонажей. У женщин во сне присутствуют мужчины и женщины в одинаковой пропорции – 50 на 50. Кроме того, мужчины в своих сновидениях ведут себя  агрессивнее женщин.</value>
+  </data>
+  <data name="12" xml:space="preserve">
+    <value>Вещие сны.
+Результаты исследований на больших группах людей показывают, что от 18% до 38% людей по крайней мере один раз в своей жизни видели вещий сон. Состояние дежа-вю, когда человек понимает, что он уже был в такой ситуации, испытывали 70% человек. При этом верят в вещие сны от 63% до 98% людей. В этих исследованиях принималось, что вещий сон – это такое видение будущего, которое никак не может быть выведено из анализа имеющейся на данный момент информации.</value>
+  </data>
+  <data name="13" xml:space="preserve">
+    <value>Храпящий человек не видит сновидений.
+Существует такая точка зрения, что когда человек храпит, он не может видеть снов. Так это или нет, сказать трудно, поскольку нет ни научного подтверждения, ни научного опровержения этой гипотезы. Однако простой житейский опыт подсказывает, что это, скорей всего, правда.</value>
+  </data>
+  <data name="14" xml:space="preserve">
+    <value>Оргазм во сне.
+Во сне вы можете не только заниматься сексом и получать от этого удовольствие, как и в реальной жизни, но и испытывать бурный оргазм, причём без всяких сопутствующих физиологических процессов. Более того, ощущения от занятий сексом во сне могут быть гораздо более сильными, чем в реальной жизни.</value>
+  </data>
+  <data name="15" xml:space="preserve">
+    <value>Три самых дорогих бренда на Земле в эпоху до интернета, в порядке убывания: Мальборо, Кока-Кола и Будвайзер.</value>
+  </data>
+  <data name="16" xml:space="preserve">
+    <value>Если капнуть на скорпиона алкоголем, он тут же сойдёт с ума и ужалит себя до смерти.</value>
+  </data>
+  <data name="17" xml:space="preserve">
+    <value>Ежегодно интернет-трафик растёт на 314000%.</value>
+  </data>
+  <data name="18" xml:space="preserve">
+    <value>Каждый восьмой американец когда-либо работал в Макдоналдсе.</value>
+  </data>
+  <data name="19" xml:space="preserve">
+    <value>70% всех проданных в мире лодок используются для рыболовства.</value>
+  </data>
+  <data name="20" xml:space="preserve">
+    <value>300 лет назад средняя продолжительность жизни египтянина составляла 30 лет.</value>
+  </data>
+  <data name="21" xml:space="preserve">
+    <value>Во сне вы сжигаете больше калорий, чем при просмотре телевизора.</value>
+  </data>
+  <data name="22" xml:space="preserve">
+    <value>В 1778 году в Париже было модно носить на женской шляпке громоотвод.</value>
+  </data>
+  <data name="23" xml:space="preserve">
+    <value>Сельдерей содержит отрицательное количество калорий: на то, чтобы его съесть, нужно больше калорий, чем в нём содержится.</value>
+  </data>
+  <data name="24" xml:space="preserve">
+    <value>В 18-м веке английские игорные дома держали сотрудников, чьей единственной задачей было проглотить игральные кости в случае полицейской облавы.</value>
+  </data>
+  <data name="25" xml:space="preserve">
+    <value>Первым продуктом, имевшим штрих-код, стала жвачка Wrigley.</value>
+  </data>
+  <data name="26" xml:space="preserve">
+    <value>В городе Калама, что в чилийской пустыне Атакама, никогда не было дождя.</value>
+  </data>
+  <data name="27" xml:space="preserve">
+    <value>Российская казна на 10% пополняется из средств от продажи водки.</value>
+  </data>
+  <data name="28" xml:space="preserve">
+    <value>6 месяцев жизни человек проводит, стоя перед красным сигналом светофора.</value>
+  </data>
+  <data name="29" xml:space="preserve">
+    <value>Первой бомбой, сброшенной союзниками на Берлин во Второй Мировой, убило слона в зоопарке.</value>
+  </data>
+  <data name="30" xml:space="preserve">
+    <value>Миг – единица времени длительностью в одну сотую секунды.</value>
+  </data>
+  <data name="31" xml:space="preserve">
+    <value>Слово «самба» означает «тереться пупками».</value>
+  </data>
+  <data name="32" xml:space="preserve">
+    <value>Если нажать крокодилу на глаза, он немедленно разожмёт пасть.</value>
+  </data>
+  <data name="33" xml:space="preserve">
+    <value>Гудки большинства американских машин звучат в тональности фа-мажор.</value>
+  </data>
+  <data name="34" xml:space="preserve">
+    <value>Термитов в мире в десять раз больше, чем людей.</value>
+  </data>
+  <data name="35" xml:space="preserve">
+    <value>По весу гамбургер стоит дороже нового автомобиля.</value>
+  </data>
+  <data name="36" xml:space="preserve">
+    <value>Кетчуп вытекает из бутылки со скоростью 30 километров в год.</value>
+  </data>
+  <data name="37" xml:space="preserve">
+    <value>Диаметр звезды Бетельгейзе больше диаметра орбиты Земли вокруг Солнца.</value>
+  </data>
+  <data name="38" xml:space="preserve">
+    <value>Объём Луны равен объёму воды в Тихом океане.</value>
+  </data>
+  <data name="39" xml:space="preserve">
+    <value>В американском штате Нью-Гемпшир на номерных знаках чеканят лозунг «Живи свободным или умри». Номерные знаки делают местные заключённые.</value>
+  </data>
+  <data name="40" xml:space="preserve">
+    <value>Кошка – единственное домашнее животное, которое не упоминается в Библии.</value>
+  </data>
+  <data name="41" xml:space="preserve">
+    <value>Если бы человек прыгал, как блоха, он мог бы перепрыгнуть футбольное поле.</value>
+  </data>
+  <data name="42" xml:space="preserve">
+    <value>Королева Елизавета I считала себя чистюлей и заявляла, что купается раз в три месяца, даже если не запачкалась.</value>
+  </data>
+  <data name="43" xml:space="preserve">
+    <value>Рекордная длительность полёта курицы – 13 секунд.</value>
+  </data>
+  <data name="44" xml:space="preserve">
+    <value>В Организации Объединенных Наций шесть официальных языков: английский, французский, арабский, китайский, русский и испанский.</value>
+  </data>
+  <data name="45" xml:space="preserve">
+    <value>Сердце ежа бьется 300 раз в минуту.</value>
+  </data>
+  <data name="46" xml:space="preserve">
+    <value>Если бы в кока-колу не добавляли краситель, она была бы зелёной.</value>
+  </data>
+  <data name="47" xml:space="preserve">
+    <value>Первое переливание крови произошло в 1667 году. Врач Жан-Батист Дени перелил своему пациенту-юноше 250 миллилитров крови ягнёнка, после чего больной, как ни странно, поправился.</value>
+  </data>
+  <data name="48" xml:space="preserve">
+    <value>Большая часть пыли в доме – отшелушившаяся кожа его обитателей.</value>
+  </data>
+  <data name="49" xml:space="preserve">
+    <value>На каждом континенте есть город с названием Рим.</value>
+  </data>
+  <data name="50" xml:space="preserve">
+    <value>Прославленный английский адмирал Горацио Нельсон всю жизнь страдал от морской болезни.</value>
+  </data>
+  <data name="51" xml:space="preserve">
+    <value>Жуки на вкус похожи на яблоко, осы – на кедровый орешек, а черви – на жареный бекон.</value>
+  </data>
+  <data name="52" xml:space="preserve">
+    <value>В 1830-х годах кетчуп продавали как лекарство.</value>
+  </data>
+  <data name="53" xml:space="preserve">
+    <value>Ежедневно на планете 12 детей в роддомах отдают не тем родителям.</value>
+  </data>
+  <data name="54" xml:space="preserve">
+    <value>Слизистая оболочка желудка обновляется каждые две недели.</value>
+  </data>
+  <data name="55" xml:space="preserve">
+    <value>Самки льва приносят 90 процентов добычи.</value>
+  </data>
+  <data name="56" xml:space="preserve">
+    <value>Деньги делаются не из бумаги, а из хлопка.</value>
+  </data>
+  <data name="57" xml:space="preserve">
+    <value>Самец непарного шелкопряда может почувствовать запах самки за 1.8 километров.</value>
+  </data>
+  <data name="58" xml:space="preserve">
+    <value>Принц Чарльз увлечённо коллекционирует унитазные сиденья.</value>
+  </data>
+  <data name="59" xml:space="preserve">
+    <value>Цена билета в кино в Токио дороже, чем в Мехико, в 26 раз.</value>
+  </data>
+  <data name="60" xml:space="preserve">
+    <value>Каждые семь минут на планете кто-то получает растяжение бицепса бедра, занимаясь гимнастикой.</value>
+  </data>
+  <data name="61" xml:space="preserve">
+    <value>Более 80% компьютерных взломов связаны с простыми паролями.</value>
+  </data>
+  <data name="62" xml:space="preserve">
+    <value>Дуб не производит жёлуди, пока он младше 50 лет.</value>
+  </data>
+  <data name="63" xml:space="preserve">
+    <value>Противокомариные репелленты не отпугивают насекомых, а прячут от них вас. Спрей блокирует сенсорную систему комара, и комар не понимает, где вы.</value>
+  </data>
+  <data name="64" xml:space="preserve">
+    <value>Если начнут драться лев и белый медведь, то победит белый медведь.</value>
+  </data>
+  <data name="65" xml:space="preserve">
+    <value>Среднестатистическая корова выделяет в день 400 литров газа метана.</value>
+  </data>
+  <data name="66" xml:space="preserve">
+    <value>Быки – дальтоники.</value>
+  </data>
+  <data name="67" xml:space="preserve">
+    <value>В Индии 50 миллионов обезьян.</value>
+  </data>
+  <data name="68" xml:space="preserve">
+    <value>В среднем курица откладывает 190 яиц в год.</value>
+  </data>
+  <data name="69" xml:space="preserve">
+    <value>Лебедь – единственная птица, у которой есть пенис.</value>
+  </data>
+  <data name="70" xml:space="preserve">
+    <value>Единственная собака, у которой язык не розовый – чау-чау.</value>
+  </data>
+  <data name="71" xml:space="preserve">
+    <value>У золотой рыбки память 3 секунды.</value>
+  </data>
+  <data name="72" xml:space="preserve">
+    <value>Самое высокое кровяное давление – у жирафа.</value>
+  </data>
+  <data name="73" xml:space="preserve">
+    <value>Изо всех живых существ простату имеют только человек и собака.</value>
+  </data>
+  <data name="74" xml:space="preserve">
+    <value>На десяти квадратных метрах тропического леса больше насекомых, чем людей в Новосибирске.</value>
+  </data>
+  <data name="75" xml:space="preserve">
+    <value>В степи на квадратном километре больше насекомых, чем людей во всём мире.</value>
+  </data>
+  <data name="76" xml:space="preserve">
+    <value>Самые умные собаки – бордер-колли.</value>
+  </data>
+  <data name="77" xml:space="preserve">
+    <value>Самыми глупыми собаками считаются афганские борзые.</value>
+  </data>
+  <data name="78" xml:space="preserve">
+    <value>Львы могут спариваться больше 50 раз в день.</value>
+  </data>
+  <data name="79" xml:space="preserve">
+    <value>Верблюд может обходиться без воды две недели.</value>
+  </data>
+  <data name="80" xml:space="preserve">
+    <value>Жираф может обходиться без воды дольше, чем верблюд.</value>
+  </data>
+  <data name="81" xml:space="preserve">
+    <value>Крысы могут обходиться без воды дольше всех.</value>
+  </data>
+  <data name="82" xml:space="preserve">
+    <value>Кенгуровая крыса не пьёт воду вовсе. Жидкости ей нужно так мало, что всю жидкость кенгуровая крыса получает из своего скудного рациона.</value>
+  </data>
+  <data name="83" xml:space="preserve">
+    <value>В козьем молоке в 5 раз меньше жира, чем в коровьем. Коровье молоко усваивается час, козье – 20 минут.</value>
+  </data>
+  <data name="84" xml:space="preserve">
+    <value>Самые большие тигры – уссурийские. Высота в холке у них до 115 см, максимальная длина тела – больше 3 метров, максимальный вес – 280 кг.</value>
+  </data>
+  <data name="85" xml:space="preserve">
+    <value>Крупнейший аллигатор был пойман во Флориде, США. Его длина составляла 4 метра 35 сантиметров, весил он почти 297 килограммов.</value>
+  </data>
+  <data name="86" xml:space="preserve">
+    <value>Срок жизни черепах похож на срок жизни людей. Некоторые из них живут более 100 лет.</value>
+  </data>
+  <data name="87" xml:space="preserve">
+    <value>Самые быстрые сухопутные насекомые – тараканы. Они могут бежать со скоростью шесть с половиной километров в час.</value>
+  </data>
+  <data name="88" xml:space="preserve">
+    <value>Рабочие и охранные функции у муравьёв выполняют самки. У муравьиных самцов только одно предназначение – спаривание.</value>
+  </data>
+  <data name="89" xml:space="preserve">
+    <value>95% всех известных живых организмов на Земле – беспозвоночные.</value>
+  </data>
+  <data name="90" xml:space="preserve">
+    <value>Учёным известны 1 100 000 видов членистоногих, 24 500 видов рыб, 9 000 видов млекопитающих и птиц, 8 000 видов пресмыкающихся, 5 000 земноводных и 260 000 видов растений.</value>
+  </data>
+  <data name="91" xml:space="preserve">
+    <value>В Ирландии, Исландии, Гренландии и Антарктиде нет змей.</value>
+  </data>
+  <data name="92" xml:space="preserve">
+    <value>Басенджи – единственная собака, которая не может лаять.</value>
+  </data>
+  <data name="93" xml:space="preserve">
+    <value>Гигантский червяк миксина имеет зубы на языке.</value>
+  </data>
+  <data name="94" xml:space="preserve">
+    <value>Сова не переваривает мех, перья и кости. Она их отрыгивает через несколько часов после еды.</value>
+  </data>
+  <data name="95" xml:space="preserve">
+    <value>Плюющаяся индийская кобра способна плюнуть ядом точно в глаз жертвы на расстояние 2,4 метра.</value>
+  </data>
+  <data name="96" xml:space="preserve">
+    <value>Раненый или напуганный опоссум падает мёртвым, у него стекленеют глаза, изо рта течёт пена, а из анальных желёз источается зловоние. После того, как опасность минует, опоссум оживает и выздоравливает.</value>
+  </data>
+  <data name="97" xml:space="preserve">
+    <value>Самки тли рождаются беременными.</value>
+  </data>
+  <data name="98" xml:space="preserve">
+    <value>Взрослый клоп год может жить без пищи.</value>
+  </data>
+  <data name="99" xml:space="preserve">
+    <value>Тарантул может жить без пищи два года.</value>
+  </data>
+  <data name="100" xml:space="preserve">
+    <value>Азиатский гигантский шершень кусается больнее всех насекомых. У нас он встречается в Приморском крае.</value>
+  </data>
+  <data name="101" xml:space="preserve">
+    <value>В одной кровати в среднем живут 6 миллиардов пылевых клещей.</value>
+  </data>
+  <data name="102" xml:space="preserve">
+    <value>Муравьи не спят.</value>
+  </data>
+  <data name="103" xml:space="preserve">
+    <value>Стрекозы могут летать в любом направлении – вперёд, назад и в стороны. Это самые быстрые летающие насекомые, их скорость достигает почти 100 километров в час.</value>
+  </data>
+  <data name="104" xml:space="preserve">
+    <value>Одну треть всей пищи на Земле съедают насекомые.</value>
+  </data>
+  <data name="105" xml:space="preserve">
+    <value>Комары больше любят детей, чем взрослых, блондинок, чем брюнеток. Их любимый цвет синий.</value>
+  </data>
+  <data name="106" xml:space="preserve">
+    <value>В мире 2500 разновидностей комаров. Комары убивают людей больше, чем все другие живые существа на планете, вместе взятые.</value>
+  </data>
+  <data name="107" xml:space="preserve">
+    <value>У млекопитающих кровь красная, у насекомых жёлтая, у омаров синяя.</value>
+  </data>
+  <data name="108" xml:space="preserve">
+    <value>Жужжание пчелы производится четырьмя крыльями, которые делают по 11 400 взмахов в минуту. Скорость полёта пчелы – 25 километров в час.</value>
+  </data>
+  <data name="109" xml:space="preserve">
+    <value>Скорость блохи в начале прыжка больше, чем скорость космической ракеты на орбите.</value>
+  </data>
+  <data name="110" xml:space="preserve">
+    <value>Пауки вида чёрная вдова ядовитее гремучих змей.</value>
+  </data>
+  <data name="111" xml:space="preserve">
+    <value>В течение жизни хлопотливая пчёлка производит одну двенадцатую чайной ложечки мёда.</value>
+  </data>
+  <data name="112" xml:space="preserve">
+    <value>Пчёлы убивают людей больше, чем все ядовитые змеи, вместе взятые.</value>
+  </data>
+  <data name="113" xml:space="preserve">
+    <value>Пчелиная матка откладывает сразу несколько яиц, из которых могут развиться новые королевы. Первое, что делает свежевылупившаяся королева – убивает своих менее расторопных сестёр, чтобы царствовать в одиночку.</value>
+  </data>
+  <data name="114" xml:space="preserve">
+    <value>Десять самых смертоносных насекомых, по убыванию: комар, блоха, пчела, муха цеце, огненный муравей, саранча, оса, африканский муравей, азиатский шершень, поцелуйный клоп.</value>
+  </data>
+  <data name="115" xml:space="preserve">
+    <value>Поцелуйный клоп получил своё название от того, что его любимое место на человеческом теле, чтобы впиться и сосать кровь – зона вокруг рта.</value>
+  </data>
+  <data name="116" xml:space="preserve">
+    <value>Самым тупым животным в истории Земли был стегозавр. При весе тела в 3 тонны он имел мозг размером с грецкий орех.</value>
+  </data>
+  <data name="117" xml:space="preserve">
+    <value>Акулы не болеют.</value>
+  </data>
+  <data name="118" xml:space="preserve">
+    <value>Скелет акулы состоит из хрящей, составляющих 60% её веса.</value>
+  </data>
+  <data name="119" xml:space="preserve">
+    <value>Бабочки пробуют пищу на вкус лапками.</value>
+  </data>
+  <data name="120" xml:space="preserve">
+    <value>Дельфины спят с одним открытым глазом.</value>
+  </data>
+  <data name="121" xml:space="preserve">
+    <value>Новорождённый слонёнок весит около 100 килограммов.</value>
+  </data>
+  <data name="122" xml:space="preserve">
+    <value>Слониха вынашивает слонёнка 22 месяца.</value>
+  </data>
+  <data name="123" xml:space="preserve">
+    <value>Самка североамериканского опоссума вынашивает потомство 8 дней.</value>
+  </data>
+  <data name="124" xml:space="preserve">
+    <value>Блоха может передвигаться только прыжками, мышцы её лапок устроены, как катапульты. Они накапливают энергию и «выстреливают» блоху в прыжок.</value>
+  </data>
+  <data name="125" xml:space="preserve">
+    <value>Сфотографировать живого гигантского кальмара люди сумели только в 2006 году. Живут эти полутонные чудовища на глубине от 200 метров до километра.</value>
+  </data>
+  <data name="126" xml:space="preserve">
+    <value>Императорские пингвины могут нырять на глубину до 500 метров и способны задерживать дыхание на 18 минут.</value>
+  </data>
+  <data name="127" xml:space="preserve">
+    <value>У пауков 8 ног, у насекомых 6. Строго говоря, пауки не являются насекомыми, они относятся к паукообразным.</value>
+  </data>
+  <data name="128" xml:space="preserve">
+    <value>Существует 750 000 видов насекомых и 35 000 видов пауков.</value>
+  </data>
+  <data name="129" xml:space="preserve">
+    <value>У насекомых нет лёгких, они дышат всем телом.</value>
+  </data>
+  <data name="130" xml:space="preserve">
+    <value>Самая маленькая птичка – колибри-пчёлка, в ней меньше пяти сантиметров длины.</value>
+  </data>
+  <data name="131" xml:space="preserve">
+    <value>Крокодилы любят глотать камни – от этого у них и пищеварение лучше, и нырять они могут глубже.</value>
+  </data>
+  <data name="132" xml:space="preserve">
+    <value>Голубые киты – самые крупные животные на Земле.</value>
+  </data>
+  <data name="133" xml:space="preserve">
+    <value>Средний слон весит меньше, чем весит язык среднего голубого кита.</value>
+  </data>
+  <data name="134" xml:space="preserve">
+    <value>Голубые киты – самые шумные животные в мире. Их мелодичное пение может оглушить человека. Без вреда для слуха человек может выдержать 85 децибелов, на рок-концерте громкость звука – 100 децибелов, голубые киты поют на 188 децибелов и их можно услышать за 800 километров.</value>
+  </data>
+  <data name="135" xml:space="preserve">
+    <value>Три раза в год страус спаривается с самками, которых может быть от 2 до 6. Все самки откладывают яйца в одно гнездо, в дальнейшем о птенцах заботится отец.</value>
+  </data>
+  <data name="136" xml:space="preserve">
+    <value>Термитники могут строиться сотни лет подряд и достигать 6 метров в высоту.</value>
+  </data>
+  <data name="137" xml:space="preserve">
+    <value>Самые маленькие летающие насекомые – трихограммы. Их размеры меньше миллиметра, они паразитируют на других насекомых. В сельском хозяйстве их разводят специально, чтобы они уничтожали насекомых-вредителей, в яйца которых откладывают свои яйца трихограммы.</value>
+  </data>
+  <data name="138" xml:space="preserve">
+    <value>У гадрозавра, по-хозяйски заселившего когда-то просторы Европы, Азии и Северной Америки, было 960 коренных зубов. Если бы эволюция пошла по этой линии, нам бы не хватило никаких денег на стоматологов.</value>
+  </data>
+  <data name="139" xml:space="preserve">
+    <value>Альбатрос может спать в полёте на скорости 40 километров в час.</value>
+  </data>
+  <data name="140" xml:space="preserve">
+    <value>Самым опасным ядом считается яд королевской кобры.</value>
+  </data>
+  <data name="141" xml:space="preserve">
+    <value>Газель, которой 2 дня от роду, может разогнаться до 95 километров в час.</value>
+  </data>
+  <data name="142" xml:space="preserve">
+    <value>Половые органы улитки расположены у неё в голове.</value>
+  </data>
+  <data name="143" xml:space="preserve">
+    <value>Скорость размножения крыс так велика, что при благоприятных обстоятельствах 2 крысы могли бы дать потомство в 1 миллион крыс в течение полутора лет.</value>
+  </data>
+  <data name="144" xml:space="preserve">
+    <value>Лошади и коровы спят стоя.</value>
+  </data>
+  <data name="145" xml:space="preserve">
+    <value>Щупальца гигантской арктической медузы могут достигать в длину 36 метров.</value>
+  </data>
+  <data name="146" xml:space="preserve">
+    <value>Колибри такие ловкие, что могут летать спиной вперёд.</value>
+  </data>
+  <data name="147" xml:space="preserve">
+    <value>Змеи не моргают, потому что их глаза всегда закрыты прозрачными сросшимися веками.</value>
+  </data>
+  <data name="148" xml:space="preserve">
+    <value>У гусеницы в голове 248 мускулов.</value>
+  </data>
+  <data name="149" xml:space="preserve">
+    <value>У шмеля на глазах растут волосы. Они помогают ему собирать пыльцу.</value>
+  </data>
+  <data name="150" xml:space="preserve">
+    <value>Крупнейшие хищники в мире – белые медведи.</value>
+  </data>
+  <data name="151" xml:space="preserve">
+    <value>Таракан может жить без головы, пока не умрёт от голода.</value>
+  </data>
+  <data name="152" xml:space="preserve">
+    <value>У коровы четыре желудка.</value>
+  </data>
+  <data name="153" xml:space="preserve">
+    <value>У собак обоняние в 100 раз лучше, чем у людей.</value>
+  </data>
+  <data name="154" xml:space="preserve">
+    <value>У жирафа столько же шейных позвонков, сколько у человека.</value>
+  </data>
+  <data name="155" xml:space="preserve">
+    <value>Белка – лучший садовник. Миллионы деревьев вырастают потому, что белки забывают, куда спрятали семечки.</value>
+  </data>
+  <data name="156" xml:space="preserve">
+    <value>Акула меняет зубы каждые 8 дней. Зубы акулы твёрдые, как сталь, а крепятся просто в дёснах.</value>
+  </data>
+  <data name="157" xml:space="preserve">
+    <value>Ежегодно в мире больше людей бывают убиты ослами, чем гибнут в авиакатастрофах.</value>
+  </data>
+  <data name="158" xml:space="preserve">
+    <value>Сова может поворачивать голову на 360 градусов.</value>
+  </data>
+  <data name="159" xml:space="preserve">
+    <value>Осьминог может протиснуться в любую щель, в которую пролезет его глаз.</value>
+  </data>
+  <data name="160" xml:space="preserve">
+    <value>Глаз гигантского кальмара размером с баскетбольный мяч.</value>
+  </data>
+  <data name="161" xml:space="preserve">
+    <value>Если улитка лишится глаза, меньше чем за месяц она отрастит себе новый.</value>
+  </data>
+  <data name="162" xml:space="preserve">
+    <value>Самое сильное животное на Земле – жук-носорог. Он может поднять груз в 850 раз тяжелее себя.</value>
+  </data>
+  <data name="163" xml:space="preserve">
+    <value>Известны 7 организмов, которые не стареют: алеутский морской окунь, расписная черепаха, болотная американская черепаха, коробчатая каролинская черепаха, красный морской ёж, моллюск циприна исландская и сосна остистая межгорная. Самая старая обнаруженная сосна имеет возраст более 5000 лет, самый старый моллюск – более 500, остальные животные из этого списка – более 200 лет. При этом все экземпляры не имеют никаких признаков старения и угасания функций организма.</value>
+  </data>
+  <data name="164" xml:space="preserve">
+    <value>Россия – самая большая страна мира, её площадь 17 075 400 квадратных километров. Она больше США в 1,8 раз. Площадь России приблизительно равна площади поверхности планеты Плутон.</value>
+  </data>
+  <data name="165" xml:space="preserve">
+    <value>В России находится самый большой в мире действующий вулкан – Ключевская Сопка. Его высота 4 километра 850 метров. Он выбрасывает столбы пепла на восемь километров вверх. С каждым извержением он становится всё выше. Извергается вулкан Ключевская Сопка на протяжении последних 7 тысяч лет.</value>
+  </data>
+  <data name="166" xml:space="preserve">
+    <value>Метро Санкт-Петербурга– самое глубокое в мире.  Его средняя глубина – 100 метров.</value>
+  </data>
+  <data name="167" xml:space="preserve">
+    <value>В Санкт-Петербурге мостов в три раза больше, чем в Венеции. По количеству каналов и мостов уместнее не Петербург называть Северной Венецией, а Венецию – Южным Петербургом.</value>
+  </data>
+  <data name="168" xml:space="preserve">
+    <value>Самым старым христианским храмом на территории России считается древний храм Тхаба-Ерды, расположенный в Ингушетии, в Джейрахском районе, между аулами Хайрах и Пуй. Он был построен VIII-IX веках. Три старейших из ныне действующих храмов находятся в посёлке Нижний Архыз в Карачаево-Черкессии. Построены они были в X-м веке.</value>
+  </data>
+  <data name="169" xml:space="preserve">
+    <value>Транссибирская железнодорожная магистраль – самая длинная железная дорога в мире. Великий Сибирский Путь, соединяющий Москву с Владивостоком, в длину имеет 9298 километров, пересекает 8 часовых поясов, проходит через 87 городов и населенных пунктов и пересекает 16 рек, включая Волгу.</value>
+  </data>
+  <data name="170" xml:space="preserve">
+    <value>Сибирское озеро Байкал — самое глубокое озеро в мире и самый крупный источник пресной воды на планете. В Байкале 23 кубических километра воды. Все крупнейшие реки мира – Волга, Дон, Днепр, Енисей, Урал, Обь, Ганг, Ориноко, Амазонка, Темза, Сена и Одер – должны течь почти год, чтобы заполнить бассейн, равный по объёму озеру Байкал.</value>
+  </data>
+  <data name="171" xml:space="preserve">
+    <value>Россия – единственное государство, территория которого омывается двенадцатью морями.</value>
+  </data>
+  <data name="172" xml:space="preserve">
+    <value>Россию отделяют от Америки 4 километра. Это расстояние между островом Ратманова (Россия) и островом Крузенштерна (США) в Беринговом проливе.</value>
+  </data>
+  <data name="173" xml:space="preserve">
+    <value>От Москвы до Чикаго ближе, чем от Чикаго до Рио-де-Жанейро.</value>
+  </data>
+  <data name="174" xml:space="preserve">
+    <value>В культурной столице России Санкт-Петербурге 2000 библиотек, 221 музей, 100 концертных организаций, больше 80 театров, 80 клубов и домов культуры, 62 кинотеатра, 45 картинных галерей.</value>
+  </data>
+  <data name="175" xml:space="preserve">
+    <value>Урал — самые старые горы в мире. Расположенная в Кусинском районе у деревни Александровка гора Карандаш возникла 4, 2 миллиарда лет назад. Исторические названия Уральских гор – Большой Камень, Сибирский Камень, Земной Пояс, Поясной Камень. Когда-то Уральские горы были очень высокими, но теперь от прежних гор остались только основания.</value>
+  </data>
+  <data name="176" xml:space="preserve">
+    <value>В Москве есть 7 абсолютно одинаковых высотных зданий: 2 отеля, 2 административных здания, 2 жилых дома и университет. По-английски этот ансамбль называют Семь Сестёр, а по-русски просто сталинскими высотками. Стиль, в котором построены высотки, называется сталинская готика.</value>
+  </data>
+  <data name="177" xml:space="preserve">
+    <value>Московский Кремль – самая большая в мире средневековая крепость.</value>
+  </data>
+  <data name="178" xml:space="preserve">
+    <value>Полная длина кремлевских стен составляет 2235 метров.</value>
+  </data>
+  <data name="179" xml:space="preserve">
+    <value>В Москве есть большой фонтан, из которого бьёт питьевая вода. Фонтан входит в архитектурную группу «Александр и Натали» со скульптурной композицией Пушкина и Гончаровой в изящной ротонде.</value>
+  </data>
+  <data name="180" xml:space="preserve">
+    <value>Санкт-Петербург — самый северный в мире город с населением более миллиона человек.</value>
+  </data>
+  <data name="181" xml:space="preserve">
+    <value>Площадь Сибири — 9 миллионов 734,3 тысячи квадратных километров, что составляет 9% земной суши.</value>
+  </data>
+  <data name="182" xml:space="preserve">
+    <value>У России есть границы с 16 странами: Норвегией, Финляндией, Эстонией, Латвией, Литвой, Польшей, Белоруссией, Украиной, Грузией, Азербайджаном, Казахстаном, Китаем, Монголией, Северной Кореей, Японией и США. Россия также граничит с двумя непризнанными государствами: Южной Осетией и Абхазией.</value>
+  </data>
+  <data name="183" xml:space="preserve">
+    <value>В мире больше автоматов Калашникова, чем автоматов всех остальных конструкций, вместе взятых.</value>
+  </data>
+  <data name="184" xml:space="preserve">
+    <value>Россия провозгласила равные права мужчин и женщин раньше, чем США. В России избирательное право женщинам предоставили в 1918-м году, в Соединённых штатах – в 1920-м.</value>
+  </data>
+  <data name="185" xml:space="preserve">
+    <value>Россия никогда не знала рабства. Период наиболее полно выраженной формы феодальной зависимости, крепостного права, в России был короче, чем, например, в Англии и большинстве стран Европы. Крепостное право в России имело более мягкие формы. Россия отменила крепостное право в 1861 году, США отменили рабство в 1865 году.</value>
+  </data>
+  <data name="186" xml:space="preserve">
+    <value>16 января 1820 года русская экспедиция Таддеуса Беллинсгаузена и Михаила Лазарева обнаружила Антарктиду.</value>
+  </data>
+  <data name="187" xml:space="preserve">
+    <value>Самая известная компьютерная игра –Tetris – была создана русским программистом Алексеем Пажитновым в 1985 году. Эта игра стала популярной в Советском Союзе, а затем, в 1986-м году, на Западе.</value>
+  </data>
+  <data name="188" xml:space="preserve">
+    <value>Иван Грозный не был тираном, он правил невиданно для своего времени мягко. При одинаковом в тот момент размере Европы и России Грозный за время своего царствования казнил в 100 раз меньше людей, чем его европейские коллеги за этот же период – 3-4 тысячи человек против 300-400 тысяч человек.</value>
+  </data>
+  <data name="189" xml:space="preserve">
+    <value>Иван Грозный греет собаку, узнав прогноз погоды на ближайшие три дня</value>
+  </data>
+  <data name="190" xml:space="preserve">
+    <value>Иван Грозный не убивал своего сына.</value>
+  </data>
+  <data name="191" xml:space="preserve">
+    <value>Поезда в Московском метро ходят чаще, чем в любом другом метро мира. В часы пик интервал между составами в нём составляет 90 секунд. Среди них есть «именные» поезда, как, например, поезд «Акварель», представляющий собой передвижную выставку живописи.</value>
+  </data>
+  <data name="192" xml:space="preserve">
+    <value>В Петергофе под Санкт-Петербургом 176 фонтанов, из которых 40 гигантских, и 5 каскадов.</value>
+  </data>
+  <data name="193" xml:space="preserve">
+    <value>Самовар – древняя версия электрического чайника. Самовар работал на угле, но выполнял ту же функцию, кипятил воду.</value>
+  </data>
+  <data name="194" xml:space="preserve">
+    <value>В российском городе Оймякон зарегистрирована самая низкая температура воздуха. Рекорд холода был установлен в 1924 году и составил –71.2 °C.</value>
+  </data>
+  <data name="195" xml:space="preserve">
+    <value>Советский космонавт Юрий Гагарин был первым человеком, побывавшим в космосе.</value>
+  </data>
+  <data name="196" xml:space="preserve">
+    <value>Во время Второй мировой войны станции метро использовались в как бомбоубежища. Во время авианалётов в этом совершенно безопасном укрытии родились 150 человек.</value>
+  </data>
+  <data name="197" xml:space="preserve">
+    <value>В России множество прекрасных экскурсионных и туристических маршрутов. Самые известные так называемые «семейства туристических маршрутов» – Золотое кольцо России, Серебряное кольцо России и Большое Уральское кольцо.</value>
+  </data>
+  <data name="198" xml:space="preserve">
+    <value>Полная длина 12 линий Московского метро – 310 км. Между 182 станциями в нём курсируют почти 10000 поездов. Средняя продолжительность поездки пассажира составляет 13 километров.</value>
+  </data>
+  <data name="199" xml:space="preserve">
+    <value>В 18-м веке Россия была 3-й по величине империей в истории человечества, занимая территорию от европейской Польши до североамериканской Аляски.</value>
+  </data>
+  <data name="200" xml:space="preserve">
+    <value>Западно-Сибирская равнина — самая большая равнина на Земле.</value>
+  </data>
+  <data name="201" xml:space="preserve">
+    <value>Эрмитаж – один из самых крупных и старинных мировых музеев. В нём три миллиона произведений искусства от каменного века до современности. Если уделить каждому из этих произведений одну минуту, то потребуется больше 25 лет ходить в Эрмитаж, как на работу, и осматривать экспонаты по 8 часов в день, чтобы увидеть их все.</value>
+  </data>
+  <data name="202" xml:space="preserve">
+    <value>Россия занимает седьмую часть земной суши.</value>
+  </data>
+  <data name="203" xml:space="preserve">
+    <value>Некоторое время назад в Москве было больше миллиардеров, чем в любом другом городе мира. Сейчас миллиардеров в Москве стало меньше, зато прибавилось ясности в вопросе, как потратить миллиард.</value>
+  </data>
+  <data name="204" xml:space="preserve">
+    <value>Российская Публичная библиотека – крупнейшая в Европе и вторая в мире после Библиотеки Конгресса США. Она расположена в Москве, была основана в 1862 году.</value>
+  </data>
+  <data name="205" xml:space="preserve">
+    <value>В день открытия в Москве 700-местного ресторана McDonalds на Пушкинской площади к 5 утра перед ним стояла очередь в 5000 человек. За первый день ресторан обслужил 3000 клиентов. По сей день он остаётся самым посещаемым Макдональдсом в мире.</value>
+  </data>
+  <data name="206" xml:space="preserve">
+    <value>250-300 лебедей и 1,5-2 тысячи диких уток ежегодно прилетают на Лебединое озеро в Алтайском крае. Прилетают они осенью, зимовать.</value>
+  </data>
+  <data name="207" xml:space="preserve">
+    <value>На Алтае насчитывается более 820 ледников, суммарно занимающих территорию в 600 квадратных километров.</value>
+  </data>
+  <data name="208" xml:space="preserve">
+    <value>В России появился новый вид спорта – вертолётный гольф. Два вертолёта, оснащённые 4-метровыми клюшками, играют двумя шарами диаметром в метр. В каждой команде по пять человек. Один пилотирует вертолёт, второй бьёт по мячу, третий координирует действия первых двух, ещё двое в резерве. Они подменяют того, кто с клюшкой, когда он выдохнется.</value>
+  </data>
+  <data name="209" xml:space="preserve">
+    <value>Россия регулярно занимает первое место в различных рейтингах наименее дружественных стран мира, однако это просто недоразумение, связанное с различием культурных кодов. В России в школах детей учат не улыбаться без причины, считая улыбку признаком легкомысленного настроения. На самом деле россияне доброжелательны и всегда готовы помочь иностранцу.</value>
+  </data>
+  <data name="210" xml:space="preserve">
+    <value>В 2002-м году по рейтингу ЮНЕСКО Екатеринбург вошёл в список 12-ти идеальных городов мира.</value>
+  </data>
+  <data name="211" xml:space="preserve">
+    <value>Самый большой когда-либо отлитый колокол – российский Царь-колокол работы мастеров Ивана Фёдоровича Моторина и его сына Михаила. Вес Царь-колокола 12327 пудов и 19 фунтов, то есть 201 тонна 924 килограмма. Его высота – 6 метров 14 сантиметров.</value>
+  </data>
+  <data name="212" xml:space="preserve">
+    <value>Город Суздаль занимает всего 15 квадратных километров пощади и имеет чуть более 10000 человек населения. При этом в Суздале 53 храма.</value>
+  </data>
+  <data name="213" xml:space="preserve">
+    <value>Российская Федерация состоит из 8 федеральных округов, которые делятся на 83 региона -субъекта Федерации, включая 21 национальную республику. Республики, каждая из которых закреплена конституцией за титульным этносом, занимают 28,6 % территории России, в них проживает 16,9 % населения. Приблизительно 83% населения России составляют этнические русские, однако в Конституции РФ упоминания о русском народе нет. Этот юридический казус представляет собой одну из актуальных внутриполитических проблем Российской Федерации и рано или поздно будет урегулирован.</value>
+  </data>
+  <data name="214" xml:space="preserve">
+    <value>Миф о мифе: русские думают, что американцы думают, что медведи ходят по улицам в Москве. На самом деле и медведи не так часто ходят по русским городам, и американцы не имеют стереотипа о дикой России.</value>
+  </data>
+  <data name="215" xml:space="preserve">
+    <value>Японское блюдо суши в России популярнее, чем в Японии.</value>
+  </data>
+  <data name="216" xml:space="preserve">
+    <value>Учёные России изобрели электрическую лампочку, телевизор, электронный микроскоп, вертолёт, бомбардировщик, видеомагнитофон, гусеничный трактор, цветную фотографию, модель искусственного сердца, бензиновый двигатель, зерноуборочную машину, автомат, электрическую сварку, синтетический каучук, угольный противогаз, высший пилотаж, радио, турбобур, прожектор, автоматическую телефонную станцию, периодическую систему химических элементов, электрическую подводную лодку, тепловой двигатель, синтетические моющие средства, угольный комбайн, аппарат искусственного кровообращения, миномёт, электродвигатель, ранцевый парашют и ещё множество полезных вещей.</value>
+  </data>
+  <data name="217" xml:space="preserve">
+    <value>В России заложены основы теории высшей нервной деятельности, теории аэродинамики, метода хирургического лечения глаукомы, геохимии изотопов, эволюционной физиологии, кристаллографии, эволюционной эмбриологии, химии элементоорганических соединений, сейсмологии, гальванопластики и многих других научных дисциплин.</value>
+  </data>
+  <data name="218" xml:space="preserve">
+    <value>В новосибирском Институте цитологии и генетики СО РАН за последние 50 лет вывели домашних лисиц, ласковых, дружелюбных и преданных, как собаки, и независимых, как кошки.</value>
+  </data>
+  <data name="219" xml:space="preserve">
+    <value>В новосибирском Институте цитологии и генетики СО РАН стоит памятник лабораторной мыши, вдохновенно вяжущей ДНК.</value>
+  </data>
+  <data name="220" xml:space="preserve">
+    <value>В России как минимум 15 секретных городов. Их нет на картах, к ним не ведут дорожные указатели и к ним даже близко не подпустят иностранцев.</value>
+  </data>
+  <data name="221" xml:space="preserve">
+    <value>Высотка МГУ – самое большое в мире здание университета.</value>
+  </data>
+  <data name="222" xml:space="preserve">
+    <value>В 30-х годах в реке Тихая Сосна возле Белгорода русские рыбаки поймали осетра, в котором было 245 килограммов чёрной икры.</value>
+  </data>
+  <data name="223" xml:space="preserve">
+    <value>В 1975-1982 годах в рамках космической программы «Венера» на эту планету приземлились шесть автоматических межпланетных космических аппаратов. При температурах до 457ᵒ по Цельсию они нормально работали, передавали на Землю цветные изображения Венеры, производили анализ грунта и так далее.</value>
+  </data>
+  <data name="224" xml:space="preserve">
+    <value>В 1980 году ВМС Швеции запеленговали доносившиеся из толщи воды странные звуки, источником которых они объявили советские подводные лодки. Когда уже был готов вспыхнуть дипломатический конфликт между СССР и Швецией, учёные выяснили, что звуки производят пукающие рыбы. За это открытие учёные были удостоены пародийной Шнобелевской премии.</value>
+  </data>
+  <data name="225" xml:space="preserve">
+    <value>Дача – сугубо русское явление, во многих европейских языках она так и называется – dacha. Дачи появились во время Петра Первого, который давал подданным загородные участки, чтобы те, не стесняясь, экспериментировали в архитектуре. Данное царём так и называлось – дача.</value>
+  </data>
+  <data name="226" xml:space="preserve">
+    <value>Русский император Николай II впервые предложил миру идею всеобщего разоружения. Такое предложение он выдвинул на созванной им в Гааге конференции глав государств Европы по ограничению вооружений в 1898 году. Силы и капитал, расточаемые на чрезмерные вооружения, он призвал употребить на просвещение и развитие благосостояния народа. Европа восхитилась великодушием русского Государя, но саму идею восприняла очень сдержанно.</value>
+  </data>
+  <data name="227" xml:space="preserve">
+    <value>Перед революцией 1917 года русская семья была одной из крупнейших в мире. В России считалось, что 8 детей в семье – это прискорбно мало. Нормально было иметь 12-14 детей.</value>
+  </data>
+  <data name="228" xml:space="preserve">
+    <value>Каждый монарх династии Романовых оставил своему наследнику страну большего размера, чем получил от отца.</value>
+  </data>
+  <data name="229" xml:space="preserve">
+    <value>При Иване Грозном в России содержание алкоголя в различных хмельных напитках составляло от 1 до 6%. Вино, по греческому обычаю, разбавляли водой. Пили по праздникам не чаще двух раз в месяц.</value>
+  </data>
+  <data name="230" xml:space="preserve">
+    <value>Русский космонавт Сергей Крикалёв установил рекорд пребывания в космосе – 803 дня. Кроме того, этот разносторонний человек – чемпион мира по пилотажу на планерах, кандидат в мастера спорта по многоборью и основоположник жанра космической фотографии.</value>
+  </data>
+  <data name="231" xml:space="preserve">
+    <value>В царской России вплоть до 1917 года любой желающий мог купить револьвер в лавке так же свободно, как буханку хлеба.</value>
+  </data>
+  <data name="232" xml:space="preserve">
+    <value>Садово-парковая зона в Москве намного больше, чем в западных мегаполисах. Заложенный в 1931 году Измайловский парк – один из крупнейших городских парков в мире. Его площадь 15,34 квадратных километров, он в шесть раз больше Центрального парка Нью-Йорка.</value>
+  </data>
+  <data name="233" xml:space="preserve">
+    <value>Крупнейший европейский ботанический сад – основанный в 1945 году Главный ботанический сад имени Н. В. Цицина РАН.</value>
+  </data>
+  <data name="234" xml:space="preserve">
+    <value>В дельте Волги под Астраханью есть Долина лотосов.</value>
+  </data>
+  <data name="235" xml:space="preserve">
+    <value>По данным социологического центра Levada.ru, 28% русских никогда не пьют алкогольные напитки, 26% пьют реже одного раза в месяц, 16% — раз в месяц, 14% 2-4 раза в месяц, 9% раз в неделю, 6% несколько раз в неделю.</value>
+  </data>
+  <data name="236" xml:space="preserve">
+    <value>Самое высокое европейское здание – Останкинская телебашня в Москве.</value>
+  </data>
+  <data name="237" xml:space="preserve">
+    <value>Половина Челябинска расположена на Урале, половина – в Сибири. При этом на гербе Челябинска изображён верблюд. Казалось бы, почему верблюд, ведь в Челябинске нет верблюдов? Сейчас нет, а 200 лет назад были. Челябинск часто принимал торговые караваны из навьюченных верблюдов.</value>
+  </data>
+  <data name="238" xml:space="preserve">
+    <value>В России более 100 курортов. Главные национальные курорты – Крым, Сочи, группа курортов Кавказские Минеральные Воды, Нальчик, Анапа, Сергиевские Минеральные Воды и Белокуриха.</value>
+  </data>
+  <data name="239" xml:space="preserve">
+    <value>Три четверти россиян живут в городах. Пятёрка самых крупных городов России – Москва, Санкт-Петербург, Новосибирск, Екатеринбург и Нижний Новгород.</value>
+  </data>
+  <data name="240" xml:space="preserve">
+    <value>У России самые большие запасы природного газа, торфа, леса, соли, питьевой воды, крабов, осетра, олова, цинка, титана, ниобия, никеля, железных руд, алмазов, серебра.</value>
+  </data>
+  <data name="241" xml:space="preserve">
+    <value>Россия занимает первое место в мире по добыче нефти и газа, экспорту стали, первичного алюминия, азотных удобрений.</value>
+  </data>
+  <data name="242" xml:space="preserve">
+    <value>В России 103 заповедника, 43 гигантских национальных парка и 70 заказников. Общая площадь особо охраняемых природных территорий России – почти 600 тысяч квадратных километров, что составляет 4% всей площади страны.</value>
+  </data>
+  <data name="243" xml:space="preserve">
+    <value>В России шахматы популярнее футбола.</value>
+  </data>
+  <data name="244" xml:space="preserve">
+    <value>В Санкт-Петербурге самая большая в мире трамвайная сеть. Её протяжённость 690 километров.</value>
+  </data>
+  <data name="245" xml:space="preserve">
+    <value>Самый большой в мире лес – сибирская тайга.</value>
+  </data>
+  <data name="246" xml:space="preserve">
+    <value>По результатам общенационального опроса семью чудесами России признаны озеро Байкал, Долина Гейзеров, Мамаев курган со статуей Родины-матери, город Петергоф, собор Василия Блаженного, столбы выветривания в Коми и гора Эльбрус.</value>
+  </data>
+  <data name="247" xml:space="preserve">
+    <value>С точки зрения международного права Россия и Япония находятся в состоянии войны со времён Второй мировой. Из-за спора о Курильских островах они до сих пор так и не подписали мирного договора. Тем не менее, Россия и Япония живут в мире и согласии.</value>
+  </data>
+  <data name="248" xml:space="preserve">
+    <value>В мае 1990-го года газета «Комсомольская правда» установила абсолютный и теперь уже, видимо, вечный рекорд тиража бумажной газеты в 22 миллиона экземпляров.</value>
+  </data>
+  <data name="249" xml:space="preserve">
+    <value>Русскую матрёшку умелец Василий Звёздочкин придумал в 1900-го году. В том же году хитрые купцы показали её на Всемирной выставке в Париже в качестве древнерусской игрушки и получили бронзовую медаль в номинации «игрушки».</value>
+  </data>
+  <data name="250" xml:space="preserve">
+    <value>В 2005-м году весёлый ульяновский губернатор Сергей Морозов объявил 12 сентября Днём зачатия и выходным днём. Горожане не подкачали, успех инициативы превзошёл все ожидания: в июне 2006-го года рождаемость в Ульяновске подскочила втрое.</value>
+  </data>
+  <data name="251" xml:space="preserve">
+    <value>Государственный музей Эрмитаж для защиты от грызунов держит стаю кошек. У каждой кошки Эрмитажа есть паспорт с фотографией.</value>
+  </data>
+  <data name="252" xml:space="preserve">
+    <value>В России, под Магнитогорском, есть гора Магнитная, почти полностью железная.</value>
+  </data>
+  <data name="253" xml:space="preserve">
+    <value>Советский агент Жорж Коваль нашёл способ детально ознакомиться со всеми секретами совместной программы США, Великобритании, Германии и Канады по разработке ядерного оружия «Проект Манхэттен».</value>
+  </data>
+  <data name="254" xml:space="preserve">
+    <value>В Москве есть бродячие собаки, которые ездят в метро ежедневно по одному и тому же маршруту. Они знают, где и когда можно вкусно поесть.</value>
+  </data>
+  <data name="255" xml:space="preserve">
+    <value>Территория Тамбовской области равна совокупным территориям Бельгии и Нидерландов.</value>
+  </data>
+  <data name="256" xml:space="preserve">
+    <value>Старейший город России, дагестанский Дербент – один из старейших ныне живущих городов мира.</value>
+  </data>
+  <data name="257" xml:space="preserve">
+    <value>В казачьей станице Зимовейская с разницей в сто десять лет родились Степан Разин и Емельян Пугачёв. После пугачёвского восстания станицу от греха подальше перенесли на новое место, а при Сталине и вовсе залили водами Цимлянского водохранилища.</value>
+  </data>
+  <data name="258" xml:space="preserve">
+    <value>Россия имеет самый низкий в мире государственный долг по отношению к ВВП.</value>
+  </data>
+  <data name="259" xml:space="preserve">
+    <value>У России второе место после Китая по количеству военных.</value>
+  </data>
+  <data name="260" xml:space="preserve">
+    <value>В России самый высокий в мире охват населения школьным образованием.</value>
+  </data>
+  <data name="261" xml:space="preserve">
+    <value>По пиратскому использованию программного обеспечения Россия занимает скромное 37 место, находясь между Ливаном и Перу. Мировой лидер в этом деле – братская Армения.</value>
+  </data>
+  <data name="262" xml:space="preserve">
+    <value>У России самый большой в мире объём возобновляемых водных ресурсов, 4498 кубических километров.</value>
+  </data>
+  <data name="263" xml:space="preserve">
+    <value>Металл каркаса Статуи Свободы выплавлен в Нижнем Тагиле.</value>
+  </data>
+  <data name="264" xml:space="preserve">
+    <value>Россия – духовная и культурная преемница Римской Империи. Двуглавый орёл на её гербе символизирует византийскую идею «симфонии властей», гармоничного взаимодополнения государства и Церкви. Слово «царь» произошло от слова «цезарь».</value>
+  </data>
+  <data name="265" xml:space="preserve">
+    <value>Леонардо да Винчи изобрел ножницы.</value>
+  </data>
+  <data name="266" xml:space="preserve">
+    <value>Невозможно чихнуть с открытыми глазами.</value>
+  </data>
+  <data name="267" xml:space="preserve">
+    <value>Если население Китая начнёт маршировать мимо вас строем, этот строй никогда не закончится, потому что пока мимо вас будет идти один китаец, родятся два новых.</value>
+  </data>
+  <data name="268" xml:space="preserve">
+    <value>В Китае людей, говорящих по-английски, больше, чем в США.</value>
+  </data>
+  <data name="269" xml:space="preserve">
+    <value>У Мэрилин Монро было шесть пальцев на одной ноге.</value>
+  </data>
+  <data name="270" xml:space="preserve">
+    <value>Арахис является одним из ингредиентов динамита.</value>
+  </data>
+  <data name="271" xml:space="preserve">
+    <value>Гигантский кальмар имеет самый большой глаз в мире.</value>
+  </data>
+  <data name="272" xml:space="preserve">
+    <value>Глаз у страуса больше, чем его мозг.</value>
+  </data>
+  <data name="273" xml:space="preserve">
+    <value>У морской звезды нет мозга.</value>
+  </data>
+  <data name="274" xml:space="preserve">
+    <value>Наши глаза всегда одного размера с рождения, но наши нос и уши никогда не перестают расти.</value>
+  </data>
+  <data name="275" xml:space="preserve">
+    <value>Женщины моргают почти вдвое чаще мужчин.</value>
+  </data>
+  <data name="276" xml:space="preserve">
+    <value>Правши живут в среднем на девять лет дольше левшей.</value>
+  </data>
+  <data name="277" xml:space="preserve">
+    <value>В среднем в одной плитке шоколада – 8 лапок насекомых.</value>
+  </data>
+  <data name="278" xml:space="preserve">
+    <value>Средний человек во сне в течение жизни съедает 8 пауков.</value>
+  </data>
+  <data name="279" xml:space="preserve">
+    <value>Рог носорога состоит из уплотненных волос.</value>
+  </data>
+  <data name="280" xml:space="preserve">
+    <value>Все часы в фильме «Криминальное чтиво» стоят на 4:20.</value>
+  </data>
+  <data name="281" xml:space="preserve">
+    <value>Уинстон Черчилль родился в дамском туалете во время бала.</value>
+  </data>
+  <data name="282" xml:space="preserve">
+    <value>Самому молодому Папе Римскому было 11 лет.</value>
+  </data>
+  <data name="283" xml:space="preserve">
+    <value>Самым молодым родителям в мире было 8 и 9 лет, жили они в Китае в 1910 году.</value>
+  </data>
+  <data name="284" xml:space="preserve">
+    <value>Улитка может спать 3 года.</value>
+  </data>
+  <data name="285" xml:space="preserve">
+    <value>Кожа белого медведя черная. Его мех не белый, а прозрачный.</value>
+  </data>
+  <data name="286" xml:space="preserve">
+    <value>Электрический стул был изобретен стоматологом.</value>
+  </data>
+  <data name="287" xml:space="preserve">
+    <value>Если биться головой о стену, в организме будет сгорать 150 калорий в час.</value>
+  </data>
+  <data name="288" xml:space="preserve">
+    <value>В среднем люди боятся пауков больше, чем смерти.</value>
+  </data>
+  <data name="289" xml:space="preserve">
+    <value>Больше шансов быть убитым пробкой из-под шампанского, чем ядовитым пауком.</value>
+  </data>
+  <data name="290" xml:space="preserve">
+    <value>Самая сильная мышца в теле – язык.</value>
+  </data>
+  <data name="291" xml:space="preserve">
+    <value>Круизный лайнер «Королева Елизавета II» сжигает литр топлива на 3 сантиметра пути.</value>
+  </data>
+  <data name="292" xml:space="preserve">
+    <value>В последние 4000 лет никакие новые животные не были одомашнены.</value>
+  </data>
+  <data name="293" xml:space="preserve">
+    <value>Дети рождаются без коленных чашечек. Они не появляются до достижения ребенком 2-6 лет.</value>
+  </data>
+  <data name="294" xml:space="preserve">
+    <value>Ежегодно фирма Nike платит баскетболисту Майклу Джордану  больше, чем всем фабрично-заводским рабочим Малайзии, вместе взятым.</value>
+  </data>
+  <data name="295" xml:space="preserve">
+    <value>Только один человек из двух миллиардов живёт до 116 лет и дольше.</value>
+  </data>
+  <data name="296" xml:space="preserve">
+    <value>Если бы вы кричали в течение 8 лет, 7 месяцев и 6 дней, вы бы выработали достаточно звуковой энергии, чтобы нагреть одну чашку кофе.</value>
+  </data>
+  <data name="297" xml:space="preserve">
+    <value>Если бы Барби была человеческого роста, её параметры были бы 39-23-33. Её шея была бы в два раза длиннее нормальной человеческой шеи.</value>
+  </data>
+  <data name="298" xml:space="preserve">
+    <value>Февраль 1865 был единственным месяцем в истории человечества, не имевшим полной луны.</value>
+  </data>
+  <data name="299" xml:space="preserve">
+    <value>Крокодил не может высунуть язык.</value>
+  </data>
+  <data name="300" xml:space="preserve">
+    <value>Белые медведи левши.</value>
+  </data>
+  <data name="301" xml:space="preserve">
+    <value>Сом имеет более 27000 вкусовых рецепторов, в этом он чемпион среди животных.</value>
+  </data>
+  <data name="302" xml:space="preserve">
+    <value>У бабочки вкусовые рецепторы в лапках.</value>
+  </data>
+  <data name="303" xml:space="preserve">
+    <value>Первый роман, написанный на машинке – «Приключения Тома Сойера».</value>
+  </data>
+  <data name="304" xml:space="preserve">
+    <value>Дуэль в Парагвае не запрещается законом до тех пор, пока обе стороны не зарегистрированы в качестве доноров крови.</value>
+  </data>
+  <data name="305" xml:space="preserve">
+    <value>В Финляндии когда-то были запрещены комиксы про Дональда Дака, потому что он не носит брюки.</value>
+  </data>
+  <data name="306" xml:space="preserve">
+    <value>Ежегодно на планете больше людей бывают убиты ослами, чем погибают в авиакатастрофах.</value>
+  </data>
+  <data name="307" xml:space="preserve">
+    <value>Таракан будет жить девять дней без головы, пока не помрёт с голоду.</value>
+  </data>
+  <data name="308" xml:space="preserve">
+    <value>Слоны – единственные животные, которые не могут прыгать.</value>
+  </data>
+  <data name="309" xml:space="preserve">
+    <value>Национальный гимн Греции имеет 158 куплетов. Ни один грек не помнит весь гимн.</value>
+  </data>
+  <data name="310" xml:space="preserve">
+    <value>Полное имя Лос-Анджелеса — «Эль Пуэбло де Нуэстра Сеньора ла Рейна де лос Анхелес де Порцинкула». Но оно может быть сокращено до 3,63% от его размера, «ЛА».</value>
+  </data>
+  <data name="311" xml:space="preserve">
+    <value>Кошка имеет 32 мышцы в каждом ухе.</value>
+  </data>
+  <data name="312" xml:space="preserve">
+    <value>Тигры имеют полосатую кожу, а не только полосатый мех.</value>
+  </data>
+  <data name="313" xml:space="preserve">
+    <value>В большинстве рекламных сообщений время, показанное на часах — 10:10.</value>
+  </data>
+  <data name="314" xml:space="preserve">
+    <value>На визитных карточках Аль Капоне было написано, что он продавец мебели.</value>
+  </data>
+  <data name="315" xml:space="preserve">
+    <value>Микроволновая печь была изобретена после того, как исследователь прошел мимо излучателя и шоколад растаял у него в кармане.</value>
+  </data>
+  <data name="316" xml:space="preserve">
+    <value>В среднем человек засыпает за семь минут.</value>
+  </data>
+  <data name="317" xml:space="preserve">
+    <value>Акула – единственная рыба, которая может моргать обоими глазами.</value>
+  </data>
+  <data name="318" xml:space="preserve">
+    <value>В мире больше цыплят, чем людей.</value>
+  </data>
+  <data name="319" xml:space="preserve">
+    <value>Две трети баклажанов в мире выращивается в Нью-Джерси.</value>
+  </data>
+  <data name="320" xml:space="preserve">
+    <value>Стрекозы — хищники. Они истребляют мух, пауков, комаров и мошек. На охоте они никогда не промахиваются и настигают жертву с вероятностью 95%.</value>
+  </data>
+  <data name="321" xml:space="preserve">
+    <value>Память у золотой рыбки – три секунды.</value>
+  </data>
+  <data name="322" xml:space="preserve">
+    <value>В Калифорнии у туристов очень популярен Стеклянный пляж — когда-то здесь была свалка, но с течением времени море отполировало кусочки стекла, а непереработанный мусор убрали. Не так давно таким же образом море создало пляж рядом с Владивостоком, названный бухта Стеклянная. Разноцветные стёклышки, а также обточенные фрагменты фарфора и кирпича составляют большую часть пляжного покрытия.</value>
+  </data>
+  <data name="323" xml:space="preserve">
+    <value>За всю историю существования полиции в Исландии её сотрудники всего один раз убили человека. Это случилось в 2013 году, когда вооружённый дробовиком мужчина открыл из своего окна стрельбу по прохожим и машинам. После проникновения в квартиру полицейские тоже подверглись обстрелу и были вынуждены открыть ответный огонь. Начальник полиции принёс соболезнования родным погибшего, а участвовавшим в операции сотрудникам была предложена психологическая помощь.</value>
+  </data>
+  <data name="324" xml:space="preserve">
+    <value>Норвежский биатлонист Магнар Сольберг отрабатывал в летнее время стрельбу, лёжа на муравейнике. По задумке тренера, это упражнение должно было научить спортсмена концентрации на мишени и не отвлекаться на внешние факторы и усталость. Сольберг, до этого не выигрывавший даже медалей на чемпионатах мира, стал олимпийским чемпионом 1968 года в Гренобле и повторил успех через четыре года в Саппоро.</value>
+  </data>
+  <data name="325" xml:space="preserve">
+    <value>С Ирландией в массовой культуре ассоциируется прежде всего зелёный цвет. Однако на ирландском гербе арфа находится на синем фоне, который официально именуется «синий цвет святого Патрика». Это же название употребляется для описания формы ирландских спортивных команд, беретов подразделений британской армии в Северной Ирландии, академического дресс-кода Ирландского национального университета и многих других элементов.</value>
+  </data>
+  <data name="326" xml:space="preserve">
+    <value>Призывной возраст в Королевскую армию Таиланда — 21 год. Во время призыва сначала выявляются те, кто хочет служить добровольно. Они могут выбрать род войск, а срок службы в зависимости от рода войск и образования составляет от шести месяцев до года. Если волонтёры не занимают все необходимые позиции, набор продолжается путём жребия. Вытянувшие чёрную карточку освобождаются от повинности, а вытянувшие красную идут служить, причём их срок составляет уже от одного до двух лет.</value>
+  </data>
+  <data name="327" xml:space="preserve">
+    <value>Самосожжение вдов издавна практиковалось не только в Индии, но и среди индуистов Непала. Однако в племени неварцев придумали, как избежать этого. Девочек в возрасте десяти лет символически отдавали замуж за дерево, считающееся воплощением бога Вишну. Если в будущем муж неварки умирал, никто не мог заставить идти вдову на костёр, так как Вишну оставался её полноценным супругом.</value>
+  </data>
+  <data name="328" xml:space="preserve">
+    <value>Слово «пижама» в переводе с персидского означает «одежда для ног». На Востоке пижамой и назывались только свободные лёгкие штаны. В Европу их привезли из Индии англичане в 18 веке, а спустя много десятилетий пижамой стали называть комплект из штанов и рубашки.</value>
+  </data>
+  <data name="329" xml:space="preserve">
+    <value>Под горением часто понимают реакцию окисления с участием кислорода, однако сам кислород может окисляться при взаимодействии с ещё более активным элементом — фтором. Даже вода, уже являющаяся продуктом горения, может гореть в атмосфере фтора с образованием фтороводорода и свободного кислорода.</value>
+  </data>
+  <data name="330" xml:space="preserve">
+    <value>После Второй Мировой войны сочетание высоких цен на импортные фрукты и освоения дешёвой геотермальной энергии привело к развитию коммерческого тепличного производства бананов в Исландии. Выращивание в больших объёмах продолжалось до конца 1950-х годов. Сейчас на острове практически все бананы импортные, однако во многих источниках можно встретить городскую легенду о том, что Исландия является крупнейшим производителем и экспортёром этих фруктов в Европе.</value>
+  </data>
+  <data name="331" xml:space="preserve">
+    <value>В 1993 году компания Уолта Диснея создала новый клуб НХЛ и назвала его «Майти Дакс оф Анахайм», ориентируясь на успех недавно вышедшего фильма о детской хоккейной команде «Могучие утята». Через 13 лет новые хозяева клуба поменяли форму с эмблемой и убрали из названия слова «могучие», сократив его до «Анахайм Дакс». Именно в этом сезоне «утки» смогли впервые в своей истории выиграть Кубок Стэнли.</value>
+  </data>
+  <data name="332" xml:space="preserve">
+    <value>Ведро, из которого один краб может спокойно выбраться, станет непреодолимой ловушкой для нескольких крабов, так как они будут хватать друг друга и мешать освободиться любому, кто близок к этому. Поэтому термин «менталитет краба» применяется для описания ситуаций, когда люди демонстрируют неприятие или бойкот более успешных членов общества, стараясь минимизировать их достижения.</value>
+  </data>
+  <data name="333" xml:space="preserve">
+    <value>Единственной российской рекой, несущей воды сразу в два океана, является Делькю. Начинаясь на леднике горы Берилл, что на севере Хабаровского края, она вскоре раздваивается. Одна часть впадает в Охоту, которая входит в бассейн Тихого океана, а другая часть — в Куйдусун, относящийся к бассейну Северного Ледовитого океана.</value>
+  </data>
+  <data name="334" xml:space="preserve">
+    <value>В азиатских странах рис преимущественно выращивают на затапливаемых полях, хотя он может произрастать и без стоячей воды. Дело в том, что такой подход даже с учётом сооружения ирригационных систем выходит дешевле, чем борьба с сорняками и вредителями, которые в воде причиняют рису меньше ущерба.</value>
+  </data>
+  <data name="335" xml:space="preserve">
+    <value>В 2003 году адвокаты Барбры Стрейзанд безуспешно подали в суд на Кеннета Адельмана, который разместил на публичном сайте несколько тысяч фотографий побережья Калифорнии, так как на одном из снимков был её дом. До этого момента фото было скачано всего 6 раз, а через месяц с освещением процесса в прессе количество скачиваний перевалило за 400 тысяч. С тех пор подобные попытки удаления информации, приводящие только к её большему распространению, называют эффектом Стрейзанд.</value>
+  </data>
+  <data name="336" xml:space="preserve">
+    <value>Диакритический знак умляут в виде двух точек над гласными Ä, Ö или Ü изменяет произношение этих звуков. Однако многие рок- и метал-группы украшают своё название умляутом просто для того, чтобы сделать его более «германским» или «скандинавским», так как фонетических изменений при этом не происходит. Самые известные примеры таких групп — Motörhead и Mötley Crüe. Некоторые коллективы идут дальше, помещая умляут над не предназначенными для этого гласными (Queensrÿche) или вообще над согласными (Spın̈al Tap).</value>
+  </data>
+  <data name="337" xml:space="preserve">
+    <value>Оксид мышьяка издавна применялся для травли грызунов, поэтому название элемента в народной речи было образовано от слова «мышь».</value>
+  </data>
+  <data name="338" xml:space="preserve">
+    <value>До конца 20 века отношение к депрессии у японцев было строго негативным, так как под этим словом понимались прежде всего её крайние проявления, нуждающиеся в клиническом лечении. Ситуация переменилась, когда фармацевтические компании придумали для лёгких форм депрессии, которые можно лечить без госпитализации, термин «kokoro no kaze», что означает «простуда души». В период с 1998 по 2006 годы доход от продажи антидепрессантов в Японии вырос в шесть раз.</value>
+  </data>
+  <data name="339" xml:space="preserve">
+    <value>Феномен Уилла Роджерса описывает ситуацию, когда перемещение элемента из одного множества в другое увеличивает среднее значение обоих множеств. Это может показаться парадоксальным, но всё встаёт на свои места, если представить два набора чисел, где любой элемент первого больше любого элемента второго. Название парадокса возникло от приписанной комику Уиллу Роджерсу шутки о том, что жители Оклахомы, переезжающие в Калифорнию, повышают средний интеллект обоих штатов. Известно повторение этой фразы про новозеландцев, эмигрирующих в Австралию, из уст премьер-министра Новой Зеландии Роберта Малдона.</value>
+  </data>
+  <data name="340" xml:space="preserve">
+    <value>Изучающим английский язык непросто привыкнуть к тому, что большинство слов читаются не так, как пишутся. Во многом эта разница объясняется так называемым великим сдвигом гласных, происходившим в 14—16 веках, когда многие гласные звуки постепенно изменялись в речи англичан. Например, слово «time» до сдвига читалось как «тим», а сейчас — «тайм», а «moon» эволюционировало из «моон» в «мун». Путаница усугубляется тем, что один звук в некоторых словах изменился, а в других остался прежним — можно сравнить «bear» и «meat». В это же время распространились печатные станки, благодаря которым укоренилось принятое в тот момент написание, поэтому речевые изменения не сумели повлиять на текст.</value>
+  </data>
+  <data name="341" xml:space="preserve">
+    <value>Американский физик и информатик Дуглас Хофштадтер, рассуждая о трудностях в планировании и оценке времени выполнения сложных задач, сформулировал рекурсивный принцип, известный ныне как закон Хофштадтера: «Любое дело всегда длится дольше, чем ожидается, даже если учесть закон Хофштадтера».</value>
+  </data>
+  <data name="342" xml:space="preserve">
+    <value>Песня «Подмосковные вечера» является одной из самых узнаваемых советских мелодий в мире, хотя изначально Василий Соловьёв-Седой её забраковал. Он достал её из ящика после заказа лирической песни от авторов фильма о Спартакиаде народов РСФСР, а его напарник по творческому дуэту Михаил Матусовский набросал стихи. Дело происходило на даче под Ленинградом, поэтому изначально в тексте вечера были «ленинградскими», но так как по сюжету атлеты перед стартами набирались сил на спортбазе в Подмосковье, внесли соответствующую правку. Худсовет счёл композицию неудачной и включил в фильм только потому, что написать другую уже не успевали. Картина получилась проходной, но песню однажды поставили на радио, чьи слушатели забросали студию письмами с просьбой её повторить.</value>
+  </data>
+  <data name="343" xml:space="preserve">
+    <value>В 1882 году сборная Англии по крикету на своём поле проиграла Австралии. По этому поводу газета The Sporting Times опубликовала сатирический некролог, в котором говорилось: «Английский крикет умер, тело будет кремировано, а прах перевезён в Австралию». В следующих матчах, проводившихся на австралийских полях, англичане были сильнее и получили в подарок от мельбурнских женщин небольшую терракотовую урну с прахом уже австралийского крикета. Эта урна, получившая название «The Ashes», стоит в музее, но победители англо-австралийских противостояний неоднократно поднимали её копию над головой после победы как трофей.</value>
+  </data>
+  <data name="344" xml:space="preserve">
+    <value>В выражении «пройти огонь, воду и медные трубы» огонь и вода символизируют физические испытания, для преодоления которых человеку нужно проявить силу и мужество. А медные трубы — это аллегория испытания славой, фанфарами, что достаются человеку после прохождения огня и воды.</value>
+  </data>
+  <data name="345" xml:space="preserve">
+    <value>Разделение на континенты в географической науке не универсально и условно. В англоязычных странах, бывших английских колониях и Китае учат, что континентов семь: Европа, Азия, Африка, Северная Америка, Южная Америка, Австралия и Антарктида. В странах бывшего СССР и Восточной Европы обычно считают континентом всю Евразию, а в государствах Западной Европы и Латинской Америки Азия и Европа отделены, но в единый континент выделена Америка. В экстремальном варианте из-за провозглашения Афро-Евразии континентов всего четыре, но такую систему нигде не преподают как основную.</value>
+  </data>
+  <data name="346" xml:space="preserve">
+    <value>У индейцев тукано, проживающих в Колумбии и Бразилии, лингвисты выделяют более 20 различных языков. По сложившемуся обычаю мужчины не могут жениться на тех девушках, чей основной язык совпадает с их собственным, поэтому им нужно искать невест в других поселениях. Все дети у тукано вырастают мультилингвами, владея не только языками отца и матери, но также языками некоторых соседей и общерегиональным языком, используемым для торговли. В повседневной речи даже в рамках одной беседы они могут переключаться с одного языка на другой, порой не осознавая этого.</value>
+  </data>
+  <data name="347" xml:space="preserve">
+    <value>В северных широколиственных лесах на гниющей древесине иногда может формироваться «волосяной лёд». Образования в форме красивых седых волос возникают при температуре чуть ниже нуля и влажном воздухе. Главным условием для появления «ледяной шерсти» является наличие в древесине грибка Exidiopsis effusa, а вот механизм формирования волосков пока неизвестен.</value>
+  </data>
+  <data name="348" xml:space="preserve">
+    <value>Для распознавания лиц окружающих у человека есть специальный участок мозга, который помогает идентифицировать лицо не по набору отдельных черт, а как целую картинку. Это доказывается эффектом инверсии — если человеку показывать те же лица, но в перевёрнутом виде, точность распознавания снижается, хотя никакие черты не менялись. Шимпанзе тоже демонстрируют способность узнавать лица других особей, но гораздо лучше у них выражена способность идентификации друг друга по задним частям тела, и именно для этого случая исследователи выявили у шимпанзе эффект инверсии. Объясняется это, видимо, тем, что у самок большинства обезьян в период овуляции кожа вокруг половых органов набухает и краснеет, и распознавание такого сигнала стало важным навыком для самцов.</value>
+  </data>
+  <data name="349" xml:space="preserve">
+    <value>Сливочный сыр «Филадельфия» не имеет отношения к известному городу-миллионнику. Впервые в США подобный сыр стали производить множество разных фермеров штата Нью-Йорк в 19 веке. Особым качеством славился сыр хозяйств около небольшого городка Филадельфия с населением менее 2000 человек, который и дал название бренду.</value>
+  </data>
+  <data name="350" xml:space="preserve">
+    <value>Зная о том, что туристы очень остерегаются австралийской флоры и фауны, местные жители любят пугать их свисающими медведями. Якобы в лесах на верхушках деревьев обитают огромные хищные коалы, прыгающие на головы проходящих путников. Чтобы не стать жертвой, туристам советуют носить вилку в волосах, мочиться на себя и говорить по-английски только с австралийским акцентом.</value>
+  </data>
+  <data name="351" xml:space="preserve">
+    <value>Венгерский химик Дьёрдь де Хевеши, будущий нобелевский лауреат, в 1911 году работал в Манчестере над применением изотопных индикаторов. Не располагая большими средствами, Хевеши жил в общежитии и питался в столовой. Заподозрив работников в использовании недоеденных остатков для приготовления новых блюд, учёный добавил небольшое количество радиоактивных материалов в свою тарелку. Через несколько дней он взял образец подобного блюда и подтвердил свои опасения, обнаружив радиоактивность еды с помощью электроскопа.</value>
+  </data>
+  <data name="352" xml:space="preserve">
+    <value>Король Ахмед ибн Яхъя, правивший Северным Йеменом в середине 20 века, держал у себя в комнате спортивные стартовые пистолеты. Он иногда стрелял в себя из них при охране, чтобы показать, что его не берут никакие пули.</value>
+  </data>
+  <data name="353" xml:space="preserve">
+    <value>По легенде, первая попытка исследования космоса китайцами была совершена много веков назад. Некий чиновник Вань Ху захотел покинуть планету в кресле с привязанными к нему воздушными змеями, и для запуска его слуги одновременно подожгли 47 пороховых ракет. По одной версии, Вань Ху сгорел тут же, по другой, всё же оторвался от земли, и его никто больше не видел. Хотя китаеведы признают эту историю вымышленной, в честь отважного чиновника назван лунный кратер Ван-Гу. Ссылка на легенду есть и в мультфильме «Кунг-фу панда», где для попадания на церемонию По, вместо преодоления ступенек лестницы, успешно совершает полёт на стуле с помощью ракет.</value>
+  </data>
+  <data name="354" xml:space="preserve">
+    <value>Амазонские речные дельфины нередко имеют розовый окрас. Он не обусловлен пигментацией — все дельфинята тёмно-серые, но с течением времени светлеют и розовеют из-за стирания кожного покрова. Интенсивность розового выше у самцов из-за травм, которые они получают в сражениях друг с другом за самок.</value>
+  </data>
+  <data name="355" xml:space="preserve">
+    <value>В 18 и начале 19 веков на кораблях Королевского военно-морского флота Великобритании числились так называемые «вдовьи моряки» — погибшие члены экипажа, которым продолжали начислять жалованье. Эта мера была введена как социальная гарантия — нанимаясь на службу в военно-морской вместо торгового флота, моряки знали, что их семьи не останутся жить в бедности в случае смерти кормильца. Количество разрешённых «мёртвых душ» варьировалось по размеру судна и могло достигать 18 человек на кораблях первого ранга.</value>
+  </data>
+  <data name="356" xml:space="preserve">
+    <value>Кениец Джулиус Йего научился метать копьё, используя в качестве учебника ролики на Youtube с выступлениями олимпийских чемпионов. Только после победы на Всеафриканских играх спортсмен стал заниматься с тренером, хотя большую часть года продолжает совершенствоваться самостоятельно. В 2015 году Йего выиграл чемпионат мира, а на Олимпиаде в Рио-де-Жанейро завоевал серебряную медаль.</value>
+  </data>
+  <data name="357" xml:space="preserve">
+    <value>Советская ручная граната Ф-1 была скопирована с французских гранат F-1, но снабжена более надёжным запалом. Происхождение её сленгового названия «лимонка» достоверно неизвестно — возможно, от английской гранаты системы Лемона, хотя та была гладкой, возможно, просто из-за сходства формы снаряда с лимоном. А вот американскую гранату Mk 2 похожей ребристой формы прозвали «pineapple» — «ананас».</value>
+  </data>
+  <data name="358" xml:space="preserve">
+    <value>На картине Репина «Запорожцы» только один казак за столом голый выше пояса. Дело в том, что данный персонаж — заядлый картёжник, около него как раз лежит колода. Когда в Сечи играли на деньги, существовала традиция снимать рубашки, чтобы никто не мог жульничать, пряча карты в рукава.</value>
+  </data>
+  <data name="359" xml:space="preserve">
+    <value>Иврит, или древнееврейский язык, перестал быть средством повседневного общения во 2 веке, но сохранился в литературном и религиозном употреблении. В начале второй половины 19 века сионистское движение поставило задачу снова сделать иврит разговорным, и постепенно это удалось сделать. Иврит получил статус государственного после объявления независимости Израиля, сегодня его используют в качестве первого языка несколько миллионов человек, причём это единственный пример в истории человечества успешного воскрешения языка из мёртвых.</value>
+  </data>
+  <data name="360" xml:space="preserve">
+    <value>В 2013 году одним из спонсоров футбольного клуба «Барселона» стала компания Intel. По условиям контракта её логотип размещался на внутренней стороне маек игроков, обыгрывая слоган «Intel Inside». Замысел состоял в том, чтобы зрители видели рекламу, когда празднующий гол футболист срывает с себя майку.</value>
+  </data>
+  <data name="361" xml:space="preserve">
+    <value>Первое успешное испытание ядерного оружия индийцами состоялось в 1974 году. Операция получила кодовое имя «Улыбающийся Будда».</value>
+  </data>
+  <data name="362" xml:space="preserve">
+    <value>Один из бассейнов Омска называется «Ермак» и расположен на улице Чапаева. По иронии судьбы, и Чапаев, и Ермак погибли в воде — первый в реке Урал, второй в Иртыше.</value>
+  </data>
+  <data name="363" xml:space="preserve">
+    <value>Ким Чен Нам, старший сын Ким Чен Ира, получил образование в Швейцарии, затем работал на высоких государственных должностях и считался наследником поста Великого Руководителя. Его отношения с отцом испортились в 2001 году, когда Ким Чен Нам в сопровождении двух женщин и маленького мальчика (вероятно, своего сына) пытался попасть в Японию по поддельному доминиканскому паспорту. Предположительной целью визита было посещение токийского диснейленда. После этого несостоявшийся преемник обосновался в Китае, а власть в КНДР с 2011 года перешла к его сводному брату Ким Чен Ыну. В 2017 году Ким Чен Нам был убит неизвестной женщиной, которая накинула ему на голову отравленный платок.</value>
+  </data>
+  <data name="364" xml:space="preserve">
+    <value>Третий глаз, или теменной глаз, — это распространённый светочувствительный орган у некоторых бесчелюстных, рыб, земноводных и рептилий. Он располагается между основными глазами и намного меньше их в размере, а также затянут кожей, хоть и более прозрачной. В нём есть сетчатка, нерв и аналог хрусталика, что позволяет воспринимать направление солнечного света, поляризацию света от неба и, по некоторым гипотезам, силовые линии магнитного поля Земли. Для многих видов экспериментально подтверждена необходимость теменного глаза для нормальной ориентации в пространстве. У птиц и млекопитающих от третьего глаза остался только пинеальный орган — так называемое шишковидное тело, которое является частью эндокринной системы.</value>
+  </data>
+  <data name="365" xml:space="preserve">
+    <value>Самый короткий авиарейс осуществляется компанией Loganair между островами Уэстрей и Папа-Уэстрей в Шотландии. Восьмиместный самолёт преодолевает данный маршрут примерно за 2 минуты, а при попутном ветре время может сократиться до 47 секунд.</value>
+  </data>
+  <data name="366" xml:space="preserve">
+    <value>В 2009 году учёные из Университета Монреаля попытались провести исследование о том, как влияет просмотр порнографии на сексуальную жизнь мужчин в возрасте от 20 до 30 лет. В его рамках было проинтервьюировано 20 мужчин. Однако поставленной цели достичь не удалось, так как учёные не смогли найти ни одного мужчины, ни разу не видевшего порно, чтобы сделать сравнения.</value>
+  </data>
+  <data name="367" xml:space="preserve">
+    <value>Одно из прозвищ американцев — гринго, особенно часто их так называют в Мексике и других странах Латинской Америки. Этот термин пришёл из Испании, где употреблялся в отношении любых иностранцев, плохо говорящих по-испански. По всей вероятности, слово «gringo» произошло от «griego», то есть «грек», что сближает его с английской идиомой относительно непонятной речи «Greek to me».</value>
+  </data>
+  <data name="368" xml:space="preserve">
+    <value>Сражавшиеся во Вьетнаме американцы называли вьетконговцев «Чарли». Это стало одной из причин того, что экранизация повести Роальда Даля «Чарли и шоколадная фабрика» вышла в 1971 году под именем «Вилли Вонка и шоколадная фабрика». Другая версия, которую снял в 2005 году Тим Бёртон, имела оригинальное название.</value>
+  </data>
+  <data name="369" xml:space="preserve">
+    <value>В некоторых языках существуют грамматические конструкции, с помощью которых сообщается источник сведений говорящего. Например, в индейском языке тариана с помощью окончаний глагола можно выразить четыре способа получения информации. Фраза «Сесилия бранила собаку», когда говорящий сам это видел, будет звучать как «Ceci tʃinu-nuku du-kwisa-ka». Если он только слышал процесс ругательства, глагол изменится на «du-kwisa-mahka», если не слышал, но увидел испуганную собаку и предположил, на «du-kwisa-sika», а если узнал об этом от кого-то ещё, на «du-kwisa-pidaka». В русском языке эвиденциальность выражается лишь вводными предложениями типа «Я видел», «Мне сказали», либо частицами «мол» и «дескать».</value>
+  </data>
+  <data name="370" xml:space="preserve">
+    <value>Последователи религии Каодай, распространённой во Вьетнаме, поклоняются одноимённому божеству, однако считают святыми лидеров многих других религий и не только. На первом ранге святости в Каодай — Будда, на втором — Конфуций. На третьей ступени помимо Иисуса, Мухаммеда и Моисея присутствуют также Ленин, Шекспир, Жанна д'Арк и Виктор Гюго.</value>
+  </data>
+  <data name="371" xml:space="preserve">
+    <value>У Сингапура один из самых высоких в мире показателей ВВП на душу населения, город славится своей чистотой и очень низким уровнем преступности. Отчасти такие достижения обусловлены суровыми законами и большими штрафами за малейшие нарушения. Плевок или бросание мусора на улице, питьё или еда в общественном транспорте, нахождение в нетрезвом состоянии в общественных местах и даже кормление птиц — за всё это налагаются взыскания в суммах, эквивалентных сотням и тысячам долларов США. Благодаря этим мерам Сингапур часто называют «fine city», имея ввиду два значения слова «fine» — «прекрасный» и «штраф».</value>
+  </data>
+  <data name="372" xml:space="preserve">
+    <value>В начале 20 века предприниматель Хуго Цитц построил в Дрездене табачную фабрику Йенице, выбрав проект напоминающего мечеть здания в восточном стиле, трубы которого были удачно замаскированы под минареты. Такое решение было продиктовано, с одной стороны, желанием дополнительной рекламы продукции фабрики, а, с другой стороны, опасениями, что городские власти не разрешат строительство обычного промышленного объекта рядом с историческим центром. В наше время Йенице переоборудовано под офисные помещения.</value>
+  </data>
+  <data name="373" xml:space="preserve">
+    <value>Самая длинная пещера в мире находится в США и называется Мамонтова, хотя никаких останков мамонтов там не находили. Дело в том, что вошедшее из русского языка в английский слово «mammoth» имеет значение не только собственно «мамонт», но и «огромный». Из-за гигантских размеров пещеры и отдельных её залов она и получила имя «Mammoth cave», что было ошибочно переведено как «Мамонтова».</value>
+  </data>
+  <data name="374" xml:space="preserve">
+    <value>В философских сочинениях Фридриха Ницше часто находят идеи нацизма и антисемитизма. В этом виновато вмешательство его сестры, Элизабет Фёрстер-Ницше, которая в последние годы жизни была его сиделкой, а затем взяла на себя публикацию ещё неизданных работ писателя и полного архива. Будучи убеждённой германской националисткой, сестра вносила в тексты нужные ей правки, часто опуская фрагменты, где Ницше недвусмысленно высказывается против антисемитизма. В сочинении «К генеалогии морали» философ специально объяснял, что критикует не евреев как народ, но иудаизм как религию вкупе с вышедшим из него христианством.</value>
+  </data>
+  <data name="375" xml:space="preserve">
+    <value>Начиная с 2012 года около 100 французских железнодорожных вокзалов оснащены фортепиано, на которых может сыграть любой желающий. За это время, как утверждает обслуживающая компания, ни один инструмент не был повреждён вандалами.</value>
+  </data>
+  <data name="376" xml:space="preserve">
+    <value>Когда Джордж Оруэлл работал диктором на радио BBC, ему приходилось принимать участие в затяжных скучных планёрках, которые проходили в кабинете 101. Позже он дал этот номер комнате пыток в романе «1984».</value>
+  </data>
+  <data name="377" xml:space="preserve">
+    <value>У каждого американского штата есть официальный цветок: например, у Калифорнии это мак, а у Нью-Йорка — роза. Официальным же цветком штата Мэн является сосновая шишка.</value>
+  </data>
+  <data name="378" xml:space="preserve">
+    <value>Во второй день лунной миссии «Аполлон-16» пилот командного модуля Томас Маттингли потерял свадебное кольцо. В свободное время он безуспешно пытался найти его на корабле. На девятый день Маттингли, будучи соединённым с кораблём трёхметровым шестом, проводил эксперимент в открытом космосе. Наблюдающий за ним у шлюза Чарльз Дьюк заметил, как что-то маленькое и блестящее — это и было кольцо — медленно уплывает от двери, и попытался схватить его, но не смог. Однако кольцо ударилось прямо в шлем Маттингли, отскочило назад, и через три минуты Дьюк сумел его поймать.</value>
+  </data>
+  <data name="379" xml:space="preserve">
+    <value>Зебровые амадины, птицы семейства вьюрковых ткачиков, могут песней управлять развитием птенцов в яйцах, адаптируя их к жаркому климату. Если температура окружающего воздуха превышает 26 °C, высиживающий яйца родитель в последние дни перед вылуплением время от времени издаёт специальный крик. Он способствует замедлению роста птенцов, которые оказываются более устойчивыми к высоким температурам относительно своих собратьев нормального размера. Те же результаты учёные получили и в лаборатории, проигрывая яйцам записанную песню. Адаптация проявляется также во втором поколении, когда самки, весившие меньше в раннем возрасте, производят больше птенцов.</value>
+  </data>
+  <data name="380" xml:space="preserve">
+    <value>Первое золото для Австралии на зимних Олимпийских играх завоевал шорт-трекист Стивен Брэдбери в 2002 году. На всех предыдущих Олимпиадах спортсмен не проходил дальше предварительного этапа, но здесь в четвертьфинале занял третье место и вышел в следующий круг благодаря дисквалификации победителя забега. В полуфинале он шёл последним, однако финишировал вторым из-за столкновений и падений впереди идущих. Похожая история повторилась и в финале, где упали уже все его конкуренты, благодаря чему Брэдбери одержал победу. Успех, для достижения которого не нужно предпринимать усилий, закрепился в австралийском выражении «doing a Bradbury».</value>
+  </data>
+  <data name="381" xml:space="preserve">
+    <value>Во множестве источников можно встретить информацию о «карте вкусов» — якобы за восприятие базовых вкусов (горького, сладкого, кислого и солёного) отвечают разные зоны языка. Этот миф возник из-за неверного истолкования и перевода на английский работы 1901 года немецкого учёного Д. П. Ханига. Тот пришёл к заключению, что, хотя части языка могут незначительно варьироваться по скорости реакции на тот или иной вкус, интенсивность вкуса определяется ими равноценно. Тот факт, что любая зона языка может зафиксировать любой вкус, был подтверждён позже другими исследователями.</value>
+  </data>
+  <data name="382" xml:space="preserve">
+    <value>Гепарды довольно легко приручаются и помогают людям в охоте ещё со времён Древнего Египта. Широкое распространение гепардовая охота имела в средние века у правителей Ближнего Востока. Хищников приучали держаться на лошади позади всадника и отпускали преследовать добычу, когда приближались к ней на приемлемое расстояние. Убив жертву, гепард ждал охотника и получал в награду её внутренности.</value>
+  </data>
+  <data name="383" xml:space="preserve">
+    <value>В Гонконге очень мало источников пресной воды, и её приходится в больших количествах импортировать из соседних китайских провинций. С 1950-х годов городские власти стали развивать систему смыва унитазов морской водой, которая устанавливалась в новых домах отдельно от основной канализации. Сейчас более 80% гонконгских домов используют такую схему.</value>
+  </data>
+  <data name="384" xml:space="preserve">
+    <value>Половой импринтинг — это механизм запечатления животным в самой ранней стадии развития образа, который затем становится ориентиром при выборе партнёра для спаривания. При разведении охотничьих соколов объектом импринтинга для птиц становится сам человек. Для получения нового потомства разводчик позволяет самцу «спариваться» со специальной шляпой на своей голове, снабжённой карманами для сбора семени. Затем выбирается самка, которой при необходимости предлагается определённая ритуалом ухаживания пища, и разводчик производит оплодотворение, впрыскивая семя через шприц или пипетку.</value>
+  </data>
+  <data name="385" xml:space="preserve">
+    <value>В современном европейском футболе самой длинной фамилией обладает бывший игрок сборной Нидерландов Ян Веннегор оф Хесселинк, в настоящее время завершивший карьеру. Эта фамилия появилась в 17 веке, когда породнились представители двух фермерских семейств — Веннегоров и Хесселинков. Поскольку семьи были равны по социальному положению и достатку, было решено объединить две фамилии в одну. Причём не через дефис, а через союз «of», что по-нидерландски означает «или».</value>
+  </data>
+  <data name="386" xml:space="preserve">
+    <value>Давно известно, что подсолнухи в течение дня умеют поворачиваться вслед за Солнцем. У других растений с такими же свойствами это движение обеспечивают специальные листовые подушечки, но у подсолнухов их нет. Недавно учёные выяснили, что подсолнечник использует механизм неравномерного роста стебля: ночью сильнее удлиняется западная его часть, поэтому утром растение «смотрит» на восток, а в течение дня интенсивнее растёт восточная часть стебля, постепенно поворачивая верхушку на запад. Когда рост останавливается, цветок остаётся направленным только на восток. Это тоже имеет смысл — такая ориентация позволяет подсолнуху быстрее прогреваться утром и тем самым привлекать больше опылителей.</value>
+  </data>
+  <data name="387" xml:space="preserve">
+    <value>Космические собаки Белка и Стрелка получили эти имена только за шесть дней до полёта. До этого Белка была Вильной, а Стрелка — Каплей, а ещё раньше то ли Сильвой, то ли Марсианкой. Эти данные обнаружены в архивной тетради Олега Газенко, руководившего физиологической подготовкой этих и многих других собак советской космической программы.</value>
+  </data>
+  <data name="388" xml:space="preserve">
+    <value>Гаитянский диктатор Франсуа Дювалье пришёл к власти в 1957 году и сделал так, чтобы вновь избранный парламент состоял почти полностью из его сторонников. Но через четыре года Дювалье досрочно распустил его и провёл выборы в новый. На каждом бюллетене присутствовала малозаметная надпись «Доктор Франсуа Дювалье — президент», и впоследствии гаитянам было объявлено, что они своей волей переизбрали президента на следующие шесть лет. Спустя ещё три года был организован референдум, где жителей страны спрашивали, согласны ли они на пожизненное президентство Дювалье. На бюллетенях был напечатан только утвердительный ответ, а вписавшие слово «Нет» от руки сразу подвергались преследованиям.</value>
+  </data>
+  <data name="389" xml:space="preserve">
+    <value>Сонате для фортепиано, известной как «Лунная», сам Бетховен никакого названия не давал. Она числилась под номером 14 и имела подзаголовок «В духе фантазии». Уже после смерти композитора критик Людвиг Рельштаб сравнил первую часть сонаты с «лунным светом над Фирвальдштетским озером», а затем эпитет «Лунная» закрепился за всем произведением.</value>
+  </data>
+  <data name="390" xml:space="preserve">
+    <value>В 2001 году исламские авторитеты Саудовской Аравии выпустили фетву (правовую позицию), в которой карточная игра о покемонах была объявлена противоречащей нормам ислама. В 2016 фетву «по просьбам верующих» обновили, хотя новая игра Pokemon Go в ней напрямую не упоминается. Одной из причин решения стал игровой механизм, при котором покемоны мутируют и улучшают свои характеристики. По мнению богословов, это является прямым указанием на теорию эволюции, изучать которую непозволительно.</value>
+  </data>
+  <data name="391" xml:space="preserve">
+    <value>Фирма-производитель аудиокассет National Audio Company была открыта в 1969 году и осталась одной из немногих в США, кто сохранил оборудование после появления сначала компакт-дисков, а затем mp3. Сейчас она является лидером на этом рынке, производя более 10 миллионов кассет с записями в год. В 2015 году компания продала больше кассет, чем когда-либо в своей истории, поставляя их как для мэйджор-лейблов, так и для инди-групп. Президент компании объясняет этот успех ностальгией по аналоговым вещам, которые можно подержать в руках.</value>
+  </data>
+  <data name="392" xml:space="preserve">
+    <value>В 47 эпизоде мультсериала «Свинка Пеппа» герои находят в раковине паука, и Пеппа пугается его, пока не приходит к выводу, что с ним можно дружить. Эта серия была запрещена к показу в Австралии, так как призывать детей не бояться пауков на континенте, славящемся многими опасными ядовитыми видами, сочли плохой идеей.</value>
+  </data>
+  <data name="393" xml:space="preserve">
+    <value>Чрезвычайно строгое наказание называют драконовскими мерами. Мифические драконы здесь ни при чём — выражение появилось благодаря одному из древнейших сводов законов, введённому афинянином Драконтом. В этих законах самым популярным наказанием была смертная казнь, в том числе за кражу полевых плодов или оскорбление должностного лица.</value>
+  </data>
+  <data name="394" xml:space="preserve">
+    <value>Выступая однажды перед японской аудиторией, президент США Джимми Картер начал речь с шутки. Когда зрители все как один засмеялись, впечатлённый Картер спросил переводчика, как ему удалось настолько хорошо передать юмор. Тот сознался, что перевёл таким образом: «Президент рассказал смешную историю. Все должны смеяться».</value>
+  </data>
+  <data name="395" xml:space="preserve">
+    <value>В 2009 году произошло первое в истории столкновение космических аппаратов. Уже давно выведенный из эксплуатации российский военный спутник «Космос-2251» не поделил орбиту с действующим американским спутником «Iridium-33». Множество обломков от столкновения теоретически угрожают другим спутникам и даже МКС, на которой в 2012 году проводился манёвр для избежания встречи с одним из таких фрагментов.</value>
+  </data>
+  <data name="396" xml:space="preserve">
+    <value>Вскоре после освобождения от испанской колониальной зависимости в Парагвае к власти пришёл диктатор Хосе Гаспар Родригес де Франсия. Его главной идеей стало создание закрытого однородного общества, для чего были практически полностью ограничены въезд и выезд из страны, а также ввоз иностранных товаров. Испаноязычному населению запретили заключать браки друг с другом, предписав жениться и выходить замуж за местных индейцев гуарани, чернокожих или мулатов.</value>
+  </data>
+  <data name="397" xml:space="preserve">
+    <value>Столица Индонезии Джакарта — один из самых проблемных городов мира по интенсивности дорожных пробок. В 1992 году власти приняли закон, запрещавший проезд в часы пик по нескольким центральным улицам машинам, в которых менее трёх человек. Постепенно в городе сложилась целая индустрия пассажиров по найму, называвших себя «жокеями» и зарабатывавших до 15$ в день. Среди жокеев было много женщин с грудными детьми, ведь нанять их было дешевле, чем двух людей по отдельности. В 2016 году закон отменили.</value>
+  </data>
+  <data name="398" xml:space="preserve">
+    <value>На нашей планете существует морской путь длиной примерно 32 000 км, что составляет 80% длины экватора, по которому можно проплыть, ни разу не поменяв направления. Линия начинается на полуострове Камчатка, проходит мимо Алеутских островов по Тихому океану, далее через пролив Дрейка по Атлантическому океану, затем между восточным побережьем Африки и Мадагаскаром и заканчивается в Пакистане.</value>
+  </data>
+  <data name="399" xml:space="preserve">
+    <value>Согласно скандинавской мифологии, в Рагнарёк армия ётунов поплывёт на битву с богами-асами на Нагльфаре — корабле из ногтей мертвецов. Поэтому у викингов существовал обычай остригать и сжигать ногти покойников, чтобы предотвратить создание Нагльфара.</value>
+  </data>
+  <data name="400" xml:space="preserve">
+    <value>Первый 3D-фильм «Сила любви» был немым — его сняли в 1922 году. У фильма было две концовки — счастливая и грустная, и зрители могли выбирать из них, закрывая левый или правый глаз. Успеха, однако, кино не имело, и в широкий прокат поступила только 2D-версия. Сегодня обе версии считаются утерянными.</value>
+  </data>
+  <data name="401" xml:space="preserve">
+    <value>Гитарист «The Beatles» Джордж Харрисон последние дни жизни провёл в Лос-Анджелесе. В честь него в одном из городских парков была посажена сосна, которая росла более десяти лет, но погибла из-за нашествия жуков. В 2015 году её заменили на сосну другого вида, устойчивую ко всем жукам.</value>
+  </data>
+  <data name="402" xml:space="preserve">
+    <value>Фильм «Терминатор-2: Судный день» был прорывным с точки зрения использования визуальных спецэффектов, включая первый случай применения технологии захвата движения для компьютерной генерации персонажа. Тем не менее, для съёмок сцены, где в кадре две Сары Коннор — настоящая и воспроизведённая Терминатором, особые спецэффекты не потребовались. Вторую Сару сыграла сестра-близнец Линды Хэмилтон, которая до этого никогда не была актрисой. Также два брата-близнеца снялись в сцене, где Терминатор мимикрирует под охранника в психбольнице.</value>
+  </data>
+  <data name="403" xml:space="preserve">
+    <value>В 2015 году в преддверии Дня Святого Валентина национальная почта Нидерландов взялась доставить все открытки, которые вместо традиционной почтовой марки будут снабжены отпечатком губ. Для этого автоматические сортировщики писем специально были обучены корректному распознаванию таких узоров.</value>
+  </data>
+  <data name="404" xml:space="preserve">
+    <value>Некоторые рыбы приспособились к передвижению по суше. Например, илистые прыгуны и лягушковые клариевые сомы делают это с помощью развитых грудных плавников и отталкивания задней частью тела, причём прыгуны во время приливов могут даже заползать на мангровые деревья. Но наиболее совершенный механизм к «ходьбе», в том числе по вертикальным поверхностям, обнаружен у обитающего в Таиланде вида Cryptotora thamicola, известного как пещерный ангел. Его тазовый пояс соединён с позвоночником гипертрофированным ребром седьмого позвонка, что позволяет ангелу двигаться диагональной походкой как некоторые четвероногие и взбираться по стенам пещер, цепляясь особыми крючками на плавниках.</value>
+  </data>
+  <data name="405" xml:space="preserve">
+    <value>О расхаживающем в бодрой и молодцеватой манере человеке или о гордо прогуливающемся бездельнике могут сказать: ходит гоголем. Писатель Николай Васильевич здесь ни при чём — такое поведение было совсем не в его характере. Гоголь — это также птица семейства утиных, манера ходьбы которой и стала причиной сравнения.</value>
+  </data>
+  <data name="406" xml:space="preserve">
+    <value>Комары и другие кровососущие насекомые производят укус не одним хоботком, а целым арсеналом средств. Кончик хоботка используется в начальной фазе для поиска хорошего места на коже жертвы, причём точный механизм этого процесса пока не ясен. Дальше в дело идут две мандибулы, которые прокалывают кожу и используются в качестве распорок, и две максиллы с зубцами на концах, служащие для расширения раны путём пиления. Затем настаёт черёд двух полых игл: через гипофаринкс вводится слюна с антикоагулянтом, препятствующим свёртыванию крови, а через лабрум происходит непосредственное всасывание крови.</value>
+  </data>
+  <data name="407" xml:space="preserve">
+    <value>В черновом варианте рассказа Чехова «Лошадиная фамилия» герои вспоминали птичьи фамилии — Соколов, Воробьёв, Петухов и т.п. Вместо Овсова искомой фамилией была Вербицкий, потому что «птица садится на вербу».</value>
+  </data>
+  <data name="408" xml:space="preserve">
+    <value>В 2006 году японская железнодорожная компания в префектуре Вакаяма с целью оптимизации расходов наняла на должность смотрителей небольших станций совместителей. Одна из новых сотрудниц взяла на попечение несколько бродячих кошек, и вскоре одну из них по имени Тама решили официально назначить станционным смотрителем. Основной её обязанностью было приветствие пассажиров в фирменной фуражке, а новость об этом существенно увеличила их поток. Было подсчитано, что назначение Тамы принесло в местную экономику более миллиарда иен. За эти заслуги Тама была повышена до исполнительного директора и работала в компании до самой смерти в 2015 году.</value>
+  </data>
+  <data name="409" xml:space="preserve">
+    <value>В Исландии не обитает ни одного вида комаров, хотя в ближайших к ней Норвегии, Шотландии, Ирландии и даже Гренландии комары есть. Причина этого достоверно не установлена, но существует предположение, что комары не могут закрепиться здесь из-за особенностей исландского климата с неоднократными и порой внезапными чередованиями похолоданий и оттепелей зимой.</value>
+  </data>
+  <data name="410" xml:space="preserve">
+    <value>У гидры не имеется ротового отверстия как такового. Каждый раз после акта питания клетки вокруг ротового конуса плотно смыкаются, образуя слой эктодермы, аналогичный слоям других участков тела. Чтобы начать новый приём пищи, гидре приходится разрывать этот участок за счёт мышечного усилия.</value>
+  </data>
+  <data name="411" xml:space="preserve">
+    <value>Попадая на острова, многие птицы эволюционируют в нелетающих — так появились, например, додо, какапо, киви и ещё более тысячи других видов. Это объясняется тем, что при меньшей опасности от хищников птицам не нужны сильные мускулы крыльев. Широкомасштабное сравнение популяций видов, обитающих как на материке, так и на островах, показало, что у островных представителей всегда более слабая мускулатура, отвечающая за полёт, и более длинные ноги. Такие изменения характерны даже для колибри, которые всю жизнь проводят в порхании.</value>
+  </data>
+</root>

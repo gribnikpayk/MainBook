@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:customControls="clr-namespace:MainBook.CustomControls;assembly=MainBook"
+             x:Class="MainBook.Views.BackgroundPage"
+             Title="Фон">
+  <StackLayout Padding="20">
+    <Grid HorizontalOptions="Center"
+          x:Name="MainWrapper"
+          WidthRequest="400"
+          VerticalOptions="Start">
+      <Grid.RowDefinitions>
+        <RowDefinition></RowDefinition>
+        <RowDefinition></RowDefinition>
+        <RowDefinition></RowDefinition>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition></ColumnDefinition>
+        <ColumnDefinition></ColumnDefinition>
+        <ColumnDefinition></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      <customControls:BGPrevFrame Grid.Row="0"
+                                  BGName ="BG_1.jpg"
+                                  Grid.Column="0">
+        <Image Source="Assets/BG_1_preview.jpg"
+               IsOpaque="True"></Image>
+      </customControls:BGPrevFrame>
+      <customControls:BGPrevFrame Grid.Row="0"
+                                  BGName ="BG_2.jpg"
+                                  Grid.Column="1">
+        <Image Source="Assets/BG_2_preview.jpg"
+               IsOpaque="True"></Image>
+      </customControls:BGPrevFrame>
+      <customControls:BGPrevFrame Grid.Row="0"
+                                  BGName ="BG_3.jpg"
+                                  Grid.Column="2">
+        <Image Source="Assets/BG_3_preview.jpg"
+               IsOpaque="True"></Image>
+      </customControls:BGPrevFrame>
+      <customControls:BGPrevFrame Grid.Row="1"
+                                  BGName ="BG_4.jpg"
+                                  Grid.Column="0">
+        <Image Source="Assets/BG_4_preview.jpg"
+               IsOpaque="True"></Image>
+      </customControls:BGPrevFrame>
+      <customControls:BGPrevFrame Grid.Row="1"
+                                  BGName ="BG_5.jpg"
+                                  Grid.Column="1">
+        <Image Source="Assets/BG_5_preview.jpg"
+               IsOpaque="True"></Image>
+      </customControls:BGPrevFrame>
+      <customControls:BGPrevFrame Grid.Row="1"
+                                  BGName ="BG_6.jpg"
+                                  Grid.Column="2">
+        <Image Source="Assets/BG_6_preview.jpg"
+               IsOpaque="True"></Image>
+      </customControls:BGPrevFrame>
+      <Label Grid.Row="2"
+             Text="{Binding Msg}"
+             TextColor="#6f43bd"
+             HorizontalOptions="FillAndExpand"
+             FontSize="Medium"
+             HorizontalTextAlignment="Center"
+             Grid.ColumnSpan="3">
+        <Label.Margin>
+          <Thickness>0,20,0,0</Thickness>
+        </Label.Margin>
+      </Label>
+    </Grid>
+    <Button Text="Установить"
+            Command="{Binding SetBackground}"
+            WidthRequest="400"
+            VerticalOptions="EndAndExpand"
+            HorizontalOptions="Center"
+            BackgroundColor="#6f43bd"
+            TextColor="White"></Button>
+  </StackLayout>
+</ContentPage>
