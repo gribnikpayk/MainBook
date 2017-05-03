@@ -106,6 +106,7 @@ namespace MainBook.Views
             {
                 frame.SwipedLeft += (sender, args) => { FactReadingProcess(frame); };
                 frame.SwipedRight += (sender, args) => { FactReadingProcess(frame); };
+                frame.SwipDeltaY += (sender, args) => { MoveScrollView(frame, args); };
             }
             var lastFact = (MainWrapper.Children[0] as FactFrame);
             if (_factType != TypeOfFact.All &&
@@ -132,6 +133,12 @@ namespace MainBook.Views
         {
             return (MainWrapper.Children.LastOrDefault(x => (x as FactFrame) != null && !(x as FactFrame).FactIsSwipped) as
                     FactFrame);
+        }
+
+        private void MoveScrollView(FactFrame factFrame, double y_delta)
+        {
+            var scrollView = factFrame.Content as ScrollView;
+            scrollView?.ScrollToAsync(0, y_delta, false);
         }
 
         private async Task ShareAction()

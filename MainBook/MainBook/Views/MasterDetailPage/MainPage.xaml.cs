@@ -26,6 +26,13 @@ namespace MainBook.Views.MasterDetailPage
             BindingContext = _viewModel;
             SetMenuPanel();
             IsPresentedChanged += (sender, args) => { SetMenuPanel(); };
+            var logoImage = new Image
+            {
+                Source = "Assets/Logo.png",
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
+                VerticalOptions = LayoutOptions.Start,
+                WidthRequest = 150
+            };
             AllFactsTitle = new Label
             {
                 TextColor = Color.White,
@@ -84,6 +91,7 @@ namespace MainBook.Views.MasterDetailPage
             {
                 TextColor = Color.White,
                 FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+                Margin = new Thickness(0,30,0,0),
                 GestureRecognizers = { new TapGestureRecognizer {Command = new Command(() =>
                 {
                     Task.Run(async () =>
@@ -134,6 +142,7 @@ namespace MainBook.Views.MasterDetailPage
             NightModeTitle.SetBinding(Label.TextProperty, "NightModeTitle");
             BackgroundTitle.SetBinding(Label.IsVisibleProperty, "BackgroundTitleIsVisible");
 
+            Wrapper.Children.Add(logoImage);
             Wrapper.Children.Add(AllFactsTitle);
             Wrapper.Children.Add(ReadedFactsTitle);
             Wrapper.Children.Add(FavoriteFactsTitle);

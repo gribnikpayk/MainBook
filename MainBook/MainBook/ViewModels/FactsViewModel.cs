@@ -61,7 +61,7 @@ namespace MainBook.ViewModels
                 case TypeOfFact.Favorite:
                     return "Избранное";
                 case TypeOfFact.Readed:
-                    return "Прочитанные факты";
+                    return "Прочитанные";
                 default: return "Все факты";
             }
         }

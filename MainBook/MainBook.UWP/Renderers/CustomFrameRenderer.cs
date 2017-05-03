@@ -16,8 +16,12 @@ namespace MainBook.UWP.Renderers
 
     public class CustomFrameRenderer : ViewRenderer<CustomFrame, Border>
     {
-        public int X1 { get; set; }
-        public int X2 { get; set; }
+        public double X1 { get; set; }
+        public double X2 { get; set; }
+        public double Y1 { get; set; }
+        public double Y2 { get; set; }
+        public const int _minValueForLeftSwipEvent = 30;
+        public const int _minValueForBlockXSwip = 1;
         public CustomFrame CustomFrame { get; set; }
 
         public CustomFrameRenderer()
@@ -32,30 +36,35 @@ namespace MainBook.UWP.Renderers
             CustomFrame = (CustomFrame)e.NewElement;
             if (CustomFrame != null)
             {
-                var border = new Border {Background = new SolidColorBrush(ToMediaColor(CustomFrame.InlineColor))};
+                var border = new Border { Background = new SolidColorBrush(ToMediaColor(CustomFrame.InlineColor)) };
 
                 base.SetNativeControl(border);
                 this.PackChild();
 
                 this.UpdateBorder(CustomFrame.BorderWidth, CustomFrame.BorderRadius);
 
-                ManipulationMode = ManipulationModes.TranslateX;
+                ManipulationMode = ManipulationModes.TranslateX | ManipulationModes.TranslateY;
                 ManipulationStarted += (sender, args) =>
                 {
-                    CustomFrame.StartedPosition_X = (int) args.Position.X;
-                    X1 = (int) args.Position.X;
+                    CustomFrame.StartedPosition_X = args.Position.X;
+                    X1 = args.Position.X;
+                    Y1 = args.Position.Y;
                 };
                 ManipulationDelta += (sender, args) =>
                 {
-                    CustomFrame.CurrentPosition_X = (int) args.Position.X;
-                    var delta = CustomFrame.CurrentPosition_X - CustomFrame.StartedPosition_X;
-                    if (delta != 0)
+                    var y_delta = Y1 - args.Position.Y + CustomFrame.ScrolledPosition_Y;
+                    Y2 = args.Position.Y;
+                    CustomFrame.RaiseSwipDeltaY(y_delta);
+
+                    CustomFrame.CurrentPosition_X = args.Position.X;
+                    var x_delta = CustomFrame.CurrentPosition_X - CustomFrame.StartedPosition_X;
+                    if (x_delta != 0)
                     {
-                        CustomFrame.TranslationX = delta/1.5;
-                        if (Math.Abs(CustomFrame.FrameRotation) < Math.Abs(delta/10))
-                        {
-                            CustomFrame.Rotation = delta/10;
-                        }
+                        CustomFrame.TranslationX = x_delta/1.1;
+                        //if (Math.Abs(CustomFrame.FrameRotation) < Math.Abs(delta/10))
+                        //{
+                        //    CustomFrame.Rotation = delta/10;
+                        //}
                     }
                 };
                 ManipulationCompleted += SwipeableUwpImageRenderer_ManipulationCompleted;
@@ -82,10 +91,11 @@ namespace MainBook.UWP.Renderers
 
         private void SwipeableUwpImageRenderer_ManipulationCompleted(object sender, ManipulationCompletedRoutedEventArgs e)
         {
-            X2 = (int)e.Position.X;
+            X2 = e.Position.X;
+            CustomFrame.ScrolledPosition_Y = Y1 - Y2;
             var xChange = Math.Abs(X1 - X2);
 
-            if (xChange > 100)
+            if (xChange > _minValueForLeftSwipEvent)
             {
                 // horizontal
                 if (X1 > X2)
@@ -102,7 +112,7 @@ namespace MainBook.UWP.Renderers
             else
             {
                 CustomFrame.TranslationX = 0;
-                CustomFrame.Rotation = CustomFrame.FrameRotation;
+                //CustomFrame.Rotation = CustomFrame.FrameRotation;
             }
         }
         private void PackChild()

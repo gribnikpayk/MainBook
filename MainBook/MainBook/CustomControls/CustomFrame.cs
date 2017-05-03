@@ -6,7 +6,7 @@ namespace MainBook.CustomControls
 {
     public class CustomFrame : Frame
     {
-        public event EventHandler SwipedUp;
+        public event EventHandler<double> SwipDeltaY;
         public event EventHandler SwipedDown;
         public event EventHandler SwipedLeft;
         public event EventHandler SwipedRight;
@@ -15,8 +15,9 @@ namespace MainBook.CustomControls
         private const int _rotateTo = 100;
         private const int _animationSpeed = 250;
 
-        public int CurrentPosition_X { get; set; }
-        public int StartedPosition_X { get; set; }
+        public double CurrentPosition_X { get; set; }
+        public double StartedPosition_X { get; set; }
+        public double ScrolledPosition_Y { get; set; }
         public double FrameRotation { get; set; }
 
         public readonly static BindableProperty BorderRadiusProperty = BindableProperty.Create("BorderRadius", typeof(int), typeof(CustomFrame), 5, BindingMode.OneWay, null, null, null, null, null);
@@ -80,10 +81,10 @@ namespace MainBook.CustomControls
             base.Padding = new Size(20, 20);
         }
 
-        public void RaiseSwipedUp()
+        public void RaiseSwipDeltaY(double delta)
         {
-            if (SwipedUp != null)
-                SwipedUp(this, new EventArgs());
+            if (SwipDeltaY != null)
+                SwipDeltaY(this, delta);
         }
 
         public void RaiseSwipedDown()
@@ -107,7 +108,7 @@ namespace MainBook.CustomControls
             this.FadeTo(0, _animationSpeed);
             this.RotateTo(_rotateTo, _animationSpeed);
             if (SwipedRight != null)
-                SwipedRight(this, new EventArgs());
+                SwipedRight(this, null);
         }
     }
 }
