@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MainBook.CustomControls;
 using MainBook.Infrastructure.CommonData;
+using MainBook.Infrastructure.Resourses;
 using MainBook.ViewModels;
 using Xamarin.Forms;
 
@@ -17,7 +18,7 @@ namespace MainBook.Views
         public BackgroundPage()
         {
             InitializeComponent();
-            BackgroundImage = $"Assets/{CommonData.BGSource}";
+            BackgroundImage = MediaResoursesHelper.GetMediaPath(CommonData.BGSource);
             _viewModel = App.Container.Resolve(typeof(BackgroundPageViewModel), "backgroundPageViewModel") as BackgroundPageViewModel;
             _viewModel.Msg = defaultMsg;
             BindingContext = _viewModel;
@@ -51,7 +52,7 @@ namespace MainBook.Views
                         ? Color.FromHex("#6f43bd")
                         : Color.Transparent;
                 }
-                BackgroundImage = $"Assets/{name}";
+                BackgroundImage = MediaResoursesHelper.GetMediaPath(name);
             });
         }
     }

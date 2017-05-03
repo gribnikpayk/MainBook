@@ -2,6 +2,7 @@
 using MainBook.Infrastructure.CommonData;
 using MainBook.Infrastructure.Enums;
 using MainBook.Infrastructure.Navigation;
+using MainBook.Infrastructure.Resourses;
 using MainBook.ViewModels;
 using Xamarin.Forms;
 
@@ -19,7 +20,7 @@ namespace MainBook.Views.MasterDetailPage
             Detail = NaviagationService.CreateNavigationPage(new FactsPage(TypeOfFact.All));
             if (Device.OS != TargetPlatform.Android)
             {
-                Icon = "Assets/burger.png";
+                Icon = MediaResoursesHelper.GetMediaPath("burger.png");
             }
             MasterBehavior = MasterBehavior.Popover;
             _viewModel = App.Container.Resolve(typeof(MasterPageViewModel), "masterPageViewModel") as MasterPageViewModel;
@@ -28,7 +29,7 @@ namespace MainBook.Views.MasterDetailPage
             IsPresentedChanged += (sender, args) => { SetMenuPanel(); };
             var logoImage = new Image
             {
-                Source = "Assets/Logo.png",
+                Source = MediaResoursesHelper.GetMediaPath("Logo.png"),
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
                 VerticalOptions = LayoutOptions.Start,
                 WidthRequest = 150

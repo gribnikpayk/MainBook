@@ -5,6 +5,7 @@ using MainBook.Infrastructure.CommonData;
 using MainBook.Infrastructure.DataManagers.LocalDbManager.Domain;
 using MainBook.Infrastructure.Enums;
 using MainBook.Infrastructure.Navigation;
+using MainBook.Infrastructure.Resourses;
 using MainBook.ViewModels;
 using Plugin.Share;
 using Plugin.Share.Abstractions;
@@ -25,7 +26,7 @@ namespace MainBook.Views
             _viewModel = App.Container.Resolve(typeof(FactsViewModel), "factsViewModel") as FactsViewModel;
             BindingContext = _viewModel;
             Title = _viewModel.GetTitle(_factType);
-            BackgroundImage = CommonData.IsNightMode ? "Assets/bg_dark.jpg" : $"Assets/{CommonData.BGSource}";
+            BackgroundImage = CommonData.IsNightMode ? MediaResoursesHelper.GetMediaPath("bg_dark.jpg") : MediaResoursesHelper.GetMediaPath(CommonData.BGSource);
 
             _viewModel.IsLoading = true;
             Task.Run(() => { InitialFirstFacts(); });
