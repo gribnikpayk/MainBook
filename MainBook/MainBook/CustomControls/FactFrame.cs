@@ -28,8 +28,11 @@ namespace MainBook.CustomControls
             BorderWidth = 2;
             Text = text;
 
+            var layoutWidth = Device.OS == TargetPlatform.Android ? 300 : 400;
+            var layoutHeight = Device.OS == TargetPlatform.Android ? 250 : 300;
+
             AbsoluteLayout.SetLayoutFlags(this, AbsoluteLayoutFlags.PositionProportional);
-            AbsoluteLayout.SetLayoutBounds(this, new Rectangle(.5, .5, 400, 300));
+            AbsoluteLayout.SetLayoutBounds(this, new Rectangle(.5, .5, layoutWidth, layoutHeight));
             Content =
                     new ScrollView
                     {

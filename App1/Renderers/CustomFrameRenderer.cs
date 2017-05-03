@@ -81,11 +81,11 @@ namespace App1.Renderers
             CustomFrame = e.NewElement as CustomFrame;
             // Create a drawable for the button's normal state
             _normal = new Android.Graphics.Drawables.GradientDrawable();
-            _normal.SetColor(CustomFrame.BackgroundColor.ToAndroid());
+            _normal.SetColor(CustomFrame.InlineColor.ToAndroid());
             _normal.SetStroke(CustomFrame.BorderWidth, CustomFrame.OutlineColor.ToAndroid());
             _normal.SetCornerRadius(CustomFrame.BorderRadius);
             SetBackgroundDrawable(_normal);
-            //SetBackgroundColor(customFram.BackgroundColor.ToAndroid());
+            //SetBackgroundColor(CustomFrame.BackgroundColor.ToAndroid());
             base.OnElementChanged(e);
 
         }
