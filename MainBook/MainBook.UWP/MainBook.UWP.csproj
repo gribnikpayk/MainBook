@@ -8,8 +8,8 @@
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MainBook.UWP</RootNamespace>
-    <AssemblyName>MainBook.UWP</AssemblyName>
-    <DefaultLanguage>en-US</DefaultLanguage>
+    <AssemblyName>Лучшие факты</AssemblyName>
+    <DefaultLanguage>ru-RU</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
@@ -96,6 +96,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DependencyServices\DeviceInfo.cs" />
+    <Compile Include="DependencyServices\Display.cs" />
     <Compile Include="DependencyServices\SQLite.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -128,13 +130,13 @@
     <Content Include="Assets\burger.png" />
     <Content Include="Assets\bg_dark.jpg" />
     <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\Logo_100.png" />
     <Content Include="Assets\removeFavorite.png" />
     <Content Include="Assets\share.png" />
+    <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
-    <Content Include="Assets\StoreLogo.scale-200.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
-    <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />

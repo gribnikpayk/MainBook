@@ -156,7 +156,7 @@ namespace MainBook.Views.MasterDetailPage
             var _turnOff_OnName = CommonData.IsNightMode ? "вкл." : "выкл.";
             _viewModel.BackgroundTitleIsVisible = !CommonData.IsNightMode;
             _viewModel.ReadedFactsTitle = $"Прочитанные ({CommonData.ReadedFactCount})";
-            _viewModel.AllFactsTitle = $"Все факты ({CommonData.FactCount})";
+            _viewModel.AllFactsTitle = $"Все факты";
             _viewModel.FavoriteFactsTitle = $"Избранное ({CommonData.FavoriteFactCount})";
             _viewModel.NightModeTitle = $"Ночной режим ({_turnOff_OnName})";
             _viewModel.MasterPageBackgroundColor = CommonData.IsNightMode ? Color.FromHex("#262b31") : Color.FromHex("#6f43bd");

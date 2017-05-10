@@ -67,7 +67,7 @@ namespace MainBook.Views
                     }
                     else if (!MainWrapper.Children.Any(x => (x as EmptyLabel) != null))
                     {
-                        MainWrapper.Children.Add(new EmptyLabel());
+                        MainWrapper.Children.Insert(0, new EmptyLabel());
                     }
                 });
             });
@@ -165,12 +165,15 @@ namespace MainBook.Views
                     ReadedFactName = frame.FactId
                 };
 
-                var readedFact = CommonData.AllReadedFacts.FirstOrDefault(x => x.Id == frame.Id);
+                var readedFact = CommonData.AllReadedFacts.FirstOrDefault(x => x.ReadedFactName == frame.FactId);
                 if (readedFact != null)
                 {
-                    CommonData.AllReadedFacts.Remove(readedFact);
+                    readedFact.IsFavorite = frame.IsFavorite;
                 }
-                CommonData.AllReadedFacts.Add(factEntity);
+                else
+                {
+                    CommonData.AllReadedFacts.Add(factEntity);
+                }
                 Task.Run(() => { _viewModel.SaveFactToStorage(factEntity); });
                 SetToolbar(frame);
             }

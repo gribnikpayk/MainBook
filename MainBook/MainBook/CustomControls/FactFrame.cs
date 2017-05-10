@@ -2,6 +2,7 @@
 using System;
 using Windows.UI.Xaml.Documents;
 using MainBook.Infrastructure.CommonData;
+using MainBook.Infrastructure.DependencyService;
 using Xamarin.Forms;
 
 namespace MainBook.CustomControls
@@ -14,6 +15,9 @@ namespace MainBook.CustomControls
         public int FactId { get; set; }
         public bool IsFavorite { get; set; }
         public string Text { get; set; }
+        private IDisplay _display = DependencyService.Get<IDisplay>();
+        private static readonly int _maxLayoutWidth = 400;
+        private static readonly int _layoutOffset = 40;
         public FactFrame(string text, double fontSize,int factId, bool isFavorite = false, bool isReaded = false,int id = 0)
         {
             FactId = factId;
@@ -28,8 +32,10 @@ namespace MainBook.CustomControls
             BorderWidth = 2;
             Text = text;
 
-            var layoutWidth = Device.OS == TargetPlatform.Android ? 300 : 400;
-            var layoutHeight = Device.OS == TargetPlatform.Android ? 250 : 300;
+            var layoutWidth = (_display.Width > _maxLayoutWidth  && Math.Abs(_display.Width - _maxLayoutWidth) > _layoutOffset)
+                ? _maxLayoutWidth 
+                : _display.Width - _layoutOffset;
+            var layoutHeight = 250;
 
             AbsoluteLayout.SetLayoutFlags(this, AbsoluteLayoutFlags.PositionProportional);
             AbsoluteLayout.SetLayoutBounds(this, new Rectangle(.5, .5, layoutWidth, layoutHeight));

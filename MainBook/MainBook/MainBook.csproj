@@ -52,6 +52,7 @@
     <Compile Include="Infrastructure\DataManagers\LocalDbManager\Repositories\Interfaces\IBaseRepository.cs" />
     <Compile Include="Infrastructure\DataManagers\LocalDbManager\Repositories\Interfaces\IFactRepository.cs" />
     <Compile Include="Infrastructure\DataManagers\LocalDbManager\Repositories\Interfaces\ISettingsRepository.cs" />
+    <Compile Include="Infrastructure\DependencyService\IDisplay.cs" />
     <Compile Include="Infrastructure\DependencyService\ISQLite.cs" />
     <Compile Include="Infrastructure\Enums\TypeOfFact.cs" />
     <Compile Include="Infrastructure\Navigation\NaviagationService.cs" />

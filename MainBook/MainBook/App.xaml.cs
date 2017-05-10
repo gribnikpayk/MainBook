@@ -1,18 +1,22 @@
 ﻿using MainBook.Infrastructure.CommonData;
 using MainBook.Infrastructure.DataManagers.LocalDbManager.Repositories.Implementations;
 using MainBook.Infrastructure.DataManagers.LocalDbManager.Repositories.Interfaces;
+using MainBook.Infrastructure.DependencyService;
 using MainBook.Services;
 using MainBook.Views.MasterDetailPage;
 using Microsoft.Practices.Unity;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.WindowsSpecific;
+using Xamarin.Forms.Xaml;
 
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace MainBook
 {
     public partial class App : Application
     {
         
         public static UnityContainer Container { get; set; }
+        public static double DeviceHeight, DeviceWidth;
         public App()
         {
             InitializeComponent();
