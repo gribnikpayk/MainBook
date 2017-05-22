@@ -17,7 +17,11 @@
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>Windows_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>MainBook.UWP_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>90725D7AF5761C20045129A194CD5940D506D0CE</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -90,6 +94,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="MainBook.UWP_StoreKey.pfx" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
@@ -129,12 +134,23 @@
     <Content Include="Assets\BG_6_preview.jpg" />
     <Content Include="Assets\burger.png" />
     <Content Include="Assets\bg_dark.jpg" />
+    <Content Include="Assets\like_dark_icon.png" />
+    <Content Include="Assets\like_light_icon.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\Logo_100.png" />
+    <Content Include="Assets\next_dark_icon.png" />
+    <Content Include="Assets\next_light_icon.png" />
     <Content Include="Assets\removeFavorite.png" />
     <Content Include="Assets\share.png" />
-    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\share_dark_icon.png" />
+    <Content Include="Assets\share_light_icon.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Square44x44Logo.targetsize-48_24.png" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />

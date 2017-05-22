@@ -43,31 +43,31 @@ namespace MainBook.UWP.Renderers
 
                 this.UpdateBorder(CustomFrame.BorderWidth, CustomFrame.BorderRadius);
 
-                ManipulationMode = ManipulationModes.TranslateX | ManipulationModes.TranslateY;
-                ManipulationStarted += (sender, args) =>
-                {
-                    CustomFrame.StartedPosition_X = args.Position.X;
-                    X1 = args.Position.X;
-                    Y1 = args.Position.Y;
-                };
-                ManipulationDelta += (sender, args) =>
-                {
-                    var y_delta = Y1 - args.Position.Y + CustomFrame.ScrolledPosition_Y;
-                    Y2 = args.Position.Y;
-                    CustomFrame.RaiseSwipDeltaY(y_delta);
+                //ManipulationMode = ManipulationModes.TranslateX | ManipulationModes.TranslateY;
+                //ManipulationStarted += (sender, args) =>
+                //{
+                //    CustomFrame.StartedPosition_X = args.Position.X;
+                //    X1 = args.Position.X;
+                //    Y1 = args.Position.Y;
+                //};
+                //ManipulationDelta += (sender, args) =>
+                //{
+                //    var y_delta = Y1 - args.Position.Y + CustomFrame.ScrolledPosition_Y;
+                //    Y2 = args.Position.Y;
+                //    CustomFrame.RaiseSwipDeltaY(y_delta);
 
-                    CustomFrame.CurrentPosition_X = args.Position.X;
-                    var x_delta = CustomFrame.CurrentPosition_X - CustomFrame.StartedPosition_X;
-                    if (x_delta != 0)
-                    {
-                        CustomFrame.TranslationX = x_delta/1.1;
-                        //if (Math.Abs(CustomFrame.FrameRotation) < Math.Abs(delta/10))
-                        //{
-                        //    CustomFrame.Rotation = delta/10;
-                        //}
-                    }
-                };
-                ManipulationCompleted += SwipeableUwpImageRenderer_ManipulationCompleted;
+                //    CustomFrame.CurrentPosition_X = args.Position.X;
+                //    var x_delta = CustomFrame.CurrentPosition_X - CustomFrame.StartedPosition_X;
+                //    if (x_delta != 0)
+                //    {
+                //        CustomFrame.TranslationX = x_delta/1.1;
+                //        //if (Math.Abs(CustomFrame.FrameRotation) < Math.Abs(delta/10))
+                //        //{
+                //        //    CustomFrame.Rotation = delta/10;
+                //        //}
+                //    }
+                //};
+                //ManipulationCompleted += SwipeableUwpImageRenderer_ManipulationCompleted;
             }
         }
 

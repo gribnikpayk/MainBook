@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using MainBook.CustomControls;
 using MainBook.Infrastructure.CommonData;
+using MainBook.Infrastructure.Constants;
 using MainBook.Infrastructure.DataManagers.LocalDbManager.Domain;
 using MainBook.Infrastructure.Enums;
 using MainBook.Infrastructure.Navigation;
@@ -32,7 +33,45 @@ namespace MainBook.Views
             Task.Run(() => { InitialFirstFacts(); });
         }
 
-        public void FactReadingProcess(FactFrame factFrame)
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            MessagingCenter.Subscribe<NextButton_Right>(this, MessagingCenterConstants.NextButtonPushed, (sender) =>
+            {
+                var frame = GetDisplayedFrame();
+                if (frame != null)
+                {
+                    FactReadingProcess(frame, false);
+                }
+            });
+            MessagingCenter.Subscribe<NextButton_Left>(this, MessagingCenterConstants.NextButtonPushed, (sender)=>
+            {
+                var frame = GetDisplayedFrame();
+                if (frame != null)
+                {
+                    FactReadingProcess(frame, true);
+                }
+            });
+            MessagingCenter.Subscribe<ShareButton>(this,MessagingCenterConstants.ShareButtonPushed, (sender) =>
+            {
+                ShareAction();
+            });
+            MessagingCenter.Subscribe<LikeButton>(this,MessagingCenterConstants.LikeButtonPushed, (sender) =>
+            {
+                FavoriteAction();
+            });
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<NextButton_Right>(this, MessagingCenterConstants.NextButtonPushed);
+            MessagingCenter.Unsubscribe<NextButton_Left>(this, MessagingCenterConstants.NextButtonPushed);
+            MessagingCenter.Unsubscribe<ShareButton>(this, MessagingCenterConstants.ShareButtonPushed);
+            MessagingCenter.Unsubscribe<LikeButton>(this, MessagingCenterConstants.LikeButtonPushed);
+        }
+
+        public void FactReadingProcess(FactFrame factFrame, bool leftDirection)
         {
             factFrame.FactIsSwipped = true;
             if (!factFrame.FactIsReaded)
@@ -71,6 +110,15 @@ namespace MainBook.Views
                     }
                 });
             });
+            if (leftDirection)
+            {
+                factFrame.RaiseSwipedLeft();
+            }
+            else
+            {
+                factFrame.RaiseSwipedRight();
+            }
+
         }
 
         #region PrivateMethods
@@ -103,12 +151,12 @@ namespace MainBook.Views
         private FactFrame GetFactFrame(int skip)
         {
             var frame = _viewModel.GetFact(_factType, skip);
-            if (frame != null)
-            {
-                frame.SwipedLeft += (sender, args) => { FactReadingProcess(frame); };
-                frame.SwipedRight += (sender, args) => { FactReadingProcess(frame); };
-                frame.SwipDeltaY += (sender, args) => { MoveScrollView(frame, args); };
-            }
+            //if (frame != null)
+            //{
+            //    frame.SwipedLeft += (sender, args) => { FactReadingProcess(frame); };
+            //    frame.SwipedRight += (sender, args) => { FactReadingProcess(frame); };
+            //    frame.SwipDeltaY += (sender, args) => { MoveScrollView(frame, args); };
+            //}
             var lastFact = (MainWrapper.Children[0] as FactFrame);
             if (_factType != TypeOfFact.All &&
                 lastFact != null &&
@@ -136,11 +184,11 @@ namespace MainBook.Views
                     FactFrame);
         }
 
-        private void MoveScrollView(FactFrame factFrame, double y_delta)
-        {
-            var scrollView = factFrame.Content as ScrollView;
-            scrollView?.ScrollToAsync(0, y_delta, false);
-        }
+        //private void MoveScrollView(FactFrame factFrame, double y_delta)
+        //{
+        //    var scrollView = factFrame.Content as ScrollView;
+        //    scrollView?.ScrollToAsync(0, y_delta, false);
+        //}
 
         private async Task ShareAction()
         {

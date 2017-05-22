@@ -29,7 +29,7 @@ namespace MainBook.Infrastructure.CommonData
             IsNightMode = settings != null && settings.IsNightMode;
             BGSource = settings != null
                 ? settings.BGSource
-                : "BG_1.jpg";
+                : "BG_3.jpg";
         }
     }
 }
