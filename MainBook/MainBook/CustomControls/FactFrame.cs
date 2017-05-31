@@ -24,8 +24,8 @@ namespace MainBook.CustomControls
             IsFavorite = isFavorite;
             FactIsReaded = isReaded;
             Id = id;
-            Rotation = GetRotation();
-            FrameRotation = Rotation;
+            //Rotation = GetRotation();
+            //FrameRotation = Rotation;
             InlineColor = CommonData.IsNightMode ? Color.FromHex("#15161a") : Color.White;
             OutlineColor = CommonData.IsNightMode ? Color.FromHex("#ce9e70") : Color.FromHex("#6433bb");
             BorderRadius = 10;
@@ -42,7 +42,7 @@ namespace MainBook.CustomControls
             Content =
                     new ScrollView
                     {
-                        Rotation = FrameRotation * (-1),
+                        //Rotation = FrameRotation * (-1),
                         Content = new Label
                         {
                             TextColor = CommonData.IsNightMode ? Color.FromHex("#626368") : Color.FromHex("#4e5153"),

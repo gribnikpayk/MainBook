@@ -65,16 +65,6 @@ namespace MainBook.Infrastructure.Resourses {
         ///   Looks up a localized string similar to Мы забываем 90% того, что нам приснилось.
         ///В течение пяти минут после пробуждения мы помним половину своего сновидения. Через десять минут после того, как мы проснулись, мы забываем девять десятых того, что нам приснилось..
         /// </summary>
-        internal static string _0 {
-            get {
-                return ResourceManager.GetString("0", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Слепые люди и сновидения.
-        ///Люди, которые когда-то имели зрение, но ослепли, могут видеть во сне пространственные и цветовые образы. Рождённые слепыми картинок не видят, но их сны представляют собой очень яркие впечатления, связанные со звуком, обонянием, осязанием и эмоциями..
-        /// </summary>
         internal static string _1 {
             get {
                 return ResourceManager.GetString("1", resourceCulture);
@@ -82,8 +72,8 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Включение в сновидение объективной реальности.
-        ///Когда мы спим, наш ум интерпретирует внешние раздражители так, чтобы они являлись частью сна. Например, когда вы спите, а ваш младший брат в соседней комнате упражняется в игре на гитаре, вам может сниться, что вы на концерте в консерватории, причём музыканты, против обыкновения, создают ужасную какофонию. Подобных примеров у каждого наберётся сколько угодно..
+        ///   Looks up a localized string similar to Фаза телесного паралича во сне.
+        ///Существует фаза сновидений, которая называется фазой быстрых движений глаз, БДГ. Именно в это время мы видим образы, которые запоминаются нами как сновидение. Фаза быстрых движений глаз занимает по 20-25% времени ночного отдыха, то есть 90-120 минут. Во время БДГ в мозге включается особый механизм, парализующий тело. Это помогает предотвратить лишние телодвижения и возможные травмы во сне. Когда фаза быстрых движений глаз оканчивается, мы снова можем двигаться во сне – перево [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _10 {
             get {
@@ -92,7 +82,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Азиатский гигантский шершень кусается больнее всех насекомых. У нас он встречается в Приморском крае..
+        ///   Looks up a localized string similar to Тарантул может жить без пищи два года..
         /// </summary>
         internal static string _100 {
             get {
@@ -101,7 +91,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В одной кровати в среднем живут 6 миллиардов пылевых клещей..
+        ///   Looks up a localized string similar to Самые распространенные в интернете языки — английский, японский и испанский.
+        /// </summary>
+        internal static string _1000 {
+            get {
+                return ResourceManager.GetString("1000", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Во Второй мировой войне участвовало рекордное количество стран — 51.
+        /// </summary>
+        internal static string _1001 {
+            get {
+                return ResourceManager.GetString("1001", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Около 18 000 кусков пластика плавают в каждом квадратном километре мирового океана.
+        /// </summary>
+        internal static string _1002 {
+            get {
+                return ResourceManager.GetString("1002", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В среднем, в США каждые 40 минут пьяный водитель сбивает человека.
+        /// </summary>
+        internal static string _1003 {
+            get {
+                return ResourceManager.GetString("1003", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самый популярный фрукт в мире — манго, но «наиболее выращиваемые» — виноград, бананы, яблоки и кокосовые орехи.
+        /// </summary>
+        internal static string _1004 {
+            get {
+                return ResourceManager.GetString("1004", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Альберт Эйнштейн никогда не носил носков.
+        /// </summary>
+        internal static string _1005 {
+            get {
+                return ResourceManager.GetString("1005", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В первом веке нашей эры в мире было всего 200 миллионов человек. На сегодняшний день 6,8 млрд. человек.
+        /// </summary>
+        internal static string _1006 {
+            get {
+                return ResourceManager.GetString("1006", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 15% людей тайно грызут ногти.
+        /// </summary>
+        internal static string _1007 {
+            get {
+                return ResourceManager.GetString("1007", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Швеции живет более 300 000 человек, носящих фамилию Карлсон (или Карлссон).
+        /// </summary>
+        internal static string _1008 {
+            get {
+                return ResourceManager.GetString("1008", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Швеции и Норвегии невыгодно иметь больших собак. Владельцы собак в Швеции платят налог по росту собак, а в Норвегии – по их длине.
+        /// </summary>
+        internal static string _1009 {
+            get {
+                return ResourceManager.GetString("1009", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Азиатский гигантский шершень кусается больнее всех насекомых. У нас он встречается в Приморском крае..
         /// </summary>
         internal static string _101 {
             get {
@@ -110,7 +190,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Муравьи не спят..
+        ///   Looks up a localized string similar to Более 65 миллионов мужчин из 30 стран воевали в Первой мировой. Около 10 миллионов погибли. Союзники (силы Антанты) потеряли примерно 6 миллионов солдат. Тройственный союз потерял около 4 миллионов солдат.
+        /// </summary>
+        internal static string _1010 {
+            get {
+                return ResourceManager.GetString("1010", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В городе Колумбус в Джоржии запрещается рубить курам головы по воскресеньям.
+        /// </summary>
+        internal static string _1011 {
+            get {
+                return ResourceManager.GetString("1011", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Все планеты нашей Солнечной системы могут поместиться в Юпитер.
+        /// </summary>
+        internal static string _1012 {
+            get {
+                return ResourceManager.GetString("1012", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая часто ломающаяся кость в теле человека — ключица.
+        /// </summary>
+        internal static string _1013 {
+            get {
+                return ResourceManager.GetString("1013", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Старейшая собака на земле умерла в возрасте 29 лет.
+        /// </summary>
+        internal static string _1014 {
+            get {
+                return ResourceManager.GetString("1014", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более половины населения Кении возрастом до 15 лет.
+        /// </summary>
+        internal static string _1015 {
+            get {
+                return ResourceManager.GetString("1015", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Индии юридически возможен брак с собакой.
+        /// </summary>
+        internal static string _1016 {
+            get {
+                return ResourceManager.GetString("1016", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Южной Корее каждый 4-й бездомный имеет кредитную карточку.
+        /// </summary>
+        internal static string _1017 {
+            get {
+                return ResourceManager.GetString("1017", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Восточной Африке аборигены делают пиво из бананов.
+        /// </summary>
+        internal static string _1018 {
+            get {
+                return ResourceManager.GetString("1018", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Антон Носик – единственный блогер, Не являющийся ни политиком, ни СМИ, за которым в Твиттере следует Президент.
+        /// </summary>
+        internal static string _1019 {
+            get {
+                return ResourceManager.GetString("1019", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В одной кровати в среднем живут 6 миллиардов пылевых клещей..
         /// </summary>
         internal static string _102 {
             get {
@@ -119,7 +289,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Стрекозы могут летать в любом направлении – вперёд, назад и в стороны. Это самые быстрые летающие насекомые, их скорость достигает почти 100 километров в час..
+        ///   Looks up a localized string similar to Основатель Facebook Марк Цукерберг страдает дальтонизмом, плохо различая оттенки красного и зелёного цветов. Это одна из причин того, что дизайн Facebook выполнен в синей гамме — Цукербергу доступны для восприятия все варианты синего.
+        /// </summary>
+        internal static string _1020 {
+            get {
+                return ResourceManager.GetString("1020", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to taSman единственный рэпер-ребёнок который добился массового пиара в соц-сетях.
+        /// </summary>
+        internal static string _1021 {
+            get {
+                return ResourceManager.GetString("1021", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мобильный телефон в 1984-м году стоил 4195 долларов.
+        /// </summary>
+        internal static string _1022 {
+            get {
+                return ResourceManager.GetString("1022", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Книгу стандартного формата в 500 страниц нельзя раздавить, даже если поставить на нее 15 вагонов, груженых углем.
+        /// </summary>
+        internal static string _1023 {
+            get {
+                return ResourceManager.GetString("1023", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая короткая пьеса — «Breath», которая длится 35 сек., а звуковой ряд состоит из криков и тяжелого дыхания.
+        /// </summary>
+        internal static string _1024 {
+            get {
+                return ResourceManager.GetString("1024", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ла-Пас, Боливия, самый огнеупорный город в мире. Он находится на высоте 3657м над уровнем моря, кислорода едва хватает на поддержание огня.
+        /// </summary>
+        internal static string _1025 {
+            get {
+                return ResourceManager.GetString("1025", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Музыка доставляет мозгу такое же удовольствие, как секс.
+        /// </summary>
+        internal static string _1026 {
+            get {
+                return ResourceManager.GetString("1026", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Южной Калифорнии автомобилей больше, чем коров в Индии.
+        /// </summary>
+        internal static string _1027 {
+            get {
+                return ResourceManager.GetString("1027", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самый длинный сериал в мире длился 72 года (1937–2009).
+        /// </summary>
+        internal static string _1028 {
+            get {
+                return ResourceManager.GetString("1028", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая долгая кома длилась 37 лет.
+        /// </summary>
+        internal static string _1029 {
+            get {
+                return ResourceManager.GetString("1029", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Муравьи не спят..
         /// </summary>
         internal static string _103 {
             get {
@@ -128,7 +388,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Одну треть всей пищи на Земле съедают насекомые..
+        ///   Looks up a localized string similar to Человеческое тело в воде разлагается в четыре раза быстрее, чем на воздухе.
+        /// </summary>
+        internal static string _1030 {
+            get {
+                return ResourceManager.GetString("1030", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Большинство людей (65%), когда целуются, наклоняют голову вправо.
+        /// </summary>
+        internal static string _1031 {
+            get {
+                return ResourceManager.GetString("1031", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мужчины в 3 раза чаще женщин совершают самоубийство из-за несчастной любви.
+        /// </summary>
+        internal static string _1032 {
+            get {
+                return ResourceManager.GetString("1032", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Канаде озер больше, чем в любой другой стране.
+        /// </summary>
+        internal static string _1033 {
+            get {
+                return ResourceManager.GetString("1033", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Существует зубная паста со вкусом бекона.
+        /// </summary>
+        internal static string _1034 {
+            get {
+                return ResourceManager.GetString("1034", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Потребовалось бы 7 000 000 000 частиц тумана, чтобы наполнить чайную ложку.
+        /// </summary>
+        internal static string _1035 {
+            get {
+                return ResourceManager.GetString("1035", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Пеннсильвании в 1979-м году было зарегистрировано два необычных имени новорожденных детей — Пепси и Кола.
+        /// </summary>
+        internal static string _1036 {
+            get {
+                return ResourceManager.GetString("1036", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Только один ребенок из 20 рождается в день, рассчитанный доктором.
+        /// </summary>
+        internal static string _1037 {
+            get {
+                return ResourceManager.GetString("1037", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В самом маленьком городе Европы - Рабштейне, (Чехия) живет около 20 человек.
+        /// </summary>
+        internal static string _1038 {
+            get {
+                return ResourceManager.GetString("1038", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Первый в мире компьютер весил 30 тонн и состоял из 18 тысяч электронных ламп.
+        /// </summary>
+        internal static string _1039 {
+            get {
+                return ResourceManager.GetString("1039", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Стрекозы могут летать в любом направлении – вперёд, назад и в стороны. Это самые быстрые летающие насекомые, их скорость достигает почти 100 километров в час..
         /// </summary>
         internal static string _104 {
             get {
@@ -137,7 +487,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Комары больше любят детей, чем взрослых, блондинок, чем брюнеток. Их любимый цвет синий..
+        ///   Looks up a localized string similar to Только 55% американцев знают, что Солнце является звездой.
+        /// </summary>
+        internal static string _1040 {
+            get {
+                return ResourceManager.GetString("1040", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Техасе запрещено стрелять по бизонам со второго этажа отеля.
+        /// </summary>
+        internal static string _1041 {
+            get {
+                return ResourceManager.GetString("1041", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Работа убивает гораздо чаще, чем алкоголь, наркотики и война.
+        /// </summary>
+        internal static string _1042 {
+            get {
+                return ResourceManager.GetString("1042", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Американские флаги имеют первое место в мире по сжигаемости на демонстрациях.
+        /// </summary>
+        internal static string _1043 {
+            get {
+                return ResourceManager.GetString("1043", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Китае людей, изучающих английский язык, больше, чем говорящих на нем американцев (300 миллионов).
+        /// </summary>
+        internal static string _1044 {
+            get {
+                return ResourceManager.GetString("1044", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Стая пираний может съесть 200-килограммовую свинью за несколько минут.
+        /// </summary>
+        internal static string _1045 {
+            get {
+                return ResourceManager.GetString("1045", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В море экипажи подводных лодок пользуются одноразовым бельём.
+        /// </summary>
+        internal static string _1046 {
+            get {
+                return ResourceManager.GetString("1046", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самое распространенное сексуальное расстройство у мужчин — преждевременное семяизвержение.
+        /// </summary>
+        internal static string _1047 {
+            get {
+                return ResourceManager.GetString("1047", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пуэбло Де Нуэстра Сеньора Ла Рейна Де Лос Анжелес Де Ла Порцинкула. Так официально называется Лос-Анжелес.
+        /// </summary>
+        internal static string _1048 {
+            get {
+                return ResourceManager.GetString("1048", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дэвид Латимер и его традисканция — растение, которое он 40 лет назад посадил в бутылку, закупорил и ни разу не открывал. В бутылке образовалась экосистема, в которой растение само ухаживает за собой, производит кислород и питается перегноем.
+        /// </summary>
+        internal static string _1049 {
+            get {
+                return ResourceManager.GetString("1049", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Одну треть всей пищи на Земле съедают насекомые..
         /// </summary>
         internal static string _105 {
             get {
@@ -146,7 +586,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В мире 2500 разновидностей комаров. Комары убивают людей больше, чем все другие живые существа на планете, вместе взятые..
+        ///   Looks up a localized string similar to В Греции весьма популярен напиток — смесь белого вина и кока-колы.
+        /// </summary>
+        internal static string _1050 {
+            get {
+                return ResourceManager.GetString("1050", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждую секунду на Земле сверкают свыше 200 молний.
+        /// </summary>
+        internal static string _1051 {
+            get {
+                return ResourceManager.GetString("1051", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В айсберге больше тепла, чем в зажженной спичке.
+        /// </summary>
+        internal static string _1052 {
+            get {
+                return ResourceManager.GetString("1052", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Йо-йо появилось на Филиппинах и изначально использовалось, как оружие.
+        /// </summary>
+        internal static string _1053 {
+            get {
+                return ResourceManager.GetString("1053", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Почти половина всех газет мира издаётся в Соединенных Штатах и Канаде.
+        /// </summary>
+        internal static string _1054 {
+            get {
+                return ResourceManager.GetString("1054", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чувство одиночества ослабляет иммунную систему человека.
+        /// </summary>
+        internal static string _1055 {
+            get {
+                return ResourceManager.GetString("1055", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to К концу жизни человек запоминает в среднем 150 триллионов бит информации.
+        /// </summary>
+        internal static string _1056 {
+            get {
+                return ResourceManager.GetString("1056", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Масса среднестатистического облака — примерно миллион тонн.
+        /// </summary>
+        internal static string _1057 {
+            get {
+                return ResourceManager.GetString("1057", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 55% онлайновых игроков — женщины.
+        /// </summary>
+        internal static string _1058 {
+            get {
+                return ResourceManager.GetString("1058", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Древнем Риме кривой нос ребенка считался признаком его лидерских качеств.
+        /// </summary>
+        internal static string _1059 {
+            get {
+                return ResourceManager.GetString("1059", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Комары больше любят детей, чем взрослых, блондинок, чем брюнеток. Их любимый цвет синий..
         /// </summary>
         internal static string _106 {
             get {
@@ -155,7 +685,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У млекопитающих кровь красная, у насекомых жёлтая, у омаров синяя..
+        ///   Looks up a localized string similar to В Айдахо запрещено рыбачить, сидя на верблюде.
+        /// </summary>
+        internal static string _1060 {
+            get {
+                return ResourceManager.GetString("1060", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Японии полоска обнаженного девичьего бедра между миниюбкой и чулками называется &apos;абсолютная территория&apos;.
+        /// </summary>
+        internal static string _1061 {
+            get {
+                return ResourceManager.GetString("1061", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самоубийств среди военных в США больше, чем потерь в бою: в 2012 году покончили с собой около 6,5 тыс человек.
+        /// </summary>
+        internal static string _1062 {
+            get {
+                return ResourceManager.GetString("1062", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Ливерпуле продавщицам разрешено работать топлесс, но только в магазинах по продаже тропических рыб.
+        /// </summary>
+        internal static string _1063 {
+            get {
+                return ResourceManager.GetString("1063", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На заводе Foxconn по производству iPhone 4, на сборку каждого уходит 5 секунд.
+        /// </summary>
+        internal static string _1064 {
+            get {
+                return ResourceManager.GetString("1064", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если омар лишился глаза, у него вырастет новый.
+        /// </summary>
+        internal static string _1065 {
+            get {
+                return ResourceManager.GetString("1065", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждую ночь после закрытия, Диснейленд выпускает в парк 200 кошек, они помогают сохранять предельное количество грызунов под контролем.
+        /// </summary>
+        internal static string _1066 {
+            get {
+                return ResourceManager.GetString("1066", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Чили есть Мраморный собор, созданный природой.
+        /// </summary>
+        internal static string _1067 {
+            get {
+                return ResourceManager.GetString("1067", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В то время, как вы закончите читать это сообщение, трое детей умрут от голода где-нибудь в мире.
+        /// </summary>
+        internal static string _1068 {
+            get {
+                return ResourceManager.GetString("1068", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 70% россиян никогда не были за границей. У 83% нет загранпаспорта.
+        /// </summary>
+        internal static string _1069 {
+            get {
+                return ResourceManager.GetString("1069", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В мире 2500 разновидностей комаров. Комары убивают людей больше, чем все другие живые существа на планете, вместе взятые..
         /// </summary>
         internal static string _107 {
             get {
@@ -164,7 +784,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Жужжание пчелы производится четырьмя крыльями, которые делают по 11 400 взмахов в минуту. Скорость полёта пчелы – 25 километров в час..
+        ///   Looks up a localized string similar to Изифалофобия - боязнь эрекции.
+        /// </summary>
+        internal static string _1070 {
+            get {
+                return ResourceManager.GetString("1070", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 32% женщин предпочтут сексу визит в обувной магазин.
+        /// </summary>
+        internal static string _1071 {
+            get {
+                return ResourceManager.GetString("1071", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Астронавты для того, чтобы точно измерить расстояние между Землей и ее спутником, оставили зеркала на Луне. Лазерные лучи отражаясь от них должны были дать точную цифру.
+        /// </summary>
+        internal static string _1072 {
+            get {
+                return ResourceManager.GetString("1072", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Фэн-шуй изначально — искусство украшения могил.
+        /// </summary>
+        internal static string _1073 {
+            get {
+                return ResourceManager.GetString("1073", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Минимальная заработная плата в Австралии составляет $ 16,33 USD в час.
+        /// </summary>
+        internal static string _1074 {
+            get {
+                return ResourceManager.GetString("1074", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to За музыку к фильму «Убить Билла» Квентин Тарантино заплатил Роберту Родригесу $1.
+        /// </summary>
+        internal static string _1075 {
+            get {
+                return ResourceManager.GetString("1075", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to За последние 4000 лет у человека не появилось ни одного нового домашнего животного.
+        /// </summary>
+        internal static string _1076 {
+            get {
+                return ResourceManager.GetString("1076", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Сингапуре на 1 квадратный километр приходится 299 000 человек.
+        /// </summary>
+        internal static string _1077 {
+            get {
+                return ResourceManager.GetString("1077", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Бразилии есть вид таракана, питающегося ресницами (как правило — ресницами детей во время сна).
+        /// </summary>
+        internal static string _1078 {
+            get {
+                return ResourceManager.GetString("1078", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1% населения Германии заражены ВИЧ.
+        /// </summary>
+        internal static string _1079 {
+            get {
+                return ResourceManager.GetString("1079", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У млекопитающих кровь красная, у насекомых жёлтая, у омаров синяя..
         /// </summary>
         internal static string _108 {
             get {
@@ -173,7 +883,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Скорость блохи в начале прыжка больше, чем скорость космической ракеты на орбите..
+        ///   Looks up a localized string similar to Самая большая разница возраста в браке — 83 года. Пара жила в Малайзии, жене было 22 года, мужу — 105 лет.
+        /// </summary>
+        internal static string _1080 {
+            get {
+                return ResourceManager.GetString("1080", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На мобильном телефоне в 5 раз больше микробов, чем в унитазе.
+        /// </summary>
+        internal static string _1081 {
+            get {
+                return ResourceManager.GetString("1081", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Лизтомания - потребность слушать музыку все время.
+        /// </summary>
+        internal static string _1082 {
+            get {
+                return ResourceManager.GetString("1082", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Хозяйку кота Тома из мультфильма «Том и Джерри» зовут Мамочка-два-тапочка.
+        /// </summary>
+        internal static string _1083 {
+            get {
+                return ResourceManager.GetString("1083", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Прабабушка Александра Пушкина, Евдокия Ивановна Головина, была родной сестрой прабабушки Льва Толстого, Ольги Ивановны Головиной.
+        /// </summary>
+        internal static string _1084 {
+            get {
+                return ResourceManager.GetString("1084", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Аризоне незаконно иметь более двух фаллоимитаторов в одном доме.
+        /// </summary>
+        internal static string _1085 {
+            get {
+                return ResourceManager.GetString("1085", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В феврале 2011 года в Египте родилась девочка по имени Facebook.
+        /// </summary>
+        internal static string _1086 {
+            get {
+                return ResourceManager.GetString("1086", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Номофобия — боязнь остаться без мобильного телефона или компьютера.
+        /// </summary>
+        internal static string _1087 {
+            get {
+                return ResourceManager.GetString("1087", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Из-за роли в фильме «Семь лет в Тибете» Брэду Питту запрещен въезд в Китай.
+        /// </summary>
+        internal static string _1088 {
+            get {
+                return ResourceManager.GetString("1088", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Бельгии вы можете получить штраф за игру в снежки.
+        /// </summary>
+        internal static string _1089 {
+            get {
+                return ResourceManager.GetString("1089", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Жужжание пчелы производится четырьмя крыльями, которые делают по 11 400 взмахов в минуту. Скорость полёта пчелы – 25 километров в час..
         /// </summary>
         internal static string _109 {
             get {
@@ -182,8 +982,98 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Мужчины и женщины видят разные сны.
-        ///Мужчины чаще всего видят сновидения, в которых фигурируют другие мужчины. В мужском сне около 70% мужских персонажей. У женщин во сне присутствуют мужчины и женщины в одинаковой пропорции – 50 на 50. Кроме того, мужчины в своих сновидениях ведут себя  агрессивнее женщин..
+        ///   Looks up a localized string similar to В Великобритании число суицидов побило исторический рекорд: 4,552 смертей за 2012 год.
+        /// </summary>
+        internal static string _1090 {
+            get {
+                return ResourceManager.GetString("1090", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Техасе запрещено рисовать граффити на чужих коровах.В Техасе запрещено рисовать граффити на чужих коровах.
+        /// </summary>
+        internal static string _1091 {
+            get {
+                return ResourceManager.GetString("1091", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Для того, чтобы покончить жизнь самоубийством с помощью марихуаны, человеку необходимо выкурить 680 кг за 14 мин.
+        /// </summary>
+        internal static string _1092 {
+            get {
+                return ResourceManager.GetString("1092", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 80% 10-летних американцев сидят на диете.
+        /// </summary>
+        internal static string _1093 {
+            get {
+                return ResourceManager.GetString("1093", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Средне статистически человеческое тело содержит достаточно жира для того, чтобы сделать  из него 7 кусков мыла.
+        /// </summary>
+        internal static string _1094 {
+            get {
+                return ResourceManager.GetString("1094", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Вероятность быть убитым фейерверком составляет 1:600000.
+        /// </summary>
+        internal static string _1095 {
+            get {
+                return ResourceManager.GetString("1095", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сегодняшний топ-100 богачей планеты заработали достаточно для того, чтобы покончить с глобальной бедностью 4 раза.
+        /// </summary>
+        internal static string _1096 {
+            get {
+                return ResourceManager.GetString("1096", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Жуки на вкус как яблоки, осы — как кедровые орехи, а черви похожи на жареный бекон.
+        /// </summary>
+        internal static string _1097 {
+            get {
+                return ResourceManager.GetString("1097", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На каждом континенте есть город под названием Рим.
+        /// </summary>
+        internal static string _1098 {
+            get {
+                return ResourceManager.GetString("1098", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Уролог из США однажды купил пенис Наполеона за 40 000 долларов.
+        /// </summary>
+        internal static string _1099 {
+            get {
+                return ResourceManager.GetString("1099", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Включение в сновидение объективной реальности.
+        ///Когда мы спим, наш ум интерпретирует внешние раздражители так, чтобы они являлись частью сна. Например, когда вы спите, а ваш младший брат в соседней комнате упражняется в игре на гитаре, вам может сниться, что вы на концерте в консерватории, причём музыканты, против обыкновения, создают ужасную какофонию. Подобных примеров у каждого наберётся сколько угодно..
         /// </summary>
         internal static string _11 {
             get {
@@ -192,7 +1082,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Пауки вида чёрная вдова ядовитее гремучих змей..
+        ///   Looks up a localized string similar to Скорость блохи в начале прыжка больше, чем скорость космической ракеты на орбите..
         /// </summary>
         internal static string _110 {
             get {
@@ -201,7 +1091,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В течение жизни хлопотливая пчёлка производит одну двенадцатую чайной ложечки мёда..
+        ///   Looks up a localized string similar to В 1961 году в Дании одна свинья родила 34 поросенка.
+        /// </summary>
+        internal static string _1100 {
+            get {
+                return ResourceManager.GetString("1100", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Лев из логотипа Метро-Голдвин-Майер убил своего тренера на следующий день после съемок.
+        /// </summary>
+        internal static string _1101 {
+            get {
+                return ResourceManager.GetString("1101", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В пинте «Гиннесса» всего 198 калорий: меньше, чем в апельсиновом соке или обезжиренном молоке.
+        /// </summary>
+        internal static string _1102 {
+            get {
+                return ResourceManager.GetString("1102", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Водители в Германии чаще всего платят штрафы не за нарушение правил дорожного движения, а за ругательства в адрес полицейских.
+        /// </summary>
+        internal static string _1103 {
+            get {
+                return ResourceManager.GetString("1103", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На 97% банкнот США имеются следы кокаина.
+        /// </summary>
+        internal static string _1104 {
+            get {
+                return ResourceManager.GetString("1104", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если горбатые киты заводят друзей, то это на всю жизнь. К тому же они имеют тенденцию встречаться каждый год.
+        /// </summary>
+        internal static string _1105 {
+            get {
+                return ResourceManager.GetString("1105", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Изобретателем электрического стула был стоматолог.
+        /// </summary>
+        internal static string _1106 {
+            get {
+                return ResourceManager.GetString("1106", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Эволюция стоимости 1 Гб памяти: 1981 $ 300000 1987 $ 50000 1990 $ 10000 1994 $ 1000 1997 $ 100 2000 $ 10 2004 $ 1 2012 $ 0,10.
+        /// </summary>
+        internal static string _1107 {
+            get {
+                return ResourceManager.GetString("1107", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В жидкости для полоскания рта в два раза больше алкоголя, чем в вине.
+        /// </summary>
+        internal static string _1108 {
+            get {
+                return ResourceManager.GetString("1108", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Исследование показывает, что средний американец сегодня имеет на 1 час больше свободного времени в день, чем, например, в 1965 году, но при этом тратит на 40% меньше времени на своих детей.
+        /// </summary>
+        internal static string _1109 {
+            get {
+                return ResourceManager.GetString("1109", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пауки вида чёрная вдова ядовитее гремучих змей..
         /// </summary>
         internal static string _111 {
             get {
@@ -210,7 +1190,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Пчёлы убивают людей больше, чем все ядовитые змеи, вместе взятые..
+        ///   Looks up a localized string similar to Муравьи никогда не спят. Кроме того, у них нет легких.
+        /// </summary>
+        internal static string _1110 {
+            get {
+                return ResourceManager.GetString("1110", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мужчины могут кормить младенцев грудью.
+        /// </summary>
+        internal static string _1111 {
+            get {
+                return ResourceManager.GetString("1111", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У бобров никогда не перестают расти зубы.
+        /// </summary>
+        internal static string _1112 {
+            get {
+                return ResourceManager.GetString("1112", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to За ту стоимость, что стоит iPhone 5, вы можете купить около 2000 яблок.
+        /// </summary>
+        internal static string _1113 {
+            get {
+                return ResourceManager.GetString("1113", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Голос Майкла Джексона, с того момента, как он начал петь (11 лет) не менялся, как это обычно происходит с возрастом.
+        /// </summary>
+        internal static string _1114 {
+            get {
+                return ResourceManager.GetString("1114", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Содержащиеся в сперме гликопротеин и селен помогают снизить рак молочной железы у женщин почти на 50%.
+        /// </summary>
+        internal static string _1115 {
+            get {
+                return ResourceManager.GetString("1115", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждую секунду, человеческий ум воспринимает 40 000 000 кусочков самой разной информации, но только 40 из них он принимает сознательно.
+        /// </summary>
+        internal static string _1116 {
+            get {
+                return ResourceManager.GetString("1116", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Усама бен Ладен - имя, данное слону, который убил 27 человек в деревне Onitpur.
+        /// </summary>
+        internal static string _1117 {
+            get {
+                return ResourceManager.GetString("1117", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Шансов умереть по дороге за лотерейным билетом больше, чем выиграть в нее.
+        /// </summary>
+        internal static string _1118 {
+            get {
+                return ResourceManager.GetString("1118", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мыслительные процессы сжигают калории.
+        /// </summary>
+        internal static string _1119 {
+            get {
+                return ResourceManager.GetString("1119", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В течение жизни хлопотливая пчёлка производит одну двенадцатую чайной ложечки мёда..
         /// </summary>
         internal static string _112 {
             get {
@@ -219,7 +1289,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Пчелиная матка откладывает сразу несколько яиц, из которых могут развиться новые королевы. Первое, что делает свежевылупившаяся королева – убивает своих менее расторопных сестёр, чтобы царствовать в одиночку..
+        ///   Looks up a localized string similar to Стив Джобс, Марк Цукерберг и Билл Гейтс, все они в свое время были исключены из колледжей.
+        /// </summary>
+        internal static string _1120 {
+            get {
+                return ResourceManager.GetString("1120", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pistanthrophobia - страх доверительных отношений к тому, кто ранее причинил боль.
+        /// </summary>
+        internal static string _1121 {
+            get {
+                return ResourceManager.GetString("1121", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На каждого жителя Соединенных Штатов приходится по две кредитные карты.
+        /// </summary>
+        internal static string _1122 {
+            get {
+                return ResourceManager.GetString("1122", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Птиц нельзя отправлять в космос, из-за вероятности их скорой гибели. Им нужна гравитация, чтобы вдыхать воздух.
+        /// </summary>
+        internal static string _1123 {
+            get {
+                return ResourceManager.GetString("1123", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Снежинке в среднем требуется около часа, чтобы упасть с облака на поверхность земли.
+        /// </summary>
+        internal static string _1124 {
+            get {
+                return ResourceManager.GetString("1124", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Медуза на 95% состоит из воды.
+        /// </summary>
+        internal static string _1125 {
+            get {
+                return ResourceManager.GetString("1125", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Фламинго может есть только тогда, когда его голова наклонена.
+        /// </summary>
+        internal static string _1126 {
+            get {
+                return ResourceManager.GetString("1126", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Только 18 стран в мире богаче Билла Гейтса.
+        /// </summary>
+        internal static string _1127 {
+            get {
+                return ResourceManager.GetString("1127", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сегодня очень популярно называть детей именем «Hashtag» от Twitter и &apos;Like&apos; от Facebook.
+        /// </summary>
+        internal static string _1128 {
+            get {
+                return ResourceManager.GetString("1128", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если население мира сократить до 100 человек, то 51 из них были бы женщины, 49 - мужчины, а 50% денег будут принадлежать 6 человекам.
+        /// </summary>
+        internal static string _1129 {
+            get {
+                return ResourceManager.GetString("1129", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пчёлы убивают людей больше, чем все ядовитые змеи, вместе взятые..
         /// </summary>
         internal static string _113 {
             get {
@@ -228,7 +1388,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Десять самых смертоносных насекомых, по убыванию: комар, блоха, пчела, муха цеце, огненный муравей, саранча, оса, африканский муравей, азиатский шершень, поцелуйный клоп..
+        ///   Looks up a localized string similar to Эргазиофобия - боязнь работы.
+        /// </summary>
+        internal static string _1130 {
+            get {
+                return ResourceManager.GetString("1130", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Джеки Чан начинал свою карьеру в порно.
+        /// </summary>
+        internal static string _1131 {
+            get {
+                return ResourceManager.GetString("1131", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Быть геем незаконно в 38 из 53 африканских стран.
+        /// </summary>
+        internal static string _1132 {
+            get {
+                return ResourceManager.GetString("1132", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сегодня на Facebook зарегистрировано больше людей , чем жили на планете 200 лет назад.
+        /// </summary>
+        internal static string _1133 {
+            get {
+                return ResourceManager.GetString("1133", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Google обрабатывает около миллиарда поисковых запросов каждый день.
+        /// </summary>
+        internal static string _1134 {
+            get {
+                return ResourceManager.GetString("1134", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dr. Dre до встречи с Eminem считал его афроамериканцем.
+        /// </summary>
+        internal static string _1135 {
+            get {
+                return ResourceManager.GetString("1135", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мать Адольфа Гитлера хотела сделать аборт, но врач убедил ее оставить ребенка.
+        /// </summary>
+        internal static string _1136 {
+            get {
+                return ResourceManager.GetString("1136", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spectrophobia - страх глядеть на себя в зеркало.
+        /// </summary>
+        internal static string _1137 {
+            get {
+                return ResourceManager.GetString("1137", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Длительное чувство вины может привести к нарушению иммунной системы.
+        /// </summary>
+        internal static string _1138 {
+            get {
+                return ResourceManager.GetString("1138", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждый день вашу голову посещают более 3000 мыслей.
+        /// </summary>
+        internal static string _1139 {
+            get {
+                return ResourceManager.GetString("1139", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пчелиная матка откладывает сразу несколько яиц, из которых могут развиться новые королевы. Первое, что делает свежевылупившаяся королева – убивает своих менее расторопных сестёр, чтобы царствовать в одиночку..
         /// </summary>
         internal static string _114 {
             get {
@@ -237,7 +1487,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Поцелуйный клоп получил своё название от того, что его любимое место на человеческом теле, чтобы впиться и сосать кровь – зона вокруг рта..
+        ///   Looks up a localized string similar to В небе больше звезд, чем песчинок на Земле.
+        /// </summary>
+        internal static string _1140 {
+            get {
+                return ResourceManager.GetString("1140", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &apos;Goodbye&apos; произошло от  &apos;God bye&apos;, которое в свою очередь пошло от &apos;God be with you&apos;.
+        /// </summary>
+        internal static string _1141 {
+            get {
+                return ResourceManager.GetString("1141", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2013 год является первым годом не содержащие повторяющиеся цифры с 1987 года.
+        /// </summary>
+        internal static string _1142 {
+            get {
+                return ResourceManager.GetString("1142", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Больше всего автомобилей угоняют в первый день Нового Года.
+        /// </summary>
+        internal static string _1143 {
+            get {
+                return ResourceManager.GetString("1143", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to По некоторым исследованиям музыка имеет свойство восстанавливать поврежденные участки головного мозга и возвращать потерянные воспоминания.
+        /// </summary>
+        internal static string _1144 {
+            get {
+                return ResourceManager.GetString("1144", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to С НАСТУПАЮЩИМ,ДРУЗЬЯ!!!!!!!!!!!ПУСТЬ СЛЕДУЮЩИЙ ГОД ПРИНЕСЕТ СЧАСТЬЕ В ВАШИ ДОМА!!!.
+        /// </summary>
+        internal static string _1145 {
+            get {
+                return ResourceManager.GetString("1145", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Англии в 1516 году при дворе Генриха VIII в Новый Год была выставлена ёлка из золота!.
+        /// </summary>
+        internal static string _1146 {
+            get {
+                return ResourceManager.GetString("1146", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На Тибете под Новый год принято печь пирожки и раздавать их прохожим. Чем больше раздашь - тем богаче будешь.
+        /// </summary>
+        internal static string _1147 {
+            get {
+                return ResourceManager.GetString("1147", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 19-летняя Эмма Кэхилл (Emma Cahill) из британского города Вустер обладает самым большим в Европе размером ноги - 49-ым.
+        /// </summary>
+        internal static string _1148 {
+            get {
+                return ResourceManager.GetString("1148", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Обувь Джорджа Вашингтона были 46 размера.
+        /// </summary>
+        internal static string _1149 {
+            get {
+                return ResourceManager.GetString("1149", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Десять самых смертоносных насекомых, по убыванию: комар, блоха, пчела, муха цеце, огненный муравей, саранча, оса, африканский муравей, азиатский шершень, поцелуйный клоп..
         /// </summary>
         internal static string _115 {
             get {
@@ -246,7 +1586,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самым тупым животным в истории Земли был стегозавр. При весе тела в 3 тонны он имел мозг размером с грецкий орех..
+        ///   Looks up a localized string similar to Слова “face”, “book”, “wall”, “poke” и &apos;like&apos; зарегистрированы Facebook, как торговые марки.
+        /// </summary>
+        internal static string _1150 {
+            get {
+                return ResourceManager.GetString("1150", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Около 92% всех поп-песнен о сексе.
+        /// </summary>
+        internal static string _1151 {
+            get {
+                return ResourceManager.GetString("1151", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1997 году Yahoo отклонил предложение о приобретении Google всего за $ 1 млн. Сегодня Google стоит $250 млрд.
+        /// </summary>
+        internal static string _1152 {
+            get {
+                return ResourceManager.GetString("1152", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ваше тело парализовано, когда вы мечтаете.
+        /// </summary>
+        internal static string _1153 {
+            get {
+                return ResourceManager.GetString("1153", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Глаз человека имеет около 576 мегапикселей, если сравнивать с iPhone 5, который имеет только 8-мегапиксельную камеру.
+        /// </summary>
+        internal static string _1154 {
+            get {
+                return ResourceManager.GetString("1154", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чем темнее цвет алкоголя, который вы собираетесь употреблять накануне, тем скорее всего,тяжелее будет ваше похмелье.
+        /// </summary>
+        internal static string _1155 {
+            get {
+                return ResourceManager.GetString("1155", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Средние века дети на завтрак давали пиво.
+        /// </summary>
+        internal static string _1156 {
+            get {
+                return ResourceManager.GetString("1156", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Комары не только вас кусают, они еще и мочатся после того, как отсосут кровь.
+        /// </summary>
+        internal static string _1157 {
+            get {
+                return ResourceManager.GetString("1157", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более 30 миллионов американцев курят марихуану ежедневно, но ни одного смертельного исхода из-за ее употребления не было зафиксировано.
+        /// </summary>
+        internal static string _1158 {
+            get {
+                return ResourceManager.GetString("1158", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Парашют был изобретен Леонардо да Винчи в 1515.
+        /// </summary>
+        internal static string _1159 {
+            get {
+                return ResourceManager.GetString("1159", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Поцелуйный клоп получил своё название от того, что его любимое место на человеческом теле, чтобы впиться и сосать кровь – зона вокруг рта..
         /// </summary>
         internal static string _116 {
             get {
@@ -255,7 +1685,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Акулы не болеют..
+        ///   Looks up a localized string similar to 70% мужчин признаются, что хотели бы заняться сексом в общественном месте.
+        /// </summary>
+        internal static string _1160 {
+            get {
+                return ResourceManager.GetString("1160", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Врачи не зря советуют больному больше спать. На некоторое время это &apos;лекарство&apos; чудесным образом помогает забыть о боли, проблемах, стрессе.
+        /// </summary>
+        internal static string _1161 {
+            get {
+                return ResourceManager.GetString("1161", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Некоторые исследования показывают, что в Сибири есть такие бактерии, которые способны жить на Марсе.
+        /// </summary>
+        internal static string _1162 {
+            get {
+                return ResourceManager.GetString("1162", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Президент Джордж Уокер Буш когда-то был черлидером.
+        /// </summary>
+        internal static string _1163 {
+            get {
+                return ResourceManager.GetString("1163", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Когда-то персики были известны как персидские яблоки.
+        /// </summary>
+        internal static string _1164 {
+            get {
+                return ResourceManager.GetString("1164", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Китае мужчина развелся с женой и отсудил у нее $ 120,000 за то что она уродлива.
+        /// </summary>
+        internal static string _1165 {
+            get {
+                return ResourceManager.GetString("1165", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На горе Эверест погибло около 200 взбиравшемуся по нему человек, каждому их них на пути к вершине стоит памятник.
+        /// </summary>
+        internal static string _1166 {
+            get {
+                return ResourceManager.GetString("1166", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Фильм &apos;Брат&apos; был снят всего за 31 день и на съемки потрачено всего 10000 долларов США.
+        /// </summary>
+        internal static string _1167 {
+            get {
+                return ResourceManager.GetString("1167", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Фаллоимитатор был изобретен около 15 тысяч лет назад, то есть до того, как придумали колесо.
+        /// </summary>
+        internal static string _1168 {
+            get {
+                return ResourceManager.GetString("1168", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Тот слой кожи, который вы видите на своем теле - мертвый. Новые клетки кожи образуются в более глубоких ее слоях.
+        /// </summary>
+        internal static string _1169 {
+            get {
+                return ResourceManager.GetString("1169", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самым тупым животным в истории Земли был стегозавр. При весе тела в 3 тонны он имел мозг размером с грецкий орех..
         /// </summary>
         internal static string _117 {
             get {
@@ -264,7 +1784,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Скелет акулы состоит из хрящей, составляющих 60% её веса..
+        ///   Looks up a localized string similar to Гипопитуитаризм - это болезнь, которая не позволяет человеку чувствовать любовь.
+        /// </summary>
+        internal static string _1170 {
+            get {
+                return ResourceManager.GetString("1170", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Отдельные личности, прогнозирующие киборгизацию людей, считают, что нанороботы, которые будут бороться с болезнями человечества сделабт людей бессмертными к 2040 году.
+        /// </summary>
+        internal static string _1171 {
+            get {
+                return ResourceManager.GetString("1171", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Для каждого человека на Земле компания Lego создала более чем 50 деталек.
+        /// </summary>
+        internal static string _1172 {
+            get {
+                return ResourceManager.GetString("1172", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Филемафобия - боязнь поцелуев.
+        /// </summary>
+        internal static string _1173 {
+            get {
+                return ResourceManager.GetString("1173", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Женщина может кончить даже когда целуется.
+        /// </summary>
+        internal static string _1174 {
+            get {
+                return ResourceManager.GetString("1174", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Около 40% людей в конечном итоге женится на первой своей любви.
+        /// </summary>
+        internal static string _1175 {
+            get {
+                return ResourceManager.GetString("1175", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &apos;Gangnam Style&apos; - первое видео, которое когда-либо набравшее миллиард просмотров в Youtube.
+        /// </summary>
+        internal static string _1176 {
+            get {
+                return ResourceManager.GetString("1176", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Прокалывать язык вредно. Это может привести к проблемам с сердцем.
+        /// </summary>
+        internal static string _1177 {
+            get {
+                return ResourceManager.GetString("1177", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Крупнейшая оргия в мире официально была организована в Японии, 500 человек занимались сексом в одном месте.
+        /// </summary>
+        internal static string _1178 {
+            get {
+                return ResourceManager.GetString("1178", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Физиология мужчин определяет расположение половых яичек (одно ниже другого). Это предохраняет их от повреждения при ходьбе и сидении и т.д.
+        /// </summary>
+        internal static string _1179 {
+            get {
+                return ResourceManager.GetString("1179", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Акулы не болеют..
         /// </summary>
         internal static string _118 {
             get {
@@ -273,7 +1883,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Бабочки пробуют пищу на вкус лапками..
+        ///   Looks up a localized string similar to Британские парикмахеры-стилисты использует сперму быков, как кондиционер для волос.
+        /// </summary>
+        internal static string _1180 {
+            get {
+                return ResourceManager.GetString("1180", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Смех увеличивает объем памяти и повышает обучаемость.
+        /// </summary>
+        internal static string _1181 {
+            get {
+                return ResourceManager.GetString("1181", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to McDonald&apos;s в 2010 году уволил 155 сотрудников только из-за того, что они раздавали остатки пищи бездомным..
+        /// </summary>
+        internal static string _1182 {
+            get {
+                return ResourceManager.GetString("1182", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Слоны спят только 2 часа в день.
+        /// </summary>
+        internal static string _1183 {
+            get {
+                return ResourceManager.GetString("1183", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Люди не единственные, кто занимается оральным сексом. Гепарды, гиены и козы так же практикуют этот вид секса.
+        /// </summary>
+        internal static string _1184 {
+            get {
+                return ResourceManager.GetString("1184", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более 99% ежедневных пользователей Интернета полностью стирают введенный пароль, если допустили в нем по их мнению хотя бы одну ошибку.
+        /// </summary>
+        internal static string _1185 {
+            get {
+                return ResourceManager.GetString("1185", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 50 из 100 жирафов бисексуалы.
+        /// </summary>
+        internal static string _1186 {
+            get {
+                return ResourceManager.GetString("1186", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Хью Хефнер (основатель Playboy) потерял свою девственность только когда ему исполнилось 22 года.
+        /// </summary>
+        internal static string _1187 {
+            get {
+                return ResourceManager.GetString("1187", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Некоторые исследования показывают, брюнетки лучшие подруги и жены.
+        /// </summary>
+        internal static string _1188 {
+            get {
+                return ResourceManager.GetString("1188", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Один из четырех людей может составить текстовое сообщение, не глядя на экран мобильного телефона.
+        /// </summary>
+        internal static string _1189 {
+            get {
+                return ResourceManager.GetString("1189", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Скелет акулы состоит из хрящей, составляющих 60% её веса..
         /// </summary>
         internal static string _119 {
             get {
@@ -282,8 +1982,98 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Вещие сны.
-        ///Результаты исследований на больших группах людей показывают, что от 18% до 38% людей по крайней мере один раз в своей жизни видели вещий сон. Состояние дежа-вю, когда человек понимает, что он уже был в такой ситуации, испытывали 70% человек. При этом верят в вещие сны от 63% до 98% людей. В этих исследованиях принималось, что вещий сон – это такое видение будущего, которое никак не может быть выведено из анализа имеющейся на данный момент информации..
+        ///   Looks up a localized string similar to Просмотр фильмов ужасов сжигает калории.
+        /// </summary>
+        internal static string _1190 {
+            get {
+                return ResourceManager.GetString("1190", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждые 53 секунд крадется ноутбук.
+        /// </summary>
+        internal static string _1191 {
+            get {
+                return ResourceManager.GetString("1191", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В последний раз в Сахаре снег шел в 1979 году.
+        /// </summary>
+        internal static string _1192 {
+            get {
+                return ResourceManager.GetString("1192", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lil Wayne было всего 15 лет, когда у него появился первый ребенок.
+        /// </summary>
+        internal static string _1193 {
+            get {
+                return ResourceManager.GetString("1193", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Недостаток сна может привести к увеличению веса.
+        /// </summary>
+        internal static string _1194 {
+            get {
+                return ResourceManager.GetString("1194", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Запах является самым сильным чувством привязаны к памяти.
+        /// </summary>
+        internal static string _1195 {
+            get {
+                return ResourceManager.GetString("1195", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NASA сообщает, что апокалипсис, предсказанный Майя, просто невозможен.
+        /// </summary>
+        internal static string _1196 {
+            get {
+                return ResourceManager.GetString("1196", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каладжинофобия - страх слишком красивых женщин.
+        /// </summary>
+        internal static string _1197 {
+            get {
+                return ResourceManager.GetString("1197", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Африканское племя Масаи передала Америке 14 коров в утешение, услышав о теракте 9/11.
+        /// </summary>
+        internal static string _1198 {
+            get {
+                return ResourceManager.GetString("1198", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Около 1 851 000 статусов обновляется на Facebook каждые 20 минут.
+        /// </summary>
+        internal static string _1199 {
+            get {
+                return ResourceManager.GetString("1199", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мужчины и женщины видят разные сны.
+        ///Мужчины чаще всего видят сновидения, в которых фигурируют другие мужчины. В мужском сне около 70% мужских персонажей. У женщин во сне присутствуют мужчины и женщины в одинаковой пропорции – 50 на 50. Кроме того, мужчины в своих сновидениях ведут себя  агрессивнее женщин..
         /// </summary>
         internal static string _12 {
             get {
@@ -292,7 +2082,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Дельфины спят с одним открытым глазом..
+        ///   Looks up a localized string similar to Бабочки пробуют пищу на вкус лапками..
         /// </summary>
         internal static string _120 {
             get {
@@ -301,7 +2091,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Новорождённый слонёнок весит около 100 килограммов..
+        ///   Looks up a localized string similar to Ежедневный оргазм избавляет от похода к доктору. К тому же исследования показывают, что подобная практика добавляет до 8 лет жизни.
+        /// </summary>
+        internal static string _1200 {
+            get {
+                return ResourceManager.GetString("1200", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Уличная стоимость 0.5 кг чистого ЛСД составляет около $ 55,000,000.00.
+        /// </summary>
+        internal static string _1201 {
+            get {
+                return ResourceManager.GetString("1201", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая большая в мире нога у Мэтью МакГрори — 65 размер.
+        /// </summary>
+        internal static string _1202 {
+            get {
+                return ResourceManager.GetString("1202", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В государстве Того мужчина, сделавший комплимент женщине, обязан на ней жениться.
+        /// </summary>
+        internal static string _1203 {
+            get {
+                return ResourceManager.GetString("1203", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Филофобия -страх влюбиться или быть влюбленным.
+        /// </summary>
+        internal static string _1204 {
+            get {
+                return ResourceManager.GetString("1204", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В государстве Того мужчина, сделавший комплимент женщине, обязан на ней жениться.
+        /// </summary>
+        internal static string _1205 {
+            get {
+                return ResourceManager.GetString("1205", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Есть будильники, которые сбегают и прячутся от своих хозяев, если они не встают с постели вовремя.
+        /// </summary>
+        internal static string _1206 {
+            get {
+                return ResourceManager.GetString("1206", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Нынешний декабрь  2012 года просто удивляет: в нем 5 понедельников, 5 суббот и 5 воскресений. Это происходит раз в 824 года..
+        /// </summary>
+        internal static string _1207 {
+            get {
+                return ResourceManager.GetString("1207", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Последний вздох Томаса Эдисона хранится в пробирке.
+        /// </summary>
+        internal static string _1208 {
+            get {
+                return ResourceManager.GetString("1208", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Леонардо да Винчи однажды сказал, каждый пенис имеет свой ​​собственный разум.
+        /// </summary>
+        internal static string _1209 {
+            get {
+                return ResourceManager.GetString("1209", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дельфины спят с одним открытым глазом..
         /// </summary>
         internal static string _121 {
             get {
@@ -310,7 +2190,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Слониха вынашивает слонёнка 22 месяца..
+        ///   Looks up a localized string similar to В Японии есть автоматы, через которые любой желающий может получить номер телефона какой-нибудь девушки.
+        /// </summary>
+        internal static string _1210 {
+            get {
+                return ResourceManager.GetString("1210", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Стив Джобс был исполнительным продюсером мультфильма &apos;История игрушек&apos;.
+        /// </summary>
+        internal static string _1211 {
+            get {
+                return ResourceManager.GetString("1211", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1890-х психолог Джордж Стэттон носил очки, стекло которых переворачивала привычный мир верх дном. После 5-ти дневного их ношения, зрение адаптировалось и доктор видел мир уже в привычном его состоянии.
+        /// </summary>
+        internal static string _1212 {
+            get {
+                return ResourceManager.GetString("1212", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая длинная в мире помолвка длилась 67 лет, пара  наконец поженилась, когда им исполнилось по 82 года.
+        /// </summary>
+        internal static string _1213 {
+            get {
+                return ResourceManager.GetString("1213", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Косатка - самое быстрое млекопитающее, которое обитает под водой. Она может развивать скорость до 60 км/час.
+        /// </summary>
+        internal static string _1214 {
+            get {
+                return ResourceManager.GetString("1214", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40% мужчин в своей жизни хоть раз изменяли своей жене.
+        /// </summary>
+        internal static string _1215 {
+            get {
+                return ResourceManager.GetString("1215", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Правительство США официально заявило, что конца света не будет.
+        /// </summary>
+        internal static string _1216 {
+            get {
+                return ResourceManager.GetString("1216", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Париже на улицах гуляет куда больше собак, чем детей.
+        /// </summary>
+        internal static string _1217 {
+            get {
+                return ResourceManager.GetString("1217", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мефобия - страх быть слишком удивительным.
+        /// </summary>
+        internal static string _1218 {
+            get {
+                return ResourceManager.GetString("1218", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volkswagen является владельцем Bentley, Bugatti, Lamborghini, Audi, Ducati и Porsche.
+        /// </summary>
+        internal static string _1219 {
+            get {
+                return ResourceManager.GetString("1219", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Новорождённый слонёнок весит около 100 килограммов..
         /// </summary>
         internal static string _122 {
             get {
@@ -319,7 +2289,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самка североамериканского опоссума вынашивает потомство 8 дней..
+        ///   Looks up a localized string similar to Ариель - единственная диснеевская принцесса, которая когда-либо была ребенком.
+        /// </summary>
+        internal static string _1220 {
+            get {
+                return ResourceManager.GetString("1220", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Facebook около 25 миллионов аккаунтов уже умерших людей.
+        /// </summary>
+        internal static string _1221 {
+            get {
+                return ResourceManager.GetString("1221", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Финляндии штраф за превышение скорости определяется годовым доходом водителя. Однажды, мужчина получил $ 200,000 штрафа.
+        /// </summary>
+        internal static string _1222 {
+            get {
+                return ResourceManager.GetString("1222", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Заброшенный остров из нового фильма о Джеймсе Бонде действительно существует у берегов Японии.
+        /// </summary>
+        internal static string _1223 {
+            get {
+                return ResourceManager.GetString("1223", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Единственное, что тараканы не едят - это огруцы.
+        /// </summary>
+        internal static string _1224 {
+            get {
+                return ResourceManager.GetString("1224", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На самом деле уровень подростковой безвременности сейчас значительно ниже нежели в 70-е.
+        /// </summary>
+        internal static string _1225 {
+            get {
+                return ResourceManager.GetString("1225", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Оргазм сжигает до 100 каллорий.
+        /// </summary>
+        internal static string _1226 {
+            get {
+                return ResourceManager.GetString("1226", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждый 10-ый гражданин России проживает в Москве.
+        /// </summary>
+        internal static string _1227 {
+            get {
+                return ResourceManager.GetString("1227", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В этом году в День благодарения был самый низкий рейтинг просмотра порно онлайн.
+        /// </summary>
+        internal static string _1228 {
+            get {
+                return ResourceManager.GetString("1228", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Акулы живут в морях и океанах Земли уже более 400 миллионов лет.
+        /// </summary>
+        internal static string _1229 {
+            get {
+                return ResourceManager.GetString("1229", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Слониха вынашивает слонёнка 22 месяца..
         /// </summary>
         internal static string _123 {
             get {
@@ -328,7 +2388,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Блоха может передвигаться только прыжками, мышцы её лапок устроены, как катапульты. Они накапливают энергию и «выстреливают» блоху в прыжок..
+        ///   Looks up a localized string similar to Человек, который во время ВОВ спас 667 детей за всю свою жизнь ни разу не обмолвился о своем героизме.
+        /// </summary>
+        internal static string _1230 {
+            get {
+                return ResourceManager.GetString("1230", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Около 40% мужчин нервничают перед первой встречей с женщиной.
+        /// </summary>
+        internal static string _1231 {
+            get {
+                return ResourceManager.GetString("1231", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В новом докладе экспертов говорится, что марихуана резко снизился уровень преступности среди молодежи.
+        /// </summary>
+        internal static string _1232 {
+            get {
+                return ResourceManager.GetString("1232", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Шоколад полезен для ваших зубов.
+        /// </summary>
+        internal static string _1233 {
+            get {
+                return ResourceManager.GetString("1233", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Исследователи выяснили, что счастье заразно.
+        /// </summary>
+        internal static string _1234 {
+            get {
+                return ResourceManager.GetString("1234", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Louis Vuitton нельзя купить как дисконт. Не проданный товар компания просто сжигает.
+        /// </summary>
+        internal static string _1235 {
+            get {
+                return ResourceManager.GetString("1235", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У актера Чарли Шина были сексуальные отношения белее, чем с 5 000 женщинами.
+        /// </summary>
+        internal static string _1236 {
+            get {
+                return ResourceManager.GetString("1236", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самый целеустремлённый человек — это тот, который ОЧЕНЬ хочет в туалет. Как не странно, но реально факт!.
+        /// </summary>
+        internal static string _1237 {
+            get {
+                return ResourceManager.GetString("1237", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Люди, которые любят шоколад гораздо меньше страдают от инсультов.
+        /// </summary>
+        internal static string _1238 {
+            get {
+                return ResourceManager.GetString("1238", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Лео Фендер, создатель гитар Fender, никогда не умел играть на гитаре.
+        /// </summary>
+        internal static string _1239 {
+            get {
+                return ResourceManager.GetString("1239", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самка североамериканского опоссума вынашивает потомство 8 дней..
         /// </summary>
         internal static string _124 {
             get {
@@ -337,7 +2487,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сфотографировать живого гигантского кальмара люди сумели только в 2006 году. Живут эти полутонные чудовища на глубине от 200 метров до километра..
+        ///   Looks up a localized string similar to Девушкам, которые чаще носят высокие каблуки, легче достичь оргазма.
+        /// </summary>
+        internal static string _1240 {
+            get {
+                return ResourceManager.GetString("1240", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Средне статистический работник продуктивен около 3,5 часов в понедельник.
+        /// </summary>
+        internal static string _1241 {
+            get {
+                return ResourceManager.GetString("1241", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сегодня Amazon продает 158 товаров в секунду.
+        /// </summary>
+        internal static string _1242 {
+            get {
+                return ResourceManager.GetString("1242", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У самки опоссума 13 сосков.
+        /// </summary>
+        internal static string _1243 {
+            get {
+                return ResourceManager.GetString("1243", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Даже если вы будете тратить по $ 10.000 ежедневно, у вас займет 273 года на то, чтобы потратить $ 1 миллиард!.
+        /// </summary>
+        internal static string _1244 {
+            get {
+                return ResourceManager.GetString("1244", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У гиппопотамов розовое молоко.
+        /// </summary>
+        internal static string _1245 {
+            get {
+                return ResourceManager.GetString("1245", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бокс был нелегальных видом спорта до 1901 года.
+        /// </summary>
+        internal static string _1246 {
+            get {
+                return ResourceManager.GetString("1246", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Загадайте число, удвойте его, прибавьте 6, отнимите то число, что загладили. Ответ 3?!).
+        /// </summary>
+        internal static string _1247 {
+            get {
+                return ResourceManager.GetString("1247", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Те деньги, которые были потрачены в Черную пятницу, могли бы прокормить голодающих детей всего мира в течении 2ух лет.
+        /// </summary>
+        internal static string _1248 {
+            get {
+                return ResourceManager.GetString("1248", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Человек способен улавливать запах страха другого человека, если он потеет.
+        /// </summary>
+        internal static string _1249 {
+            get {
+                return ResourceManager.GetString("1249", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Блоха может передвигаться только прыжками, мышцы её лапок устроены, как катапульты. Они накапливают энергию и «выстреливают» блоху в прыжок..
         /// </summary>
         internal static string _125 {
             get {
@@ -346,7 +2586,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Императорские пингвины могут нырять на глубину до 500 метров и способны задерживать дыхание на 18 минут..
+        ///   Looks up a localized string similar to Мишка Эдвард - настоящее имя Винни Пуха..
+        /// </summary>
+        internal static string _1250 {
+            get {
+                return ResourceManager.GetString("1250", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Тыква - это ягода.
+        /// </summary>
+        internal static string _1251 {
+            get {
+                return ResourceManager.GetString("1251", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Иногда Санта Клаусам в торговых центрах платят до $200 в час!.
+        /// </summary>
+        internal static string _1252 {
+            get {
+                return ResourceManager.GetString("1252", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Белки, как и кошки умеют мурлыкать.
+        /// </summary>
+        internal static string _1253 {
+            get {
+                return ResourceManager.GetString("1253", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бил Гейтс каждую секунду зарабатывает $250.
+        /// </summary>
+        internal static string _1254 {
+            get {
+                return ResourceManager.GetString("1254", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Наши глаза точно такого же размера, что и при рождении.
+        /// </summary>
+        internal static string _1255 {
+            get {
+                return ResourceManager.GetString("1255", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Имя голубой птички из логотипа Твиттера — Ларри Бёрд (Larry Bird).
+        /// </summary>
+        internal static string _1256 {
+            get {
+                return ResourceManager.GetString("1256", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самый большой вес поднятый жимом лежа за один час - 138480 кг!.
+        /// </summary>
+        internal static string _1257 {
+            get {
+                return ResourceManager.GetString("1257", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ожирение убивает более 30 000 людей каждый год.
+        /// </summary>
+        internal static string _1258 {
+            get {
+                return ResourceManager.GetString("1258", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая дорогая свадьба в мире оценивается в $55 млн.
+        /// </summary>
+        internal static string _1259 {
+            get {
+                return ResourceManager.GetString("1259", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сфотографировать живого гигантского кальмара люди сумели только в 2006 году. Живут эти полутонные чудовища на глубине от 200 метров до километра..
         /// </summary>
         internal static string _126 {
             get {
@@ -355,7 +2685,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У пауков 8 ног, у насекомых 6. Строго говоря, пауки не являются насекомыми, они относятся к паукообразным..
+        ///   Looks up a localized string similar to Около 14% женщин в возрасте от 18 до 29 по крайней мере один раз имели сексуальный опыт с другой женщиной.
+        /// </summary>
+        internal static string _1260 {
+            get {
+                return ResourceManager.GetString("1260", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая тяжелая когда-либо рожавшая женщина весила 241 кг (532 фунтов). Ее размер одежды был XXXXXXXL.
+        /// </summary>
+        internal static string _1261 {
+            get {
+                return ResourceManager.GetString("1261", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Средний рост человека в Нидерландах составляет 181 см.Средний рост во всем мире 168,1 см.
+        /// </summary>
+        internal static string _1262 {
+            get {
+                return ResourceManager.GetString("1262", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Джон Рокфеллер был в 4-5 раз богаче нынешнего самого богатого человека в мире.
+        /// </summary>
+        internal static string _1263 {
+            get {
+                return ResourceManager.GetString("1263", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Девочки учатся говорить, читать, использовать целые предложения раньше, чем мальчики.
+        /// </summary>
+        internal static string _1264 {
+            get {
+                return ResourceManager.GetString("1264", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to К 60 годам вы уже не чувствуете более более 50% своих вкусовых рецепторов.
+        /// </summary>
+        internal static string _1265 {
+            get {
+                return ResourceManager.GetString("1265", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Средняя скорость падающей капли около 17 миль / ч.
+        /// </summary>
+        internal static string _1266 {
+            get {
+                return ResourceManager.GetString("1266", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Понадобится около 1 300 000 комаров, чтобы выпить всю кровь из человека.
+        /// </summary>
+        internal static string _1267 {
+            get {
+                return ResourceManager.GetString("1267", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Среднестатистический четырехлетний ребенок в день задает 427 вопросов.
+        /// </summary>
+        internal static string _1268 {
+            get {
+                return ResourceManager.GetString("1268", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Кустики и облачка в игре Super Mario Bros одни и те же, только разного цвета.
+        /// </summary>
+        internal static string _1269 {
+            get {
+                return ResourceManager.GetString("1269", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Императорские пингвины могут нырять на глубину до 500 метров и способны задерживать дыхание на 18 минут..
         /// </summary>
         internal static string _127 {
             get {
@@ -364,7 +2784,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Существует 750 000 видов насекомых и 35 000 видов пауков..
+        ///   Looks up a localized string similar to Кубик Рубик самый продаваемый товар во все времена. На втором месте iPhone.
+        /// </summary>
+        internal static string _1270 {
+            get {
+                return ResourceManager.GetString("1270", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У Адольфа Гитлера было всего одно яичко.
+        /// </summary>
+        internal static string _1271 {
+            get {
+                return ResourceManager.GetString("1271", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Женщина в возрасте от 27 до 45 лет вызывает у мужчин самые сильные сексуальные эмоции.
+        /// </summary>
+        internal static string _1272 {
+            get {
+                return ResourceManager.GetString("1272", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дания = 1-я страна в мире, которая  легализовала хардкор порно.
+        /// </summary>
+        internal static string _1273 {
+            get {
+                return ResourceManager.GetString("1273", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Рианна так и не окончила школу.
+        /// </summary>
+        internal static string _1274 {
+            get {
+                return ResourceManager.GetString("1274", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Наполеон до ужаса боялся кошек.
+        /// </summary>
+        internal static string _1275 {
+            get {
+                return ResourceManager.GetString("1275", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мужчины в два раза чаще используют Twitter после секса, чем женщины.
+        /// </summary>
+        internal static string _1276 {
+            get {
+                return ResourceManager.GetString("1276", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На сайте Wikipedia нет и никогда не было рекламы.
+        /// </summary>
+        internal static string _1277 {
+            get {
+                return ResourceManager.GetString("1277", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Какофобия - болезнь некраивых людей.
+        /// </summary>
+        internal static string _1278 {
+            get {
+                return ResourceManager.GetString("1278", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Лил Уэйн начал писать рэп, когда ему было 8 лет.
+        /// </summary>
+        internal static string _1279 {
+            get {
+                return ResourceManager.GetString("1279", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У пауков 8 ног, у насекомых 6. Строго говоря, пауки не являются насекомыми, они относятся к паукообразным..
         /// </summary>
         internal static string _128 {
             get {
@@ -373,7 +2883,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У насекомых нет лёгких, они дышат всем телом..
+        ///   Looks up a localized string similar to Твитеровская птичка - мальчик.
+        /// </summary>
+        internal static string _1280 {
+            get {
+                return ResourceManager.GetString("1280", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Лишь 2% людей на земле имеют зеленые глаза.
+        /// </summary>
+        internal static string _1281 {
+            get {
+                return ResourceManager.GetString("1281", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 3 из 4 людей страдают от глософобии = страха перед публичными выступлениями.
+        /// </summary>
+        internal static string _1282 {
+            get {
+                return ResourceManager.GetString("1282", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 8 октября - всемирный день Зомби!.
+        /// </summary>
+        internal static string _1283 {
+            get {
+                return ResourceManager.GetString("1283", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Орел вполне может убить молодого олененка и унести его с собой.
+        /// </summary>
+        internal static string _1284 {
+            get {
+                return ResourceManager.GetString("1284", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Такие же маленькие насекомые, как муравьи, не могут упав с высоты, разбиться насмерть.
+        /// </summary>
+        internal static string _1285 {
+            get {
+                return ResourceManager.GetString("1285", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Тафефобия - страх быть похороненным зажива.
+        /// </summary>
+        internal static string _1286 {
+            get {
+                return ResourceManager.GetString("1286", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждую минуту рождается 250 младенцев, 113 из них в полной бедности.
+        /// </summary>
+        internal static string _1287 {
+            get {
+                return ResourceManager.GetString("1287", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В первый год Coca Cola продала всего 25 бутылок, но продолжала идти дальше.
+        /// </summary>
+        internal static string _1288 {
+            get {
+                return ResourceManager.GetString("1288", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 123456 - наиболее распространенный взламываемый пароль.
+        /// </summary>
+        internal static string _1289 {
+            get {
+                return ResourceManager.GetString("1289", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Существует 750 000 видов насекомых и 35 000 видов пауков..
         /// </summary>
         internal static string _129 {
             get {
@@ -382,8 +2982,98 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Храпящий человек не видит сновидений.
-        ///Существует такая точка зрения, что когда человек храпит, он не может видеть снов. Так это или нет, сказать трудно, поскольку нет ни научного подтверждения, ни научного опровержения этой гипотезы. Однако простой житейский опыт подсказывает, что это, скорей всего, правда..
+        ///   Looks up a localized string similar to 6,5% людей, которые когда-либо родились, живы на сегодняшний день.
+        /// </summary>
+        internal static string _1290 {
+            get {
+                return ResourceManager.GetString("1290", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 41-летняя британка вышла замуж в Израиле...за дельфина.
+        /// </summary>
+        internal static string _1291 {
+            get {
+                return ResourceManager.GetString("1291", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Отец Усамы бен Ладена, Мухаммед бен Авад бен Ладен, был богатым бизнесменом, который женился 22 раза и является отцом по меньшей мере 54 известных детей.
+        /// </summary>
+        internal static string _1292 {
+            get {
+                return ResourceManager.GetString("1292", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бил Гейтс стал биллионером в 31 год.
+        /// </summary>
+        internal static string _1293 {
+            get {
+                return ResourceManager.GetString("1293", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На логотипе браузера Firefox изображена не лиса, а панда.
+        /// </summary>
+        internal static string _1294 {
+            get {
+                return ResourceManager.GetString("1294", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Независимо от того, сколько вам лет, ваши шансы умереть удваивается каждые 8 лет.
+        /// </summary>
+        internal static string _1295 {
+            get {
+                return ResourceManager.GetString("1295", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если на вас нападает акала, прикиньтесь мертвым, это вероятно спасет вам жизнь.
+        /// </summary>
+        internal static string _1296 {
+            get {
+                return ResourceManager.GetString("1296", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чернила для печати дороже, чем человеческая кровь.
+        /// </summary>
+        internal static string _1297 {
+            get {
+                return ResourceManager.GetString("1297", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самхэйнофобия - это страх Хэллоуина.
+        /// </summary>
+        internal static string _1298 {
+            get {
+                return ResourceManager.GetString("1298", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Такие социальные медиа, как Twitter, Facebook, Youtube являются на сегодняшний день причиной бессонницы многих пациентов.
+        /// </summary>
+        internal static string _1299 {
+            get {
+                return ResourceManager.GetString("1299", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Вещие сны.
+        ///Результаты исследований на больших группах людей показывают, что от 18% до 38% людей по крайней мере один раз в своей жизни видели вещий сон. Состояние дежа-вю, когда человек понимает, что он уже был в такой ситуации, испытывали 70% человек. При этом верят в вещие сны от 63% до 98% людей. В этих исследованиях принималось, что вещий сон – это такое видение будущего, которое никак не может быть выведено из анализа имеющейся на данный момент информации..
         /// </summary>
         internal static string _13 {
             get {
@@ -392,7 +3082,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самая маленькая птичка – колибри-пчёлка, в ней меньше пяти сантиметров длины..
+        ///   Looks up a localized string similar to У насекомых нет лёгких, они дышат всем телом..
         /// </summary>
         internal static string _130 {
             get {
@@ -401,7 +3091,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Крокодилы любят глотать камни – от этого у них и пищеварение лучше, и нырять они могут глубже..
+        ///   Looks up a localized string similar to Трудящиеся текстильных фабрик Камбоджи зарабатывают меньше, чем 0,5$ в час работая на H&amp;M.
+        /// </summary>
+        internal static string _1300 {
+            get {
+                return ResourceManager.GetString("1300", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Со дня своей независимости США 214 лет провела в войне и всего лишь 21 год в полном мире.
+        /// </summary>
+        internal static string _1301 {
+            get {
+                return ResourceManager.GetString("1301", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Amazon продает больше электронных книг, нежели печатных.
+        /// </summary>
+        internal static string _1302 {
+            get {
+                return ResourceManager.GetString("1302", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чем старше вы становитесь, тем менее ярким будет ваш оргазм.
+        /// </summary>
+        internal static string _1303 {
+            get {
+                return ResourceManager.GetString("1303", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Джастин Бибер лешился 80 000 своих фоловеров в Твитере после того, как остриг волосы.
+        /// </summary>
+        internal static string _1304 {
+            get {
+                return ResourceManager.GetString("1304", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Согласно данным американской фабрики по производству презервативов, лишь 6% мужчин нуждаются в размере XL. Откликнитесь парни :).
+        /// </summary>
+        internal static string _1305 {
+            get {
+                return ResourceManager.GetString("1305", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самый употребляемый людьми наркотик в мире - это кофеин.
+        /// </summary>
+        internal static string _1306 {
+            get {
+                return ResourceManager.GetString("1306", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Выкуриваемая пачка в день каждые последующие 10 лет будет отнимать у вас по 2 зуба.
+        /// </summary>
+        internal static string _1307 {
+            get {
+                return ResourceManager.GetString("1307", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Осколки разбивающегося бокала разлетаются со скоростью 4828.03 км/ч.
+        /// </summary>
+        internal static string _1308 {
+            get {
+                return ResourceManager.GetString("1308", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Земляника - это не ягода.
+        /// </summary>
+        internal static string _1309 {
+            get {
+                return ResourceManager.GetString("1309", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая маленькая птичка – колибри-пчёлка, в ней меньше пяти сантиметров длины..
         /// </summary>
         internal static string _131 {
             get {
@@ -410,7 +3190,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Голубые киты – самые крупные животные на Земле..
+        ///   Looks up a localized string similar to Если для того, чтобы полностью собрать Toyota на конвейере понадобится 13 часов, то для Rolls Royce требуется 6 месяцев.
+        /// </summary>
+        internal static string _1310 {
+            get {
+                return ResourceManager.GetString("1310", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Не возможно заблокировать Марка Цукерберга в Facebook.
+        /// </summary>
+        internal static string _1311 {
+            get {
+                return ResourceManager.GetString("1311", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Героин был создан в качестве более легкой по действию альтернативы морфину.
+        /// </summary>
+        internal static string _1312 {
+            get {
+                return ResourceManager.GetString("1312", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to США потратило на войну с Ираком более чем 990 миллиардов долларов. Этого с лихвой бы хватило предотвратить бедность во всем мире в течении 10 лет.
+        /// </summary>
+        internal static string _1313 {
+            get {
+                return ResourceManager.GetString("1313", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более половины одиноких американцев уже как 2 года не ходили на свидание.
+        /// </summary>
+        internal static string _1314 {
+            get {
+                return ResourceManager.GetString("1314", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дождь содержит витамин В12.
+        /// </summary>
+        internal static string _1315 {
+            get {
+                return ResourceManager.GetString("1315", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В мозгу кровеносные сосуды имеют протяженность примерно 100 тыс км.
+        /// </summary>
+        internal static string _1316 {
+            get {
+                return ResourceManager.GetString("1316", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Скорость мысли в пространстве в среднем 530 км/с.
+        /// </summary>
+        internal static string _1317 {
+            get {
+                return ResourceManager.GetString("1317", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to у комаров половой акт длится 2 секунды.
+        /// </summary>
+        internal static string _1318 {
+            get {
+                return ResourceManager.GetString("1318", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 8 американских детей были убиты во время теракта 11 сентября и более 500 тысяч иракских детей умерли в результате последующего вторжения.
+        /// </summary>
+        internal static string _1319 {
+            get {
+                return ResourceManager.GetString("1319", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Крокодилы любят глотать камни – от этого у них и пищеварение лучше, и нырять они могут глубже..
         /// </summary>
         internal static string _132 {
             get {
@@ -419,7 +3289,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Средний слон весит меньше, чем весит язык среднего голубого кита..
+        ///   Looks up a localized string similar to Более 2000 людей по всему миру ежедневно кончают жизнь самоубийством.
+        /// </summary>
+        internal static string _1320 {
+            get {
+                return ResourceManager.GetString("1320", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более 25% женщин считают, что деньги делают мужчину более сексуальным.
+        /// </summary>
+        internal static string _1321 {
+            get {
+                return ResourceManager.GetString("1321", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У Мона Лизы нет бровей.
+        /// </summary>
+        internal static string _1322 {
+            get {
+                return ResourceManager.GetString("1322", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to IQ Арнольда Шварценеггера — 135.
+        /// </summary>
+        internal static string _1323 {
+            get {
+                return ResourceManager.GetString("1323", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Карли Рэй Джепсен старше, чем Адель, Леди Гага, Рианна.
+        /// </summary>
+        internal static string _1324 {
+            get {
+                return ResourceManager.GetString("1324", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более, чем 90% людей могут найти свое имя в результатах поиска, заведя его в поисковую строку Google.
+        /// </summary>
+        internal static string _1325 {
+            get {
+                return ResourceManager.GetString("1325", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to IQ рэппера Snoop Dogg составляет 147. Показатель считается очень высоким, многие гении могут похвастаться такими результатами.
+        /// </summary>
+        internal static string _1326 {
+            get {
+                return ResourceManager.GetString("1326", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 23 года - это возраст самой молодой бабушки в мире.
+        /// </summary>
+        internal static string _1327 {
+            get {
+                return ResourceManager.GetString("1327", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Новосибирске находится одна из крупнейших библиотек мира, располагающая фондом в 14 миллионов томов.
+        /// </summary>
+        internal static string _1328 {
+            get {
+                return ResourceManager.GetString("1328", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Группа ученых из Восточной Европы провела исследования сексуальных фобий. В результате выяснилось, что 92% мужчин боятся нежелательной беременности партнерши, 70% боятся оказаться первыми сексуальными партнерами у девушки, 68% боятся, что во время секса женщина будет сравнивать их со своими бывшими, 46% боятся, что во время секса женщина не получит удовольствия, 36% мужчин боятся попробовать в сексе что-то новое, 98% боятся СПИДа и 17 человек боятся русалок, но ими уже занимаются специалисты;).
+        /// </summary>
+        internal static string _1329 {
+            get {
+                return ResourceManager.GetString("1329", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Голубые киты – самые крупные животные на Земле..
         /// </summary>
         internal static string _133 {
             get {
@@ -428,7 +3388,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Голубые киты – самые шумные животные в мире. Их мелодичное пение может оглушить человека. Без вреда для слуха человек может выдержать 85 децибелов, на рок-концерте громкость звука – 100 децибелов, голубые киты поют на 188 децибелов и их можно услышать за 800 километров..
+        ///   Looks up a localized string similar to Духи Шанель №5 получили свое название не потому, что цифра 5 для Коко имела какое-то определенное значение. Просто ей понравился именно пятый вариант духов.
+        /// </summary>
+        internal static string _1330 {
+            get {
+                return ResourceManager.GetString("1330", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 27% людей уверены, что на Луну человек еще не высаживался.
+        /// </summary>
+        internal static string _1331 {
+            get {
+                return ResourceManager.GetString("1331", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Идентичные близнецы имеют одинаковую ДНК, но при этом у них разные отпечатки пальцев.
+        /// </summary>
+        internal static string _1332 {
+            get {
+                return ResourceManager.GetString("1332", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Китаец Жу Вей во время представления в городе Гуанчжоу на юге Китая надул воздушный шарик ухом.
+        /// </summary>
+        internal static string _1333 {
+            get {
+                return ResourceManager.GetString("1333", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Албании, чтобы сказать слово &apos;усы&apos; можно использовать 27 совершенно разных слов.
+        /// </summary>
+        internal static string _1334 {
+            get {
+                return ResourceManager.GetString("1334", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На сегодняшний день более, чем 90% всех океанов Земли остаются не изученными.
+        /// </summary>
+        internal static string _1335 {
+            get {
+                return ResourceManager.GetString("1335", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Девять из каждых десяти божьих коровок в Лондоне болеют венерическими заболеваниями. Ученые считают, что причина пандемии – в загрязненном воздухе.
+        /// </summary>
+        internal static string _1336 {
+            get {
+                return ResourceManager.GetString("1336", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В два годика состоялся первый урок танцев для Бритни Спирс. А к трем годам девочка стала заниматься еще и гимнастикой.
+        /// </summary>
+        internal static string _1337 {
+            get {
+                return ResourceManager.GetString("1337", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Фонтан Короля Фахда – самый высокий фонтан в мире.
+        /// </summary>
+        internal static string _1338 {
+            get {
+                return ResourceManager.GetString("1338", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Первая известная пиццерия. Пиццерия - Antica, открылась в Неаполе (Италия) в 1738 году.
+        /// </summary>
+        internal static string _1339 {
+            get {
+                return ResourceManager.GetString("1339", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Средний слон весит меньше, чем весит язык среднего голубого кита..
         /// </summary>
         internal static string _134 {
             get {
@@ -437,7 +3487,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Три раза в год страус спаривается с самками, которых может быть от 2 до 6. Все самки откладывают яйца в одно гнездо, в дальнейшем о птенцах заботится отец..
+        ///   Looks up a localized string similar to В 1946 году национальный американский конкурс по вязанию крючком выиграл мужчина, а приз – Золотой крючок – ему вручала лично Эсте Лаудер.
+        /// </summary>
+        internal static string _1340 {
+            get {
+                return ResourceManager.GetString("1340", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ботаническими родственниками манго являются кешью, фисташки, ямайская слива и ядовитый сумах.
+        /// </summary>
+        internal static string _1341 {
+            get {
+                return ResourceManager.GetString("1341", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1901 году британский инженер Хьюберт Сесил Бут получил патент на первый в истории пылесос.
+        /// </summary>
+        internal static string _1342 {
+            get {
+                return ResourceManager.GetString("1342", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1928 году в Торонто объединились два протестантских прихода: конгрегационалистская церковь на улице Бонда и пресвитерианская церковь на площади Святого Джеймса. Новая организация получила название объединённой церкви Святого Джеймса Бонда. В 2005 году она прекратила существование под этим названием из-за ещё одного объединения.
+        /// </summary>
+        internal static string _1343 {
+            get {
+                return ResourceManager.GetString("1343", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Спор о том, кто изобрел макаронные изделия - итальянцы, арабы или китайцы, решен научно. В пойме Янцзы, в Китае нашли глиняную миску с окаменелой лапшой типа спагетти длиной до полуметра. Возраст находки - 4000 лет: это гораздо старше первых свидетельств о появлении лапши в Европе.
+        /// </summary>
+        internal static string _1344 {
+            get {
+                return ResourceManager.GetString("1344", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самый старый порнофильм — «El Sartorio» (Аргентина), производства 1907 года.
+        /// </summary>
+        internal static string _1345 {
+            get {
+                return ResourceManager.GetString("1345", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Штат Невада, на территории которого находится Лас-Вегас, первым в 1931 году разрешил строительство и эксплуатацию казино. Первоначально это было сделано для того, чтобы пополнить бюджет на строительство общеобразовательных школ.
+        /// </summary>
+        internal static string _1346 {
+            get {
+                return ResourceManager.GetString("1346", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Скорость движения меч-рыбы может достигать 90 км/час. Это установил академик А. Н. Крылов, вычисливший скорость рыбы, пробившей своим мечом дубовый, обшитый медью шпангоут корабля толщиной в 30 см.
+        /// </summary>
+        internal static string _1347 {
+            get {
+                return ResourceManager.GetString("1347", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Атмосфера Земли весит 5 300 000 000 000 000 тонн.
+        /// </summary>
+        internal static string _1348 {
+            get {
+                return ResourceManager.GetString("1348", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Кейт Мосс считает, что у нее абсолютно нет чувства стиля, однако style.com присваивал ей статус иконы стиля  237 раз.
+        /// </summary>
+        internal static string _1349 {
+            get {
+                return ResourceManager.GetString("1349", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Голубые киты – самые шумные животные в мире. Их мелодичное пение может оглушить человека. Без вреда для слуха человек может выдержать 85 децибелов, на рок-концерте громкость звука – 100 децибелов, голубые киты поют на 188 децибелов и их можно услышать за 800 километров..
         /// </summary>
         internal static string _135 {
             get {
@@ -446,7 +3586,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Термитники могут строиться сотни лет подряд и достигать 6 метров в высоту..
+        ///   Looks up a localized string similar to К 29 неделе беременности объем крови женщины удваивается. Сердце, почки и легкие начинают работать в два раза активнее.
+        /// </summary>
+        internal static string _1350 {
+            get {
+                return ResourceManager.GetString("1350", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У повешанных иногда случается посмертная эрекция.
+        /// </summary>
+        internal static string _1351 {
+            get {
+                return ResourceManager.GetString("1351", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самое большое яйцо, как известно, у страуса. А самое маленькое - у киви. Страусиное яйцо имеет самый маленький процент веса по сравнению с телом страуса, а вот у киви - как раз, наоборот. Некоторые яйца киви могут весить до четверти веса самой птицы.
+        /// </summary>
+        internal static string _1352 {
+            get {
+                return ResourceManager.GetString("1352", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Тони Кёртис, который снимался с Монро в фильме «В джазе только девушки», сказал по поводу их поцелуя следующее: «Целовать Мэрилин — это как целовать Гитлера».
+        /// </summary>
+        internal static string _1353 {
+            get {
+                return ResourceManager.GetString("1353", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Слышать подобное довольно забавно , но мозг можно накачать , причем во всех смыслах этого слова. То есть если мозг постоянно тренировать , то он будет расти также как и мышцы человека. Самый тяжелый женский мозг весит 1565 грамм, а самый тяжелый мужской мозг весит 2049 грамм.
+        /// </summary>
+        internal static string _1354 {
+            get {
+                return ResourceManager.GetString("1354", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самые ранние сооружения канализации были обнаружены у индской цивилизации (2600 лет до н.э.) В Древнем Риме канализация называлась - Большая Клоака (создана при 5 царе Древнего Рима Луции Тарквинии Приске).
+        /// </summary>
+        internal static string _1355 {
+            get {
+                return ResourceManager.GetString("1355", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Как известно, половой акт сжигает 200 калорий, что эквивалентно 15-тиминутной пробежке. Результаты последних исследований показывают, что любовные утехи не только способствуют похуданию,но и значительно снижают риск возникновения сердечных заболеваний.
+        /// </summary>
+        internal static string _1356 {
+            get {
+                return ResourceManager.GetString("1356", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У плачущего человека задействованы 43 мышцы лица, тогда как у смеющегося — всего 17. Получается, от слез морщин гораздо больше, нежели от смеха.
+        /// </summary>
+        internal static string _1357 {
+            get {
+                return ResourceManager.GetString("1357", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ещё в 1 веке до нашей эры гречку выращивали на территории России, а в Европу гречка попала не ранее 15 века.
+        /// </summary>
+        internal static string _1358 {
+            get {
+                return ResourceManager.GetString("1358", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В некоторых ресторанах в Китае можно заказать суп из младенцев, которым 6-7 месяцев с момента зачатия. Стоит это блюдо от 3000 до 4000 юаней ($428,5-571,4) за порцию.
+        /// </summary>
+        internal static string _1359 {
+            get {
+                return ResourceManager.GetString("1359", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Три раза в год страус спаривается с самками, которых может быть от 2 до 6. Все самки откладывают яйца в одно гнездо, в дальнейшем о птенцах заботится отец..
         /// </summary>
         internal static string _136 {
             get {
@@ -455,7 +3685,25 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самые маленькие летающие насекомые – трихограммы. Их размеры меньше миллиметра, они паразитируют на других насекомых. В сельском хозяйстве их разводят специально, чтобы они уничтожали насекомых-вредителей, в яйца которых откладывают свои яйца трихограммы..
+        ///   Looks up a localized string similar to Словом «неделя» раньше обозначалось воскресенье — нерабочий день, когда «не делают», а потом стала называться семидневка. Во многих славянских языках такое название сохранилось до сих пор.
+        /// </summary>
+        internal static string _1360 {
+            get {
+                return ResourceManager.GetString("1360", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пиво Lowenbrau было впервые представлено в 1383. Оно пережило чуму, войны, падение федерализма, открытие Америки, расцветы и падения целых наций.
+        /// </summary>
+        internal static string _1361 {
+            get {
+                return ResourceManager.GetString("1361", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Термитники могут строиться сотни лет подряд и достигать 6 метров в высоту..
         /// </summary>
         internal static string _137 {
             get {
@@ -464,7 +3712,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У гадрозавра, по-хозяйски заселившего когда-то просторы Европы, Азии и Северной Америки, было 960 коренных зубов. Если бы эволюция пошла по этой линии, нам бы не хватило никаких денег на стоматологов..
+        ///   Looks up a localized string similar to Самые маленькие летающие насекомые – трихограммы. Их размеры меньше миллиметра, они паразитируют на других насекомых. В сельском хозяйстве их разводят специально, чтобы они уничтожали насекомых-вредителей, в яйца которых откладывают свои яйца трихограммы..
         /// </summary>
         internal static string _138 {
             get {
@@ -473,7 +3721,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Альбатрос может спать в полёте на скорости 40 километров в час..
+        ///   Looks up a localized string similar to У гадрозавра, по-хозяйски заселившего когда-то просторы Европы, Азии и Северной Америки, было 960 коренных зубов. Если бы эволюция пошла по этой линии, нам бы не хватило никаких денег на стоматологов..
         /// </summary>
         internal static string _139 {
             get {
@@ -482,8 +3730,8 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Оргазм во сне.
-        ///Во сне вы можете не только заниматься сексом и получать от этого удовольствие, как и в реальной жизни, но и испытывать бурный оргазм, причём без всяких сопутствующих физиологических процессов. Более того, ощущения от занятий сексом во сне могут быть гораздо более сильными, чем в реальной жизни..
+        ///   Looks up a localized string similar to Храпящий человек не видит сновидений.
+        ///Существует такая точка зрения, что когда человек храпит, он не может видеть снов. Так это или нет, сказать трудно, поскольку нет ни научного подтверждения, ни научного опровержения этой гипотезы. Однако простой житейский опыт подсказывает, что это, скорей всего, правда..
         /// </summary>
         internal static string _14 {
             get {
@@ -492,7 +3740,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самым опасным ядом считается яд королевской кобры..
+        ///   Looks up a localized string similar to Альбатрос может спать в полёте на скорости 40 километров в час..
         /// </summary>
         internal static string _140 {
             get {
@@ -501,7 +3749,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Газель, которой 2 дня от роду, может разогнаться до 95 километров в час..
+        ///   Looks up a localized string similar to Самым опасным ядом считается яд королевской кобры..
         /// </summary>
         internal static string _141 {
             get {
@@ -510,7 +3758,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Половые органы улитки расположены у неё в голове..
+        ///   Looks up a localized string similar to Газель, которой 2 дня от роду, может разогнаться до 95 километров в час..
         /// </summary>
         internal static string _142 {
             get {
@@ -519,7 +3767,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Скорость размножения крыс так велика, что при благоприятных обстоятельствах 2 крысы могли бы дать потомство в 1 миллион крыс в течение полутора лет..
+        ///   Looks up a localized string similar to Половые органы улитки расположены у неё в голове..
         /// </summary>
         internal static string _143 {
             get {
@@ -528,7 +3776,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Лошади и коровы спят стоя..
+        ///   Looks up a localized string similar to Скорость размножения крыс так велика, что при благоприятных обстоятельствах 2 крысы могли бы дать потомство в 1 миллион крыс в течение полутора лет..
         /// </summary>
         internal static string _144 {
             get {
@@ -537,7 +3785,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Щупальца гигантской арктической медузы могут достигать в длину 36 метров..
+        ///   Looks up a localized string similar to Лошади и коровы спят стоя..
         /// </summary>
         internal static string _145 {
             get {
@@ -546,7 +3794,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Колибри такие ловкие, что могут летать спиной вперёд..
+        ///   Looks up a localized string similar to Щупальца гигантской арктической медузы могут достигать в длину 36 метров..
         /// </summary>
         internal static string _146 {
             get {
@@ -555,7 +3803,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Змеи не моргают, потому что их глаза всегда закрыты прозрачными сросшимися веками..
+        ///   Looks up a localized string similar to Колибри такие ловкие, что могут летать спиной вперёд..
         /// </summary>
         internal static string _147 {
             get {
@@ -564,7 +3812,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У гусеницы в голове 248 мускулов..
+        ///   Looks up a localized string similar to Змеи не моргают, потому что их глаза всегда закрыты прозрачными сросшимися веками..
         /// </summary>
         internal static string _148 {
             get {
@@ -573,7 +3821,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У шмеля на глазах растут волосы. Они помогают ему собирать пыльцу..
+        ///   Looks up a localized string similar to У гусеницы в голове 248 мускулов..
         /// </summary>
         internal static string _149 {
             get {
@@ -582,7 +3830,8 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Три самых дорогих бренда на Земле в эпоху до интернета, в порядке убывания: Мальборо, Кока-Кола и Будвайзер..
+        ///   Looks up a localized string similar to Оргазм во сне.
+        ///Во сне вы можете не только заниматься сексом и получать от этого удовольствие, как и в реальной жизни, но и испытывать бурный оргазм, причём без всяких сопутствующих физиологических процессов. Более того, ощущения от занятий сексом во сне могут быть гораздо более сильными, чем в реальной жизни..
         /// </summary>
         internal static string _15 {
             get {
@@ -591,7 +3840,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Крупнейшие хищники в мире – белые медведи..
+        ///   Looks up a localized string similar to У шмеля на глазах растут волосы. Они помогают ему собирать пыльцу..
         /// </summary>
         internal static string _150 {
             get {
@@ -600,7 +3849,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Таракан может жить без головы, пока не умрёт от голода..
+        ///   Looks up a localized string similar to Крупнейшие хищники в мире – белые медведи..
         /// </summary>
         internal static string _151 {
             get {
@@ -609,7 +3858,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У коровы четыре желудка..
+        ///   Looks up a localized string similar to Таракан может жить без головы, пока не умрёт от голода..
         /// </summary>
         internal static string _152 {
             get {
@@ -618,7 +3867,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У собак обоняние в 100 раз лучше, чем у людей..
+        ///   Looks up a localized string similar to У коровы четыре желудка..
         /// </summary>
         internal static string _153 {
             get {
@@ -627,7 +3876,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У жирафа столько же шейных позвонков, сколько у человека..
+        ///   Looks up a localized string similar to У собак обоняние в 100 раз лучше, чем у людей..
         /// </summary>
         internal static string _154 {
             get {
@@ -636,7 +3885,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Белка – лучший садовник. Миллионы деревьев вырастают потому, что белки забывают, куда спрятали семечки..
+        ///   Looks up a localized string similar to У жирафа столько же шейных позвонков, сколько у человека..
         /// </summary>
         internal static string _155 {
             get {
@@ -645,7 +3894,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Акула меняет зубы каждые 8 дней. Зубы акулы твёрдые, как сталь, а крепятся просто в дёснах..
+        ///   Looks up a localized string similar to Белка – лучший садовник. Миллионы деревьев вырастают потому, что белки забывают, куда спрятали семечки..
         /// </summary>
         internal static string _156 {
             get {
@@ -654,7 +3903,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ежегодно в мире больше людей бывают убиты ослами, чем гибнут в авиакатастрофах..
+        ///   Looks up a localized string similar to Акула меняет зубы каждые 8 дней. Зубы акулы твёрдые, как сталь, а крепятся просто в дёснах..
         /// </summary>
         internal static string _157 {
             get {
@@ -663,7 +3912,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сова может поворачивать голову на 360 градусов..
+        ///   Looks up a localized string similar to Ежегодно в мире больше людей бывают убиты ослами, чем гибнут в авиакатастрофах..
         /// </summary>
         internal static string _158 {
             get {
@@ -672,7 +3921,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Осьминог может протиснуться в любую щель, в которую пролезет его глаз..
+        ///   Looks up a localized string similar to Сова может поворачивать голову на 360 градусов..
         /// </summary>
         internal static string _159 {
             get {
@@ -681,7 +3930,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Если капнуть на скорпиона алкоголем, он тут же сойдёт с ума и ужалит себя до смерти..
+        ///   Looks up a localized string similar to Три самых дорогих бренда на Земле в эпоху до интернета, в порядке убывания: Мальборо, Кока-Кола и Будвайзер..
         /// </summary>
         internal static string _16 {
             get {
@@ -690,7 +3939,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Глаз гигантского кальмара размером с баскетбольный мяч..
+        ///   Looks up a localized string similar to Осьминог может протиснуться в любую щель, в которую пролезет его глаз..
         /// </summary>
         internal static string _160 {
             get {
@@ -699,7 +3948,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Если улитка лишится глаза, меньше чем за месяц она отрастит себе новый..
+        ///   Looks up a localized string similar to Глаз гигантского кальмара размером с баскетбольный мяч..
         /// </summary>
         internal static string _161 {
             get {
@@ -708,7 +3957,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самое сильное животное на Земле – жук-носорог. Он может поднять груз в 850 раз тяжелее себя..
+        ///   Looks up a localized string similar to Если улитка лишится глаза, меньше чем за месяц она отрастит себе новый..
         /// </summary>
         internal static string _162 {
             get {
@@ -717,7 +3966,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Известны 7 организмов, которые не стареют: алеутский морской окунь, расписная черепаха, болотная американская черепаха, коробчатая каролинская черепаха, красный морской ёж, моллюск циприна исландская и сосна остистая межгорная. Самая старая обнаруженная сосна имеет возраст более 5000 лет, самый старый моллюск – более 500, остальные животные из этого списка – более 200 лет. При этом все экземпляры не имеют никаких признаков старения и угасания функций организма..
+        ///   Looks up a localized string similar to Самое сильное животное на Земле – жук-носорог. Он может поднять груз в 850 раз тяжелее себя..
         /// </summary>
         internal static string _163 {
             get {
@@ -726,7 +3975,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Россия – самая большая страна мира, её площадь 17 075 400 квадратных километров. Она больше США в 1,8 раз. Площадь России приблизительно равна площади поверхности планеты Плутон..
+        ///   Looks up a localized string similar to Известны 7 организмов, которые не стареют: алеутский морской окунь, расписная черепаха, болотная американская черепаха, коробчатая каролинская черепаха, красный морской ёж, моллюск циприна исландская и сосна остистая межгорная. Самая старая обнаруженная сосна имеет возраст более 5000 лет, самый старый моллюск – более 500, остальные животные из этого списка – более 200 лет. При этом все экземпляры не имеют никаких признаков старения и угасания функций организма..
         /// </summary>
         internal static string _164 {
             get {
@@ -735,7 +3984,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В России находится самый большой в мире действующий вулкан – Ключевская Сопка. Его высота 4 километра 850 метров. Он выбрасывает столбы пепла на восемь километров вверх. С каждым извержением он становится всё выше. Извергается вулкан Ключевская Сопка на протяжении последних 7 тысяч лет..
+        ///   Looks up a localized string similar to Россия – самая большая страна мира, её площадь 17 075 400 квадратных километров. Она больше США в 1,8 раз. Площадь России приблизительно равна площади поверхности планеты Плутон..
         /// </summary>
         internal static string _165 {
             get {
@@ -744,7 +3993,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Метро Санкт-Петербурга– самое глубокое в мире.  Его средняя глубина – 100 метров..
+        ///   Looks up a localized string similar to В России находится самый большой в мире действующий вулкан – Ключевская Сопка. Его высота 4 километра 850 метров. Он выбрасывает столбы пепла на восемь километров вверх. С каждым извержением он становится всё выше. Извергается вулкан Ключевская Сопка на протяжении последних 7 тысяч лет..
         /// </summary>
         internal static string _166 {
             get {
@@ -753,7 +4002,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Санкт-Петербурге мостов в три раза больше, чем в Венеции. По количеству каналов и мостов уместнее не Петербург называть Северной Венецией, а Венецию – Южным Петербургом..
+        ///   Looks up a localized string similar to Метро Санкт-Петербурга– самое глубокое в мире.  Его средняя глубина – 100 метров..
         /// </summary>
         internal static string _167 {
             get {
@@ -762,7 +4011,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самым старым христианским храмом на территории России считается древний храм Тхаба-Ерды, расположенный в Ингушетии, в Джейрахском районе, между аулами Хайрах и Пуй. Он был построен VIII-IX веках. Три старейших из ныне действующих храмов находятся в посёлке Нижний Архыз в Карачаево-Черкессии. Построены они были в X-м веке..
+        ///   Looks up a localized string similar to В Санкт-Петербурге мостов в три раза больше, чем в Венеции. По количеству каналов и мостов уместнее не Петербург называть Северной Венецией, а Венецию – Южным Петербургом..
         /// </summary>
         internal static string _168 {
             get {
@@ -771,7 +4020,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Транссибирская железнодорожная магистраль – самая длинная железная дорога в мире. Великий Сибирский Путь, соединяющий Москву с Владивостоком, в длину имеет 9298 километров, пересекает 8 часовых поясов, проходит через 87 городов и населенных пунктов и пересекает 16 рек, включая Волгу..
+        ///   Looks up a localized string similar to Самым старым христианским храмом на территории России считается древний храм Тхаба-Ерды, расположенный в Ингушетии, в Джейрахском районе, между аулами Хайрах и Пуй. Он был построен VIII-IX веках. Три старейших из ныне действующих храмов находятся в посёлке Нижний Архыз в Карачаево-Черкессии. Построены они были в X-м веке..
         /// </summary>
         internal static string _169 {
             get {
@@ -780,7 +4029,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ежегодно интернет-трафик растёт на 314000%..
+        ///   Looks up a localized string similar to Если капнуть на скорпиона алкоголем, он тут же сойдёт с ума и ужалит себя до смерти..
         /// </summary>
         internal static string _17 {
             get {
@@ -789,7 +4038,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сибирское озеро Байкал — самое глубокое озеро в мире и самый крупный источник пресной воды на планете. В Байкале 23 кубических километра воды. Все крупнейшие реки мира – Волга, Дон, Днепр, Енисей, Урал, Обь, Ганг, Ориноко, Амазонка, Темза, Сена и Одер – должны течь почти год, чтобы заполнить бассейн, равный по объёму озеру Байкал..
+        ///   Looks up a localized string similar to Транссибирская железнодорожная магистраль – самая длинная железная дорога в мире. Великий Сибирский Путь, соединяющий Москву с Владивостоком, в длину имеет 9298 километров, пересекает 8 часовых поясов, проходит через 87 городов и населенных пунктов и пересекает 16 рек, включая Волгу..
         /// </summary>
         internal static string _170 {
             get {
@@ -798,7 +4047,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Россия – единственное государство, территория которого омывается двенадцатью морями..
+        ///   Looks up a localized string similar to Сибирское озеро Байкал — самое глубокое озеро в мире и самый крупный источник пресной воды на планете. В Байкале 23 кубических километра воды. Все крупнейшие реки мира – Волга, Дон, Днепр, Енисей, Урал, Обь, Ганг, Ориноко, Амазонка, Темза, Сена и Одер – должны течь почти год, чтобы заполнить бассейн, равный по объёму озеру Байкал..
         /// </summary>
         internal static string _171 {
             get {
@@ -807,7 +4056,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Россию отделяют от Америки 4 километра. Это расстояние между островом Ратманова (Россия) и островом Крузенштерна (США) в Беринговом проливе..
+        ///   Looks up a localized string similar to Россия – единственное государство, территория которого омывается двенадцатью морями..
         /// </summary>
         internal static string _172 {
             get {
@@ -816,7 +4065,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to От Москвы до Чикаго ближе, чем от Чикаго до Рио-де-Жанейро..
+        ///   Looks up a localized string similar to Россию отделяют от Америки 4 километра. Это расстояние между островом Ратманова (Россия) и островом Крузенштерна (США) в Беринговом проливе..
         /// </summary>
         internal static string _173 {
             get {
@@ -825,7 +4074,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В культурной столице России Санкт-Петербурге 2000 библиотек, 221 музей, 100 концертных организаций, больше 80 театров, 80 клубов и домов культуры, 62 кинотеатра, 45 картинных галерей..
+        ///   Looks up a localized string similar to От Москвы до Чикаго ближе, чем от Чикаго до Рио-де-Жанейро..
         /// </summary>
         internal static string _174 {
             get {
@@ -834,7 +4083,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Урал — самые старые горы в мире. Расположенная в Кусинском районе у деревни Александровка гора Карандаш возникла 4, 2 миллиарда лет назад. Исторические названия Уральских гор – Большой Камень, Сибирский Камень, Земной Пояс, Поясной Камень. Когда-то Уральские горы были очень высокими, но теперь от прежних гор остались только основания..
+        ///   Looks up a localized string similar to В культурной столице России Санкт-Петербурге 2000 библиотек, 221 музей, 100 концертных организаций, больше 80 театров, 80 клубов и домов культуры, 62 кинотеатра, 45 картинных галерей..
         /// </summary>
         internal static string _175 {
             get {
@@ -843,7 +4092,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Москве есть 7 абсолютно одинаковых высотных зданий: 2 отеля, 2 административных здания, 2 жилых дома и университет. По-английски этот ансамбль называют Семь Сестёр, а по-русски просто сталинскими высотками. Стиль, в котором построены высотки, называется сталинская готика..
+        ///   Looks up a localized string similar to Урал — самые старые горы в мире. Расположенная в Кусинском районе у деревни Александровка гора Карандаш возникла 4, 2 миллиарда лет назад. Исторические названия Уральских гор – Большой Камень, Сибирский Камень, Земной Пояс, Поясной Камень. Когда-то Уральские горы были очень высокими, но теперь от прежних гор остались только основания..
         /// </summary>
         internal static string _176 {
             get {
@@ -852,7 +4101,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Московский Кремль – самая большая в мире средневековая крепость..
+        ///   Looks up a localized string similar to В Москве есть 7 абсолютно одинаковых высотных зданий: 2 отеля, 2 административных здания, 2 жилых дома и университет. По-английски этот ансамбль называют Семь Сестёр, а по-русски просто сталинскими высотками. Стиль, в котором построены высотки, называется сталинская готика..
         /// </summary>
         internal static string _177 {
             get {
@@ -861,7 +4110,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Полная длина кремлевских стен составляет 2235 метров..
+        ///   Looks up a localized string similar to Московский Кремль – самая большая в мире средневековая крепость..
         /// </summary>
         internal static string _178 {
             get {
@@ -870,7 +4119,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Москве есть большой фонтан, из которого бьёт питьевая вода. Фонтан входит в архитектурную группу «Александр и Натали» со скульптурной композицией Пушкина и Гончаровой в изящной ротонде..
+        ///   Looks up a localized string similar to Полная длина кремлевских стен составляет 2235 метров..
         /// </summary>
         internal static string _179 {
             get {
@@ -879,7 +4128,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Каждый восьмой американец когда-либо работал в Макдоналдсе..
+        ///   Looks up a localized string similar to Ежегодно интернет-трафик растёт на 314000%..
         /// </summary>
         internal static string _18 {
             get {
@@ -888,7 +4137,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Санкт-Петербург — самый северный в мире город с населением более миллиона человек..
+        ///   Looks up a localized string similar to В Москве есть большой фонтан, из которого бьёт питьевая вода. Фонтан входит в архитектурную группу «Александр и Натали» со скульптурной композицией Пушкина и Гончаровой в изящной ротонде..
         /// </summary>
         internal static string _180 {
             get {
@@ -897,7 +4146,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Площадь Сибири — 9 миллионов 734,3 тысячи квадратных километров, что составляет 9% земной суши..
+        ///   Looks up a localized string similar to Санкт-Петербург — самый северный в мире город с населением более миллиона человек..
         /// </summary>
         internal static string _181 {
             get {
@@ -906,7 +4155,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У России есть границы с 16 странами: Норвегией, Финляндией, Эстонией, Латвией, Литвой, Польшей, Белоруссией, Украиной, Грузией, Азербайджаном, Казахстаном, Китаем, Монголией, Северной Кореей, Японией и США. Россия также граничит с двумя непризнанными государствами: Южной Осетией и Абхазией..
+        ///   Looks up a localized string similar to Площадь Сибири — 9 миллионов 734,3 тысячи квадратных километров, что составляет 9% земной суши..
         /// </summary>
         internal static string _182 {
             get {
@@ -915,7 +4164,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В мире больше автоматов Калашникова, чем автоматов всех остальных конструкций, вместе взятых..
+        ///   Looks up a localized string similar to У России есть границы с 16 странами: Норвегией, Финляндией, Эстонией, Латвией, Литвой, Польшей, Белоруссией, Украиной, Грузией, Азербайджаном, Казахстаном, Китаем, Монголией, Северной Кореей, Японией и США. Россия также граничит с двумя непризнанными государствами: Южной Осетией и Абхазией..
         /// </summary>
         internal static string _183 {
             get {
@@ -924,7 +4173,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Россия провозгласила равные права мужчин и женщин раньше, чем США. В России избирательное право женщинам предоставили в 1918-м году, в Соединённых штатах – в 1920-м..
+        ///   Looks up a localized string similar to В мире больше автоматов Калашникова, чем автоматов всех остальных конструкций, вместе взятых..
         /// </summary>
         internal static string _184 {
             get {
@@ -933,7 +4182,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Россия никогда не знала рабства. Период наиболее полно выраженной формы феодальной зависимости, крепостного права, в России был короче, чем, например, в Англии и большинстве стран Европы. Крепостное право в России имело более мягкие формы. Россия отменила крепостное право в 1861 году, США отменили рабство в 1865 году..
+        ///   Looks up a localized string similar to Россия провозгласила равные права мужчин и женщин раньше, чем США. В России избирательное право женщинам предоставили в 1918-м году, в Соединённых штатах – в 1920-м..
         /// </summary>
         internal static string _185 {
             get {
@@ -942,7 +4191,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 16 января 1820 года русская экспедиция Таддеуса Беллинсгаузена и Михаила Лазарева обнаружила Антарктиду..
+        ///   Looks up a localized string similar to Россия никогда не знала рабства. Период наиболее полно выраженной формы феодальной зависимости, крепостного права, в России был короче, чем, например, в Англии и большинстве стран Европы. Крепостное право в России имело более мягкие формы. Россия отменила крепостное право в 1861 году, США отменили рабство в 1865 году..
         /// </summary>
         internal static string _186 {
             get {
@@ -951,7 +4200,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самая известная компьютерная игра –Tetris – была создана русским программистом Алексеем Пажитновым в 1985 году. Эта игра стала популярной в Советском Союзе, а затем, в 1986-м году, на Западе..
+        ///   Looks up a localized string similar to 16 января 1820 года русская экспедиция Таддеуса Беллинсгаузена и Михаила Лазарева обнаружила Антарктиду..
         /// </summary>
         internal static string _187 {
             get {
@@ -960,7 +4209,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Иван Грозный не был тираном, он правил невиданно для своего времени мягко. При одинаковом в тот момент размере Европы и России Грозный за время своего царствования казнил в 100 раз меньше людей, чем его европейские коллеги за этот же период – 3-4 тысячи человек против 300-400 тысяч человек..
+        ///   Looks up a localized string similar to Самая известная компьютерная игра –Tetris – была создана русским программистом Алексеем Пажитновым в 1985 году. Эта игра стала популярной в Советском Союзе, а затем, в 1986-м году, на Западе..
         /// </summary>
         internal static string _188 {
             get {
@@ -969,7 +4218,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Иван Грозный греет собаку, узнав прогноз погоды на ближайшие три дня.
+        ///   Looks up a localized string similar to Иван Грозный не был тираном, он правил невиданно для своего времени мягко. При одинаковом в тот момент размере Европы и России Грозный за время своего царствования казнил в 100 раз меньше людей, чем его европейские коллеги за этот же период – 3-4 тысячи человек против 300-400 тысяч человек..
         /// </summary>
         internal static string _189 {
             get {
@@ -978,7 +4227,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 70% всех проданных в мире лодок используются для рыболовства..
+        ///   Looks up a localized string similar to Каждый восьмой американец когда-либо работал в Макдоналдсе..
         /// </summary>
         internal static string _19 {
             get {
@@ -987,7 +4236,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Иван Грозный не убивал своего сына..
+        ///   Looks up a localized string similar to Иван Грозный греет собаку, узнав прогноз погоды на ближайшие три дня.
         /// </summary>
         internal static string _190 {
             get {
@@ -996,7 +4245,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Поезда в Московском метро ходят чаще, чем в любом другом метро мира. В часы пик интервал между составами в нём составляет 90 секунд. Среди них есть «именные» поезда, как, например, поезд «Акварель», представляющий собой передвижную выставку живописи..
+        ///   Looks up a localized string similar to Иван Грозный не убивал своего сына..
         /// </summary>
         internal static string _191 {
             get {
@@ -1005,7 +4254,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Петергофе под Санкт-Петербургом 176 фонтанов, из которых 40 гигантских, и 5 каскадов..
+        ///   Looks up a localized string similar to Поезда в Московском метро ходят чаще, чем в любом другом метро мира. В часы пик интервал между составами в нём составляет 90 секунд. Среди них есть «именные» поезда, как, например, поезд «Акварель», представляющий собой передвижную выставку живописи..
         /// </summary>
         internal static string _192 {
             get {
@@ -1014,7 +4263,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самовар – древняя версия электрического чайника. Самовар работал на угле, но выполнял ту же функцию, кипятил воду..
+        ///   Looks up a localized string similar to В Петергофе под Санкт-Петербургом 176 фонтанов, из которых 40 гигантских, и 5 каскадов..
         /// </summary>
         internal static string _193 {
             get {
@@ -1023,7 +4272,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В российском городе Оймякон зарегистрирована самая низкая температура воздуха. Рекорд холода был установлен в 1924 году и составил –71.2 °C..
+        ///   Looks up a localized string similar to Самовар – древняя версия электрического чайника. Самовар работал на угле, но выполнял ту же функцию, кипятил воду..
         /// </summary>
         internal static string _194 {
             get {
@@ -1032,7 +4281,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Советский космонавт Юрий Гагарин был первым человеком, побывавшим в космосе..
+        ///   Looks up a localized string similar to В российском городе Оймякон зарегистрирована самая низкая температура воздуха. Рекорд холода был установлен в 1924 году и составил –71.2 °C..
         /// </summary>
         internal static string _195 {
             get {
@@ -1041,7 +4290,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Во время Второй мировой войны станции метро использовались в как бомбоубежища. Во время авианалётов в этом совершенно безопасном укрытии родились 150 человек..
+        ///   Looks up a localized string similar to Советский космонавт Юрий Гагарин был первым человеком, побывавшим в космосе..
         /// </summary>
         internal static string _196 {
             get {
@@ -1050,7 +4299,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В России множество прекрасных экскурсионных и туристических маршрутов. Самые известные так называемые «семейства туристических маршрутов» – Золотое кольцо России, Серебряное кольцо России и Большое Уральское кольцо..
+        ///   Looks up a localized string similar to Во время Второй мировой войны станции метро использовались в как бомбоубежища. Во время авианалётов в этом совершенно безопасном укрытии родились 150 человек..
         /// </summary>
         internal static string _197 {
             get {
@@ -1059,7 +4308,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Полная длина 12 линий Московского метро – 310 км. Между 182 станциями в нём курсируют почти 10000 поездов. Средняя продолжительность поездки пассажира составляет 13 километров..
+        ///   Looks up a localized string similar to В России множество прекрасных экскурсионных и туристических маршрутов. Самые известные так называемые «семейства туристических маршрутов» – Золотое кольцо России, Серебряное кольцо России и Большое Уральское кольцо..
         /// </summary>
         internal static string _198 {
             get {
@@ -1068,7 +4317,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 18-м веке Россия была 3-й по величине империей в истории человечества, занимая территорию от европейской Польши до североамериканской Аляски..
+        ///   Looks up a localized string similar to Полная длина 12 линий Московского метро – 310 км. Между 182 станциями в нём курсируют почти 10000 поездов. Средняя продолжительность поездки пассажира составляет 13 километров..
         /// </summary>
         internal static string _199 {
             get {
@@ -1077,8 +4326,8 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Все видят сны.
-        ///Сны видит каждый человек. Исключение могут составить только люди, поражённые крайними психическими расстройствами. Если человек уверен в том, что ему никогда ничего не снится – скорее всего, он забывает свои сны сразу после пробуждения, вытесняет их из сознания, как нечто иррациональное и потому разрушительное..
+        ///   Looks up a localized string similar to Слепые люди и сновидения.
+        ///Люди, которые когда-то имели зрение, но ослепли, могут видеть во сне пространственные и цветовые образы. Рождённые слепыми картинок не видят, но их сны представляют собой очень яркие впечатления, связанные со звуком, обонянием, осязанием и эмоциями..
         /// </summary>
         internal static string _2 {
             get {
@@ -1087,7 +4336,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 300 лет назад средняя продолжительность жизни египтянина составляла 30 лет..
+        ///   Looks up a localized string similar to 70% всех проданных в мире лодок используются для рыболовства..
         /// </summary>
         internal static string _20 {
             get {
@@ -1096,7 +4345,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Западно-Сибирская равнина — самая большая равнина на Земле..
+        ///   Looks up a localized string similar to В 18-м веке Россия была 3-й по величине империей в истории человечества, занимая территорию от европейской Польши до североамериканской Аляски..
         /// </summary>
         internal static string _200 {
             get {
@@ -1105,7 +4354,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Эрмитаж – один из самых крупных и старинных мировых музеев. В нём три миллиона произведений искусства от каменного века до современности. Если уделить каждому из этих произведений одну минуту, то потребуется больше 25 лет ходить в Эрмитаж, как на работу, и осматривать экспонаты по 8 часов в день, чтобы увидеть их все..
+        ///   Looks up a localized string similar to Западно-Сибирская равнина — самая большая равнина на Земле..
         /// </summary>
         internal static string _201 {
             get {
@@ -1114,7 +4363,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Россия занимает седьмую часть земной суши..
+        ///   Looks up a localized string similar to Эрмитаж – один из самых крупных и старинных мировых музеев. В нём три миллиона произведений искусства от каменного века до современности. Если уделить каждому из этих произведений одну минуту, то потребуется больше 25 лет ходить в Эрмитаж, как на работу, и осматривать экспонаты по 8 часов в день, чтобы увидеть их все..
         /// </summary>
         internal static string _202 {
             get {
@@ -1123,7 +4372,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Некоторое время назад в Москве было больше миллиардеров, чем в любом другом городе мира. Сейчас миллиардеров в Москве стало меньше, зато прибавилось ясности в вопросе, как потратить миллиард..
+        ///   Looks up a localized string similar to Россия занимает седьмую часть земной суши..
         /// </summary>
         internal static string _203 {
             get {
@@ -1132,7 +4381,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Российская Публичная библиотека – крупнейшая в Европе и вторая в мире после Библиотеки Конгресса США. Она расположена в Москве, была основана в 1862 году..
+        ///   Looks up a localized string similar to Некоторое время назад в Москве было больше миллиардеров, чем в любом другом городе мира. Сейчас миллиардеров в Москве стало меньше, зато прибавилось ясности в вопросе, как потратить миллиард..
         /// </summary>
         internal static string _204 {
             get {
@@ -1141,7 +4390,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В день открытия в Москве 700-местного ресторана McDonalds на Пушкинской площади к 5 утра перед ним стояла очередь в 5000 человек. За первый день ресторан обслужил 3000 клиентов. По сей день он остаётся самым посещаемым Макдональдсом в мире..
+        ///   Looks up a localized string similar to Российская Публичная библиотека – крупнейшая в Европе и вторая в мире после Библиотеки Конгресса США. Она расположена в Москве, была основана в 1862 году..
         /// </summary>
         internal static string _205 {
             get {
@@ -1150,7 +4399,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 250-300 лебедей и 1,5-2 тысячи диких уток ежегодно прилетают на Лебединое озеро в Алтайском крае. Прилетают они осенью, зимовать..
+        ///   Looks up a localized string similar to В день открытия в Москве 700-местного ресторана McDonalds на Пушкинской площади к 5 утра перед ним стояла очередь в 5000 человек. За первый день ресторан обслужил 3000 клиентов. По сей день он остаётся самым посещаемым Макдональдсом в мире..
         /// </summary>
         internal static string _206 {
             get {
@@ -1159,7 +4408,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to На Алтае насчитывается более 820 ледников, суммарно занимающих территорию в 600 квадратных километров..
+        ///   Looks up a localized string similar to 250-300 лебедей и 1,5-2 тысячи диких уток ежегодно прилетают на Лебединое озеро в Алтайском крае. Прилетают они осенью, зимовать..
         /// </summary>
         internal static string _207 {
             get {
@@ -1168,7 +4417,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В России появился новый вид спорта – вертолётный гольф. Два вертолёта, оснащённые 4-метровыми клюшками, играют двумя шарами диаметром в метр. В каждой команде по пять человек. Один пилотирует вертолёт, второй бьёт по мячу, третий координирует действия первых двух, ещё двое в резерве. Они подменяют того, кто с клюшкой, когда он выдохнется..
+        ///   Looks up a localized string similar to На Алтае насчитывается более 820 ледников, суммарно занимающих территорию в 600 квадратных километров..
         /// </summary>
         internal static string _208 {
             get {
@@ -1177,7 +4426,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Россия регулярно занимает первое место в различных рейтингах наименее дружественных стран мира, однако это просто недоразумение, связанное с различием культурных кодов. В России в школах детей учат не улыбаться без причины, считая улыбку признаком легкомысленного настроения. На самом деле россияне доброжелательны и всегда готовы помочь иностранцу..
+        ///   Looks up a localized string similar to В России появился новый вид спорта – вертолётный гольф. Два вертолёта, оснащённые 4-метровыми клюшками, играют двумя шарами диаметром в метр. В каждой команде по пять человек. Один пилотирует вертолёт, второй бьёт по мячу, третий координирует действия первых двух, ещё двое в резерве. Они подменяют того, кто с клюшкой, когда он выдохнется..
         /// </summary>
         internal static string _209 {
             get {
@@ -1186,7 +4435,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Во сне вы сжигаете больше калорий, чем при просмотре телевизора..
+        ///   Looks up a localized string similar to 300 лет назад средняя продолжительность жизни египтянина составляла 30 лет..
         /// </summary>
         internal static string _21 {
             get {
@@ -1195,7 +4444,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 2002-м году по рейтингу ЮНЕСКО Екатеринбург вошёл в список 12-ти идеальных городов мира..
+        ///   Looks up a localized string similar to Россия регулярно занимает первое место в различных рейтингах наименее дружественных стран мира, однако это просто недоразумение, связанное с различием культурных кодов. В России в школах детей учат не улыбаться без причины, считая улыбку признаком легкомысленного настроения. На самом деле россияне доброжелательны и всегда готовы помочь иностранцу..
         /// </summary>
         internal static string _210 {
             get {
@@ -1204,7 +4453,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самый большой когда-либо отлитый колокол – российский Царь-колокол работы мастеров Ивана Фёдоровича Моторина и его сына Михаила. Вес Царь-колокола 12327 пудов и 19 фунтов, то есть 201 тонна 924 килограмма. Его высота – 6 метров 14 сантиметров..
+        ///   Looks up a localized string similar to В 2002-м году по рейтингу ЮНЕСКО Екатеринбург вошёл в список 12-ти идеальных городов мира..
         /// </summary>
         internal static string _211 {
             get {
@@ -1213,7 +4462,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Город Суздаль занимает всего 15 квадратных километров пощади и имеет чуть более 10000 человек населения. При этом в Суздале 53 храма..
+        ///   Looks up a localized string similar to Самый большой когда-либо отлитый колокол – российский Царь-колокол работы мастеров Ивана Фёдоровича Моторина и его сына Михаила. Вес Царь-колокола 12327 пудов и 19 фунтов, то есть 201 тонна 924 килограмма. Его высота – 6 метров 14 сантиметров..
         /// </summary>
         internal static string _212 {
             get {
@@ -1222,7 +4471,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Российская Федерация состоит из 8 федеральных округов, которые делятся на 83 региона -субъекта Федерации, включая 21 национальную республику. Республики, каждая из которых закреплена конституцией за титульным этносом, занимают 28,6 % территории России, в них проживает 16,9 % населения. Приблизительно 83% населения России составляют этнические русские, однако в Конституции РФ упоминания о русском народе нет. Этот юридический казус представляет собой одну из актуальных внутриполитических проблем Российской Фе [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Город Суздаль занимает всего 15 квадратных километров пощади и имеет чуть более 10000 человек населения. При этом в Суздале 53 храма..
         /// </summary>
         internal static string _213 {
             get {
@@ -1231,7 +4480,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Миф о мифе: русские думают, что американцы думают, что медведи ходят по улицам в Москве. На самом деле и медведи не так часто ходят по русским городам, и американцы не имеют стереотипа о дикой России..
+        ///   Looks up a localized string similar to Российская Федерация состоит из 8 федеральных округов, которые делятся на 83 региона -субъекта Федерации, включая 21 национальную республику. Республики, каждая из которых закреплена конституцией за титульным этносом, занимают 28,6 % территории России, в них проживает 16,9 % населения. Приблизительно 83% населения России составляют этнические русские, однако в Конституции РФ упоминания о русском народе нет. Этот юридический казус представляет собой одну из актуальных внутриполитических проблем Российской Фе [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _214 {
             get {
@@ -1240,7 +4489,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Японское блюдо суши в России популярнее, чем в Японии..
+        ///   Looks up a localized string similar to Миф о мифе: русские думают, что американцы думают, что медведи ходят по улицам в Москве. На самом деле и медведи не так часто ходят по русским городам, и американцы не имеют стереотипа о дикой России..
         /// </summary>
         internal static string _215 {
             get {
@@ -1249,7 +4498,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Учёные России изобрели электрическую лампочку, телевизор, электронный микроскоп, вертолёт, бомбардировщик, видеомагнитофон, гусеничный трактор, цветную фотографию, модель искусственного сердца, бензиновый двигатель, зерноуборочную машину, автомат, электрическую сварку, синтетический каучук, угольный противогаз, высший пилотаж, радио, турбобур, прожектор, автоматическую телефонную станцию, периодическую систему химических элементов, электрическую подводную лодку, тепловой двигатель, синтетические моющие сред [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Японское блюдо суши в России популярнее, чем в Японии..
         /// </summary>
         internal static string _216 {
             get {
@@ -1258,7 +4507,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В России заложены основы теории высшей нервной деятельности, теории аэродинамики, метода хирургического лечения глаукомы, геохимии изотопов, эволюционной физиологии, кристаллографии, эволюционной эмбриологии, химии элементоорганических соединений, сейсмологии, гальванопластики и многих других научных дисциплин..
+        ///   Looks up a localized string similar to Учёные России изобрели электрическую лампочку, телевизор, электронный микроскоп, вертолёт, бомбардировщик, видеомагнитофон, гусеничный трактор, цветную фотографию, модель искусственного сердца, бензиновый двигатель, зерноуборочную машину, автомат, электрическую сварку, синтетический каучук, угольный противогаз, высший пилотаж, радио, турбобур, прожектор, автоматическую телефонную станцию, периодическую систему химических элементов, электрическую подводную лодку, тепловой двигатель, синтетические моющие сред [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _217 {
             get {
@@ -1267,7 +4516,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В новосибирском Институте цитологии и генетики СО РАН за последние 50 лет вывели домашних лисиц, ласковых, дружелюбных и преданных, как собаки, и независимых, как кошки..
+        ///   Looks up a localized string similar to В России заложены основы теории высшей нервной деятельности, теории аэродинамики, метода хирургического лечения глаукомы, геохимии изотопов, эволюционной физиологии, кристаллографии, эволюционной эмбриологии, химии элементоорганических соединений, сейсмологии, гальванопластики и многих других научных дисциплин..
         /// </summary>
         internal static string _218 {
             get {
@@ -1276,7 +4525,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В новосибирском Институте цитологии и генетики СО РАН стоит памятник лабораторной мыши, вдохновенно вяжущей ДНК..
+        ///   Looks up a localized string similar to В новосибирском Институте цитологии и генетики СО РАН за последние 50 лет вывели домашних лисиц, ласковых, дружелюбных и преданных, как собаки, и независимых, как кошки..
         /// </summary>
         internal static string _219 {
             get {
@@ -1285,7 +4534,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 1778 году в Париже было модно носить на женской шляпке громоотвод..
+        ///   Looks up a localized string similar to Во сне вы сжигаете больше калорий, чем при просмотре телевизора..
         /// </summary>
         internal static string _22 {
             get {
@@ -1294,7 +4543,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В России как минимум 15 секретных городов. Их нет на картах, к ним не ведут дорожные указатели и к ним даже близко не подпустят иностранцев..
+        ///   Looks up a localized string similar to В новосибирском Институте цитологии и генетики СО РАН стоит памятник лабораторной мыши, вдохновенно вяжущей ДНК..
         /// </summary>
         internal static string _220 {
             get {
@@ -1303,7 +4552,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Высотка МГУ – самое большое в мире здание университета..
+        ///   Looks up a localized string similar to В России как минимум 15 секретных городов. Их нет на картах, к ним не ведут дорожные указатели и к ним даже близко не подпустят иностранцев..
         /// </summary>
         internal static string _221 {
             get {
@@ -1312,7 +4561,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 30-х годах в реке Тихая Сосна возле Белгорода русские рыбаки поймали осетра, в котором было 245 килограммов чёрной икры..
+        ///   Looks up a localized string similar to Высотка МГУ – самое большое в мире здание университета..
         /// </summary>
         internal static string _222 {
             get {
@@ -1321,7 +4570,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 1975-1982 годах в рамках космической программы «Венера» на эту планету приземлились шесть автоматических межпланетных космических аппаратов. При температурах до 457ᵒ по Цельсию они нормально работали, передавали на Землю цветные изображения Венеры, производили анализ грунта и так далее..
+        ///   Looks up a localized string similar to В 30-х годах в реке Тихая Сосна возле Белгорода русские рыбаки поймали осетра, в котором было 245 килограммов чёрной икры..
         /// </summary>
         internal static string _223 {
             get {
@@ -1330,7 +4579,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 1980 году ВМС Швеции запеленговали доносившиеся из толщи воды странные звуки, источником которых они объявили советские подводные лодки. Когда уже был готов вспыхнуть дипломатический конфликт между СССР и Швецией, учёные выяснили, что звуки производят пукающие рыбы. За это открытие учёные были удостоены пародийной Шнобелевской премии..
+        ///   Looks up a localized string similar to В 1975-1982 годах в рамках космической программы «Венера» на эту планету приземлились шесть автоматических межпланетных космических аппаратов. При температурах до 457ᵒ по Цельсию они нормально работали, передавали на Землю цветные изображения Венеры, производили анализ грунта и так далее..
         /// </summary>
         internal static string _224 {
             get {
@@ -1339,7 +4588,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Дача – сугубо русское явление, во многих европейских языках она так и называется – dacha. Дачи появились во время Петра Первого, который давал подданным загородные участки, чтобы те, не стесняясь, экспериментировали в архитектуре. Данное царём так и называлось – дача..
+        ///   Looks up a localized string similar to В 1980 году ВМС Швеции запеленговали доносившиеся из толщи воды странные звуки, источником которых они объявили советские подводные лодки. Когда уже был готов вспыхнуть дипломатический конфликт между СССР и Швецией, учёные выяснили, что звуки производят пукающие рыбы. За это открытие учёные были удостоены пародийной Шнобелевской премии..
         /// </summary>
         internal static string _225 {
             get {
@@ -1348,7 +4597,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Русский император Николай II впервые предложил миру идею всеобщего разоружения. Такое предложение он выдвинул на созванной им в Гааге конференции глав государств Европы по ограничению вооружений в 1898 году. Силы и капитал, расточаемые на чрезмерные вооружения, он призвал употребить на просвещение и развитие благосостояния народа. Европа восхитилась великодушием русского Государя, но саму идею восприняла очень сдержанно..
+        ///   Looks up a localized string similar to Дача – сугубо русское явление, во многих европейских языках она так и называется – dacha. Дачи появились во время Петра Первого, который давал подданным загородные участки, чтобы те, не стесняясь, экспериментировали в архитектуре. Данное царём так и называлось – дача..
         /// </summary>
         internal static string _226 {
             get {
@@ -1357,7 +4606,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Перед революцией 1917 года русская семья была одной из крупнейших в мире. В России считалось, что 8 детей в семье – это прискорбно мало. Нормально было иметь 12-14 детей..
+        ///   Looks up a localized string similar to Русский император Николай II впервые предложил миру идею всеобщего разоружения. Такое предложение он выдвинул на созванной им в Гааге конференции глав государств Европы по ограничению вооружений в 1898 году. Силы и капитал, расточаемые на чрезмерные вооружения, он призвал употребить на просвещение и развитие благосостояния народа. Европа восхитилась великодушием русского Государя, но саму идею восприняла очень сдержанно..
         /// </summary>
         internal static string _227 {
             get {
@@ -1366,7 +4615,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Каждый монарх династии Романовых оставил своему наследнику страну большего размера, чем получил от отца..
+        ///   Looks up a localized string similar to Перед революцией 1917 года русская семья была одной из крупнейших в мире. В России считалось, что 8 детей в семье – это прискорбно мало. Нормально было иметь 12-14 детей..
         /// </summary>
         internal static string _228 {
             get {
@@ -1375,7 +4624,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to При Иване Грозном в России содержание алкоголя в различных хмельных напитках составляло от 1 до 6%. Вино, по греческому обычаю, разбавляли водой. Пили по праздникам не чаще двух раз в месяц..
+        ///   Looks up a localized string similar to Каждый монарх династии Романовых оставил своему наследнику страну большего размера, чем получил от отца..
         /// </summary>
         internal static string _229 {
             get {
@@ -1384,7 +4633,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сельдерей содержит отрицательное количество калорий: на то, чтобы его съесть, нужно больше калорий, чем в нём содержится..
+        ///   Looks up a localized string similar to В 1778 году в Париже было модно носить на женской шляпке громоотвод..
         /// </summary>
         internal static string _23 {
             get {
@@ -1393,7 +4642,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Русский космонавт Сергей Крикалёв установил рекорд пребывания в космосе – 803 дня. Кроме того, этот разносторонний человек – чемпион мира по пилотажу на планерах, кандидат в мастера спорта по многоборью и основоположник жанра космической фотографии..
+        ///   Looks up a localized string similar to При Иване Грозном в России содержание алкоголя в различных хмельных напитках составляло от 1 до 6%. Вино, по греческому обычаю, разбавляли водой. Пили по праздникам не чаще двух раз в месяц..
         /// </summary>
         internal static string _230 {
             get {
@@ -1402,7 +4651,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В царской России вплоть до 1917 года любой желающий мог купить револьвер в лавке так же свободно, как буханку хлеба..
+        ///   Looks up a localized string similar to Русский космонавт Сергей Крикалёв установил рекорд пребывания в космосе – 803 дня. Кроме того, этот разносторонний человек – чемпион мира по пилотажу на планерах, кандидат в мастера спорта по многоборью и основоположник жанра космической фотографии..
         /// </summary>
         internal static string _231 {
             get {
@@ -1411,7 +4660,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Садово-парковая зона в Москве намного больше, чем в западных мегаполисах. Заложенный в 1931 году Измайловский парк – один из крупнейших городских парков в мире. Его площадь 15,34 квадратных километров, он в шесть раз больше Центрального парка Нью-Йорка..
+        ///   Looks up a localized string similar to В царской России вплоть до 1917 года любой желающий мог купить револьвер в лавке так же свободно, как буханку хлеба..
         /// </summary>
         internal static string _232 {
             get {
@@ -1420,7 +4669,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Крупнейший европейский ботанический сад – основанный в 1945 году Главный ботанический сад имени Н. В. Цицина РАН..
+        ///   Looks up a localized string similar to Садово-парковая зона в Москве намного больше, чем в западных мегаполисах. Заложенный в 1931 году Измайловский парк – один из крупнейших городских парков в мире. Его площадь 15,34 квадратных километров, он в шесть раз больше Центрального парка Нью-Йорка..
         /// </summary>
         internal static string _233 {
             get {
@@ -1429,7 +4678,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В дельте Волги под Астраханью есть Долина лотосов..
+        ///   Looks up a localized string similar to Крупнейший европейский ботанический сад – основанный в 1945 году Главный ботанический сад имени Н. В. Цицина РАН..
         /// </summary>
         internal static string _234 {
             get {
@@ -1438,7 +4687,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to По данным социологического центра Levada.ru, 28% русских никогда не пьют алкогольные напитки, 26% пьют реже одного раза в месяц, 16% — раз в месяц, 14% 2-4 раза в месяц, 9% раз в неделю, 6% несколько раз в неделю..
+        ///   Looks up a localized string similar to В дельте Волги под Астраханью есть Долина лотосов..
         /// </summary>
         internal static string _235 {
             get {
@@ -1447,7 +4696,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самое высокое европейское здание – Останкинская телебашня в Москве..
+        ///   Looks up a localized string similar to По данным социологического центра Levada.ru, 28% русских никогда не пьют алкогольные напитки, 26% пьют реже одного раза в месяц, 16% — раз в месяц, 14% 2-4 раза в месяц, 9% раз в неделю, 6% несколько раз в неделю..
         /// </summary>
         internal static string _236 {
             get {
@@ -1456,7 +4705,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Половина Челябинска расположена на Урале, половина – в Сибири. При этом на гербе Челябинска изображён верблюд. Казалось бы, почему верблюд, ведь в Челябинске нет верблюдов? Сейчас нет, а 200 лет назад были. Челябинск часто принимал торговые караваны из навьюченных верблюдов..
+        ///   Looks up a localized string similar to Самое высокое европейское здание – Останкинская телебашня в Москве..
         /// </summary>
         internal static string _237 {
             get {
@@ -1465,7 +4714,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В России более 100 курортов. Главные национальные курорты – Крым, Сочи, группа курортов Кавказские Минеральные Воды, Нальчик, Анапа, Сергиевские Минеральные Воды и Белокуриха..
+        ///   Looks up a localized string similar to Половина Челябинска расположена на Урале, половина – в Сибири. При этом на гербе Челябинска изображён верблюд. Казалось бы, почему верблюд, ведь в Челябинске нет верблюдов? Сейчас нет, а 200 лет назад были. Челябинск часто принимал торговые караваны из навьюченных верблюдов..
         /// </summary>
         internal static string _238 {
             get {
@@ -1474,7 +4723,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Три четверти россиян живут в городах. Пятёрка самых крупных городов России – Москва, Санкт-Петербург, Новосибирск, Екатеринбург и Нижний Новгород..
+        ///   Looks up a localized string similar to В России более 100 курортов. Главные национальные курорты – Крым, Сочи, группа курортов Кавказские Минеральные Воды, Нальчик, Анапа, Сергиевские Минеральные Воды и Белокуриха..
         /// </summary>
         internal static string _239 {
             get {
@@ -1483,7 +4732,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 18-м веке английские игорные дома держали сотрудников, чьей единственной задачей было проглотить игральные кости в случае полицейской облавы..
+        ///   Looks up a localized string similar to Сельдерей содержит отрицательное количество калорий: на то, чтобы его съесть, нужно больше калорий, чем в нём содержится..
         /// </summary>
         internal static string _24 {
             get {
@@ -1492,7 +4741,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У России самые большие запасы природного газа, торфа, леса, соли, питьевой воды, крабов, осетра, олова, цинка, титана, ниобия, никеля, железных руд, алмазов, серебра..
+        ///   Looks up a localized string similar to Три четверти россиян живут в городах. Пятёрка самых крупных городов России – Москва, Санкт-Петербург, Новосибирск, Екатеринбург и Нижний Новгород..
         /// </summary>
         internal static string _240 {
             get {
@@ -1501,7 +4750,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Россия занимает первое место в мире по добыче нефти и газа, экспорту стали, первичного алюминия, азотных удобрений..
+        ///   Looks up a localized string similar to У России самые большие запасы природного газа, торфа, леса, соли, питьевой воды, крабов, осетра, олова, цинка, титана, ниобия, никеля, железных руд, алмазов, серебра..
         /// </summary>
         internal static string _241 {
             get {
@@ -1510,7 +4759,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В России 103 заповедника, 43 гигантских национальных парка и 70 заказников. Общая площадь особо охраняемых природных территорий России – почти 600 тысяч квадратных километров, что составляет 4% всей площади страны..
+        ///   Looks up a localized string similar to Россия занимает первое место в мире по добыче нефти и газа, экспорту стали, первичного алюминия, азотных удобрений..
         /// </summary>
         internal static string _242 {
             get {
@@ -1519,7 +4768,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В России шахматы популярнее футбола..
+        ///   Looks up a localized string similar to В России 103 заповедника, 43 гигантских национальных парка и 70 заказников. Общая площадь особо охраняемых природных территорий России – почти 600 тысяч квадратных километров, что составляет 4% всей площади страны..
         /// </summary>
         internal static string _243 {
             get {
@@ -1528,7 +4777,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Санкт-Петербурге самая большая в мире трамвайная сеть. Её протяжённость 690 километров..
+        ///   Looks up a localized string similar to В России шахматы популярнее футбола..
         /// </summary>
         internal static string _244 {
             get {
@@ -1537,7 +4786,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самый большой в мире лес – сибирская тайга..
+        ///   Looks up a localized string similar to В Санкт-Петербурге самая большая в мире трамвайная сеть. Её протяжённость 690 километров..
         /// </summary>
         internal static string _245 {
             get {
@@ -1546,7 +4795,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to По результатам общенационального опроса семью чудесами России признаны озеро Байкал, Долина Гейзеров, Мамаев курган со статуей Родины-матери, город Петергоф, собор Василия Блаженного, столбы выветривания в Коми и гора Эльбрус..
+        ///   Looks up a localized string similar to Самый большой в мире лес – сибирская тайга..
         /// </summary>
         internal static string _246 {
             get {
@@ -1555,7 +4804,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to С точки зрения международного права Россия и Япония находятся в состоянии войны со времён Второй мировой. Из-за спора о Курильских островах они до сих пор так и не подписали мирного договора. Тем не менее, Россия и Япония живут в мире и согласии..
+        ///   Looks up a localized string similar to По результатам общенационального опроса семью чудесами России признаны озеро Байкал, Долина Гейзеров, Мамаев курган со статуей Родины-матери, город Петергоф, собор Василия Блаженного, столбы выветривания в Коми и гора Эльбрус..
         /// </summary>
         internal static string _247 {
             get {
@@ -1564,7 +4813,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В мае 1990-го года газета «Комсомольская правда» установила абсолютный и теперь уже, видимо, вечный рекорд тиража бумажной газеты в 22 миллиона экземпляров..
+        ///   Looks up a localized string similar to С точки зрения международного права Россия и Япония находятся в состоянии войны со времён Второй мировой. Из-за спора о Курильских островах они до сих пор так и не подписали мирного договора. Тем не менее, Россия и Япония живут в мире и согласии..
         /// </summary>
         internal static string _248 {
             get {
@@ -1573,7 +4822,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Русскую матрёшку умелец Василий Звёздочкин придумал в 1900-го году. В том же году хитрые купцы показали её на Всемирной выставке в Париже в качестве древнерусской игрушки и получили бронзовую медаль в номинации «игрушки»..
+        ///   Looks up a localized string similar to В мае 1990-го года газета «Комсомольская правда» установила абсолютный и теперь уже, видимо, вечный рекорд тиража бумажной газеты в 22 миллиона экземпляров..
         /// </summary>
         internal static string _249 {
             get {
@@ -1582,7 +4831,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Первым продуктом, имевшим штрих-код, стала жвачка Wrigley..
+        ///   Looks up a localized string similar to В 18-м веке английские игорные дома держали сотрудников, чьей единственной задачей было проглотить игральные кости в случае полицейской облавы..
         /// </summary>
         internal static string _25 {
             get {
@@ -1591,7 +4840,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 2005-м году весёлый ульяновский губернатор Сергей Морозов объявил 12 сентября Днём зачатия и выходным днём. Горожане не подкачали, успех инициативы превзошёл все ожидания: в июне 2006-го года рождаемость в Ульяновске подскочила втрое..
+        ///   Looks up a localized string similar to Русскую матрёшку умелец Василий Звёздочкин придумал в 1900-го году. В том же году хитрые купцы показали её на Всемирной выставке в Париже в качестве древнерусской игрушки и получили бронзовую медаль в номинации «игрушки»..
         /// </summary>
         internal static string _250 {
             get {
@@ -1600,7 +4849,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Государственный музей Эрмитаж для защиты от грызунов держит стаю кошек. У каждой кошки Эрмитажа есть паспорт с фотографией..
+        ///   Looks up a localized string similar to В 2005-м году весёлый ульяновский губернатор Сергей Морозов объявил 12 сентября Днём зачатия и выходным днём. Горожане не подкачали, успех инициативы превзошёл все ожидания: в июне 2006-го года рождаемость в Ульяновске подскочила втрое..
         /// </summary>
         internal static string _251 {
             get {
@@ -1609,7 +4858,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В России, под Магнитогорском, есть гора Магнитная, почти полностью железная..
+        ///   Looks up a localized string similar to Государственный музей Эрмитаж для защиты от грызунов держит стаю кошек. У каждой кошки Эрмитажа есть паспорт с фотографией..
         /// </summary>
         internal static string _252 {
             get {
@@ -1618,7 +4867,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Советский агент Жорж Коваль нашёл способ детально ознакомиться со всеми секретами совместной программы США, Великобритании, Германии и Канады по разработке ядерного оружия «Проект Манхэттен»..
+        ///   Looks up a localized string similar to В России, под Магнитогорском, есть гора Магнитная, почти полностью железная..
         /// </summary>
         internal static string _253 {
             get {
@@ -1627,7 +4876,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Москве есть бродячие собаки, которые ездят в метро ежедневно по одному и тому же маршруту. Они знают, где и когда можно вкусно поесть..
+        ///   Looks up a localized string similar to Советский агент Жорж Коваль нашёл способ детально ознакомиться со всеми секретами совместной программы США, Великобритании, Германии и Канады по разработке ядерного оружия «Проект Манхэттен»..
         /// </summary>
         internal static string _254 {
             get {
@@ -1636,7 +4885,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Территория Тамбовской области равна совокупным территориям Бельгии и Нидерландов..
+        ///   Looks up a localized string similar to В Москве есть бродячие собаки, которые ездят в метро ежедневно по одному и тому же маршруту. Они знают, где и когда можно вкусно поесть..
         /// </summary>
         internal static string _255 {
             get {
@@ -1645,7 +4894,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Старейший город России, дагестанский Дербент – один из старейших ныне живущих городов мира..
+        ///   Looks up a localized string similar to Территория Тамбовской области равна совокупным территориям Бельгии и Нидерландов..
         /// </summary>
         internal static string _256 {
             get {
@@ -1654,7 +4903,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В казачьей станице Зимовейская с разницей в сто десять лет родились Степан Разин и Емельян Пугачёв. После пугачёвского восстания станицу от греха подальше перенесли на новое место, а при Сталине и вовсе залили водами Цимлянского водохранилища..
+        ///   Looks up a localized string similar to Старейший город России, дагестанский Дербент – один из старейших ныне живущих городов мира..
         /// </summary>
         internal static string _257 {
             get {
@@ -1663,7 +4912,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Россия имеет самый низкий в мире государственный долг по отношению к ВВП..
+        ///   Looks up a localized string similar to В казачьей станице Зимовейская с разницей в сто десять лет родились Степан Разин и Емельян Пугачёв. После пугачёвского восстания станицу от греха подальше перенесли на новое место, а при Сталине и вовсе залили водами Цимлянского водохранилища..
         /// </summary>
         internal static string _258 {
             get {
@@ -1672,7 +4921,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У России второе место после Китая по количеству военных..
+        ///   Looks up a localized string similar to Россия имеет самый низкий в мире государственный долг по отношению к ВВП..
         /// </summary>
         internal static string _259 {
             get {
@@ -1681,7 +4930,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В городе Калама, что в чилийской пустыне Атакама, никогда не было дождя..
+        ///   Looks up a localized string similar to Первым продуктом, имевшим штрих-код, стала жвачка Wrigley..
         /// </summary>
         internal static string _26 {
             get {
@@ -1690,7 +4939,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В России самый высокий в мире охват населения школьным образованием..
+        ///   Looks up a localized string similar to У России второе место после Китая по количеству военных..
         /// </summary>
         internal static string _260 {
             get {
@@ -1699,7 +4948,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to По пиратскому использованию программного обеспечения Россия занимает скромное 37 место, находясь между Ливаном и Перу. Мировой лидер в этом деле – братская Армения..
+        ///   Looks up a localized string similar to В России самый высокий в мире охват населения школьным образованием..
         /// </summary>
         internal static string _261 {
             get {
@@ -1708,7 +4957,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У России самый большой в мире объём возобновляемых водных ресурсов, 4498 кубических километров..
+        ///   Looks up a localized string similar to По пиратскому использованию программного обеспечения Россия занимает скромное 37 место, находясь между Ливаном и Перу. Мировой лидер в этом деле – братская Армения..
         /// </summary>
         internal static string _262 {
             get {
@@ -1717,7 +4966,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Металл каркаса Статуи Свободы выплавлен в Нижнем Тагиле..
+        ///   Looks up a localized string similar to У России самый большой в мире объём возобновляемых водных ресурсов, 4498 кубических километров..
         /// </summary>
         internal static string _263 {
             get {
@@ -1726,7 +4975,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Россия – духовная и культурная преемница Римской Империи. Двуглавый орёл на её гербе символизирует византийскую идею «симфонии властей», гармоничного взаимодополнения государства и Церкви. Слово «царь» произошло от слова «цезарь»..
+        ///   Looks up a localized string similar to Металл каркаса Статуи Свободы выплавлен в Нижнем Тагиле..
         /// </summary>
         internal static string _264 {
             get {
@@ -1735,7 +4984,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Леонардо да Винчи изобрел ножницы..
+        ///   Looks up a localized string similar to Россия – духовная и культурная преемница Римской Империи. Двуглавый орёл на её гербе символизирует византийскую идею «симфонии властей», гармоничного взаимодополнения государства и Церкви. Слово «царь» произошло от слова «цезарь»..
         /// </summary>
         internal static string _265 {
             get {
@@ -1744,7 +4993,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Невозможно чихнуть с открытыми глазами..
+        ///   Looks up a localized string similar to Леонардо да Винчи изобрел ножницы..
         /// </summary>
         internal static string _266 {
             get {
@@ -1753,7 +5002,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Если население Китая начнёт маршировать мимо вас строем, этот строй никогда не закончится, потому что пока мимо вас будет идти один китаец, родятся два новых..
+        ///   Looks up a localized string similar to Невозможно чихнуть с открытыми глазами..
         /// </summary>
         internal static string _267 {
             get {
@@ -1762,7 +5011,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Китае людей, говорящих по-английски, больше, чем в США..
+        ///   Looks up a localized string similar to Если население Китая начнёт маршировать мимо вас строем, этот строй никогда не закончится, потому что пока мимо вас будет идти один китаец, родятся два новых..
         /// </summary>
         internal static string _268 {
             get {
@@ -1771,7 +5020,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У Мэрилин Монро было шесть пальцев на одной ноге..
+        ///   Looks up a localized string similar to В Китае людей, говорящих по-английски, больше, чем в США..
         /// </summary>
         internal static string _269 {
             get {
@@ -1780,7 +5029,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Российская казна на 10% пополняется из средств от продажи водки..
+        ///   Looks up a localized string similar to В городе Калама, что в чилийской пустыне Атакама, никогда не было дождя..
         /// </summary>
         internal static string _27 {
             get {
@@ -1789,7 +5038,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Арахис является одним из ингредиентов динамита..
+        ///   Looks up a localized string similar to У Мэрилин Монро было шесть пальцев на одной ноге..
         /// </summary>
         internal static string _270 {
             get {
@@ -1798,7 +5047,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Гигантский кальмар имеет самый большой глаз в мире..
+        ///   Looks up a localized string similar to Арахис является одним из ингредиентов динамита..
         /// </summary>
         internal static string _271 {
             get {
@@ -1807,7 +5056,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Глаз у страуса больше, чем его мозг..
+        ///   Looks up a localized string similar to Гигантский кальмар имеет самый большой глаз в мире..
         /// </summary>
         internal static string _272 {
             get {
@@ -1816,7 +5065,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У морской звезды нет мозга..
+        ///   Looks up a localized string similar to Глаз у страуса больше, чем его мозг..
         /// </summary>
         internal static string _273 {
             get {
@@ -1825,7 +5074,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Наши глаза всегда одного размера с рождения, но наши нос и уши никогда не перестают расти..
+        ///   Looks up a localized string similar to У морской звезды нет мозга..
         /// </summary>
         internal static string _274 {
             get {
@@ -1834,7 +5083,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Женщины моргают почти вдвое чаще мужчин..
+        ///   Looks up a localized string similar to Наши глаза всегда одного размера с рождения, но наши нос и уши никогда не перестают расти..
         /// </summary>
         internal static string _275 {
             get {
@@ -1843,7 +5092,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Правши живут в среднем на девять лет дольше левшей..
+        ///   Looks up a localized string similar to Женщины моргают почти вдвое чаще мужчин..
         /// </summary>
         internal static string _276 {
             get {
@@ -1852,7 +5101,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В среднем в одной плитке шоколада – 8 лапок насекомых..
+        ///   Looks up a localized string similar to Правши живут в среднем на девять лет дольше левшей..
         /// </summary>
         internal static string _277 {
             get {
@@ -1861,7 +5110,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Средний человек во сне в течение жизни съедает 8 пауков..
+        ///   Looks up a localized string similar to В среднем в одной плитке шоколада – 8 лапок насекомых..
         /// </summary>
         internal static string _278 {
             get {
@@ -1870,7 +5119,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Рог носорога состоит из уплотненных волос..
+        ///   Looks up a localized string similar to Средний человек во сне в течение жизни съедает 8 пауков..
         /// </summary>
         internal static string _279 {
             get {
@@ -1879,7 +5128,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 6 месяцев жизни человек проводит, стоя перед красным сигналом светофора..
+        ///   Looks up a localized string similar to Российская казна на 10% пополняется из средств от продажи водки..
         /// </summary>
         internal static string _28 {
             get {
@@ -1888,7 +5137,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Все часы в фильме «Криминальное чтиво» стоят на 4:20..
+        ///   Looks up a localized string similar to Рог носорога состоит из уплотненных волос..
         /// </summary>
         internal static string _280 {
             get {
@@ -1897,7 +5146,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Уинстон Черчилль родился в дамском туалете во время бала..
+        ///   Looks up a localized string similar to Все часы в фильме «Криминальное чтиво» стоят на 4:20..
         /// </summary>
         internal static string _281 {
             get {
@@ -1906,7 +5155,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самому молодому Папе Римскому было 11 лет..
+        ///   Looks up a localized string similar to Уинстон Черчилль родился в дамском туалете во время бала..
         /// </summary>
         internal static string _282 {
             get {
@@ -1915,7 +5164,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самым молодым родителям в мире было 8 и 9 лет, жили они в Китае в 1910 году..
+        ///   Looks up a localized string similar to Самому молодому Папе Римскому было 11 лет..
         /// </summary>
         internal static string _283 {
             get {
@@ -1924,7 +5173,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Улитка может спать 3 года..
+        ///   Looks up a localized string similar to Самым молодым родителям в мире было 8 и 9 лет, жили они в Китае в 1910 году..
         /// </summary>
         internal static string _284 {
             get {
@@ -1933,7 +5182,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Кожа белого медведя черная. Его мех не белый, а прозрачный..
+        ///   Looks up a localized string similar to Улитка может спать 3 года..
         /// </summary>
         internal static string _285 {
             get {
@@ -1942,7 +5191,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Электрический стул был изобретен стоматологом..
+        ///   Looks up a localized string similar to Кожа белого медведя черная. Его мех не белый, а прозрачный..
         /// </summary>
         internal static string _286 {
             get {
@@ -1951,7 +5200,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Если биться головой о стену, в организме будет сгорать 150 калорий в час..
+        ///   Looks up a localized string similar to Электрический стул был изобретен стоматологом..
         /// </summary>
         internal static string _287 {
             get {
@@ -1960,7 +5209,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В среднем люди боятся пауков больше, чем смерти..
+        ///   Looks up a localized string similar to Если биться головой о стену, в организме будет сгорать 150 калорий в час..
         /// </summary>
         internal static string _288 {
             get {
@@ -1969,7 +5218,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Больше шансов быть убитым пробкой из-под шампанского, чем ядовитым пауком..
+        ///   Looks up a localized string similar to В среднем люди боятся пауков больше, чем смерти..
         /// </summary>
         internal static string _289 {
             get {
@@ -1978,7 +5227,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Первой бомбой, сброшенной союзниками на Берлин во Второй Мировой, убило слона в зоопарке..
+        ///   Looks up a localized string similar to 6 месяцев жизни человек проводит, стоя перед красным сигналом светофора..
         /// </summary>
         internal static string _29 {
             get {
@@ -1987,7 +5236,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самая сильная мышца в теле – язык..
+        ///   Looks up a localized string similar to Больше шансов быть убитым пробкой из-под шампанского, чем ядовитым пауком..
         /// </summary>
         internal static string _290 {
             get {
@@ -1996,7 +5245,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Круизный лайнер «Королева Елизавета II» сжигает литр топлива на 3 сантиметра пути..
+        ///   Looks up a localized string similar to Самая сильная мышца в теле – язык..
         /// </summary>
         internal static string _291 {
             get {
@@ -2005,7 +5254,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В последние 4000 лет никакие новые животные не были одомашнены..
+        ///   Looks up a localized string similar to Круизный лайнер «Королева Елизавета II» сжигает литр топлива на 3 сантиметра пути..
         /// </summary>
         internal static string _292 {
             get {
@@ -2014,7 +5263,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Дети рождаются без коленных чашечек. Они не появляются до достижения ребенком 2-6 лет..
+        ///   Looks up a localized string similar to В последние 4000 лет никакие новые животные не были одомашнены..
         /// </summary>
         internal static string _293 {
             get {
@@ -2023,7 +5272,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ежегодно фирма Nike платит баскетболисту Майклу Джордану  больше, чем всем фабрично-заводским рабочим Малайзии, вместе взятым..
+        ///   Looks up a localized string similar to Дети рождаются без коленных чашечек. Они не появляются до достижения ребенком 2-6 лет..
         /// </summary>
         internal static string _294 {
             get {
@@ -2032,7 +5281,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Только один человек из двух миллиардов живёт до 116 лет и дольше..
+        ///   Looks up a localized string similar to Ежегодно фирма Nike платит баскетболисту Майклу Джордану  больше, чем всем фабрично-заводским рабочим Малайзии, вместе взятым..
         /// </summary>
         internal static string _295 {
             get {
@@ -2041,7 +5290,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Если бы вы кричали в течение 8 лет, 7 месяцев и 6 дней, вы бы выработали достаточно звуковой энергии, чтобы нагреть одну чашку кофе..
+        ///   Looks up a localized string similar to Только один человек из двух миллиардов живёт до 116 лет и дольше..
         /// </summary>
         internal static string _296 {
             get {
@@ -2050,7 +5299,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Если бы Барби была человеческого роста, её параметры были бы 39-23-33. Её шея была бы в два раза длиннее нормальной человеческой шеи..
+        ///   Looks up a localized string similar to Если бы вы кричали в течение 8 лет, 7 месяцев и 6 дней, вы бы выработали достаточно звуковой энергии, чтобы нагреть одну чашку кофе..
         /// </summary>
         internal static string _297 {
             get {
@@ -2059,7 +5308,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Февраль 1865 был единственным месяцем в истории человечества, не имевшим полной луны..
+        ///   Looks up a localized string similar to Если бы Барби была человеческого роста, её параметры были бы 39-23-33. Её шея была бы в два раза длиннее нормальной человеческой шеи..
         /// </summary>
         internal static string _298 {
             get {
@@ -2068,7 +5317,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Крокодил не может высунуть язык..
+        ///   Looks up a localized string similar to Февраль 1865 был единственным месяцем в истории человечества, не имевшим полной луны..
         /// </summary>
         internal static string _299 {
             get {
@@ -2077,8 +5326,8 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Во сне мы можем увидеть только тех людей, которых знаем.
-        ///Ум не может придумать нового персонажа, которого мы бы в своей жизни не встречали. Снятся нам только знакомые. Но могут сниться те, кого мы не запомнили или забыли. На протяжении своей жизни мы встречаем огромное количество людей, сотни тысяч лиц проходят перед нашими глазами. Поэтому у той части сознания, которая ведает сновидениями, нет недостатка в материале для построения разнообразных символов и образов..
+        ///   Looks up a localized string similar to Все видят сны.
+        ///Сны видит каждый человек. Исключение могут составить только люди, поражённые крайними психическими расстройствами. Если человек уверен в том, что ему никогда ничего не снится – скорее всего, он забывает свои сны сразу после пробуждения, вытесняет их из сознания, как нечто иррациональное и потому разрушительное..
         /// </summary>
         internal static string _3 {
             get {
@@ -2087,7 +5336,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Миг – единица времени длительностью в одну сотую секунды..
+        ///   Looks up a localized string similar to Первой бомбой, сброшенной союзниками на Берлин во Второй Мировой, убило слона в зоопарке..
         /// </summary>
         internal static string _30 {
             get {
@@ -2096,7 +5345,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Белые медведи левши..
+        ///   Looks up a localized string similar to Крокодил не может высунуть язык..
         /// </summary>
         internal static string _300 {
             get {
@@ -2105,7 +5354,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сом имеет более 27000 вкусовых рецепторов, в этом он чемпион среди животных..
+        ///   Looks up a localized string similar to Белые медведи левши..
         /// </summary>
         internal static string _301 {
             get {
@@ -2114,7 +5363,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У бабочки вкусовые рецепторы в лапках..
+        ///   Looks up a localized string similar to Сом имеет более 27000 вкусовых рецепторов, в этом он чемпион среди животных..
         /// </summary>
         internal static string _302 {
             get {
@@ -2123,7 +5372,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Первый роман, написанный на машинке – «Приключения Тома Сойера»..
+        ///   Looks up a localized string similar to У бабочки вкусовые рецепторы в лапках..
         /// </summary>
         internal static string _303 {
             get {
@@ -2132,7 +5381,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Дуэль в Парагвае не запрещается законом до тех пор, пока обе стороны не зарегистрированы в качестве доноров крови..
+        ///   Looks up a localized string similar to Первый роман, написанный на машинке – «Приключения Тома Сойера»..
         /// </summary>
         internal static string _304 {
             get {
@@ -2141,7 +5390,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Финляндии когда-то были запрещены комиксы про Дональда Дака, потому что он не носит брюки..
+        ///   Looks up a localized string similar to Дуэль в Парагвае не запрещается законом до тех пор, пока обе стороны не зарегистрированы в качестве доноров крови..
         /// </summary>
         internal static string _305 {
             get {
@@ -2150,7 +5399,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ежегодно на планете больше людей бывают убиты ослами, чем погибают в авиакатастрофах..
+        ///   Looks up a localized string similar to В Финляндии когда-то были запрещены комиксы про Дональда Дака, потому что он не носит брюки..
         /// </summary>
         internal static string _306 {
             get {
@@ -2159,7 +5408,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Таракан будет жить девять дней без головы, пока не помрёт с голоду..
+        ///   Looks up a localized string similar to Ежегодно на планете больше людей бывают убиты ослами, чем погибают в авиакатастрофах..
         /// </summary>
         internal static string _307 {
             get {
@@ -2168,7 +5417,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Слоны – единственные животные, которые не могут прыгать..
+        ///   Looks up a localized string similar to Таракан будет жить девять дней без головы, пока не помрёт с голоду..
         /// </summary>
         internal static string _308 {
             get {
@@ -2177,7 +5426,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Национальный гимн Греции имеет 158 куплетов. Ни один грек не помнит весь гимн..
+        ///   Looks up a localized string similar to Слоны – единственные животные, которые не могут прыгать..
         /// </summary>
         internal static string _309 {
             get {
@@ -2186,7 +5435,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Слово «самба» означает «тереться пупками»..
+        ///   Looks up a localized string similar to Миг – единица времени длительностью в одну сотую секунды..
         /// </summary>
         internal static string _31 {
             get {
@@ -2195,7 +5444,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Полное имя Лос-Анджелеса — «Эль Пуэбло де Нуэстра Сеньора ла Рейна де лос Анхелес де Порцинкула». Но оно может быть сокращено до 3,63% от его размера, «ЛА»..
+        ///   Looks up a localized string similar to Национальный гимн Греции имеет 158 куплетов. Ни один грек не помнит весь гимн..
         /// </summary>
         internal static string _310 {
             get {
@@ -2204,7 +5453,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Кошка имеет 32 мышцы в каждом ухе..
+        ///   Looks up a localized string similar to Полное имя Лос-Анджелеса — «Эль Пуэбло де Нуэстра Сеньора ла Рейна де лос Анхелес де Порцинкула». Но оно может быть сокращено до 3,63% от его размера, «ЛА»..
         /// </summary>
         internal static string _311 {
             get {
@@ -2213,7 +5462,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Тигры имеют полосатую кожу, а не только полосатый мех..
+        ///   Looks up a localized string similar to Кошка имеет 32 мышцы в каждом ухе..
         /// </summary>
         internal static string _312 {
             get {
@@ -2222,7 +5471,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В большинстве рекламных сообщений время, показанное на часах — 10:10..
+        ///   Looks up a localized string similar to Тигры имеют полосатую кожу, а не только полосатый мех..
         /// </summary>
         internal static string _313 {
             get {
@@ -2231,7 +5480,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to На визитных карточках Аль Капоне было написано, что он продавец мебели..
+        ///   Looks up a localized string similar to В большинстве рекламных сообщений время, показанное на часах — 10:10..
         /// </summary>
         internal static string _314 {
             get {
@@ -2240,7 +5489,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Микроволновая печь была изобретена после того, как исследователь прошел мимо излучателя и шоколад растаял у него в кармане..
+        ///   Looks up a localized string similar to На визитных карточках Аль Капоне было написано, что он продавец мебели..
         /// </summary>
         internal static string _315 {
             get {
@@ -2249,7 +5498,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В среднем человек засыпает за семь минут..
+        ///   Looks up a localized string similar to Микроволновая печь была изобретена после того, как исследователь прошел мимо излучателя и шоколад растаял у него в кармане..
         /// </summary>
         internal static string _316 {
             get {
@@ -2258,7 +5507,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Акула – единственная рыба, которая может моргать обоими глазами..
+        ///   Looks up a localized string similar to В среднем человек засыпает за семь минут..
         /// </summary>
         internal static string _317 {
             get {
@@ -2267,7 +5516,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В мире больше цыплят, чем людей..
+        ///   Looks up a localized string similar to Акула – единственная рыба, которая может моргать обоими глазами..
         /// </summary>
         internal static string _318 {
             get {
@@ -2276,7 +5525,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Две трети баклажанов в мире выращивается в Нью-Джерси..
+        ///   Looks up a localized string similar to В мире больше цыплят, чем людей..
         /// </summary>
         internal static string _319 {
             get {
@@ -2285,7 +5534,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Если нажать крокодилу на глаза, он немедленно разожмёт пасть..
+        ///   Looks up a localized string similar to Слово «самба» означает «тереться пупками»..
         /// </summary>
         internal static string _32 {
             get {
@@ -2294,7 +5543,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Стрекозы — хищники. Они истребляют мух, пауков, комаров и мошек. На охоте они никогда не промахиваются и настигают жертву с вероятностью 95%..
+        ///   Looks up a localized string similar to Две трети баклажанов в мире выращивается в Нью-Джерси..
         /// </summary>
         internal static string _320 {
             get {
@@ -2303,7 +5552,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Память у золотой рыбки – три секунды..
+        ///   Looks up a localized string similar to Стрекозы — хищники. Они истребляют мух, пауков, комаров и мошек. На охоте они никогда не промахиваются и настигают жертву с вероятностью 95%..
         /// </summary>
         internal static string _321 {
             get {
@@ -2312,7 +5561,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Калифорнии у туристов очень популярен Стеклянный пляж — когда-то здесь была свалка, но с течением времени море отполировало кусочки стекла, а непереработанный мусор убрали. Не так давно таким же образом море создало пляж рядом с Владивостоком, названный бухта Стеклянная. Разноцветные стёклышки, а также обточенные фрагменты фарфора и кирпича составляют большую часть пляжного покрытия..
+        ///   Looks up a localized string similar to Память у золотой рыбки – три секунды..
         /// </summary>
         internal static string _322 {
             get {
@@ -2321,7 +5570,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to За всю историю существования полиции в Исландии её сотрудники всего один раз убили человека. Это случилось в 2013 году, когда вооружённый дробовиком мужчина открыл из своего окна стрельбу по прохожим и машинам. После проникновения в квартиру полицейские тоже подверглись обстрелу и были вынуждены открыть ответный огонь. Начальник полиции принёс соболезнования родным погибшего, а участвовавшим в операции сотрудникам была предложена психологическая помощь..
+        ///   Looks up a localized string similar to В Калифорнии у туристов очень популярен Стеклянный пляж — когда-то здесь была свалка, но с течением времени море отполировало кусочки стекла, а непереработанный мусор убрали. Не так давно таким же образом море создало пляж рядом с Владивостоком, названный бухта Стеклянная. Разноцветные стёклышки, а также обточенные фрагменты фарфора и кирпича составляют большую часть пляжного покрытия..
         /// </summary>
         internal static string _323 {
             get {
@@ -2330,7 +5579,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Норвежский биатлонист Магнар Сольберг отрабатывал в летнее время стрельбу, лёжа на муравейнике. По задумке тренера, это упражнение должно было научить спортсмена концентрации на мишени и не отвлекаться на внешние факторы и усталость. Сольберг, до этого не выигрывавший даже медалей на чемпионатах мира, стал олимпийским чемпионом 1968 года в Гренобле и повторил успех через четыре года в Саппоро..
+        ///   Looks up a localized string similar to За всю историю существования полиции в Исландии её сотрудники всего один раз убили человека. Это случилось в 2013 году, когда вооружённый дробовиком мужчина открыл из своего окна стрельбу по прохожим и машинам. После проникновения в квартиру полицейские тоже подверглись обстрелу и были вынуждены открыть ответный огонь. Начальник полиции принёс соболезнования родным погибшего, а участвовавшим в операции сотрудникам была предложена психологическая помощь..
         /// </summary>
         internal static string _324 {
             get {
@@ -2339,7 +5588,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to С Ирландией в массовой культуре ассоциируется прежде всего зелёный цвет. Однако на ирландском гербе арфа находится на синем фоне, который официально именуется «синий цвет святого Патрика». Это же название употребляется для описания формы ирландских спортивных команд, беретов подразделений британской армии в Северной Ирландии, академического дресс-кода Ирландского национального университета и многих других элементов..
+        ///   Looks up a localized string similar to Норвежский биатлонист Магнар Сольберг отрабатывал в летнее время стрельбу, лёжа на муравейнике. По задумке тренера, это упражнение должно было научить спортсмена концентрации на мишени и не отвлекаться на внешние факторы и усталость. Сольберг, до этого не выигрывавший даже медалей на чемпионатах мира, стал олимпийским чемпионом 1968 года в Гренобле и повторил успех через четыре года в Саппоро..
         /// </summary>
         internal static string _325 {
             get {
@@ -2348,7 +5597,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Призывной возраст в Королевскую армию Таиланда — 21 год. Во время призыва сначала выявляются те, кто хочет служить добровольно. Они могут выбрать род войск, а срок службы в зависимости от рода войск и образования составляет от шести месяцев до года. Если волонтёры не занимают все необходимые позиции, набор продолжается путём жребия. Вытянувшие чёрную карточку освобождаются от повинности, а вытянувшие красную идут служить, причём их срок составляет уже от одного до двух лет..
+        ///   Looks up a localized string similar to С Ирландией в массовой культуре ассоциируется прежде всего зелёный цвет. Однако на ирландском гербе арфа находится на синем фоне, который официально именуется «синий цвет святого Патрика». Это же название употребляется для описания формы ирландских спортивных команд, беретов подразделений британской армии в Северной Ирландии, академического дресс-кода Ирландского национального университета и многих других элементов..
         /// </summary>
         internal static string _326 {
             get {
@@ -2357,7 +5606,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самосожжение вдов издавна практиковалось не только в Индии, но и среди индуистов Непала. Однако в племени неварцев придумали, как избежать этого. Девочек в возрасте десяти лет символически отдавали замуж за дерево, считающееся воплощением бога Вишну. Если в будущем муж неварки умирал, никто не мог заставить идти вдову на костёр, так как Вишну оставался её полноценным супругом..
+        ///   Looks up a localized string similar to Призывной возраст в Королевскую армию Таиланда — 21 год. Во время призыва сначала выявляются те, кто хочет служить добровольно. Они могут выбрать род войск, а срок службы в зависимости от рода войск и образования составляет от шести месяцев до года. Если волонтёры не занимают все необходимые позиции, набор продолжается путём жребия. Вытянувшие чёрную карточку освобождаются от повинности, а вытянувшие красную идут служить, причём их срок составляет уже от одного до двух лет..
         /// </summary>
         internal static string _327 {
             get {
@@ -2366,7 +5615,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Слово «пижама» в переводе с персидского означает «одежда для ног». На Востоке пижамой и назывались только свободные лёгкие штаны. В Европу их привезли из Индии англичане в 18 веке, а спустя много десятилетий пижамой стали называть комплект из штанов и рубашки..
+        ///   Looks up a localized string similar to Самосожжение вдов издавна практиковалось не только в Индии, но и среди индуистов Непала. Однако в племени неварцев придумали, как избежать этого. Девочек в возрасте десяти лет символически отдавали замуж за дерево, считающееся воплощением бога Вишну. Если в будущем муж неварки умирал, никто не мог заставить идти вдову на костёр, так как Вишну оставался её полноценным супругом..
         /// </summary>
         internal static string _328 {
             get {
@@ -2375,7 +5624,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Под горением часто понимают реакцию окисления с участием кислорода, однако сам кислород может окисляться при взаимодействии с ещё более активным элементом — фтором. Даже вода, уже являющаяся продуктом горения, может гореть в атмосфере фтора с образованием фтороводорода и свободного кислорода..
+        ///   Looks up a localized string similar to Слово «пижама» в переводе с персидского означает «одежда для ног». На Востоке пижамой и назывались только свободные лёгкие штаны. В Европу их привезли из Индии англичане в 18 веке, а спустя много десятилетий пижамой стали называть комплект из штанов и рубашки..
         /// </summary>
         internal static string _329 {
             get {
@@ -2384,7 +5633,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Гудки большинства американских машин звучат в тональности фа-мажор..
+        ///   Looks up a localized string similar to Если нажать крокодилу на глаза, он немедленно разожмёт пасть..
         /// </summary>
         internal static string _33 {
             get {
@@ -2393,7 +5642,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to После Второй Мировой войны сочетание высоких цен на импортные фрукты и освоения дешёвой геотермальной энергии привело к развитию коммерческого тепличного производства бананов в Исландии. Выращивание в больших объёмах продолжалось до конца 1950-х годов. Сейчас на острове практически все бананы импортные, однако во многих источниках можно встретить городскую легенду о том, что Исландия является крупнейшим производителем и экспортёром этих фруктов в Европе..
+        ///   Looks up a localized string similar to Под горением часто понимают реакцию окисления с участием кислорода, однако сам кислород может окисляться при взаимодействии с ещё более активным элементом — фтором. Даже вода, уже являющаяся продуктом горения, может гореть в атмосфере фтора с образованием фтороводорода и свободного кислорода..
         /// </summary>
         internal static string _330 {
             get {
@@ -2402,7 +5651,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 1993 году компания Уолта Диснея создала новый клуб НХЛ и назвала его «Майти Дакс оф Анахайм», ориентируясь на успех недавно вышедшего фильма о детской хоккейной команде «Могучие утята». Через 13 лет новые хозяева клуба поменяли форму с эмблемой и убрали из названия слова «могучие», сократив его до «Анахайм Дакс». Именно в этом сезоне «утки» смогли впервые в своей истории выиграть Кубок Стэнли..
+        ///   Looks up a localized string similar to После Второй Мировой войны сочетание высоких цен на импортные фрукты и освоения дешёвой геотермальной энергии привело к развитию коммерческого тепличного производства бананов в Исландии. Выращивание в больших объёмах продолжалось до конца 1950-х годов. Сейчас на острове практически все бананы импортные, однако во многих источниках можно встретить городскую легенду о том, что Исландия является крупнейшим производителем и экспортёром этих фруктов в Европе..
         /// </summary>
         internal static string _331 {
             get {
@@ -2411,7 +5660,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ведро, из которого один краб может спокойно выбраться, станет непреодолимой ловушкой для нескольких крабов, так как они будут хватать друг друга и мешать освободиться любому, кто близок к этому. Поэтому термин «менталитет краба» применяется для описания ситуаций, когда люди демонстрируют неприятие или бойкот более успешных членов общества, стараясь минимизировать их достижения..
+        ///   Looks up a localized string similar to В 1993 году компания Уолта Диснея создала новый клуб НХЛ и назвала его «Майти Дакс оф Анахайм», ориентируясь на успех недавно вышедшего фильма о детской хоккейной команде «Могучие утята». Через 13 лет новые хозяева клуба поменяли форму с эмблемой и убрали из названия слова «могучие», сократив его до «Анахайм Дакс». Именно в этом сезоне «утки» смогли впервые в своей истории выиграть Кубок Стэнли..
         /// </summary>
         internal static string _332 {
             get {
@@ -2420,7 +5669,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Единственной российской рекой, несущей воды сразу в два океана, является Делькю. Начинаясь на леднике горы Берилл, что на севере Хабаровского края, она вскоре раздваивается. Одна часть впадает в Охоту, которая входит в бассейн Тихого океана, а другая часть — в Куйдусун, относящийся к бассейну Северного Ледовитого океана..
+        ///   Looks up a localized string similar to Ведро, из которого один краб может спокойно выбраться, станет непреодолимой ловушкой для нескольких крабов, так как они будут хватать друг друга и мешать освободиться любому, кто близок к этому. Поэтому термин «менталитет краба» применяется для описания ситуаций, когда люди демонстрируют неприятие или бойкот более успешных членов общества, стараясь минимизировать их достижения..
         /// </summary>
         internal static string _333 {
             get {
@@ -2429,7 +5678,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В азиатских странах рис преимущественно выращивают на затапливаемых полях, хотя он может произрастать и без стоячей воды. Дело в том, что такой подход даже с учётом сооружения ирригационных систем выходит дешевле, чем борьба с сорняками и вредителями, которые в воде причиняют рису меньше ущерба..
+        ///   Looks up a localized string similar to Единственной российской рекой, несущей воды сразу в два океана, является Делькю. Начинаясь на леднике горы Берилл, что на севере Хабаровского края, она вскоре раздваивается. Одна часть впадает в Охоту, которая входит в бассейн Тихого океана, а другая часть — в Куйдусун, относящийся к бассейну Северного Ледовитого океана..
         /// </summary>
         internal static string _334 {
             get {
@@ -2438,7 +5687,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 2003 году адвокаты Барбры Стрейзанд безуспешно подали в суд на Кеннета Адельмана, который разместил на публичном сайте несколько тысяч фотографий побережья Калифорнии, так как на одном из снимков был её дом. До этого момента фото было скачано всего 6 раз, а через месяц с освещением процесса в прессе количество скачиваний перевалило за 400 тысяч. С тех пор подобные попытки удаления информации, приводящие только к её большему распространению, называют эффектом Стрейзанд..
+        ///   Looks up a localized string similar to В азиатских странах рис преимущественно выращивают на затапливаемых полях, хотя он может произрастать и без стоячей воды. Дело в том, что такой подход даже с учётом сооружения ирригационных систем выходит дешевле, чем борьба с сорняками и вредителями, которые в воде причиняют рису меньше ущерба..
         /// </summary>
         internal static string _335 {
             get {
@@ -2447,7 +5696,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Диакритический знак умляут в виде двух точек над гласными Ä, Ö или Ü изменяет произношение этих звуков. Однако многие рок- и метал-группы украшают своё название умляутом просто для того, чтобы сделать его более «германским» или «скандинавским», так как фонетических изменений при этом не происходит. Самые известные примеры таких групп — Motörhead и Mötley Crüe. Некоторые коллективы идут дальше, помещая умляут над не предназначенными для этого гласными (Queensrÿche) или вообще над согласными (Spın̈al Tap)..
+        ///   Looks up a localized string similar to В 2003 году адвокаты Барбры Стрейзанд безуспешно подали в суд на Кеннета Адельмана, который разместил на публичном сайте несколько тысяч фотографий побережья Калифорнии, так как на одном из снимков был её дом. До этого момента фото было скачано всего 6 раз, а через месяц с освещением процесса в прессе количество скачиваний перевалило за 400 тысяч. С тех пор подобные попытки удаления информации, приводящие только к её большему распространению, называют эффектом Стрейзанд..
         /// </summary>
         internal static string _336 {
             get {
@@ -2456,7 +5705,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Оксид мышьяка издавна применялся для травли грызунов, поэтому название элемента в народной речи было образовано от слова «мышь»..
+        ///   Looks up a localized string similar to Диакритический знак умляут в виде двух точек над гласными Ä, Ö или Ü изменяет произношение этих звуков. Однако многие рок- и метал-группы украшают своё название умляутом просто для того, чтобы сделать его более «германским» или «скандинавским», так как фонетических изменений при этом не происходит. Самые известные примеры таких групп — Motörhead и Mötley Crüe. Некоторые коллективы идут дальше, помещая умляут над не предназначенными для этого гласными (Queensrÿche) или вообще над согласными (Spın̈al Tap)..
         /// </summary>
         internal static string _337 {
             get {
@@ -2465,7 +5714,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to До конца 20 века отношение к депрессии у японцев было строго негативным, так как под этим словом понимались прежде всего её крайние проявления, нуждающиеся в клиническом лечении. Ситуация переменилась, когда фармацевтические компании придумали для лёгких форм депрессии, которые можно лечить без госпитализации, термин «kokoro no kaze», что означает «простуда души». В период с 1998 по 2006 годы доход от продажи антидепрессантов в Японии вырос в шесть раз..
+        ///   Looks up a localized string similar to Оксид мышьяка издавна применялся для травли грызунов, поэтому название элемента в народной речи было образовано от слова «мышь»..
         /// </summary>
         internal static string _338 {
             get {
@@ -2474,7 +5723,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Феномен Уилла Роджерса описывает ситуацию, когда перемещение элемента из одного множества в другое увеличивает среднее значение обоих множеств. Это может показаться парадоксальным, но всё встаёт на свои места, если представить два набора чисел, где любой элемент первого больше любого элемента второго. Название парадокса возникло от приписанной комику Уиллу Роджерсу шутки о том, что жители Оклахомы, переезжающие в Калифорнию, повышают средний интеллект обоих штатов. Известно повторение этой фразы про новозел [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to До конца 20 века отношение к депрессии у японцев было строго негативным, так как под этим словом понимались прежде всего её крайние проявления, нуждающиеся в клиническом лечении. Ситуация переменилась, когда фармацевтические компании придумали для лёгких форм депрессии, которые можно лечить без госпитализации, термин «kokoro no kaze», что означает «простуда души». В период с 1998 по 2006 годы доход от продажи антидепрессантов в Японии вырос в шесть раз..
         /// </summary>
         internal static string _339 {
             get {
@@ -2483,7 +5732,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Термитов в мире в десять раз больше, чем людей..
+        ///   Looks up a localized string similar to Гудки большинства американских машин звучат в тональности фа-мажор..
         /// </summary>
         internal static string _34 {
             get {
@@ -2492,7 +5741,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Изучающим английский язык непросто привыкнуть к тому, что большинство слов читаются не так, как пишутся. Во многом эта разница объясняется так называемым великим сдвигом гласных, происходившим в 14—16 веках, когда многие гласные звуки постепенно изменялись в речи англичан. Например, слово «time» до сдвига читалось как «тим», а сейчас — «тайм», а «moon» эволюционировало из «моон» в «мун». Путаница усугубляется тем, что один звук в некоторых словах изменился, а в других остался прежним — можно сравнить «bear» [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Феномен Уилла Роджерса описывает ситуацию, когда перемещение элемента из одного множества в другое увеличивает среднее значение обоих множеств. Это может показаться парадоксальным, но всё встаёт на свои места, если представить два набора чисел, где любой элемент первого больше любого элемента второго. Название парадокса возникло от приписанной комику Уиллу Роджерсу шутки о том, что жители Оклахомы, переезжающие в Калифорнию, повышают средний интеллект обоих штатов. Известно повторение этой фразы про новозел [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _340 {
             get {
@@ -2501,7 +5750,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Американский физик и информатик Дуглас Хофштадтер, рассуждая о трудностях в планировании и оценке времени выполнения сложных задач, сформулировал рекурсивный принцип, известный ныне как закон Хофштадтера: «Любое дело всегда длится дольше, чем ожидается, даже если учесть закон Хофштадтера»..
+        ///   Looks up a localized string similar to Изучающим английский язык непросто привыкнуть к тому, что большинство слов читаются не так, как пишутся. Во многом эта разница объясняется так называемым великим сдвигом гласных, происходившим в 14—16 веках, когда многие гласные звуки постепенно изменялись в речи англичан. Например, слово «time» до сдвига читалось как «тим», а сейчас — «тайм», а «moon» эволюционировало из «моон» в «мун». Путаница усугубляется тем, что один звук в некоторых словах изменился, а в других остался прежним — можно сравнить «bear» [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _341 {
             get {
@@ -2510,7 +5759,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Песня «Подмосковные вечера» является одной из самых узнаваемых советских мелодий в мире, хотя изначально Василий Соловьёв-Седой её забраковал. Он достал её из ящика после заказа лирической песни от авторов фильма о Спартакиаде народов РСФСР, а его напарник по творческому дуэту Михаил Матусовский набросал стихи. Дело происходило на даче под Ленинградом, поэтому изначально в тексте вечера были «ленинградскими», но так как по сюжету атлеты перед стартами набирались сил на спортбазе в Подмосковье, внесли соотве [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Американский физик и информатик Дуглас Хофштадтер, рассуждая о трудностях в планировании и оценке времени выполнения сложных задач, сформулировал рекурсивный принцип, известный ныне как закон Хофштадтера: «Любое дело всегда длится дольше, чем ожидается, даже если учесть закон Хофштадтера»..
         /// </summary>
         internal static string _342 {
             get {
@@ -2519,7 +5768,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 1882 году сборная Англии по крикету на своём поле проиграла Австралии. По этому поводу газета The Sporting Times опубликовала сатирический некролог, в котором говорилось: «Английский крикет умер, тело будет кремировано, а прах перевезён в Австралию». В следующих матчах, проводившихся на австралийских полях, англичане были сильнее и получили в подарок от мельбурнских женщин небольшую терракотовую урну с прахом уже австралийского крикета. Эта урна, получившая название «The Ashes», стоит в музее, но победите [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Песня «Подмосковные вечера» является одной из самых узнаваемых советских мелодий в мире, хотя изначально Василий Соловьёв-Седой её забраковал. Он достал её из ящика после заказа лирической песни от авторов фильма о Спартакиаде народов РСФСР, а его напарник по творческому дуэту Михаил Матусовский набросал стихи. Дело происходило на даче под Ленинградом, поэтому изначально в тексте вечера были «ленинградскими», но так как по сюжету атлеты перед стартами набирались сил на спортбазе в Подмосковье, внесли соотве [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _343 {
             get {
@@ -2528,7 +5777,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В выражении «пройти огонь, воду и медные трубы» огонь и вода символизируют физические испытания, для преодоления которых человеку нужно проявить силу и мужество. А медные трубы — это аллегория испытания славой, фанфарами, что достаются человеку после прохождения огня и воды..
+        ///   Looks up a localized string similar to В 1882 году сборная Англии по крикету на своём поле проиграла Австралии. По этому поводу газета The Sporting Times опубликовала сатирический некролог, в котором говорилось: «Английский крикет умер, тело будет кремировано, а прах перевезён в Австралию». В следующих матчах, проводившихся на австралийских полях, англичане были сильнее и получили в подарок от мельбурнских женщин небольшую терракотовую урну с прахом уже австралийского крикета. Эта урна, получившая название «The Ashes», стоит в музее, но победите [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _344 {
             get {
@@ -2537,7 +5786,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Разделение на континенты в географической науке не универсально и условно. В англоязычных странах, бывших английских колониях и Китае учат, что континентов семь: Европа, Азия, Африка, Северная Америка, Южная Америка, Австралия и Антарктида. В странах бывшего СССР и Восточной Европы обычно считают континентом всю Евразию, а в государствах Западной Европы и Латинской Америки Азия и Европа отделены, но в единый континент выделена Америка. В экстремальном варианте из-за провозглашения Афро-Евразии континентов в [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to В выражении «пройти огонь, воду и медные трубы» огонь и вода символизируют физические испытания, для преодоления которых человеку нужно проявить силу и мужество. А медные трубы — это аллегория испытания славой, фанфарами, что достаются человеку после прохождения огня и воды..
         /// </summary>
         internal static string _345 {
             get {
@@ -2546,7 +5795,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У индейцев тукано, проживающих в Колумбии и Бразилии, лингвисты выделяют более 20 различных языков. По сложившемуся обычаю мужчины не могут жениться на тех девушках, чей основной язык совпадает с их собственным, поэтому им нужно искать невест в других поселениях. Все дети у тукано вырастают мультилингвами, владея не только языками отца и матери, но также языками некоторых соседей и общерегиональным языком, используемым для торговли. В повседневной речи даже в рамках одной беседы они могут переключаться с од [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Разделение на континенты в географической науке не универсально и условно. В англоязычных странах, бывших английских колониях и Китае учат, что континентов семь: Европа, Азия, Африка, Северная Америка, Южная Америка, Австралия и Антарктида. В странах бывшего СССР и Восточной Европы обычно считают континентом всю Евразию, а в государствах Западной Европы и Латинской Америки Азия и Европа отделены, но в единый континент выделена Америка. В экстремальном варианте из-за провозглашения Афро-Евразии континентов в [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _346 {
             get {
@@ -2555,7 +5804,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В северных широколиственных лесах на гниющей древесине иногда может формироваться «волосяной лёд». Образования в форме красивых седых волос возникают при температуре чуть ниже нуля и влажном воздухе. Главным условием для появления «ледяной шерсти» является наличие в древесине грибка Exidiopsis effusa, а вот механизм формирования волосков пока неизвестен..
+        ///   Looks up a localized string similar to У индейцев тукано, проживающих в Колумбии и Бразилии, лингвисты выделяют более 20 различных языков. По сложившемуся обычаю мужчины не могут жениться на тех девушках, чей основной язык совпадает с их собственным, поэтому им нужно искать невест в других поселениях. Все дети у тукано вырастают мультилингвами, владея не только языками отца и матери, но также языками некоторых соседей и общерегиональным языком, используемым для торговли. В повседневной речи даже в рамках одной беседы они могут переключаться с од [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _347 {
             get {
@@ -2564,7 +5813,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Для распознавания лиц окружающих у человека есть специальный участок мозга, который помогает идентифицировать лицо не по набору отдельных черт, а как целую картинку. Это доказывается эффектом инверсии — если человеку показывать те же лица, но в перевёрнутом виде, точность распознавания снижается, хотя никакие черты не менялись. Шимпанзе тоже демонстрируют способность узнавать лица других особей, но гораздо лучше у них выражена способность идентификации друг друга по задним частям тела, и именно для этого сл [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to В северных широколиственных лесах на гниющей древесине иногда может формироваться «волосяной лёд». Образования в форме красивых седых волос возникают при температуре чуть ниже нуля и влажном воздухе. Главным условием для появления «ледяной шерсти» является наличие в древесине грибка Exidiopsis effusa, а вот механизм формирования волосков пока неизвестен..
         /// </summary>
         internal static string _348 {
             get {
@@ -2573,7 +5822,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сливочный сыр «Филадельфия» не имеет отношения к известному городу-миллионнику. Впервые в США подобный сыр стали производить множество разных фермеров штата Нью-Йорк в 19 веке. Особым качеством славился сыр хозяйств около небольшого городка Филадельфия с населением менее 2000 человек, который и дал название бренду..
+        ///   Looks up a localized string similar to Для распознавания лиц окружающих у человека есть специальный участок мозга, который помогает идентифицировать лицо не по набору отдельных черт, а как целую картинку. Это доказывается эффектом инверсии — если человеку показывать те же лица, но в перевёрнутом виде, точность распознавания снижается, хотя никакие черты не менялись. Шимпанзе тоже демонстрируют способность узнавать лица других особей, но гораздо лучше у них выражена способность идентификации друг друга по задним частям тела, и именно для этого сл [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _349 {
             get {
@@ -2582,7 +5831,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to По весу гамбургер стоит дороже нового автомобиля..
+        ///   Looks up a localized string similar to Термитов в мире в десять раз больше, чем людей..
         /// </summary>
         internal static string _35 {
             get {
@@ -2591,7 +5840,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Зная о том, что туристы очень остерегаются австралийской флоры и фауны, местные жители любят пугать их свисающими медведями. Якобы в лесах на верхушках деревьев обитают огромные хищные коалы, прыгающие на головы проходящих путников. Чтобы не стать жертвой, туристам советуют носить вилку в волосах, мочиться на себя и говорить по-английски только с австралийским акцентом..
+        ///   Looks up a localized string similar to Сливочный сыр «Филадельфия» не имеет отношения к известному городу-миллионнику. Впервые в США подобный сыр стали производить множество разных фермеров штата Нью-Йорк в 19 веке. Особым качеством славился сыр хозяйств около небольшого городка Филадельфия с населением менее 2000 человек, который и дал название бренду..
         /// </summary>
         internal static string _350 {
             get {
@@ -2600,7 +5849,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Венгерский химик Дьёрдь де Хевеши, будущий нобелевский лауреат, в 1911 году работал в Манчестере над применением изотопных индикаторов. Не располагая большими средствами, Хевеши жил в общежитии и питался в столовой. Заподозрив работников в использовании недоеденных остатков для приготовления новых блюд, учёный добавил небольшое количество радиоактивных материалов в свою тарелку. Через несколько дней он взял образец подобного блюда и подтвердил свои опасения, обнаружив радиоактивность еды с помощью электроск [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Зная о том, что туристы очень остерегаются австралийской флоры и фауны, местные жители любят пугать их свисающими медведями. Якобы в лесах на верхушках деревьев обитают огромные хищные коалы, прыгающие на головы проходящих путников. Чтобы не стать жертвой, туристам советуют носить вилку в волосах, мочиться на себя и говорить по-английски только с австралийским акцентом..
         /// </summary>
         internal static string _351 {
             get {
@@ -2609,7 +5858,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Король Ахмед ибн Яхъя, правивший Северным Йеменом в середине 20 века, держал у себя в комнате спортивные стартовые пистолеты. Он иногда стрелял в себя из них при охране, чтобы показать, что его не берут никакие пули..
+        ///   Looks up a localized string similar to Венгерский химик Дьёрдь де Хевеши, будущий нобелевский лауреат, в 1911 году работал в Манчестере над применением изотопных индикаторов. Не располагая большими средствами, Хевеши жил в общежитии и питался в столовой. Заподозрив работников в использовании недоеденных остатков для приготовления новых блюд, учёный добавил небольшое количество радиоактивных материалов в свою тарелку. Через несколько дней он взял образец подобного блюда и подтвердил свои опасения, обнаружив радиоактивность еды с помощью электроск [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _352 {
             get {
@@ -2618,7 +5867,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to По легенде, первая попытка исследования космоса китайцами была совершена много веков назад. Некий чиновник Вань Ху захотел покинуть планету в кресле с привязанными к нему воздушными змеями, и для запуска его слуги одновременно подожгли 47 пороховых ракет. По одной версии, Вань Ху сгорел тут же, по другой, всё же оторвался от земли, и его никто больше не видел. Хотя китаеведы признают эту историю вымышленной, в честь отважного чиновника назван лунный кратер Ван-Гу. Ссылка на легенду есть и в мультфильме «Кун [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Король Ахмед ибн Яхъя, правивший Северным Йеменом в середине 20 века, держал у себя в комнате спортивные стартовые пистолеты. Он иногда стрелял в себя из них при охране, чтобы показать, что его не берут никакие пули..
         /// </summary>
         internal static string _353 {
             get {
@@ -2627,7 +5876,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Амазонские речные дельфины нередко имеют розовый окрас. Он не обусловлен пигментацией — все дельфинята тёмно-серые, но с течением времени светлеют и розовеют из-за стирания кожного покрова. Интенсивность розового выше у самцов из-за травм, которые они получают в сражениях друг с другом за самок..
+        ///   Looks up a localized string similar to По легенде, первая попытка исследования космоса китайцами была совершена много веков назад. Некий чиновник Вань Ху захотел покинуть планету в кресле с привязанными к нему воздушными змеями, и для запуска его слуги одновременно подожгли 47 пороховых ракет. По одной версии, Вань Ху сгорел тут же, по другой, всё же оторвался от земли, и его никто больше не видел. Хотя китаеведы признают эту историю вымышленной, в честь отважного чиновника назван лунный кратер Ван-Гу. Ссылка на легенду есть и в мультфильме «Кун [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _354 {
             get {
@@ -2636,7 +5885,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 18 и начале 19 веков на кораблях Королевского военно-морского флота Великобритании числились так называемые «вдовьи моряки» — погибшие члены экипажа, которым продолжали начислять жалованье. Эта мера была введена как социальная гарантия — нанимаясь на службу в военно-морской вместо торгового флота, моряки знали, что их семьи не останутся жить в бедности в случае смерти кормильца. Количество разрешённых «мёртвых душ» варьировалось по размеру судна и могло достигать 18 человек на кораблях первого ранга..
+        ///   Looks up a localized string similar to Амазонские речные дельфины нередко имеют розовый окрас. Он не обусловлен пигментацией — все дельфинята тёмно-серые, но с течением времени светлеют и розовеют из-за стирания кожного покрова. Интенсивность розового выше у самцов из-за травм, которые они получают в сражениях друг с другом за самок..
         /// </summary>
         internal static string _355 {
             get {
@@ -2645,7 +5894,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Кениец Джулиус Йего научился метать копьё, используя в качестве учебника ролики на Youtube с выступлениями олимпийских чемпионов. Только после победы на Всеафриканских играх спортсмен стал заниматься с тренером, хотя большую часть года продолжает совершенствоваться самостоятельно. В 2015 году Йего выиграл чемпионат мира, а на Олимпиаде в Рио-де-Жанейро завоевал серебряную медаль..
+        ///   Looks up a localized string similar to В 18 и начале 19 веков на кораблях Королевского военно-морского флота Великобритании числились так называемые «вдовьи моряки» — погибшие члены экипажа, которым продолжали начислять жалованье. Эта мера была введена как социальная гарантия — нанимаясь на службу в военно-морской вместо торгового флота, моряки знали, что их семьи не останутся жить в бедности в случае смерти кормильца. Количество разрешённых «мёртвых душ» варьировалось по размеру судна и могло достигать 18 человек на кораблях первого ранга..
         /// </summary>
         internal static string _356 {
             get {
@@ -2654,7 +5903,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Советская ручная граната Ф-1 была скопирована с французских гранат F-1, но снабжена более надёжным запалом. Происхождение её сленгового названия «лимонка» достоверно неизвестно — возможно, от английской гранаты системы Лемона, хотя та была гладкой, возможно, просто из-за сходства формы снаряда с лимоном. А вот американскую гранату Mk 2 похожей ребристой формы прозвали «pineapple» — «ананас»..
+        ///   Looks up a localized string similar to Кениец Джулиус Йего научился метать копьё, используя в качестве учебника ролики на Youtube с выступлениями олимпийских чемпионов. Только после победы на Всеафриканских играх спортсмен стал заниматься с тренером, хотя большую часть года продолжает совершенствоваться самостоятельно. В 2015 году Йего выиграл чемпионат мира, а на Олимпиаде в Рио-де-Жанейро завоевал серебряную медаль..
         /// </summary>
         internal static string _357 {
             get {
@@ -2663,7 +5912,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to На картине Репина «Запорожцы» только один казак за столом голый выше пояса. Дело в том, что данный персонаж — заядлый картёжник, около него как раз лежит колода. Когда в Сечи играли на деньги, существовала традиция снимать рубашки, чтобы никто не мог жульничать, пряча карты в рукава..
+        ///   Looks up a localized string similar to Советская ручная граната Ф-1 была скопирована с французских гранат F-1, но снабжена более надёжным запалом. Происхождение её сленгового названия «лимонка» достоверно неизвестно — возможно, от английской гранаты системы Лемона, хотя та была гладкой, возможно, просто из-за сходства формы снаряда с лимоном. А вот американскую гранату Mk 2 похожей ребристой формы прозвали «pineapple» — «ананас»..
         /// </summary>
         internal static string _358 {
             get {
@@ -2672,7 +5921,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Иврит, или древнееврейский язык, перестал быть средством повседневного общения во 2 веке, но сохранился в литературном и религиозном употреблении. В начале второй половины 19 века сионистское движение поставило задачу снова сделать иврит разговорным, и постепенно это удалось сделать. Иврит получил статус государственного после объявления независимости Израиля, сегодня его используют в качестве первого языка несколько миллионов человек, причём это единственный пример в истории человечества успешного воскреше [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to На картине Репина «Запорожцы» только один казак за столом голый выше пояса. Дело в том, что данный персонаж — заядлый картёжник, около него как раз лежит колода. Когда в Сечи играли на деньги, существовала традиция снимать рубашки, чтобы никто не мог жульничать, пряча карты в рукава..
         /// </summary>
         internal static string _359 {
             get {
@@ -2681,7 +5930,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Кетчуп вытекает из бутылки со скоростью 30 километров в год..
+        ///   Looks up a localized string similar to По весу гамбургер стоит дороже нового автомобиля..
         /// </summary>
         internal static string _36 {
             get {
@@ -2690,7 +5939,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 2013 году одним из спонсоров футбольного клуба «Барселона» стала компания Intel. По условиям контракта её логотип размещался на внутренней стороне маек игроков, обыгрывая слоган «Intel Inside». Замысел состоял в том, чтобы зрители видели рекламу, когда празднующий гол футболист срывает с себя майку..
+        ///   Looks up a localized string similar to Иврит, или древнееврейский язык, перестал быть средством повседневного общения во 2 веке, но сохранился в литературном и религиозном употреблении. В начале второй половины 19 века сионистское движение поставило задачу снова сделать иврит разговорным, и постепенно это удалось сделать. Иврит получил статус государственного после объявления независимости Израиля, сегодня его используют в качестве первого языка несколько миллионов человек, причём это единственный пример в истории человечества успешного воскреше [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _360 {
             get {
@@ -2699,7 +5948,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Первое успешное испытание ядерного оружия индийцами состоялось в 1974 году. Операция получила кодовое имя «Улыбающийся Будда»..
+        ///   Looks up a localized string similar to В 2013 году одним из спонсоров футбольного клуба «Барселона» стала компания Intel. По условиям контракта её логотип размещался на внутренней стороне маек игроков, обыгрывая слоган «Intel Inside». Замысел состоял в том, чтобы зрители видели рекламу, когда празднующий гол футболист срывает с себя майку..
         /// </summary>
         internal static string _361 {
             get {
@@ -2708,7 +5957,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Один из бассейнов Омска называется «Ермак» и расположен на улице Чапаева. По иронии судьбы, и Чапаев, и Ермак погибли в воде — первый в реке Урал, второй в Иртыше..
+        ///   Looks up a localized string similar to Первое успешное испытание ядерного оружия индийцами состоялось в 1974 году. Операция получила кодовое имя «Улыбающийся Будда»..
         /// </summary>
         internal static string _362 {
             get {
@@ -2717,7 +5966,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ким Чен Нам, старший сын Ким Чен Ира, получил образование в Швейцарии, затем работал на высоких государственных должностях и считался наследником поста Великого Руководителя. Его отношения с отцом испортились в 2001 году, когда Ким Чен Нам в сопровождении двух женщин и маленького мальчика (вероятно, своего сына) пытался попасть в Японию по поддельному доминиканскому паспорту. Предположительной целью визита было посещение токийского диснейленда. После этого несостоявшийся преемник обосновался в Китае, а влас [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Один из бассейнов Омска называется «Ермак» и расположен на улице Чапаева. По иронии судьбы, и Чапаев, и Ермак погибли в воде — первый в реке Урал, второй в Иртыше..
         /// </summary>
         internal static string _363 {
             get {
@@ -2726,7 +5975,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Третий глаз, или теменной глаз, — это распространённый светочувствительный орган у некоторых бесчелюстных, рыб, земноводных и рептилий. Он располагается между основными глазами и намного меньше их в размере, а также затянут кожей, хоть и более прозрачной. В нём есть сетчатка, нерв и аналог хрусталика, что позволяет воспринимать направление солнечного света, поляризацию света от неба и, по некоторым гипотезам, силовые линии магнитного поля Земли. Для многих видов экспериментально подтверждена необходимость т [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Ким Чен Нам, старший сын Ким Чен Ира, получил образование в Швейцарии, затем работал на высоких государственных должностях и считался наследником поста Великого Руководителя. Его отношения с отцом испортились в 2001 году, когда Ким Чен Нам в сопровождении двух женщин и маленького мальчика (вероятно, своего сына) пытался попасть в Японию по поддельному доминиканскому паспорту. Предположительной целью визита было посещение токийского диснейленда. После этого несостоявшийся преемник обосновался в Китае, а влас [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _364 {
             get {
@@ -2735,7 +5984,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самый короткий авиарейс осуществляется компанией Loganair между островами Уэстрей и Папа-Уэстрей в Шотландии. Восьмиместный самолёт преодолевает данный маршрут примерно за 2 минуты, а при попутном ветре время может сократиться до 47 секунд..
+        ///   Looks up a localized string similar to Третий глаз, или теменной глаз, — это распространённый светочувствительный орган у некоторых бесчелюстных, рыб, земноводных и рептилий. Он располагается между основными глазами и намного меньше их в размере, а также затянут кожей, хоть и более прозрачной. В нём есть сетчатка, нерв и аналог хрусталика, что позволяет воспринимать направление солнечного света, поляризацию света от неба и, по некоторым гипотезам, силовые линии магнитного поля Земли. Для многих видов экспериментально подтверждена необходимость т [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _365 {
             get {
@@ -2744,7 +5993,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 2009 году учёные из Университета Монреаля попытались провести исследование о том, как влияет просмотр порнографии на сексуальную жизнь мужчин в возрасте от 20 до 30 лет. В его рамках было проинтервьюировано 20 мужчин. Однако поставленной цели достичь не удалось, так как учёные не смогли найти ни одного мужчины, ни разу не видевшего порно, чтобы сделать сравнения..
+        ///   Looks up a localized string similar to Самый короткий авиарейс осуществляется компанией Loganair между островами Уэстрей и Папа-Уэстрей в Шотландии. Восьмиместный самолёт преодолевает данный маршрут примерно за 2 минуты, а при попутном ветре время может сократиться до 47 секунд..
         /// </summary>
         internal static string _366 {
             get {
@@ -2753,7 +6002,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Одно из прозвищ американцев — гринго, особенно часто их так называют в Мексике и других странах Латинской Америки. Этот термин пришёл из Испании, где употреблялся в отношении любых иностранцев, плохо говорящих по-испански. По всей вероятности, слово «gringo» произошло от «griego», то есть «грек», что сближает его с английской идиомой относительно непонятной речи «Greek to me»..
+        ///   Looks up a localized string similar to В 2009 году учёные из Университета Монреаля попытались провести исследование о том, как влияет просмотр порнографии на сексуальную жизнь мужчин в возрасте от 20 до 30 лет. В его рамках было проинтервьюировано 20 мужчин. Однако поставленной цели достичь не удалось, так как учёные не смогли найти ни одного мужчины, ни разу не видевшего порно, чтобы сделать сравнения..
         /// </summary>
         internal static string _367 {
             get {
@@ -2762,7 +6011,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сражавшиеся во Вьетнаме американцы называли вьетконговцев «Чарли». Это стало одной из причин того, что экранизация повести Роальда Даля «Чарли и шоколадная фабрика» вышла в 1971 году под именем «Вилли Вонка и шоколадная фабрика». Другая версия, которую снял в 2005 году Тим Бёртон, имела оригинальное название..
+        ///   Looks up a localized string similar to Одно из прозвищ американцев — гринго, особенно часто их так называют в Мексике и других странах Латинской Америки. Этот термин пришёл из Испании, где употреблялся в отношении любых иностранцев, плохо говорящих по-испански. По всей вероятности, слово «gringo» произошло от «griego», то есть «грек», что сближает его с английской идиомой относительно непонятной речи «Greek to me»..
         /// </summary>
         internal static string _368 {
             get {
@@ -2771,7 +6020,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В некоторых языках существуют грамматические конструкции, с помощью которых сообщается источник сведений говорящего. Например, в индейском языке тариана с помощью окончаний глагола можно выразить четыре способа получения информации. Фраза «Сесилия бранила собаку», когда говорящий сам это видел, будет звучать как «Ceci tʃinu-nuku du-kwisa-ka». Если он только слышал процесс ругательства, глагол изменится на «du-kwisa-mahka», если не слышал, но увидел испуганную собаку и предположил, на «du-kwisa-sika», а если [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Сражавшиеся во Вьетнаме американцы называли вьетконговцев «Чарли». Это стало одной из причин того, что экранизация повести Роальда Даля «Чарли и шоколадная фабрика» вышла в 1971 году под именем «Вилли Вонка и шоколадная фабрика». Другая версия, которую снял в 2005 году Тим Бёртон, имела оригинальное название..
         /// </summary>
         internal static string _369 {
             get {
@@ -2780,7 +6029,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Диаметр звезды Бетельгейзе больше диаметра орбиты Земли вокруг Солнца..
+        ///   Looks up a localized string similar to Кетчуп вытекает из бутылки со скоростью 30 километров в год..
         /// </summary>
         internal static string _37 {
             get {
@@ -2789,7 +6038,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Последователи религии Каодай, распространённой во Вьетнаме, поклоняются одноимённому божеству, однако считают святыми лидеров многих других религий и не только. На первом ранге святости в Каодай — Будда, на втором — Конфуций. На третьей ступени помимо Иисуса, Мухаммеда и Моисея присутствуют также Ленин, Шекспир, Жанна д&apos;Арк и Виктор Гюго..
+        ///   Looks up a localized string similar to В некоторых языках существуют грамматические конструкции, с помощью которых сообщается источник сведений говорящего. Например, в индейском языке тариана с помощью окончаний глагола можно выразить четыре способа получения информации. Фраза «Сесилия бранила собаку», когда говорящий сам это видел, будет звучать как «Ceci tʃinu-nuku du-kwisa-ka». Если он только слышал процесс ругательства, глагол изменится на «du-kwisa-mahka», если не слышал, но увидел испуганную собаку и предположил, на «du-kwisa-sika», а если [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _370 {
             get {
@@ -2798,7 +6047,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У Сингапура один из самых высоких в мире показателей ВВП на душу населения, город славится своей чистотой и очень низким уровнем преступности. Отчасти такие достижения обусловлены суровыми законами и большими штрафами за малейшие нарушения. Плевок или бросание мусора на улице, питьё или еда в общественном транспорте, нахождение в нетрезвом состоянии в общественных местах и даже кормление птиц — за всё это налагаются взыскания в суммах, эквивалентных сотням и тысячам долларов США. Благодаря этим мерам Сингап [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Последователи религии Каодай, распространённой во Вьетнаме, поклоняются одноимённому божеству, однако считают святыми лидеров многих других религий и не только. На первом ранге святости в Каодай — Будда, на втором — Конфуций. На третьей ступени помимо Иисуса, Мухаммеда и Моисея присутствуют также Ленин, Шекспир, Жанна д&apos;Арк и Виктор Гюго..
         /// </summary>
         internal static string _371 {
             get {
@@ -2807,7 +6056,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В начале 20 века предприниматель Хуго Цитц построил в Дрездене табачную фабрику Йенице, выбрав проект напоминающего мечеть здания в восточном стиле, трубы которого были удачно замаскированы под минареты. Такое решение было продиктовано, с одной стороны, желанием дополнительной рекламы продукции фабрики, а, с другой стороны, опасениями, что городские власти не разрешат строительство обычного промышленного объекта рядом с историческим центром. В наше время Йенице переоборудовано под офисные помещения..
+        ///   Looks up a localized string similar to У Сингапура один из самых высоких в мире показателей ВВП на душу населения, город славится своей чистотой и очень низким уровнем преступности. Отчасти такие достижения обусловлены суровыми законами и большими штрафами за малейшие нарушения. Плевок или бросание мусора на улице, питьё или еда в общественном транспорте, нахождение в нетрезвом состоянии в общественных местах и даже кормление птиц — за всё это налагаются взыскания в суммах, эквивалентных сотням и тысячам долларов США. Благодаря этим мерам Сингап [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _372 {
             get {
@@ -2816,7 +6065,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самая длинная пещера в мире находится в США и называется Мамонтова, хотя никаких останков мамонтов там не находили. Дело в том, что вошедшее из русского языка в английский слово «mammoth» имеет значение не только собственно «мамонт», но и «огромный». Из-за гигантских размеров пещеры и отдельных её залов она и получила имя «Mammoth cave», что было ошибочно переведено как «Мамонтова»..
+        ///   Looks up a localized string similar to В начале 20 века предприниматель Хуго Цитц построил в Дрездене табачную фабрику Йенице, выбрав проект напоминающего мечеть здания в восточном стиле, трубы которого были удачно замаскированы под минареты. Такое решение было продиктовано, с одной стороны, желанием дополнительной рекламы продукции фабрики, а, с другой стороны, опасениями, что городские власти не разрешат строительство обычного промышленного объекта рядом с историческим центром. В наше время Йенице переоборудовано под офисные помещения..
         /// </summary>
         internal static string _373 {
             get {
@@ -2825,7 +6074,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В философских сочинениях Фридриха Ницше часто находят идеи нацизма и антисемитизма. В этом виновато вмешательство его сестры, Элизабет Фёрстер-Ницше, которая в последние годы жизни была его сиделкой, а затем взяла на себя публикацию ещё неизданных работ писателя и полного архива. Будучи убеждённой германской националисткой, сестра вносила в тексты нужные ей правки, часто опуская фрагменты, где Ницше недвусмысленно высказывается против антисемитизма. В сочинении «К генеалогии морали» философ специально объяс [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Самая длинная пещера в мире находится в США и называется Мамонтова, хотя никаких останков мамонтов там не находили. Дело в том, что вошедшее из русского языка в английский слово «mammoth» имеет значение не только собственно «мамонт», но и «огромный». Из-за гигантских размеров пещеры и отдельных её залов она и получила имя «Mammoth cave», что было ошибочно переведено как «Мамонтова»..
         /// </summary>
         internal static string _374 {
             get {
@@ -2834,7 +6083,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Начиная с 2012 года около 100 французских железнодорожных вокзалов оснащены фортепиано, на которых может сыграть любой желающий. За это время, как утверждает обслуживающая компания, ни один инструмент не был повреждён вандалами..
+        ///   Looks up a localized string similar to В философских сочинениях Фридриха Ницше часто находят идеи нацизма и антисемитизма. В этом виновато вмешательство его сестры, Элизабет Фёрстер-Ницше, которая в последние годы жизни была его сиделкой, а затем взяла на себя публикацию ещё неизданных работ писателя и полного архива. Будучи убеждённой германской националисткой, сестра вносила в тексты нужные ей правки, часто опуская фрагменты, где Ницше недвусмысленно высказывается против антисемитизма. В сочинении «К генеалогии морали» философ специально объяс [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _375 {
             get {
@@ -2843,7 +6092,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Когда Джордж Оруэлл работал диктором на радио BBC, ему приходилось принимать участие в затяжных скучных планёрках, которые проходили в кабинете 101. Позже он дал этот номер комнате пыток в романе «1984»..
+        ///   Looks up a localized string similar to Начиная с 2012 года около 100 французских железнодорожных вокзалов оснащены фортепиано, на которых может сыграть любой желающий. За это время, как утверждает обслуживающая компания, ни один инструмент не был повреждён вандалами..
         /// </summary>
         internal static string _376 {
             get {
@@ -2852,7 +6101,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У каждого американского штата есть официальный цветок: например, у Калифорнии это мак, а у Нью-Йорка — роза. Официальным же цветком штата Мэн является сосновая шишка..
+        ///   Looks up a localized string similar to Когда Джордж Оруэлл работал диктором на радио BBC, ему приходилось принимать участие в затяжных скучных планёрках, которые проходили в кабинете 101. Позже он дал этот номер комнате пыток в романе «1984»..
         /// </summary>
         internal static string _377 {
             get {
@@ -2861,7 +6110,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Во второй день лунной миссии «Аполлон-16» пилот командного модуля Томас Маттингли потерял свадебное кольцо. В свободное время он безуспешно пытался найти его на корабле. На девятый день Маттингли, будучи соединённым с кораблём трёхметровым шестом, проводил эксперимент в открытом космосе. Наблюдающий за ним у шлюза Чарльз Дьюк заметил, как что-то маленькое и блестящее — это и было кольцо — медленно уплывает от двери, и попытался схватить его, но не смог. Однако кольцо ударилось прямо в шлем Маттингли, отскоч [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to У каждого американского штата есть официальный цветок: например, у Калифорнии это мак, а у Нью-Йорка — роза. Официальным же цветком штата Мэн является сосновая шишка..
         /// </summary>
         internal static string _378 {
             get {
@@ -2870,7 +6119,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Зебровые амадины, птицы семейства вьюрковых ткачиков, могут песней управлять развитием птенцов в яйцах, адаптируя их к жаркому климату. Если температура окружающего воздуха превышает 26 °C, высиживающий яйца родитель в последние дни перед вылуплением время от времени издаёт специальный крик. Он способствует замедлению роста птенцов, которые оказываются более устойчивыми к высоким температурам относительно своих собратьев нормального размера. Те же результаты учёные получили и в лаборатории, проигрывая яйцам [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Во второй день лунной миссии «Аполлон-16» пилот командного модуля Томас Маттингли потерял свадебное кольцо. В свободное время он безуспешно пытался найти его на корабле. На девятый день Маттингли, будучи соединённым с кораблём трёхметровым шестом, проводил эксперимент в открытом космосе. Наблюдающий за ним у шлюза Чарльз Дьюк заметил, как что-то маленькое и блестящее — это и было кольцо — медленно уплывает от двери, и попытался схватить его, но не смог. Однако кольцо ударилось прямо в шлем Маттингли, отскоч [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _379 {
             get {
@@ -2879,7 +6128,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Объём Луны равен объёму воды в Тихом океане..
+        ///   Looks up a localized string similar to Диаметр звезды Бетельгейзе больше диаметра орбиты Земли вокруг Солнца..
         /// </summary>
         internal static string _38 {
             get {
@@ -2888,7 +6137,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Первое золото для Австралии на зимних Олимпийских играх завоевал шорт-трекист Стивен Брэдбери в 2002 году. На всех предыдущих Олимпиадах спортсмен не проходил дальше предварительного этапа, но здесь в четвертьфинале занял третье место и вышел в следующий круг благодаря дисквалификации победителя забега. В полуфинале он шёл последним, однако финишировал вторым из-за столкновений и падений впереди идущих. Похожая история повторилась и в финале, где упали уже все его конкуренты, благодаря чему Брэдбери одержал [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Зебровые амадины, птицы семейства вьюрковых ткачиков, могут песней управлять развитием птенцов в яйцах, адаптируя их к жаркому климату. Если температура окружающего воздуха превышает 26 °C, высиживающий яйца родитель в последние дни перед вылуплением время от времени издаёт специальный крик. Он способствует замедлению роста птенцов, которые оказываются более устойчивыми к высоким температурам относительно своих собратьев нормального размера. Те же результаты учёные получили и в лаборатории, проигрывая яйцам [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _380 {
             get {
@@ -2897,7 +6146,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Во множестве источников можно встретить информацию о «карте вкусов» — якобы за восприятие базовых вкусов (горького, сладкого, кислого и солёного) отвечают разные зоны языка. Этот миф возник из-за неверного истолкования и перевода на английский работы 1901 года немецкого учёного Д. П. Ханига. Тот пришёл к заключению, что, хотя части языка могут незначительно варьироваться по скорости реакции на тот или иной вкус, интенсивность вкуса определяется ими равноценно. Тот факт, что любая зона языка может зафиксиров [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Первое золото для Австралии на зимних Олимпийских играх завоевал шорт-трекист Стивен Брэдбери в 2002 году. На всех предыдущих Олимпиадах спортсмен не проходил дальше предварительного этапа, но здесь в четвертьфинале занял третье место и вышел в следующий круг благодаря дисквалификации победителя забега. В полуфинале он шёл последним, однако финишировал вторым из-за столкновений и падений впереди идущих. Похожая история повторилась и в финале, где упали уже все его конкуренты, благодаря чему Брэдбери одержал [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _381 {
             get {
@@ -2906,7 +6155,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Гепарды довольно легко приручаются и помогают людям в охоте ещё со времён Древнего Египта. Широкое распространение гепардовая охота имела в средние века у правителей Ближнего Востока. Хищников приучали держаться на лошади позади всадника и отпускали преследовать добычу, когда приближались к ней на приемлемое расстояние. Убив жертву, гепард ждал охотника и получал в награду её внутренности..
+        ///   Looks up a localized string similar to Во множестве источников можно встретить информацию о «карте вкусов» — якобы за восприятие базовых вкусов (горького, сладкого, кислого и солёного) отвечают разные зоны языка. Этот миф возник из-за неверного истолкования и перевода на английский работы 1901 года немецкого учёного Д. П. Ханига. Тот пришёл к заключению, что, хотя части языка могут незначительно варьироваться по скорости реакции на тот или иной вкус, интенсивность вкуса определяется ими равноценно. Тот факт, что любая зона языка может зафиксиров [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _382 {
             get {
@@ -2915,7 +6164,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Гонконге очень мало источников пресной воды, и её приходится в больших количествах импортировать из соседних китайских провинций. С 1950-х годов городские власти стали развивать систему смыва унитазов морской водой, которая устанавливалась в новых домах отдельно от основной канализации. Сейчас более 80% гонконгских домов используют такую схему..
+        ///   Looks up a localized string similar to Гепарды довольно легко приручаются и помогают людям в охоте ещё со времён Древнего Египта. Широкое распространение гепардовая охота имела в средние века у правителей Ближнего Востока. Хищников приучали держаться на лошади позади всадника и отпускали преследовать добычу, когда приближались к ней на приемлемое расстояние. Убив жертву, гепард ждал охотника и получал в награду её внутренности..
         /// </summary>
         internal static string _383 {
             get {
@@ -2924,7 +6173,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Половой импринтинг — это механизм запечатления животным в самой ранней стадии развития образа, который затем становится ориентиром при выборе партнёра для спаривания. При разведении охотничьих соколов объектом импринтинга для птиц становится сам человек. Для получения нового потомства разводчик позволяет самцу «спариваться» со специальной шляпой на своей голове, снабжённой карманами для сбора семени. Затем выбирается самка, которой при необходимости предлагается определённая ритуалом ухаживания пища, и разв [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to В Гонконге очень мало источников пресной воды, и её приходится в больших количествах импортировать из соседних китайских провинций. С 1950-х годов городские власти стали развивать систему смыва унитазов морской водой, которая устанавливалась в новых домах отдельно от основной канализации. Сейчас более 80% гонконгских домов используют такую схему..
         /// </summary>
         internal static string _384 {
             get {
@@ -2933,7 +6182,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В современном европейском футболе самой длинной фамилией обладает бывший игрок сборной Нидерландов Ян Веннегор оф Хесселинк, в настоящее время завершивший карьеру. Эта фамилия появилась в 17 веке, когда породнились представители двух фермерских семейств — Веннегоров и Хесселинков. Поскольку семьи были равны по социальному положению и достатку, было решено объединить две фамилии в одну. Причём не через дефис, а через союз «of», что по-нидерландски означает «или»..
+        ///   Looks up a localized string similar to Половой импринтинг — это механизм запечатления животным в самой ранней стадии развития образа, который затем становится ориентиром при выборе партнёра для спаривания. При разведении охотничьих соколов объектом импринтинга для птиц становится сам человек. Для получения нового потомства разводчик позволяет самцу «спариваться» со специальной шляпой на своей голове, снабжённой карманами для сбора семени. Затем выбирается самка, которой при необходимости предлагается определённая ритуалом ухаживания пища, и разв [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _385 {
             get {
@@ -2942,7 +6191,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Давно известно, что подсолнухи в течение дня умеют поворачиваться вслед за Солнцем. У других растений с такими же свойствами это движение обеспечивают специальные листовые подушечки, но у подсолнухов их нет. Недавно учёные выяснили, что подсолнечник использует механизм неравномерного роста стебля: ночью сильнее удлиняется западная его часть, поэтому утром растение «смотрит» на восток, а в течение дня интенсивнее растёт восточная часть стебля, постепенно поворачивая верхушку на запад. Когда рост останавливае [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to В современном европейском футболе самой длинной фамилией обладает бывший игрок сборной Нидерландов Ян Веннегор оф Хесселинк, в настоящее время завершивший карьеру. Эта фамилия появилась в 17 веке, когда породнились представители двух фермерских семейств — Веннегоров и Хесселинков. Поскольку семьи были равны по социальному положению и достатку, было решено объединить две фамилии в одну. Причём не через дефис, а через союз «of», что по-нидерландски означает «или»..
         /// </summary>
         internal static string _386 {
             get {
@@ -2951,7 +6200,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Космические собаки Белка и Стрелка получили эти имена только за шесть дней до полёта. До этого Белка была Вильной, а Стрелка — Каплей, а ещё раньше то ли Сильвой, то ли Марсианкой. Эти данные обнаружены в архивной тетради Олега Газенко, руководившего физиологической подготовкой этих и многих других собак советской космической программы..
+        ///   Looks up a localized string similar to Давно известно, что подсолнухи в течение дня умеют поворачиваться вслед за Солнцем. У других растений с такими же свойствами это движение обеспечивают специальные листовые подушечки, но у подсолнухов их нет. Недавно учёные выяснили, что подсолнечник использует механизм неравномерного роста стебля: ночью сильнее удлиняется западная его часть, поэтому утром растение «смотрит» на восток, а в течение дня интенсивнее растёт восточная часть стебля, постепенно поворачивая верхушку на запад. Когда рост останавливае [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _387 {
             get {
@@ -2960,7 +6209,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Гаитянский диктатор Франсуа Дювалье пришёл к власти в 1957 году и сделал так, чтобы вновь избранный парламент состоял почти полностью из его сторонников. Но через четыре года Дювалье досрочно распустил его и провёл выборы в новый. На каждом бюллетене присутствовала малозаметная надпись «Доктор Франсуа Дювалье — президент», и впоследствии гаитянам было объявлено, что они своей волей переизбрали президента на следующие шесть лет. Спустя ещё три года был организован референдум, где жителей страны спрашивали, с [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Космические собаки Белка и Стрелка получили эти имена только за шесть дней до полёта. До этого Белка была Вильной, а Стрелка — Каплей, а ещё раньше то ли Сильвой, то ли Марсианкой. Эти данные обнаружены в архивной тетради Олега Газенко, руководившего физиологической подготовкой этих и многих других собак советской космической программы..
         /// </summary>
         internal static string _388 {
             get {
@@ -2969,7 +6218,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сонате для фортепиано, известной как «Лунная», сам Бетховен никакого названия не давал. Она числилась под номером 14 и имела подзаголовок «В духе фантазии». Уже после смерти композитора критик Людвиг Рельштаб сравнил первую часть сонаты с «лунным светом над Фирвальдштетским озером», а затем эпитет «Лунная» закрепился за всем произведением..
+        ///   Looks up a localized string similar to Гаитянский диктатор Франсуа Дювалье пришёл к власти в 1957 году и сделал так, чтобы вновь избранный парламент состоял почти полностью из его сторонников. Но через четыре года Дювалье досрочно распустил его и провёл выборы в новый. На каждом бюллетене присутствовала малозаметная надпись «Доктор Франсуа Дювалье — президент», и впоследствии гаитянам было объявлено, что они своей волей переизбрали президента на следующие шесть лет. Спустя ещё три года был организован референдум, где жителей страны спрашивали, с [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _389 {
             get {
@@ -2978,7 +6227,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В американском штате Нью-Гемпшир на номерных знаках чеканят лозунг «Живи свободным или умри». Номерные знаки делают местные заключённые..
+        ///   Looks up a localized string similar to Объём Луны равен объёму воды в Тихом океане..
         /// </summary>
         internal static string _39 {
             get {
@@ -2987,7 +6236,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 2001 году исламские авторитеты Саудовской Аравии выпустили фетву (правовую позицию), в которой карточная игра о покемонах была объявлена противоречащей нормам ислама. В 2016 фетву «по просьбам верующих» обновили, хотя новая игра Pokemon Go в ней напрямую не упоминается. Одной из причин решения стал игровой механизм, при котором покемоны мутируют и улучшают свои характеристики. По мнению богословов, это является прямым указанием на теорию эволюции, изучать которую непозволительно..
+        ///   Looks up a localized string similar to Сонате для фортепиано, известной как «Лунная», сам Бетховен никакого названия не давал. Она числилась под номером 14 и имела подзаголовок «В духе фантазии». Уже после смерти композитора критик Людвиг Рельштаб сравнил первую часть сонаты с «лунным светом над Фирвальдштетским озером», а затем эпитет «Лунная» закрепился за всем произведением..
         /// </summary>
         internal static string _390 {
             get {
@@ -2996,7 +6245,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Фирма-производитель аудиокассет National Audio Company была открыта в 1969 году и осталась одной из немногих в США, кто сохранил оборудование после появления сначала компакт-дисков, а затем mp3. Сейчас она является лидером на этом рынке, производя более 10 миллионов кассет с записями в год. В 2015 году компания продала больше кассет, чем когда-либо в своей истории, поставляя их как для мэйджор-лейблов, так и для инди-групп. Президент компании объясняет этот успех ностальгией по аналоговым вещам, которые мож [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to В 2001 году исламские авторитеты Саудовской Аравии выпустили фетву (правовую позицию), в которой карточная игра о покемонах была объявлена противоречащей нормам ислама. В 2016 фетву «по просьбам верующих» обновили, хотя новая игра Pokemon Go в ней напрямую не упоминается. Одной из причин решения стал игровой механизм, при котором покемоны мутируют и улучшают свои характеристики. По мнению богословов, это является прямым указанием на теорию эволюции, изучать которую непозволительно..
         /// </summary>
         internal static string _391 {
             get {
@@ -3005,7 +6254,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 47 эпизоде мультсериала «Свинка Пеппа» герои находят в раковине паука, и Пеппа пугается его, пока не приходит к выводу, что с ним можно дружить. Эта серия была запрещена к показу в Австралии, так как призывать детей не бояться пауков на континенте, славящемся многими опасными ядовитыми видами, сочли плохой идеей..
+        ///   Looks up a localized string similar to Фирма-производитель аудиокассет National Audio Company была открыта в 1969 году и осталась одной из немногих в США, кто сохранил оборудование после появления сначала компакт-дисков, а затем mp3. Сейчас она является лидером на этом рынке, производя более 10 миллионов кассет с записями в год. В 2015 году компания продала больше кассет, чем когда-либо в своей истории, поставляя их как для мэйджор-лейблов, так и для инди-групп. Президент компании объясняет этот успех ностальгией по аналоговым вещам, которые мож [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _392 {
             get {
@@ -3014,7 +6263,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Чрезвычайно строгое наказание называют драконовскими мерами. Мифические драконы здесь ни при чём — выражение появилось благодаря одному из древнейших сводов законов, введённому афинянином Драконтом. В этих законах самым популярным наказанием была смертная казнь, в том числе за кражу полевых плодов или оскорбление должностного лица..
+        ///   Looks up a localized string similar to В 47 эпизоде мультсериала «Свинка Пеппа» герои находят в раковине паука, и Пеппа пугается его, пока не приходит к выводу, что с ним можно дружить. Эта серия была запрещена к показу в Австралии, так как призывать детей не бояться пауков на континенте, славящемся многими опасными ядовитыми видами, сочли плохой идеей..
         /// </summary>
         internal static string _393 {
             get {
@@ -3023,7 +6272,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Выступая однажды перед японской аудиторией, президент США Джимми Картер начал речь с шутки. Когда зрители все как один засмеялись, впечатлённый Картер спросил переводчика, как ему удалось настолько хорошо передать юмор. Тот сознался, что перевёл таким образом: «Президент рассказал смешную историю. Все должны смеяться»..
+        ///   Looks up a localized string similar to Чрезвычайно строгое наказание называют драконовскими мерами. Мифические драконы здесь ни при чём — выражение появилось благодаря одному из древнейших сводов законов, введённому афинянином Драконтом. В этих законах самым популярным наказанием была смертная казнь, в том числе за кражу полевых плодов или оскорбление должностного лица..
         /// </summary>
         internal static string _394 {
             get {
@@ -3032,7 +6281,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 2009 году произошло первое в истории столкновение космических аппаратов. Уже давно выведенный из эксплуатации российский военный спутник «Космос-2251» не поделил орбиту с действующим американским спутником «Iridium-33». Множество обломков от столкновения теоретически угрожают другим спутникам и даже МКС, на которой в 2012 году проводился манёвр для избежания встречи с одним из таких фрагментов..
+        ///   Looks up a localized string similar to Выступая однажды перед японской аудиторией, президент США Джимми Картер начал речь с шутки. Когда зрители все как один засмеялись, впечатлённый Картер спросил переводчика, как ему удалось настолько хорошо передать юмор. Тот сознался, что перевёл таким образом: «Президент рассказал смешную историю. Все должны смеяться»..
         /// </summary>
         internal static string _395 {
             get {
@@ -3041,7 +6290,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Вскоре после освобождения от испанской колониальной зависимости в Парагвае к власти пришёл диктатор Хосе Гаспар Родригес де Франсия. Его главной идеей стало создание закрытого однородного общества, для чего были практически полностью ограничены въезд и выезд из страны, а также ввоз иностранных товаров. Испаноязычному населению запретили заключать браки друг с другом, предписав жениться и выходить замуж за местных индейцев гуарани, чернокожих или мулатов..
+        ///   Looks up a localized string similar to В 2009 году произошло первое в истории столкновение космических аппаратов. Уже давно выведенный из эксплуатации российский военный спутник «Космос-2251» не поделил орбиту с действующим американским спутником «Iridium-33». Множество обломков от столкновения теоретически угрожают другим спутникам и даже МКС, на которой в 2012 году проводился манёвр для избежания встречи с одним из таких фрагментов..
         /// </summary>
         internal static string _396 {
             get {
@@ -3050,7 +6299,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Столица Индонезии Джакарта — один из самых проблемных городов мира по интенсивности дорожных пробок. В 1992 году власти приняли закон, запрещавший проезд в часы пик по нескольким центральным улицам машинам, в которых менее трёх человек. Постепенно в городе сложилась целая индустрия пассажиров по найму, называвших себя «жокеями» и зарабатывавших до 15$ в день. Среди жокеев было много женщин с грудными детьми, ведь нанять их было дешевле, чем двух людей по отдельности. В 2016 году закон отменили..
+        ///   Looks up a localized string similar to Вскоре после освобождения от испанской колониальной зависимости в Парагвае к власти пришёл диктатор Хосе Гаспар Родригес де Франсия. Его главной идеей стало создание закрытого однородного общества, для чего были практически полностью ограничены въезд и выезд из страны, а также ввоз иностранных товаров. Испаноязычному населению запретили заключать браки друг с другом, предписав жениться и выходить замуж за местных индейцев гуарани, чернокожих или мулатов..
         /// </summary>
         internal static string _397 {
             get {
@@ -3059,7 +6308,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to На нашей планете существует морской путь длиной примерно 32 000 км, что составляет 80% длины экватора, по которому можно проплыть, ни разу не поменяв направления. Линия начинается на полуострове Камчатка, проходит мимо Алеутских островов по Тихому океану, далее через пролив Дрейка по Атлантическому океану, затем между восточным побережьем Африки и Мадагаскаром и заканчивается в Пакистане..
+        ///   Looks up a localized string similar to Столица Индонезии Джакарта — один из самых проблемных городов мира по интенсивности дорожных пробок. В 1992 году власти приняли закон, запрещавший проезд в часы пик по нескольким центральным улицам машинам, в которых менее трёх человек. Постепенно в городе сложилась целая индустрия пассажиров по найму, называвших себя «жокеями» и зарабатывавших до 15$ в день. Среди жокеев было много женщин с грудными детьми, ведь нанять их было дешевле, чем двух людей по отдельности. В 2016 году закон отменили..
         /// </summary>
         internal static string _398 {
             get {
@@ -3068,7 +6317,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Согласно скандинавской мифологии, в Рагнарёк армия ётунов поплывёт на битву с богами-асами на Нагльфаре — корабле из ногтей мертвецов. Поэтому у викингов существовал обычай остригать и сжигать ногти покойников, чтобы предотвратить создание Нагльфара..
+        ///   Looks up a localized string similar to На нашей планете существует морской путь длиной примерно 32 000 км, что составляет 80% длины экватора, по которому можно проплыть, ни разу не поменяв направления. Линия начинается на полуострове Камчатка, проходит мимо Алеутских островов по Тихому океану, далее через пролив Дрейка по Атлантическому океану, затем между восточным побережьем Африки и Мадагаскаром и заканчивается в Пакистане..
         /// </summary>
         internal static string _399 {
             get {
@@ -3077,8 +6326,8 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Цветные и чёрно-белые сны.
-        ///Исследования, проведённые с 1915 года до пятидесятых годов 20-го века, говорят, что среди зрячих людей 12% видят исключительно чёрно-белые сны. С 60-х годов картина изменилась. Сегодня чёрно-белые сны видят 4,4% людей. Скорее всего, такие изменения связаны с тем, что чёрно-белые фильмы уступили место цветным, появилось телевидение и другие медиа, использующие цветное изображение..
+        ///   Looks up a localized string similar to Во сне мы можем увидеть только тех людей, которых знаем.
+        ///Ум не может придумать нового персонажа, которого мы бы в своей жизни не встречали. Снятся нам только знакомые. Но могут сниться те, кого мы не запомнили или забыли. На протяжении своей жизни мы встречаем огромное количество людей, сотни тысяч лиц проходят перед нашими глазами. Поэтому у той части сознания, которая ведает сновидениями, нет недостатка в материале для построения разнообразных символов и образов..
         /// </summary>
         internal static string _4 {
             get {
@@ -3087,7 +6336,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Кошка – единственное домашнее животное, которое не упоминается в Библии..
+        ///   Looks up a localized string similar to В американском штате Нью-Гемпшир на номерных знаках чеканят лозунг «Живи свободным или умри». Номерные знаки делают местные заключённые..
         /// </summary>
         internal static string _40 {
             get {
@@ -3096,7 +6345,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Первый 3D-фильм «Сила любви» был немым — его сняли в 1922 году. У фильма было две концовки — счастливая и грустная, и зрители могли выбирать из них, закрывая левый или правый глаз. Успеха, однако, кино не имело, и в широкий прокат поступила только 2D-версия. Сегодня обе версии считаются утерянными..
+        ///   Looks up a localized string similar to Согласно скандинавской мифологии, в Рагнарёк армия ётунов поплывёт на битву с богами-асами на Нагльфаре — корабле из ногтей мертвецов. Поэтому у викингов существовал обычай остригать и сжигать ногти покойников, чтобы предотвратить создание Нагльфара..
         /// </summary>
         internal static string _400 {
             get {
@@ -3105,7 +6354,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Гитарист «The Beatles» Джордж Харрисон последние дни жизни провёл в Лос-Анджелесе. В честь него в одном из городских парков была посажена сосна, которая росла более десяти лет, но погибла из-за нашествия жуков. В 2015 году её заменили на сосну другого вида, устойчивую ко всем жукам..
+        ///   Looks up a localized string similar to Первый 3D-фильм «Сила любви» был немым — его сняли в 1922 году. У фильма было две концовки — счастливая и грустная, и зрители могли выбирать из них, закрывая левый или правый глаз. Успеха, однако, кино не имело, и в широкий прокат поступила только 2D-версия. Сегодня обе версии считаются утерянными..
         /// </summary>
         internal static string _401 {
             get {
@@ -3114,7 +6363,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Фильм «Терминатор-2: Судный день» был прорывным с точки зрения использования визуальных спецэффектов, включая первый случай применения технологии захвата движения для компьютерной генерации персонажа. Тем не менее, для съёмок сцены, где в кадре две Сары Коннор — настоящая и воспроизведённая Терминатором, особые спецэффекты не потребовались. Вторую Сару сыграла сестра-близнец Линды Хэмилтон, которая до этого никогда не была актрисой. Также два брата-близнеца снялись в сцене, где Терминатор мимикрирует под ох [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Гитарист «The Beatles» Джордж Харрисон последние дни жизни провёл в Лос-Анджелесе. В честь него в одном из городских парков была посажена сосна, которая росла более десяти лет, но погибла из-за нашествия жуков. В 2015 году её заменили на сосну другого вида, устойчивую ко всем жукам..
         /// </summary>
         internal static string _402 {
             get {
@@ -3123,7 +6372,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 2015 году в преддверии Дня Святого Валентина национальная почта Нидерландов взялась доставить все открытки, которые вместо традиционной почтовой марки будут снабжены отпечатком губ. Для этого автоматические сортировщики писем специально были обучены корректному распознаванию таких узоров..
+        ///   Looks up a localized string similar to Фильм «Терминатор-2: Судный день» был прорывным с точки зрения использования визуальных спецэффектов, включая первый случай применения технологии захвата движения для компьютерной генерации персонажа. Тем не менее, для съёмок сцены, где в кадре две Сары Коннор — настоящая и воспроизведённая Терминатором, особые спецэффекты не потребовались. Вторую Сару сыграла сестра-близнец Линды Хэмилтон, которая до этого никогда не была актрисой. Также два брата-близнеца снялись в сцене, где Терминатор мимикрирует под ох [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _403 {
             get {
@@ -3132,7 +6381,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Некоторые рыбы приспособились к передвижению по суше. Например, илистые прыгуны и лягушковые клариевые сомы делают это с помощью развитых грудных плавников и отталкивания задней частью тела, причём прыгуны во время приливов могут даже заползать на мангровые деревья. Но наиболее совершенный механизм к «ходьбе», в том числе по вертикальным поверхностям, обнаружен у обитающего в Таиланде вида Cryptotora thamicola, известного как пещерный ангел. Его тазовый пояс соединён с позвоночником гипертрофированным ребро [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to В 2015 году в преддверии Дня Святого Валентина национальная почта Нидерландов взялась доставить все открытки, которые вместо традиционной почтовой марки будут снабжены отпечатком губ. Для этого автоматические сортировщики писем специально были обучены корректному распознаванию таких узоров..
         /// </summary>
         internal static string _404 {
             get {
@@ -3141,7 +6390,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to О расхаживающем в бодрой и молодцеватой манере человеке или о гордо прогуливающемся бездельнике могут сказать: ходит гоголем. Писатель Николай Васильевич здесь ни при чём — такое поведение было совсем не в его характере. Гоголь — это также птица семейства утиных, манера ходьбы которой и стала причиной сравнения..
+        ///   Looks up a localized string similar to Некоторые рыбы приспособились к передвижению по суше. Например, илистые прыгуны и лягушковые клариевые сомы делают это с помощью развитых грудных плавников и отталкивания задней частью тела, причём прыгуны во время приливов могут даже заползать на мангровые деревья. Но наиболее совершенный механизм к «ходьбе», в том числе по вертикальным поверхностям, обнаружен у обитающего в Таиланде вида Cryptotora thamicola, известного как пещерный ангел. Его тазовый пояс соединён с позвоночником гипертрофированным ребро [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _405 {
             get {
@@ -3150,7 +6399,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Комары и другие кровососущие насекомые производят укус не одним хоботком, а целым арсеналом средств. Кончик хоботка используется в начальной фазе для поиска хорошего места на коже жертвы, причём точный механизм этого процесса пока не ясен. Дальше в дело идут две мандибулы, которые прокалывают кожу и используются в качестве распорок, и две максиллы с зубцами на концах, служащие для расширения раны путём пиления. Затем настаёт черёд двух полых игл: через гипофаринкс вводится слюна с антикоагулянтом, препятств [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to О расхаживающем в бодрой и молодцеватой манере человеке или о гордо прогуливающемся бездельнике могут сказать: ходит гоголем. Писатель Николай Васильевич здесь ни при чём — такое поведение было совсем не в его характере. Гоголь — это также птица семейства утиных, манера ходьбы которой и стала причиной сравнения..
         /// </summary>
         internal static string _406 {
             get {
@@ -3159,7 +6408,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В черновом варианте рассказа Чехова «Лошадиная фамилия» герои вспоминали птичьи фамилии — Соколов, Воробьёв, Петухов и т.п. Вместо Овсова искомой фамилией была Вербицкий, потому что «птица садится на вербу»..
+        ///   Looks up a localized string similar to Комары и другие кровососущие насекомые производят укус не одним хоботком, а целым арсеналом средств. Кончик хоботка используется в начальной фазе для поиска хорошего места на коже жертвы, причём точный механизм этого процесса пока не ясен. Дальше в дело идут две мандибулы, которые прокалывают кожу и используются в качестве распорок, и две максиллы с зубцами на концах, служащие для расширения раны путём пиления. Затем настаёт черёд двух полых игл: через гипофаринкс вводится слюна с антикоагулянтом, препятств [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _407 {
             get {
@@ -3168,7 +6417,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 2006 году японская железнодорожная компания в префектуре Вакаяма с целью оптимизации расходов наняла на должность смотрителей небольших станций совместителей. Одна из новых сотрудниц взяла на попечение несколько бродячих кошек, и вскоре одну из них по имени Тама решили официально назначить станционным смотрителем. Основной её обязанностью было приветствие пассажиров в фирменной фуражке, а новость об этом существенно увеличила их поток. Было подсчитано, что назначение Тамы принесло в местную экономику боле [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to В черновом варианте рассказа Чехова «Лошадиная фамилия» герои вспоминали птичьи фамилии — Соколов, Воробьёв, Петухов и т.п. Вместо Овсова искомой фамилией была Вербицкий, потому что «птица садится на вербу»..
         /// </summary>
         internal static string _408 {
             get {
@@ -3177,7 +6426,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Исландии не обитает ни одного вида комаров, хотя в ближайших к ней Норвегии, Шотландии, Ирландии и даже Гренландии комары есть. Причина этого достоверно не установлена, но существует предположение, что комары не могут закрепиться здесь из-за особенностей исландского климата с неоднократными и порой внезапными чередованиями похолоданий и оттепелей зимой..
+        ///   Looks up a localized string similar to В 2006 году японская железнодорожная компания в префектуре Вакаяма с целью оптимизации расходов наняла на должность смотрителей небольших станций совместителей. Одна из новых сотрудниц взяла на попечение несколько бродячих кошек, и вскоре одну из них по имени Тама решили официально назначить станционным смотрителем. Основной её обязанностью было приветствие пассажиров в фирменной фуражке, а новость об этом существенно увеличила их поток. Было подсчитано, что назначение Тамы принесло в местную экономику боле [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _409 {
             get {
@@ -3186,7 +6435,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Если бы человек прыгал, как блоха, он мог бы перепрыгнуть футбольное поле..
+        ///   Looks up a localized string similar to Кошка – единственное домашнее животное, которое не упоминается в Библии..
         /// </summary>
         internal static string _41 {
             get {
@@ -3195,7 +6444,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У гидры не имеется ротового отверстия как такового. Каждый раз после акта питания клетки вокруг ротового конуса плотно смыкаются, образуя слой эктодермы, аналогичный слоям других участков тела. Чтобы начать новый приём пищи, гидре приходится разрывать этот участок за счёт мышечного усилия..
+        ///   Looks up a localized string similar to В Исландии не обитает ни одного вида комаров, хотя в ближайших к ней Норвегии, Шотландии, Ирландии и даже Гренландии комары есть. Причина этого достоверно не установлена, но существует предположение, что комары не могут закрепиться здесь из-за особенностей исландского климата с неоднократными и порой внезапными чередованиями похолоданий и оттепелей зимой..
         /// </summary>
         internal static string _410 {
             get {
@@ -3204,7 +6453,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Попадая на острова, многие птицы эволюционируют в нелетающих — так появились, например, додо, какапо, киви и ещё более тысячи других видов. Это объясняется тем, что при меньшей опасности от хищников птицам не нужны сильные мускулы крыльев. Широкомасштабное сравнение популяций видов, обитающих как на материке, так и на островах, показало, что у островных представителей всегда более слабая мускулатура, отвечающая за полёт, и более длинные ноги. Такие изменения характерны даже для колибри, которые всю жизнь пр [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to У гидры не имеется ротового отверстия как такового. Каждый раз после акта питания клетки вокруг ротового конуса плотно смыкаются, образуя слой эктодермы, аналогичный слоям других участков тела. Чтобы начать новый приём пищи, гидре приходится разрывать этот участок за счёт мышечного усилия..
         /// </summary>
         internal static string _411 {
             get {
@@ -3213,7 +6462,79 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Королева Елизавета I считала себя чистюлей и заявляла, что купается раз в три месяца, даже если не запачкалась..
+        ///   Looks up a localized string similar to Попадая на острова, многие птицы эволюционируют в нелетающих — так появились, например, додо, какапо, киви и ещё более тысячи других видов. Это объясняется тем, что при меньшей опасности от хищников птицам не нужны сильные мускулы крыльев. Широкомасштабное сравнение популяций видов, обитающих как на материке, так и на островах, показало, что у островных представителей всегда более слабая мускулатура, отвечающая за полёт, и более длинные ноги. Такие изменения характерны даже для колибри, которые всю жизнь пр [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string _412 {
+            get {
+                return ResourceManager.GetString("412", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Единственная часть тела, которая не имеет кровоснабжения, — роговица глаза. Кислород она получает непосредственно из воздуха..
+        /// </summary>
+        internal static string _413 {
+            get {
+                return ResourceManager.GetString("413", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Емкость мозга человека превышает 4 терабайта..
+        /// </summary>
+        internal static string _414 {
+            get {
+                return ResourceManager.GetString("414", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to До 7 месяцев ребенок может дышать и глотать одновременно..
+        /// </summary>
+        internal static string _415 {
+            get {
+                return ResourceManager.GetString("415", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ваш череп состоит из 29 различных костей..
+        /// </summary>
+        internal static string _416 {
+            get {
+                return ResourceManager.GetString("416", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Нервный импульс из мозга движется со скоростью 274 км/ч..
+        /// </summary>
+        internal static string _417 {
+            get {
+                return ResourceManager.GetString("417", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Один человеческий мозг генерирует больше электрических импульсов в течение одного дня, чем все телефоны мира, вместе взятые..
+        /// </summary>
+        internal static string _418 {
+            get {
+                return ResourceManager.GetString("418", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Среднее человеческое тело содержит достаточно серы, чтобы убить всех блох на средней собаке; углерода — чтобы изготовить 900 карандашей; калия — чтобы выстрелить из игрушечной пушки; жира — чтобы сделать 7 кусков мыла; и достаточно воды, чтобы заполнить бочку в 50 литров..
+        /// </summary>
+        internal static string _419 {
+            get {
+                return ResourceManager.GetString("419", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если бы человек прыгал, как блоха, он мог бы перепрыгнуть футбольное поле..
         /// </summary>
         internal static string _42 {
             get {
@@ -3222,7 +6543,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Рекордная длительность полёта курицы – 13 секунд..
+        ///   Looks up a localized string similar to Сердце человека перекачивает 182 миллиона литров крови в своей жизни..
+        /// </summary>
+        internal static string _420 {
+            get {
+                return ResourceManager.GetString("420", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 50000 клеток в вашем теле отмирают и заменяются на новые в то время, как вы читаете это предложение..
+        /// </summary>
+        internal static string _421 {
+            get {
+                return ResourceManager.GetString("421", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Зародыш приобретает отпечатки пальцев в возрасте от 3 месяцев..
+        /// </summary>
+        internal static string _422 {
+            get {
+                return ResourceManager.GetString("422", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Женские сердца бьются быстрее, чем мужские..
+        /// </summary>
+        internal static string _423 {
+            get {
+                return ResourceManager.GetString("423", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Человек по имени Чарльз Осборн икал в течение 68 лет..
+        /// </summary>
+        internal static string _424 {
+            get {
+                return ResourceManager.GetString("424", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Праворукие люди живут в среднем на 9 лет дольше, чем левши..
+        /// </summary>
+        internal static string _425 {
+            get {
+                return ResourceManager.GetString("425", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Примерно 2/3 людей наклоняют голову вправо, когда целуются..
+        /// </summary>
+        internal static string _426 {
+            get {
+                return ResourceManager.GetString("426", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Человек забывает 90% своих снов..
+        /// </summary>
+        internal static string _427 {
+            get {
+                return ResourceManager.GetString("427", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Общая длина кровеносных сосудов в организме человека — примерно 100000 километров..
+        /// </summary>
+        internal static string _428 {
+            get {
+                return ResourceManager.GetString("428", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Весной частота дыхания в среднем на 1/3 выше, чем осенью..
+        /// </summary>
+        internal static string _429 {
+            get {
+                return ResourceManager.GetString("429", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Королева Елизавета I считала себя чистюлей и заявляла, что купается раз в три месяца, даже если не запачкалась..
         /// </summary>
         internal static string _43 {
             get {
@@ -3231,7 +6642,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Организации Объединенных Наций шесть официальных языков: английский, французский, арабский, китайский, русский и испанский..
+        ///   Looks up a localized string similar to К концу жизни человек запоминает в среднем 150 триллионов бит информации..
+        /// </summary>
+        internal static string _430 {
+            get {
+                return ResourceManager.GetString("430", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 80% тепла человеческого тела уходит из головы..
+        /// </summary>
+        internal static string _431 {
+            get {
+                return ResourceManager.GetString("431", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Когда вы краснеете, ваш желудок краснеет тоже..
+        /// </summary>
+        internal static string _432 {
+            get {
+                return ResourceManager.GetString("432", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чувство жажды появляется при потере воды, равной 1% от веса тела. Потеря более 5% может привести к обмороку, а более 10% — к смерти от иссушения..
+        /// </summary>
+        internal static string _433 {
+            get {
+                return ResourceManager.GetString("433", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В теле человека работает не менее 700 ферментов..
+        /// </summary>
+        internal static string _434 {
+            get {
+                return ResourceManager.GetString("434", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Люди — единственные существа, которые спят на спине..
+        /// </summary>
+        internal static string _435 {
+            get {
+                return ResourceManager.GetString("435", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В среднем 4-летний ребенок задает в день 450 вопросов..
+        /// </summary>
+        internal static string _436 {
+            get {
+                return ResourceManager.GetString("436", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Уникальные отпечатки пальцев имеют кроме людей еще и коалы..
+        /// </summary>
+        internal static string _437 {
+            get {
+                return ResourceManager.GetString("437", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Только 1% бактерий вызывает недуги у человека..
+        /// </summary>
+        internal static string _438 {
+            get {
+                return ResourceManager.GetString("438", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Всех людей на планете можно с комфортом уложить в куб со стороной 1000 метров..
+        /// </summary>
+        internal static string _439 {
+            get {
+                return ResourceManager.GetString("439", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Рекордная длительность полёта курицы – 13 секунд..
         /// </summary>
         internal static string _44 {
             get {
@@ -3240,7 +6741,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сердце ежа бьется 300 раз в минуту..
+        ///   Looks up a localized string similar to Научное название пупка — умбиликус..
+        /// </summary>
+        internal static string _440 {
+            get {
+                return ResourceManager.GetString("440", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Зуб — единственная часть человеческого организма, которая не способна к самовосстановлению..
+        /// </summary>
+        internal static string _441 {
+            get {
+                return ResourceManager.GetString("441", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В среднем человеку необходимо 7 минут, чтобы заснуть..
+        /// </summary>
+        internal static string _442 {
+            get {
+                return ResourceManager.GetString("442", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Правша большую часть пищи пережевывает на правой стороне челюсти, левша — на левой..
+        /// </summary>
+        internal static string _443 {
+            get {
+                return ResourceManager.GetString("443", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В мире всего 7% левшей..
+        /// </summary>
+        internal static string _444 {
+            get {
+                return ResourceManager.GetString("444", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Аромат яблок и бананов помогает похудеть..
+        /// </summary>
+        internal static string _445 {
+            get {
+                return ResourceManager.GetString("445", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Длина волос на голове, отращиваемых человеком в среднем в течение жизни, — 725 километров..
+        /// </summary>
+        internal static string _446 {
+            get {
+                return ResourceManager.GetString("446", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Среди людей, которые могут двигать ушами, только 1/3 может двигать одним ухом..
+        /// </summary>
+        internal static string _447 {
+            get {
+                return ResourceManager.GetString("447", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Средний человек за всю свою жизнь проглатывает 8 маленьких пауков..
+        /// </summary>
+        internal static string _448 {
+            get {
+                return ResourceManager.GetString("448", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Общий вес бактерий, живущих в организме человека, составляет 2 килограмма..
+        /// </summary>
+        internal static string _449 {
+            get {
+                return ResourceManager.GetString("449", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Организации Объединенных Наций шесть официальных языков: английский, французский, арабский, китайский, русский и испанский..
         /// </summary>
         internal static string _45 {
             get {
@@ -3249,7 +6840,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Если бы в кока-колу не добавляли краситель, она была бы зелёной..
+        ///   Looks up a localized string similar to 99% всего кальция в организме находится в зубах..
+        /// </summary>
+        internal static string _450 {
+            get {
+                return ResourceManager.GetString("450", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Губы человека в сотни раз чувствительнее, чем кончики пальцев. Настоящий поцелуй увеличивает пульс до частоты 100 и более ударов в минуту..
+        /// </summary>
+        internal static string _451 {
+            get {
+                return ResourceManager.GetString("451", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Абсолютная сила жевательных мышц на одной стороне равна 195 килограммам..
+        /// </summary>
+        internal static string _452 {
+            get {
+                return ResourceManager.GetString("452", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Во время поцелуя от одного человека к другому передается 278 различных культур бактерий. К счастью, 95% из них не представляют опасности..
+        /// </summary>
+        internal static string _453 {
+            get {
+                return ResourceManager.GetString("453", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Партенофобия — это боязнь девственниц..
+        /// </summary>
+        internal static string _454 {
+            get {
+                return ResourceManager.GetString("454", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Зубная эмаль — самая твердая ткань, производимая организмом человека..
+        /// </summary>
+        internal static string _455 {
+            get {
+                return ResourceManager.GetString("455", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если собрать все железо, содержащееся в организме человека, то получится лишь маленький винтик для часов..
+        /// </summary>
+        internal static string _456 {
+            get {
+                return ResourceManager.GetString("456", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Существует более 100 различных вирусов, вызывающих насморк..
+        /// </summary>
+        internal static string _457 {
+            get {
+                return ResourceManager.GetString("457", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Поцелуй достаточной продолжительности гораздо лучше, чем жвачка, нормализует кислотность в полости рта..
+        /// </summary>
+        internal static string _458 {
+            get {
+                return ResourceManager.GetString("458", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ударяясь головой о стену, вы можете терять 150 килокалорий в час..
+        /// </summary>
+        internal static string _459 {
+            get {
+                return ResourceManager.GetString("459", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сердце ежа бьется 300 раз в минуту..
         /// </summary>
         internal static string _46 {
             get {
@@ -3258,7 +6939,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Первое переливание крови произошло в 1667 году. Врач Жан-Батист Дени перелил своему пациенту-юноше 250 миллилитров крови ягнёнка, после чего больной, как ни странно, поправился..
+        ///   Looks up a localized string similar to Человек — единственный представитель животного мира, способный рисовать прямые линии..
+        /// </summary>
+        internal static string _460 {
+            get {
+                return ResourceManager.GetString("460", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to За время жизни кожа человека сменяется примерно 1000 раз..
+        /// </summary>
+        internal static string _461 {
+            get {
+                return ResourceManager.GetString("461", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ямочки на пояснице есть у каждого человека, только у кого-то они ярко выражены, а у других менее заметны. Место появления ямочек находится там, где срастается таз с крестцом, так что появление их вполне обосновано..
+        /// </summary>
+        internal static string _462 {
+            get {
+                return ResourceManager.GetString("462", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Женщины моргают примерно в 2 раза чаще, чем мужчины..
+        /// </summary>
+        internal static string _463 {
+            get {
+                return ResourceManager.GetString("463", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В состав человеческого организма входит всего 4 минерала: апатит, арагонит, кальцит и кристобалит..
+        /// </summary>
+        internal static string _464 {
+            get {
+                return ResourceManager.GetString("464", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Настоящий страстный поцелуй вызывает в мозгу те же химические реакции, что прыжки с парашютом и стрельба из пистолета..
+        /// </summary>
+        internal static string _465 {
+            get {
+                return ResourceManager.GetString("465", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мужчины считаются карликами при росте ниже 130 см, женщины — ниже 120 см..
+        /// </summary>
+        internal static string _466 {
+            get {
+                return ResourceManager.GetString("466", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ногти на пальцах рук растут примерно в 4 раза быстрее, чем на пальцах ног..
+        /// </summary>
+        internal static string _467 {
+            get {
+                return ResourceManager.GetString("467", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Люди с голубыми глазами более чувствительны к боли, чем все остальные..
+        /// </summary>
+        internal static string _468 {
+            get {
+                return ResourceManager.GetString("468", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Нервные импульсы в человеческом теле перемещаются со скоростью примерно 90 метров в секунду..
+        /// </summary>
+        internal static string _469 {
+            get {
+                return ResourceManager.GetString("469", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если бы в кока-колу не добавляли краситель, она была бы зелёной..
         /// </summary>
         internal static string _47 {
             get {
@@ -3267,7 +7038,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Большая часть пыли в доме – отшелушившаяся кожа его обитателей..
+        ///   Looks up a localized string similar to В головном мозге человека за одну секунду происходит 100000 химических реакций..
+        /// </summary>
+        internal static string _470 {
+            get {
+                return ResourceManager.GetString("470", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дети рождаются без коленных чашечек. Они появляются только в возрасте 2-6 лет..
+        /// </summary>
+        internal static string _471 {
+            get {
+                return ResourceManager.GetString("471", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если у одного из однояйцевых близнецов не хватает того или иного зуба, как правило, такой же зуб отсутствует и у другого близнеца..
+        /// </summary>
+        internal static string _472 {
+            get {
+                return ResourceManager.GetString("472", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Площадь поверхности человеческих легких примерно равна площади теннисного корта..
+        /// </summary>
+        internal static string _473 {
+            get {
+                return ResourceManager.GetString("473", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В среднем человек за всю жизнь тратит на поцелуи 2 недели..
+        /// </summary>
+        internal static string _474 {
+            get {
+                return ResourceManager.GetString("474", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У блондинов борода растет быстрее, чем у брюнетов..
+        /// </summary>
+        internal static string _475 {
+            get {
+                return ResourceManager.GetString("475", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Лейкоциты в организме человека живут 2-4 дня, а эритроциты — 3-4 месяца..
+        /// </summary>
+        internal static string _476 {
+            get {
+                return ResourceManager.GetString("476", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая сильная мышца в человеческом теле — язык..
+        /// </summary>
+        internal static string _477 {
+            get {
+                return ResourceManager.GetString("477", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Размер сердца человека примерно равен величине его кулака. Вес сердца взрослого человека составляет 220-260 граммов..
+        /// </summary>
+        internal static string _478 {
+            get {
+                return ResourceManager.GetString("478", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to С момента рождения в мозгу человека уже существует 14 миллиардов клеток, и число это до самой смерти не увеличивается. Напротив, после 25 лет оно сокращается на 100 тысяч в день. За минуту, потраченную вами на чтение страницы, умирает около 70 клеток. После 40 лет деградация мозга резко ускоряется, а после 50 нейроны (нервные клетки) усыхают и сокращается объем мозга..
+        /// </summary>
+        internal static string _479 {
+            get {
+                return ResourceManager.GetString("479", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Первое переливание крови произошло в 1667 году. Врач Жан-Батист Дени перелил своему пациенту-юноше 250 миллилитров крови ягнёнка, после чего больной, как ни странно, поправился..
         /// </summary>
         internal static string _48 {
             get {
@@ -3276,7 +7137,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to На каждом континенте есть город с названием Рим..
+        ///   Looks up a localized string similar to При рождении в теле ребенка около 300 костей, в зрелом возрасте их насчитывается всего 206..
+        /// </summary>
+        internal static string _480 {
+            get {
+                return ResourceManager.GetString("480", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Тонкая кишка человека при жизни имеет длину около 2 с половиной метров. После его смерти, когда мускулатура стенки кишки расслабляется, длина достигает 6 метров..
+        /// </summary>
+        internal static string _481 {
+            get {
+                return ResourceManager.GetString("481", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Правое легкое человека вмещает в себя больше воздуха, чем левое..
+        /// </summary>
+        internal static string _482 {
+            get {
+                return ResourceManager.GetString("482", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Взрослый человек делает примерно 23000 вдохов (и выдохов) в день..
+        /// </summary>
+        internal static string _483 {
+            get {
+                return ResourceManager.GetString("483", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самые мелкие клетки в организме мужчины — клетки спермы..
+        /// </summary>
+        internal static string _484 {
+            get {
+                return ResourceManager.GetString("484", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Во рту человека около 40000 бактерий..
+        /// </summary>
+        internal static string _485 {
+            get {
+                return ResourceManager.GetString("485", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В организме человека около 2000 вкусовых рецепторов..
+        /// </summary>
+        internal static string _486 {
+            get {
+                return ResourceManager.GetString("486", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Человеческий глаз способен различать 10 миллионов цветовых оттенков..
+        /// </summary>
+        internal static string _487 {
+            get {
+                return ResourceManager.GetString("487", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Химическое соединение, ответственное за экстаз любви (фенилэтиламин), присутствует в шоколаде..
+        /// </summary>
+        internal static string _488 {
+            get {
+                return ResourceManager.GetString("488", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Человеческое сердце создает давление, которого достаточно, чтобы поднять кровь на уровень 4-го этажа..
+        /// </summary>
+        internal static string _489 {
+            get {
+                return ResourceManager.GetString("489", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Большая часть пыли в доме – отшелушившаяся кожа его обитателей..
         /// </summary>
         internal static string _49 {
             get {
@@ -3285,8 +7236,98 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Символизм сновидений.
-        ///Мы очень редко видим во сне привычные, бытовые вещи и ситуации. Даже когда нам снится что-то, казалось бы, хорошо знакомое, во сне этот объект сновидения приобретает совсем другой смысл. Сны глубоко символичны, во сне мы попадаем в пространство первичных архетипов. Именно в этом заключается причина того трепетного внимания, которое в древности уделяли снам властителей жрецы. Ведь психические процессы вершителей судеб, людей, которые принимают решения эпохальной важности – это, согласит [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Во сне человек сжигает больше калорий, чем во время просмотра телевизора..
+        /// </summary>
+        internal static string _490 {
+            get {
+                return ResourceManager.GetString("490", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дети растут быстрее всего весной..
+        /// </summary>
+        internal static string _491 {
+            get {
+                return ResourceManager.GetString("491", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждый год гибнет более 2 тысяч левшей из-за ошибки в эксплуатации механизмов, предназначенных для правшей..
+        /// </summary>
+        internal static string _492 {
+            get {
+                return ResourceManager.GetString("492", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Оказывается, каждый трехсотый мужчина имеет возможность удовлетворить себя орально..
+        /// </summary>
+        internal static string _493 {
+            get {
+                return ResourceManager.GetString("493", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Человек использует 17 мышц, когда улыбается, и 43 — когда хмурится..
+        /// </summary>
+        internal static string _494 {
+            get {
+                return ResourceManager.GetString("494", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В возрасте 60 лет большинство людей теряют половину своих вкусовых рецепторов..
+        /// </summary>
+        internal static string _495 {
+            get {
+                return ResourceManager.GetString("495", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Во время полета в самолете скорость роста волос у человека удваивается..
+        /// </summary>
+        internal static string _496 {
+            get {
+                return ResourceManager.GetString("496", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1% людей может видеть инфракрасное и 1% — ультрафиолетовое излучения..
+        /// </summary>
+        internal static string _497 {
+            get {
+                return ResourceManager.GetString("497", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если вы заперты в полностью закрытой комнате, то вы умрете от отравления диоксидом углерода, а не из-за недостатка воздуха..
+        /// </summary>
+        internal static string _498 {
+            get {
+                return ResourceManager.GetString("498", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to По статистике, лишь 1 человек на 2 миллиарда перешагивает порог 116 лет..
+        /// </summary>
+        internal static string _499 {
+            get {
+                return ResourceManager.GetString("499", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Цветные и чёрно-белые сны.
+        ///Исследования, проведённые с 1915 года до пятидесятых годов 20-го века, говорят, что среди зрячих людей 12% видят исключительно чёрно-белые сны. С 60-х годов картина изменилась. Сегодня чёрно-белые сны видят 4,4% людей. Скорее всего, такие изменения связаны с тем, что чёрно-белые фильмы уступили место цветным, появилось телевидение и другие медиа, использующие цветное изображение..
         /// </summary>
         internal static string _5 {
             get {
@@ -3295,7 +7336,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Прославленный английский адмирал Горацио Нельсон всю жизнь страдал от морской болезни..
+        ///   Looks up a localized string similar to На каждом континенте есть город с названием Рим..
         /// </summary>
         internal static string _50 {
             get {
@@ -3304,7 +7345,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Жуки на вкус похожи на яблоко, осы – на кедровый орешек, а черви – на жареный бекон..
+        ///   Looks up a localized string similar to В среднем человек говорит 4800 слов за 24 часа..
+        /// </summary>
+        internal static string _500 {
+            get {
+                return ResourceManager.GetString("500", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сетчатка внутри глаза охватывает около 650 кв. мм и содержит 137 миллионов светочувствительных клеток: 130 миллионов палочек для черно-белого видения и 7 миллионов колбочек для цветового зрения..
+        /// </summary>
+        internal static string _501 {
+            get {
+                return ResourceManager.GetString("501", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Наши глаза всегда одного размера от рождения, но наш нос и уши никогда не перестают расти..
+        /// </summary>
+        internal static string _502 {
+            get {
+                return ResourceManager.GetString("502", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to С утра человек примерно на 8 миллиметров выше, чем вечером..
+        /// </summary>
+        internal static string _503 {
+            get {
+                return ResourceManager.GetString("503", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мышцы фокусировки глаза двигаются 100000 раз в день. Чтобы мышцы ног сделали столько же сокращений, нужно ходить 80 километров в день..
+        /// </summary>
+        internal static string _504 {
+            get {
+                return ResourceManager.GetString("504", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Кашель — взрывной заряд воздуха, который движется со скоростью до 60 миль/ч..
+        /// </summary>
+        internal static string _505 {
+            get {
+                return ResourceManager.GetString("505", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to По данным немецких исследователей, риск сердечного приступа выше в понедельник, чем в любой другой день недели..
+        /// </summary>
+        internal static string _506 {
+            get {
+                return ResourceManager.GetString("506", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Кость в 5 раз прочнее стали..
+        /// </summary>
+        internal static string _507 {
+            get {
+                return ResourceManager.GetString("507", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Невозможно чихнуть с открытыми глазами..
+        /// </summary>
+        internal static string _508 {
+            get {
+                return ResourceManager.GetString("508", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Вросшие ногти — наследственная черта..
+        /// </summary>
+        internal static string _509 {
+            get {
+                return ResourceManager.GetString("509", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Прославленный английский адмирал Горацио Нельсон всю жизнь страдал от морской болезни..
         /// </summary>
         internal static string _51 {
             get {
@@ -3313,7 +7444,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В 1830-х годах кетчуп продавали как лекарство..
+        ///   Looks up a localized string similar to Нормальный человек умрет от полного отсутствия сна быстрее, чем от голода. Смерть произойдет примерно через 10 дней без сна, в то время как от голода — через несколько недель..
+        /// </summary>
+        internal static string _510 {
+            get {
+                return ResourceManager.GetString("510", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Средняя продолжительность жизни — 2475576000 секунд, за жизнь мы произносим в среднем 123205750 слов, занимаемся сексом 4239 раз..
+        /// </summary>
+        internal static string _511 {
+            get {
+                return ResourceManager.GetString("511", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 132,2см — самые длинные ноги, принадлежат баскетболистке Светлане Панкратовой.
+        /// </summary>
+        internal static string _512 {
+            get {
+                return ResourceManager.GetString("512", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10кг весила самая большая грудь. Была у китаянки Тин Чжафэн, когда ей было 12 лет. В 12 она сделала операцию, придав груди нормальный размер.
+        /// </summary>
+        internal static string _513 {
+            get {
+                return ResourceManager.GetString("513", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 585 слов в минуту произносит самая болтливая женщина — Фран Кэро.
+        /// </summary>
+        internal static string _514 {
+            get {
+                return ResourceManager.GetString("514", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 69 детей — самое большое число детей, которое когда-либо рожала за свою жизнь одна женщина (семь раз рождались тройняшки и четыре раза — четверняшки)..
+        /// </summary>
+        internal static string _515 {
+            get {
+                return ResourceManager.GetString("515", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 60 мужей одновременно было у Терезы Ваух..
+        /// </summary>
+        internal static string _516 {
+            get {
+                return ResourceManager.GetString("516", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 миллиард евро — именно на такую сумму застраховано тело Джей Ло..
+        /// </summary>
+        internal static string _517 {
+            get {
+                return ResourceManager.GetString("517", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 55см — рост самой маленькой женщины в мире, Мардж Бестер.
+        /// </summary>
+        internal static string _518 {
+            get {
+                return ResourceManager.GetString("518", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Индейцы племени юки считали не пальцами (пятерками), а промежутками между пальцами (четверками)..
+        /// </summary>
+        internal static string _519 {
+            get {
+                return ResourceManager.GetString("519", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Жуки на вкус похожи на яблоко, осы – на кедровый орешек, а черви – на жареный бекон..
         /// </summary>
         internal static string _52 {
             get {
@@ -3322,7 +7543,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ежедневно на планете 12 детей в роддомах отдают не тем родителям..
+        ///   Looks up a localized string similar to В Центральной Америке на небе выделяли не созвездия на млечном пути, а черные промежутки меж облаками света — но тоже называли их по именам животных. Получался черный Зодиак — вполне дополнительный к созвездиям..
+        /// </summary>
+        internal static string _520 {
+            get {
+                return ResourceManager.GetString("520", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Болгарский кивок головой значит «нет»..
+        /// </summary>
+        internal static string _521 {
+            get {
+                return ResourceManager.GetString("521", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Америке считают на пальцах, отгибая их от ку­лака, а, не загибая их, как мы. А японцы хоть и загибают, но не также как мы, начиная не с мизинца, а с большого пальца..
+        /// </summary>
+        internal static string _522 {
+            get {
+                return ResourceManager.GetString("522", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В отличие от нас, политкорректные афроамериканцы считают зебру черным животным с белыми полосками..
+        /// </summary>
+        internal static string _523 {
+            get {
+                return ResourceManager.GetString("523", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Цвета траура — черный в России и Европе, белый в Японии..
+        /// </summary>
+        internal static string _524 {
+            get {
+                return ResourceManager.GetString("524", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Японии и англоязычных странах в радуге выделяют не 7, а 6 цветов..
+        /// </summary>
+        internal static string _525 {
+            get {
+                return ResourceManager.GetString("525", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ад у северных народов холодный, у южных — горячий..
+        /// </summary>
+        internal static string _526 {
+            get {
+                return ResourceManager.GetString("526", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Коренные жители Африки бушмены говорят на вдохе, а не на выдохе, как мы..
+        /// </summary>
+        internal static string _527 {
+            get {
+                return ResourceManager.GetString("527", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Китае есть врачи, которые считают, что их работа заключается в том, чтобы пациенты были здоровы. Они получают деньги только тогда, когда их клиенты не болеют — это значит, что они хорошо справляются со своей работой. Как только человек заболевает, он перестает платить своему врачу..
+        /// </summary>
+        internal static string _528 {
+            get {
+                return ResourceManager.GetString("528", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Японии считают, что неправильно давать имена улицам. Улицы — это только пустое пространство между домами. У японцев есть названия кварталов. А дома получают свои номера в том порядке, в котором они были построены..
+        /// </summary>
+        internal static string _529 {
+            get {
+                return ResourceManager.GetString("529", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1830-х годах кетчуп продавали как лекарство..
         /// </summary>
         internal static string _53 {
             get {
@@ -3331,7 +7642,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Слизистая оболочка желудка обновляется каждые две недели..
+        ///   Looks up a localized string similar to Привычное для нас «расположение» прошлого и будущего: то, что уже прошло — за спиной, будущее — впереди. Но некоторые амазонские племена воспринимают будущее как нечто, находящееся за спиной (ведь мы еще не знаем, какое оно), а вот прошлое, по их мнению, находится перед лицом: его мы уже видели и знаем, можем представить..
+        /// </summary>
+        internal static string _530 {
+            get {
+                return ResourceManager.GetString("530", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Почтовый адрес в России пишут в такой последовательности: страна, город, улица, дом, квартира, человек. В Европе и Америке наоборот: человек, квартира, дом, улица, город, страна..
+        /// </summary>
+        internal static string _531 {
+            get {
+                return ResourceManager.GetString("531", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мы представляем себе смерть как мрачную старуху с косой, а мексиканцы как веселый скелет, который улыбается и бренчит костями..
+        /// </summary>
+        internal static string _532 {
+            get {
+                return ResourceManager.GetString("532", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Карты мира, напечатанные в южном полушарии, например в Австралии, для нас будут считаться перевёрнутыми вверх ногами..
+        /// </summary>
+        internal static string _533 {
+            get {
+                return ResourceManager.GetString("533", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В бутылке шампанского давление в 3 р. выше, чем в автомобильной шине..
+        /// </summary>
+        internal static string _534 {
+            get {
+                return ResourceManager.GetString("534", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Единственной страной в мире, где женщинам запрещено водить машину являетс Саудовская Аравия..
+        /// </summary>
+        internal static string _535 {
+            get {
+                return ResourceManager.GetString("535", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самой популярной разновидностью покера на сегодня является «Техасский холдем»..
+        /// </summary>
+        internal static string _536 {
+            get {
+                return ResourceManager.GetString("536", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Первый фабричный скейтборд произвели в 1958 г..
+        /// </summary>
+        internal static string _537 {
+            get {
+                return ResourceManager.GetString("537", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1960 в США зарегистрировано около 4000 жителей в возрасте 100 лет и старше, а сейчас их около 55 000..
+        /// </summary>
+        internal static string _538 {
+            get {
+                return ResourceManager.GetString("538", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Южной Африке происходит 50 убийств в день..
+        /// </summary>
+        internal static string _539 {
+            get {
+                return ResourceManager.GetString("539", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ежедневно на планете 12 детей в роддомах отдают не тем родителям..
         /// </summary>
         internal static string _54 {
             get {
@@ -3340,7 +7741,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самки льва приносят 90 процентов добычи..
+        ///   Looks up a localized string similar to 98% женщин утверждают, что мужчины в облегающих джинсах отвратительны..
+        /// </summary>
+        internal static string _540 {
+            get {
+                return ResourceManager.GetString("540", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Милиция максимум может задержать на 3 часа до выяснения личности, при отсутствии обвинений..
+        /// </summary>
+        internal static string _541 {
+            get {
+                return ResourceManager.GetString("541", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Первые очки изобрели приблизительно в 1290 г.н.э..
+        /// </summary>
+        internal static string _542 {
+            get {
+                return ResourceManager.GetString("542", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Уганде на одну женщину приходится почти 7 детей..
+        /// </summary>
+        internal static string _543 {
+            get {
+                return ResourceManager.GetString("543", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to При подъеме на каждые 150 м в горах температура воздуха падает на 1°С..
+        /// </summary>
+        internal static string _544 {
+            get {
+                return ResourceManager.GetString("544", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Реактивный самолет сжигает 3000 кг воздуха в минуту независимо от скорости полета..
+        /// </summary>
+        internal static string _545 {
+            get {
+                return ResourceManager.GetString("545", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В одном литре квартирного воздуха 500 тыс. пылинок..
+        /// </summary>
+        internal static string _546 {
+            get {
+                return ResourceManager.GetString("546", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 19 минут и 21 секунду — зафиксированный рекорд пребывания человека под водой (установлен в 2010 году швейцарцем)..
+        /// </summary>
+        internal static string _547 {
+            get {
+                return ResourceManager.GetString("547", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to За границей все уверены, что Чебурашка – это ОНА..
+        /// </summary>
+        internal static string _548 {
+            get {
+                return ResourceManager.GetString("548", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сердце белого кита имеет размер автомобиля Фольксваген Жук..
+        /// </summary>
+        internal static string _549 {
+            get {
+                return ResourceManager.GetString("549", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Слизистая оболочка желудка обновляется каждые две недели..
         /// </summary>
         internal static string _55 {
             get {
@@ -3349,7 +7840,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Деньги делаются не из бумаги, а из хлопка..
+        ///   Looks up a localized string similar to В городе Крескилл в Нью-Джерси все коты и кошки должны носить 3 колокольчика, чтобы птицы всегда знали об их расположении..
+        /// </summary>
+        internal static string _550 {
+            get {
+                return ResourceManager.GetString("550", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пипидастры - мохнатые разноцветные штуки, которыми красиво размахивают девушки из группы поддержки спортивных команд..
+        /// </summary>
+        internal static string _551 {
+            get {
+                return ResourceManager.GetString("551", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Резиновый подлокотник эскалатора в метро двигается с другой скоростью для того, чтобы пассажир не уснул на эскалаторе..
+        /// </summary>
+        internal static string _552 {
+            get {
+                return ResourceManager.GetString("552", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Акулы могут представлять опасность даже до своего рождения. Так, ученый Стюарт Спрингер был укушен эмбрионом в то время, когда он исследовал внутренности беременной акулы..
+        /// </summary>
+        internal static string _553 {
+            get {
+                return ResourceManager.GetString("553", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чтобы освободиться из челюстей крокодила, нужно надавить большими пальцами на его глазные яблоки..
+        /// </summary>
+        internal static string _554 {
+            get {
+                return ResourceManager.GetString("554", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Язык хамелеона вдвое длиннее его тела..
+        /// </summary>
+        internal static string _555 {
+            get {
+                return ResourceManager.GetString("555", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бегун способен со старта опередить гоночную машину в первые 10 метров..
+        /// </summary>
+        internal static string _556 {
+            get {
+                return ResourceManager.GetString("556", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Колибри — единственная птица, которая может летать задом наперед..
+        /// </summary>
+        internal static string _557 {
+            get {
+                return ResourceManager.GetString("557", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Гигантские ящерицы Комодо нападают даже на оленя и кабана..
+        /// </summary>
+        internal static string _558 {
+            get {
+                return ResourceManager.GetString("558", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждого четвертого американца показывали по телевизору..
+        /// </summary>
+        internal static string _559 {
+            get {
+                return ResourceManager.GetString("559", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самки льва приносят 90 процентов добычи..
         /// </summary>
         internal static string _56 {
             get {
@@ -3358,7 +7939,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самец непарного шелкопряда может почувствовать запах самки за 1.8 километров..
+        ///   Looks up a localized string similar to Если желтую канарейку кормить красным перцем, цвет ее перьев станет ярко-оранжевым..
+        /// </summary>
+        internal static string _560 {
+            get {
+                return ResourceManager.GetString("560", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Для точного поддержания баланса и аэродинамических свойств орел, при выпадении пера из одного крыла теряет такое же перо из другого крыла..
+        /// </summary>
+        internal static string _561 {
+            get {
+                return ResourceManager.GetString("561", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чтобы расколоть орех, достаточно положить его в горячую воду на 48 часов..
+        /// </summary>
+        internal static string _562 {
+            get {
+                return ResourceManager.GetString("562", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Между плитами пирамиды Хеопса невозможно просунуть лезвие..
+        /// </summary>
+        internal static string _563 {
+            get {
+                return ResourceManager.GetString("563", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Водители убивают больше оленей, чем охотники..
+        /// </summary>
+        internal static string _564 {
+            get {
+                return ResourceManager.GetString("564", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Крыса может упасть с пятиэтажного здания без каких-либо повреждений..
+        /// </summary>
+        internal static string _565 {
+            get {
+                return ResourceManager.GetString("565", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Даже маленькая капля алкоголя, помещенная на скорпиона, сводит его с ума. Скорпион жалит себя до смерти..
+        /// </summary>
+        internal static string _566 {
+            get {
+                return ResourceManager.GetString("566", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самый распространенный язык – китайский. А второй по распространенности - испанский. Английскому же достается почетная бронза..
+        /// </summary>
+        internal static string _567 {
+            get {
+                return ResourceManager.GetString("567", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более чем 70 % населения планеты никогда не слышали звонка телефона. В Африке только один из 40 человек имеет телефон..
+        /// </summary>
+        internal static string _568 {
+            get {
+                return ResourceManager.GetString("568", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Полностью нагруженному танкеру, идущему на средней скорости, необходимо около двенадцати минут для полной остановки..
+        /// </summary>
+        internal static string _569 {
+            get {
+                return ResourceManager.GetString("569", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Деньги делаются не из бумаги, а из хлопка..
         /// </summary>
         internal static string _57 {
             get {
@@ -3367,7 +8038,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Принц Чарльз увлечённо коллекционирует унитазные сиденья..
+        ///   Looks up a localized string similar to Все современные реактивные самолеты способны преодолеть скорость звука..
+        /// </summary>
+        internal static string _570 {
+            get {
+                return ResourceManager.GetString("570", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Знак «HOLLYWOOD» — это реклама недвижимости.
+        /// </summary>
+        internal static string _571 {
+            get {
+                return ResourceManager.GetString("571", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если все сосуды одного человека, включая вены, артерии, капилляры, вытянуть в одну линию, то этой &apos;веревочкой&apos; можно будет обмотать нашу планету 2-3 раза по экватору.
+        /// </summary>
+        internal static string _572 {
+            get {
+                return ResourceManager.GetString("572", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более 40% добываемого в мире миндаля идёт на производство шоколада.
+        /// </summary>
+        internal static string _573 {
+            get {
+                return ResourceManager.GetString("573", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ирландский кофе был изобретен в Сан-Франциско.
+        /// </summary>
+        internal static string _574 {
+            get {
+                return ResourceManager.GetString("574", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Женское сердце бьется быстрее мужского.
+        /// </summary>
+        internal static string _575 {
+            get {
+                return ResourceManager.GetString("575", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Зайцы и кролики не скрещиваются друг с другом.
+        /// </summary>
+        internal static string _576 {
+            get {
+                return ResourceManager.GetString("576", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В мире есть феномен, который позволяет человеку общаться и дружить с его идеалом, создав его самостоятельно. Это галюцинация, которые вы сможете слышать, видеть и чувствовать, как и обычного человека. Это - тульпа.
+        /// </summary>
+        internal static string _577 {
+            get {
+                return ResourceManager.GetString("577", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Секретный ингредиент Кока-колы называется Merchandise X7.
+        /// </summary>
+        internal static string _578 {
+            get {
+                return ResourceManager.GetString("578", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В юношестве Майкла Джордана выгнали из школьной баскетбольной команды.
+        /// </summary>
+        internal static string _579 {
+            get {
+                return ResourceManager.GetString("579", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самец непарного шелкопряда может почувствовать запах самки за 1.8 километров..
         /// </summary>
         internal static string _58 {
             get {
@@ -3376,7 +8137,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Цена билета в кино в Токио дороже, чем в Мехико, в 26 раз..
+        ///   Looks up a localized string similar to Мозг у неандертальца был больше, чем у нас.
+        /// </summary>
+        internal static string _580 {
+            get {
+                return ResourceManager.GetString("580", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Французский язык был официальным языком Англии более 600 лет.
+        /// </summary>
+        internal static string _581 {
+            get {
+                return ResourceManager.GetString("581", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Легенда рока Курт Кобейн начал принимать риталин в возрасте семи лет.
+        /// </summary>
+        internal static string _582 {
+            get {
+                return ResourceManager.GetString("582", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Во Вторую Мировую Войну СССР вступила как союзница Германии.
+        /// </summary>
+        internal static string _583 {
+            get {
+                return ResourceManager.GetString("583", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Свинья не может посмотреть на небо.
+        /// </summary>
+        internal static string _584 {
+            get {
+                return ResourceManager.GetString("584", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to До XIV века на Руси все неприличные слова назывались «нелепыми глаголами».
+        /// </summary>
+        internal static string _585 {
+            get {
+                return ResourceManager.GetString("585", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Шоколад составляет около 3% от объемов продаж компании Nestle.
+        /// </summary>
+        internal static string _586 {
+            get {
+                return ResourceManager.GetString("586", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На Багамских островах работало подводное почтовое отделение.
+        /// </summary>
+        internal static string _587 {
+            get {
+                return ResourceManager.GetString("587", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Филофобия - боязнь любить.
+        /// </summary>
+        internal static string _588 {
+            get {
+                return ResourceManager.GetString("588", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Известный афродизиак «Spanish Fly» изготовлен из сушеного жука.
+        /// </summary>
+        internal static string _589 {
+            get {
+                return ResourceManager.GetString("589", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Принц Чарльз увлечённо коллекционирует унитазные сиденья..
         /// </summary>
         internal static string _59 {
             get {
@@ -3385,8 +8236,98 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Эмоции, которые мы испытываем во сне.
-        ///Самые распространённые эмоции, которые мы чувствуем во сне – тревожность. И в целом отрицательные эмоции во сне мы испытываем чаще, чем положительные..
+        ///   Looks up a localized string similar to Скорость роста жемчужин примерно 0,1 мм в год.
+        /// </summary>
+        internal static string _590 {
+            get {
+                return ResourceManager.GetString("590", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Шампанское пенится в бокале из-за грязи.
+        /// </summary>
+        internal static string _591 {
+            get {
+                return ResourceManager.GetString("591", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Толщина книжной страницы — около полумиллиона атомов.
+        /// </summary>
+        internal static string _592 {
+            get {
+                return ResourceManager.GetString("592", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Первый зоопарк был создан в Австралии в XV веке.
+        /// </summary>
+        internal static string _593 {
+            get {
+                return ResourceManager.GetString("593", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На Кипре Деда Мороза зовут Василий.
+        /// </summary>
+        internal static string _594 {
+            get {
+                return ResourceManager.GetString("594", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Изначально фэн-шуй — искусство украшать могилы.
+        /// </summary>
+        internal static string _595 {
+            get {
+                return ResourceManager.GetString("595", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бороды растут быстрее у тех мужчин, что регулярно занимаются сексом.
+        /// </summary>
+        internal static string _596 {
+            get {
+                return ResourceManager.GetString("596", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Фламинго живут удивительно долгую жизнь: до 80 лет.
+        /// </summary>
+        internal static string _597 {
+            get {
+                return ResourceManager.GetString("597", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Лихтенштейне фермеры публикуют некрологи в честь своих умерших коров.
+        /// </summary>
+        internal static string _598 {
+            get {
+                return ResourceManager.GetString("598", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждый день Земля тяжелеет на 100 тон из-за падения космической пыли.
+        /// </summary>
+        internal static string _599 {
+            get {
+                return ResourceManager.GetString("599", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Символизм сновидений.
+        ///Мы очень редко видим во сне привычные, бытовые вещи и ситуации. Даже когда нам снится что-то, казалось бы, хорошо знакомое, во сне этот объект сновидения приобретает совсем другой смысл. Сны глубоко символичны, во сне мы попадаем в пространство первичных архетипов. Именно в этом заключается причина того трепетного внимания, которое в древности уделяли снам властителей жрецы. Ведь психические процессы вершителей судеб, людей, которые принимают решения эпохальной важности – это, согласит [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string _6 {
             get {
@@ -3395,7 +8336,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Каждые семь минут на планете кто-то получает растяжение бицепса бедра, занимаясь гимнастикой..
+        ///   Looks up a localized string similar to Цена билета в кино в Токио дороже, чем в Мехико, в 26 раз..
         /// </summary>
         internal static string _60 {
             get {
@@ -3404,7 +8345,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Более 80% компьютерных взломов связаны с простыми паролями..
+        ///   Looks up a localized string similar to Собирая чемодан, женщина всреднем кладет в него 26 вещей, которыми ни разу не воспользуется.
+        /// </summary>
+        internal static string _600 {
+            get {
+                return ResourceManager.GetString("600", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 90% всех электронных писем являются спамом.
+        /// </summary>
+        internal static string _601 {
+            get {
+                return ResourceManager.GetString("601", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Килты придумали во Франции, а не в Шотландии.
+        /// </summary>
+        internal static string _602 {
+            get {
+                return ResourceManager.GetString("602", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1924-м году автомобиль Форд (модель Ford T) стоил $265.
+        /// </summary>
+        internal static string _603 {
+            get {
+                return ResourceManager.GetString("603", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Любимый спорт нудистов — волейбол.
+        /// </summary>
+        internal static string _604 {
+            get {
+                return ResourceManager.GetString("604", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мышь самое распространённое млекопитающее на Земле.
+        /// </summary>
+        internal static string _605 {
+            get {
+                return ResourceManager.GetString("605", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Скорость тьмы равна скорости света.
+        /// </summary>
+        internal static string _606 {
+            get {
+                return ResourceManager.GetString("606", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to До 1600 термометры наполняли бренди вместо ртути.
+        /// </summary>
+        internal static string _607 {
+            get {
+                return ResourceManager.GetString("607", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 50 самых высоких гор на Земле расположены в Азии.
+        /// </summary>
+        internal static string _608 {
+            get {
+                return ResourceManager.GetString("608", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Кислотный дождь впервые случился в 1852-м году.
+        /// </summary>
+        internal static string _609 {
+            get {
+                return ResourceManager.GetString("609", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждые семь минут на планете кто-то получает растяжение бицепса бедра, занимаясь гимнастикой..
         /// </summary>
         internal static string _61 {
             get {
@@ -3413,7 +8444,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Дуб не производит жёлуди, пока он младше 50 лет..
+        ///   Looks up a localized string similar to Наполеону нравилось, когда от его сексуальной партнерши несло потом.
+        /// </summary>
+        internal static string _610 {
+            get {
+                return ResourceManager.GetString("610", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В России существует официальная должность под названием «Вождь».
+        /// </summary>
+        internal static string _611 {
+            get {
+                return ResourceManager.GetString("611", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Новогодние ёлки растут примерно 15 лет, прежде чем поступить в продажу.
+        /// </summary>
+        internal static string _612 {
+            get {
+                return ResourceManager.GetString("612", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самоё дурно пахнущее существо на Земле — это человек.
+        /// </summary>
+        internal static string _613 {
+            get {
+                return ResourceManager.GetString("613", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Длина Гарвардского моста — «364,4 смута и еще одно ухо».
+        /// </summary>
+        internal static string _614 {
+            get {
+                return ResourceManager.GetString("614", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Гамбурге есть детский сад для мужчин.
+        /// </summary>
+        internal static string _615 {
+            get {
+                return ResourceManager.GetString("615", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Абсолютная сила жевательных мышц на одной стороне равна 195 кг.
+        /// </summary>
+        internal static string _616 {
+            get {
+                return ResourceManager.GetString("616", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У Марка Уолберга и Лили Аллен есть третий сосок.
+        /// </summary>
+        internal static string _617 {
+            get {
+                return ResourceManager.GetString("617", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Больше половины россиян имеет избыточный вес, четверть страдает ожирением.
+        /// </summary>
+        internal static string _618 {
+            get {
+                return ResourceManager.GetString("618", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1111111 x 1111111 = 1234567654321.
+        /// </summary>
+        internal static string _619 {
+            get {
+                return ResourceManager.GetString("619", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более 80% компьютерных взломов связаны с простыми паролями..
         /// </summary>
         internal static string _62 {
             get {
@@ -3422,7 +8543,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Противокомариные репелленты не отпугивают насекомых, а прячут от них вас. Спрей блокирует сенсорную систему комара, и комар не понимает, где вы..
+        ///   Looks up a localized string similar to В 2006 году в Китае насчитывалось более 398 миллионов мобильных телефонов.
+        /// </summary>
+        internal static string _620 {
+            get {
+                return ResourceManager.GetString("620", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1859–1880 годах в США «правил» Император Соединённых Штатов — Нортон Первый.
+        /// </summary>
+        internal static string _621 {
+            get {
+                return ResourceManager.GetString("621", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Глубина Азовского моря всего 14,4 метра.
+        /// </summary>
+        internal static string _622 {
+            get {
+                return ResourceManager.GetString("622", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Коко Шанель ввела в моду загар.
+        /// </summary>
+        internal static string _623 {
+            get {
+                return ResourceManager.GetString("623", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to При температуре выше -5 градусов снег перестаёт хрустеть под ногами.
+        /// </summary>
+        internal static string _624 {
+            get {
+                return ResourceManager.GetString("624", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 49% американцев не знают, что белый хлеб сделан из пшеницы.
+        /// </summary>
+        internal static string _625 {
+            get {
+                return ResourceManager.GetString("625", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Боязнь Солнца — гелиофобия (Heliophobia).
+        /// </summary>
+        internal static string _626 {
+            get {
+                return ResourceManager.GetString("626", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самое первое зарегистрированное доменное имя — http://Symbolics.com.
+        /// </summary>
+        internal static string _627 {
+            get {
+                return ResourceManager.GetString("627", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждый день людьми совершается примерно сто миллионов половых актов.
+        /// </summary>
+        internal static string _628 {
+            get {
+                return ResourceManager.GetString("628", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Больше шансов, что на вас нападет корова, чем это сделает акула.
+        /// </summary>
+        internal static string _629 {
+            get {
+                return ResourceManager.GetString("629", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дуб не производит жёлуди, пока он младше 50 лет..
         /// </summary>
         internal static string _63 {
             get {
@@ -3431,7 +8642,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Если начнут драться лев и белый медведь, то победит белый медведь..
+        ///   Looks up a localized string similar to Более половины всех продаваемых в мире кетчупов — кетчупы Heinz.
+        /// </summary>
+        internal static string _630 {
+            get {
+                return ResourceManager.GetString("630", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В человеческом теле 75 триллионов клеток.
+        /// </summary>
+        internal static string _631 {
+            get {
+                return ResourceManager.GetString("631", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Братья МакДоналд никогда не были женаты и прожили всю жизнь в одном доме.
+        /// </summary>
+        internal static string _632 {
+            get {
+                return ResourceManager.GetString("632", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более 25% лесов мира находятся в Сибири.
+        /// </summary>
+        internal static string _633 {
+            get {
+                return ResourceManager.GetString("633", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Крыса может упасть с пятиэтажного здания без каких-либо повреждений.
+        /// </summary>
+        internal static string _634 {
+            get {
+                return ResourceManager.GetString("634", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Испании популярным завтраком является шоколадное молоко.
+        /// </summary>
+        internal static string _635 {
+            get {
+                return ResourceManager.GetString("635", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 22% невест в первую неделю брака сожалеют о своем решении выйти замуж.
+        /// </summary>
+        internal static string _636 {
+            get {
+                return ResourceManager.GetString("636", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to LSD не влияет на хромосомы.
+        /// </summary>
+        internal static string _637 {
+            get {
+                return ResourceManager.GetString("637", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Жирафы не имеют голосовых связок.
+        /// </summary>
+        internal static string _638 {
+            get {
+                return ResourceManager.GetString("638", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Одной хорошей шариковой ручкой можно написать примерно 50 000 слов.
+        /// </summary>
+        internal static string _639 {
+            get {
+                return ResourceManager.GetString("639", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Противокомариные репелленты не отпугивают насекомых, а прячут от них вас. Спрей блокирует сенсорную систему комара, и комар не понимает, где вы..
         /// </summary>
         internal static string _64 {
             get {
@@ -3440,7 +8741,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Среднестатистическая корова выделяет в день 400 литров газа метана..
+        ///   Looks up a localized string similar to Раздавленных тараканов можно прикладывать к ранам для уменьшения боли.
+        /// </summary>
+        internal static string _640 {
+            get {
+                return ResourceManager.GetString("640", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Во Флориде запрещено петь на публике в купальнике.
+        /// </summary>
+        internal static string _641 {
+            get {
+                return ResourceManager.GetString("641", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Джонни Депп потерял девственность в 13 лет.
+        /// </summary>
+        internal static string _642 {
+            get {
+                return ResourceManager.GetString("642", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Молекулярно говоря, вода на самом деле гораздо суше, чем песок.
+        /// </summary>
+        internal static string _643 {
+            get {
+                return ResourceManager.GetString("643", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В свое время за бюстгальтер Мэрилин Монро заплатили $ 14000.
+        /// </summary>
+        internal static string _644 {
+            get {
+                return ResourceManager.GetString("644", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Явных запретов на секс во время менструации нет.
+        /// </summary>
+        internal static string _645 {
+            get {
+                return ResourceManager.GetString("645", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У новорожденных детей костей больше (300), чем у взрослых (206).
+        /// </summary>
+        internal static string _646 {
+            get {
+                return ResourceManager.GetString("646", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В зимний период Эйфелева башня сжимается на 15 сантиметров.
+        /// </summary>
+        internal static string _647 {
+            get {
+                return ResourceManager.GetString("647", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дети растут быстрее всего весной.
+        /// </summary>
+        internal static string _648 {
+            get {
+                return ResourceManager.GetString("648", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На холоде насекомые дрожат, как и человек.
+        /// </summary>
+        internal static string _649 {
+            get {
+                return ResourceManager.GetString("649", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если начнут драться лев и белый медведь, то победит белый медведь..
         /// </summary>
         internal static string _65 {
             get {
@@ -3449,7 +8840,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Быки – дальтоники..
+        ///   Looks up a localized string similar to К 1500-му году в мире было напечатано 10 000 000 книг.
+        /// </summary>
+        internal static string _650 {
+            get {
+                return ResourceManager.GetString("650", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В человеческом теле около 650 мышц.
+        /// </summary>
+        internal static string _651 {
+            get {
+                return ResourceManager.GetString("651", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Лошадиная голова из фильма «Крестный отец» была настоящей.
+        /// </summary>
+        internal static string _652 {
+            get {
+                return ResourceManager.GetString("652", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Даже Антарктика имеет свой телефонный код.
+        /// </summary>
+        internal static string _653 {
+            get {
+                return ResourceManager.GetString("653", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Клинофобия — боязнь ложиться спать.
+        /// </summary>
+        internal static string _654 {
+            get {
+                return ResourceManager.GetString("654", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Новорожденный кенгуру может поместиться в чайной ложке.
+        /// </summary>
+        internal static string _655 {
+            get {
+                return ResourceManager.GetString("655", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чёрный цвет Георгиевской ленты означает дым, а оранжевый — пламя.
+        /// </summary>
+        internal static string _656 {
+            get {
+                return ResourceManager.GetString("656", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самое шумное существо в океане — это креветка.
+        /// </summary>
+        internal static string _657 {
+            get {
+                return ResourceManager.GetString("657", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У некоторых женщин может быть аллергия на сперму.
+        /// </summary>
+        internal static string _658 {
+            get {
+                return ResourceManager.GetString("658", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Продолжительность жизни стрекозы — 24 часа.
+        /// </summary>
+        internal static string _659 {
+            get {
+                return ResourceManager.GetString("659", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Среднестатистическая корова выделяет в день 400 литров газа метана..
         /// </summary>
         internal static string _66 {
             get {
@@ -3458,7 +8939,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Индии 50 миллионов обезьян..
+        ///   Looks up a localized string similar to В Днепропетровске 177 маршрутов маршруток.
+        /// </summary>
+        internal static string _660 {
+            get {
+                return ResourceManager.GetString("660", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 37-й президент США Ричард Никсон любил есть творог с кетчупом.
+        /// </summary>
+        internal static string _661 {
+            get {
+                return ResourceManager.GetString("661", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Во время ужина человек глотает примерно 300 раз.
+        /// </summary>
+        internal static string _662 {
+            get {
+                return ResourceManager.GetString("662", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У простых древних египтян вместо подушки был камень округлой формы.
+        /// </summary>
+        internal static string _663 {
+            get {
+                return ResourceManager.GetString("663", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бабочки не могут летать во время землетрясения.
+        /// </summary>
+        internal static string _664 {
+            get {
+                return ResourceManager.GetString("664", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Акула может почувствовать каплю крови в 100 литрах воды.
+        /// </summary>
+        internal static string _665 {
+            get {
+                return ResourceManager.GetString("665", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Чикаго ежегодно 17 марта (уже более 40 лет) во время парада в честь Дня святого Патрика, красят реку в зеленый цвет.
+        /// </summary>
+        internal static string _666 {
+            get {
+                return ResourceManager.GetString("666", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Глобальное потепление лишит человечество пива.
+        /// </summary>
+        internal static string _667 {
+            get {
+                return ResourceManager.GetString("667", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Помет вомбата имеет кубическую форму.
+        /// </summary>
+        internal static string _668 {
+            get {
+                return ResourceManager.GetString("668", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Человек весит, в среднем, в 20-30 раз больше кошки. И если в кошку кинуть тапком, это равносильно, что в человека кинуть креслом.
+        /// </summary>
+        internal static string _669 {
+            get {
+                return ResourceManager.GetString("669", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Быки – дальтоники..
         /// </summary>
         internal static string _67 {
             get {
@@ -3467,7 +9038,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В среднем курица откладывает 190 яиц в год..
+        ///   Looks up a localized string similar to Колибри - единственная птица, способная летать назад.
+        /// </summary>
+        internal static string _670 {
+            get {
+                return ResourceManager.GetString("670", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Отпечаток носа собаки уникален.
+        /// </summary>
+        internal static string _671 {
+            get {
+                return ResourceManager.GetString("671", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Черепах можно отличить по голосу. Самцы хрюкают, а самки шипят.
+        /// </summary>
+        internal static string _672 {
+            get {
+                return ResourceManager.GetString("672", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Устрицы меняют пол в зависимости от того, какой пол сейчас лучше подходит для спаривания.
+        /// </summary>
+        internal static string _673 {
+            get {
+                return ResourceManager.GetString("673", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если бы бобр не грыз деревья и не стачивал этим зубы, то его же зубы могли бы проткнуть его же мозг.
+        /// </summary>
+        internal static string _674 {
+            get {
+                return ResourceManager.GetString("674", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У коалы самое жесткое меню. Только листья эвкалипта.
+        /// </summary>
+        internal static string _675 {
+            get {
+                return ResourceManager.GetString("675", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Слоны могут учуять воду за 5 километров.
+        /// </summary>
+        internal static string _676 {
+            get {
+                return ResourceManager.GetString("676", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если Вас вдруг укусил крокодил, то Вам достаточно сильно надавить ему на глаза и он Вас отпустит.
+        /// </summary>
+        internal static string _677 {
+            get {
+                return ResourceManager.GetString("677", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Кенгуру используют свои хвосты для равновесия, так что если вы поднимите хвост кенгуру над землей, он не сможет прыгать.
+        /// </summary>
+        internal static string _678 {
+            get {
+                return ResourceManager.GetString("678", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Страусы могут бежать быстрее, чем лошадь, а самец страуса может реветь не хуже льва.
+        /// </summary>
+        internal static string _679 {
+            get {
+                return ResourceManager.GetString("679", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Индии 50 миллионов обезьян..
         /// </summary>
         internal static string _68 {
             get {
@@ -3476,7 +9137,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Лебедь – единственная птица, у которой есть пенис..
+        ///   Looks up a localized string similar to Комнатные мухи, хоть и живут 14 дней, имеют хороших слух. Все они жужжат на тональности фа мажор.
+        /// </summary>
+        internal static string _680 {
+            get {
+                return ResourceManager.GetString("680", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Кнут издает щелчок, потому что его кончик двигается быстрее скорости звука.
+        /// </summary>
+        internal static string _681 {
+            get {
+                return ResourceManager.GetString("681", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ничто не может гореть еще раз, если уже сгорело.
+        /// </summary>
+        internal static string _682 {
+            get {
+                return ResourceManager.GetString("682", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Альберт Эйнштейн никак не мог запомнить свой номер телефона.
+        /// </summary>
+        internal static string _683 {
+            get {
+                return ResourceManager.GetString("683", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У слизняка 4 носа.
+        /// </summary>
+        internal static string _684 {
+            get {
+                return ResourceManager.GetString("684", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Зимой 1932 года было так холодно, что Ниагарский водопад полностью замерз.
+        /// </summary>
+        internal static string _685 {
+            get {
+                return ResourceManager.GetString("685", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пес с необычной внешностью — помесь бигля, боксера и бассета — победил в конкурсе «Самая уродливая собака в мире 2013». Конкурс ежегодно проходит на ярмарке Сонома-Марин, в городе Петалума, в американском штате Калифорния.
+        /// </summary>
+        internal static string _686 {
+            get {
+                return ResourceManager.GetString("686", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если наполнить чайную ложку веществом, из которого состоят нейтронные звезды, то ее вес будет равняться примерно 110 миллионам тонн!.
+        /// </summary>
+        internal static string _687 {
+            get {
+                return ResourceManager.GetString("687", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ребенок, кторый только идет в 1 класс, уже распознает около 200 логотипов различных компаний.
+        /// </summary>
+        internal static string _688 {
+            get {
+                return ResourceManager.GetString("688", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Согласно Книге бытия 1:20-22, курица появилась раньше яйца.
+        /// </summary>
+        internal static string _689 {
+            get {
+                return ResourceManager.GetString("689", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В среднем курица откладывает 190 яиц в год..
         /// </summary>
         internal static string _69 {
             get {
@@ -3485,8 +9236,98 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Количество сновидений за одну ночь.
-        ///Еженощно мы можем увидеть от четырёх до семи сновидений. В среднем спящий человек за ночь может видеть сны один-два часа..
+        ///   Looks up a localized string similar to В Алабаме запрещено носить усы, которые могут вызвать смех в церкви.
+        /// </summary>
+        internal static string _690 {
+            get {
+                return ResourceManager.GetString("690", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если омар потеряет глаз, у него вырастет новый.
+        /// </summary>
+        internal static string _691 {
+            get {
+                return ResourceManager.GetString("691", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У парков аттракционов после инцидентов со смертельным исходом увеличивается посещаемость.
+        /// </summary>
+        internal static string _692 {
+            get {
+                return ResourceManager.GetString("692", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Главной причиной смерти на рабочем месте является убийство.
+        /// </summary>
+        internal static string _693 {
+            get {
+                return ResourceManager.GetString("693", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Люди тратят две недели жизни в ожидании зеленого сигнала светофор.
+        /// </summary>
+        internal static string _694 {
+            get {
+                return ResourceManager.GetString("694", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Жирафы в целях самозащиты действуют головой как молотком.
+        /// </summary>
+        internal static string _695 {
+            get {
+                return ResourceManager.GetString("695", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В первоначальном издании «Золушки» её туфельки были из меха; хрустальными они стали по ошибке переводчика в 1600 году.
+        /// </summary>
+        internal static string _696 {
+            get {
+                return ResourceManager.GetString("696", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Африке есть горнолыжный курорт. Находится он в Марокко и называется Укаймеден.
+        /// </summary>
+        internal static string _697 {
+            get {
+                return ResourceManager.GetString("697", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Абсолютно слепой хамелеон по-прежнему может принимать цвет окружающей его среды.
+        /// </summary>
+        internal static string _698 {
+            get {
+                return ResourceManager.GetString("698", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 17 веке термометры наполняли не ртутью, а коньяком.
+        /// </summary>
+        internal static string _699 {
+            get {
+                return ResourceManager.GetString("699", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Эмоции, которые мы испытываем во сне.
+        ///Самые распространённые эмоции, которые мы чувствуем во сне – тревожность. И в целом отрицательные эмоции во сне мы испытываем чаще, чем положительные..
         /// </summary>
         internal static string _7 {
             get {
@@ -3495,7 +9336,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Единственная собака, у которой язык не розовый – чау-чау..
+        ///   Looks up a localized string similar to Лебедь – единственная птица, у которой есть пенис..
         /// </summary>
         internal static string _70 {
             get {
@@ -3504,7 +9345,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to У золотой рыбки память 3 секунды..
+        ///   Looks up a localized string similar to Ни у одного народа вера в бессмертие не была так сильна, как у кельтов; у них можно было занимать деньги, с тем что возвратишь их в ином мире.
+        /// </summary>
+        internal static string _700 {
+            get {
+                return ResourceManager.GetString("700", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Александр Грэхем Белл, изобретатель телефона, ни разу не позвонил своим маме и жене: они обе были глухими.
+        /// </summary>
+        internal static string _701 {
+            get {
+                return ResourceManager.GetString("701", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Вашингтон выращивал в своем садике марихуану.
+        /// </summary>
+        internal static string _702 {
+            get {
+                return ResourceManager.GetString("702", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Карл VI, прозванный Карлом Безумным,правил Францией с 1380 по 1415 год. Временами ему казалось, что он сделан из стекла и может разбиться, для предотвращения чего он вставлял в одежу железные прутья.
+        /// </summary>
+        internal static string _703 {
+            get {
+                return ResourceManager.GetString("703", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Производитель суперкаров Lamborghini начинал с продажи тракторов.
+        /// </summary>
+        internal static string _704 {
+            get {
+                return ResourceManager.GetString("704", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У далматинца пятна даже в пасти.
+        /// </summary>
+        internal static string _705 {
+            get {
+                return ResourceManager.GetString("705", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бегемоты выделяют пот красно-оранжевого цвета.
+        /// </summary>
+        internal static string _706 {
+            get {
+                return ResourceManager.GetString("706", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Гавайские острова движутся в сторону Японии со скоростью 10 см в год.
+        /// </summary>
+        internal static string _707 {
+            get {
+                return ResourceManager.GetString("707", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У женщин больше вкусовых рецепторов, чем у мужчин.
+        /// </summary>
+        internal static string _708 {
+            get {
+                return ResourceManager.GetString("708", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В среднем человек за всю жизнь тратит на поцелуи 2 недели.
+        /// </summary>
+        internal static string _709 {
+            get {
+                return ResourceManager.GetString("709", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Единственная собака, у которой язык не розовый – чау-чау..
         /// </summary>
         internal static string _71 {
             get {
@@ -3513,7 +9444,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самое высокое кровяное давление – у жирафа..
+        ///   Looks up a localized string similar to На одну “обычную” вебстраницу приходиться 5 порно вебстраниц.
+        /// </summary>
+        internal static string _710 {
+            get {
+                return ResourceManager.GetString("710", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Один американец был очень расстроен штрафом в 137 долларов за проезд на красный свет. Он считает, что в его маленьком городе полиция занимается только тем, что сшибает с людей штрафы. Парень взял 137 купюр по одному доллару и сделал из них 137 оригами в форме свиней. В США слово свиньи (pigs) используется, как оскорбительное название полицейских. Все эти 137 свиней были аккуратно упакованы в коробки, и отправлены в полицию.На вопрос, не жалко ли ему потраченного времени, он ответил, что это стои.
+        /// </summary>
+        internal static string _711 {
+            get {
+                return ResourceManager.GetString("711", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Почти 2/3 людей испытывали дежавю по мотивам снов.
+        /// </summary>
+        internal static string _712 {
+            get {
+                return ResourceManager.GetString("712", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Внешние факторы могут оказывать влияние на наши сновидения. Например, пение соседа за стеной способно переместить вас во сне в концертный зал.
+        /// </summary>
+        internal static string _713 {
+            get {
+                return ResourceManager.GetString("713", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В течение пяти минут после пробуждения, человек может помнить около половины увиденного во сне. Затем, только десятую часть.
+        /// </summary>
+        internal static string _714 {
+            get {
+                return ResourceManager.GetString("714", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Во сне мы видим лица только тех людей, которых видели в жизни. Мы можем их не знать и не помнить, но мы их уже видели.
+        /// </summary>
+        internal static string _715 {
+            get {
+                return ResourceManager.GetString("715", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Коала и человек – единственные животные в мире, которые имеют отпечатки пальцев.
+        /// </summary>
+        internal static string _716 {
+            get {
+                return ResourceManager.GetString("716", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Коса, косая, косарь, косуха - тысяча рублей (изначально - именно рублей). На дореволюционных тысячерублевых купюрах надпись шла наискось. Поэтому 1000 руб. называют &apos;косарь&apos;!.
+        /// </summary>
+        internal static string _717 {
+            get {
+                return ResourceManager.GetString("717", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 22 июня 2013 года эскалатору исполнилось 121 год!.
+        /// </summary>
+        internal static string _718 {
+            get {
+                return ResourceManager.GetString("718", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Какапо – единственный в мире нелетающий попугай.
+        /// </summary>
+        internal static string _719 {
+            get {
+                return ResourceManager.GetString("719", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У золотой рыбки память 3 секунды..
         /// </summary>
         internal static string _72 {
             get {
@@ -3522,7 +9543,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Изо всех живых существ простату имеют только человек и собака..
+        ///   Looks up a localized string similar to Самые низкие результаты в тестах на определение коэффициента развития интеллекта показали те, кто много лет увлекается стилем хип-хоп, а также r’n’b..
+        /// </summary>
+        internal static string _720 {
+            get {
+                return ResourceManager.GetString("720", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Римский император Калигула объявил войну Посейдону.Он привел свою армию на пляж и приказал своим солдатам бросать копья в воду.
+        /// </summary>
+        internal static string _721 {
+            get {
+                return ResourceManager.GetString("721", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Люди слушающие рок,классику,метал лучше всех проходят тест IQ.
+        /// </summary>
+        internal static string _722 {
+            get {
+                return ResourceManager.GetString("722", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Гебоны не имеют век и отчищают свои глаза языком.
+        /// </summary>
+        internal static string _723 {
+            get {
+                return ResourceManager.GetString("723", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Скорпионы светятся под ультрафиолетовыми лучами.
+        /// </summary>
+        internal static string _724 {
+            get {
+                return ResourceManager.GetString("724", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Воздух внутри помещения примерно в 25 раз более грязный, чем воздух снаружи.
+        /// </summary>
+        internal static string _725 {
+            get {
+                return ResourceManager.GetString("725", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждый король, изображенный на игральных картах, это реальный исторический персонаж. Пиковый — царь Давид, Крестовый — Александр Македонский, Червовый — Карл Великий, Бубновый — Юлий Цезарь.
+        /// </summary>
+        internal static string _726 {
+            get {
+                return ResourceManager.GetString("726", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бабочки чувствуют вкус лапками.
+        /// </summary>
+        internal static string _727 {
+            get {
+                return ResourceManager.GetString("727", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самое сложное для перевода слово — это «mamihlapinatapai».
+        /// </summary>
+        internal static string _728 {
+            get {
+                return ResourceManager.GetString("728", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Боязнь облаков—нефофобия (Nephophobia).
+        /// </summary>
+        internal static string _729 {
+            get {
+                return ResourceManager.GetString("729", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самое высокое кровяное давление – у жирафа..
         /// </summary>
         internal static string _73 {
             get {
@@ -3531,7 +9642,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to На десяти квадратных метрах тропического леса больше насекомых, чем людей в Новосибирске..
+        ///   Looks up a localized string similar to В 1983-м году журнал Billboard назвал певицу Мадонну провалом года.
+        /// </summary>
+        internal static string _730 {
+            get {
+                return ResourceManager.GetString("730", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Австрия стала первой страной, которая использовала открытки.
+        /// </summary>
+        internal static string _731 {
+            get {
+                return ResourceManager.GetString("731", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У бобров прозрачные веки!.
+        /// </summary>
+        internal static string _732 {
+            get {
+                return ResourceManager.GetString("732", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Фредди Меркьюри родился в Занзибаре под именем Farrokh Bulsara.
+        /// </summary>
+        internal static string _733 {
+            get {
+                return ResourceManager.GetString("733", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У женщин кофеин повышает половое влечение.
+        /// </summary>
+        internal static string _734 {
+            get {
+                return ResourceManager.GetString("734", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Отрыжка и чиханье в церкви в штате Небраска запрещены законом.
+        /// </summary>
+        internal static string _735 {
+            get {
+                return ResourceManager.GetString("735", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более 90% движений человека определяется бессознательными рефлексами.
+        /// </summary>
+        internal static string _736 {
+            get {
+                return ResourceManager.GetString("736", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если вы хотите увидеть все комбинации кубика Рубика, вам придется  поворачивать его по одному разу в секунду в течение 1400000000 миллионов лет.
+        /// </summary>
+        internal static string _737 {
+            get {
+                return ResourceManager.GetString("737", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В СССР была разменная монета в полкопейки.
+        /// </summary>
+        internal static string _738 {
+            get {
+                return ResourceManager.GetString("738", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to М. Горький читал со скоростью четыре тысячи слов в минуту.
+        /// </summary>
+        internal static string _739 {
+            get {
+                return ResourceManager.GetString("739", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Изо всех живых существ простату имеют только человек и собака..
         /// </summary>
         internal static string _74 {
             get {
@@ -3540,7 +9741,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В степи на квадратном километре больше насекомых, чем людей во всём мире..
+        ///   Looks up a localized string similar to Наполеон читал со скоростью две тысячи слов в минуту.
+        /// </summary>
+        internal static string _740 {
+            get {
+                return ResourceManager.GetString("740", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Кокаин очень повреждает носовые ткани при вдыхании через нос.
+        /// </summary>
+        internal static string _741 {
+            get {
+                return ResourceManager.GetString("741", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 2007-ом году мэром Кембриджа (Великобритания) был транссексуал.
+        /// </summary>
+        internal static string _742 {
+            get {
+                return ResourceManager.GetString("742", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Свет от Солнца до Земли доходит примерно за 8 минут.
+        /// </summary>
+        internal static string _743 {
+            get {
+                return ResourceManager.GetString("743", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пингвин может выпрыгивать из воды на три метра в высоту.
+        /// </summary>
+        internal static string _744 {
+            get {
+                return ResourceManager.GetString("744", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Большинство фаллоимитаторов выпускается именно в обрезанном варианте.
+        /// </summary>
+        internal static string _745 {
+            get {
+                return ResourceManager.GetString("745", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В День Благодарения американцы съедают более 45 миллионов индеек.
+        /// </summary>
+        internal static string _746 {
+            get {
+                return ResourceManager.GetString("746", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Компания SONY изначально называлась Totsuken.
+        /// </summary>
+        internal static string _747 {
+            get {
+                return ResourceManager.GetString("747", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сердце ежа бьется 300 раз в минуту.
+        /// </summary>
+        internal static string _748 {
+            get {
+                return ResourceManager.GetString("748", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Все виды жуков съедобны.
+        /// </summary>
+        internal static string _749 {
+            get {
+                return ResourceManager.GetString("749", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На десяти квадратных метрах тропического леса больше насекомых, чем людей в Новосибирске..
         /// </summary>
         internal static string _75 {
             get {
@@ -3549,7 +9840,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самые умные собаки – бордер-колли..
+        ///   Looks up a localized string similar to Боб Марли в молодости был скинхэдом.
+        /// </summary>
+        internal static string _750 {
+            get {
+                return ResourceManager.GetString("750", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Нервный импульс из мозга движется со скоростью 274 км в час.
+        /// </summary>
+        internal static string _751 {
+            get {
+                return ResourceManager.GetString("751", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Юлий Цезарь носил лавровый венок, прикрывая начало своего облысения.
+        /// </summary>
+        internal static string _752 {
+            get {
+                return ResourceManager.GetString("752", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Древние европейцы варили пиво в канавах.
+        /// </summary>
+        internal static string _753 {
+            get {
+                return ResourceManager.GetString("753", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В плитке шоколада может содержаться около 8 лапок насекомых.
+        /// </summary>
+        internal static string _754 {
+            get {
+                return ResourceManager.GetString("754", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Windows нельзя создать папку с названием “Con”, этим словом в детстве обзывали Билла Гейтса.
+        /// </summary>
+        internal static string _755 {
+            get {
+                return ResourceManager.GetString("755", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ни один лист бумаги невозможно сложить пополам больше семи раз.
+        /// </summary>
+        internal static string _756 {
+            get {
+                return ResourceManager.GetString("756", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В пустыне Сахара однажды – 18 февраля 1979 г. – шел снег.
+        /// </summary>
+        internal static string _757 {
+            get {
+                return ResourceManager.GetString("757", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В лимоне содержится больше сахара,чем в клубнике.
+        /// </summary>
+        internal static string _758 {
+            get {
+                return ResourceManager.GetString("758", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если бы коку-колу не подкрашивали ,она была бы зеленая.
+        /// </summary>
+        internal static string _759 {
+            get {
+                return ResourceManager.GetString("759", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В степи на квадратном километре больше насекомых, чем людей во всём мире..
         /// </summary>
         internal static string _76 {
             get {
@@ -3558,7 +9939,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самыми глупыми собаками считаются афганские борзые..
+        ///   Looks up a localized string similar to Больше всего роз в мире – около 3 миллионов – продается в День Святого Валентина.
+        /// </summary>
+        internal static string _760 {
+            get {
+                return ResourceManager.GetString("760", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мужчины считаются карликами при росте ниже 130 см, женщины ниже 120 см.
+        /// </summary>
+        internal static string _761 {
+            get {
+                return ResourceManager.GetString("761", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В брокколи содержится в 2,5 раза больше витамина С, чем в апельсинах.
+        /// </summary>
+        internal static string _762 {
+            get {
+                return ResourceManager.GetString("762", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Норвегии есть селение под названием Ад.
+        /// </summary>
+        internal static string _763 {
+            get {
+                return ResourceManager.GetString("763", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Язык хамелеона длиннее его тела.
+        /// </summary>
+        internal static string _764 {
+            get {
+                return ResourceManager.GetString("764", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to До конца 18 века человеческая плоть использовалась в фармацевтике.
+        /// </summary>
+        internal static string _765 {
+            get {
+                return ResourceManager.GetString("765", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пара ног имеет 50.000 потовых желез.
+        /// </summary>
+        internal static string _766 {
+            get {
+                return ResourceManager.GetString("766", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Корова вырабатывает газов за день в двести раз больше, чем человек.
+        /// </summary>
+        internal static string _767 {
+            get {
+                return ResourceManager.GetString("767", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Онлайн-магазин компьютерных игр юридически владеет душами 7500 покупателей.
+        /// </summary>
+        internal static string _768 {
+            get {
+                return ResourceManager.GetString("768", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Улицы в Японии не имеют названий.
+        /// </summary>
+        internal static string _769 {
+            get {
+                return ResourceManager.GetString("769", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самые умные собаки – бордер-колли..
         /// </summary>
         internal static string _77 {
             get {
@@ -3567,7 +10038,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Львы могут спариваться больше 50 раз в день..
+        ///   Looks up a localized string similar to Не все кошки умеют при падении переворачиваться на лапы.
+        /// </summary>
+        internal static string _770 {
+            get {
+                return ResourceManager.GetString("770", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Впервые Клайд попал в полицию в 1926 году за угон автомобиля.
+        /// </summary>
+        internal static string _771 {
+            get {
+                return ResourceManager.GetString("771", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сразу после удара скорость мяча для гольфа составляет 270 км/ч.
+        /// </summary>
+        internal static string _772 {
+            get {
+                return ResourceManager.GetString("772", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to При мастурбации мужчина в среднем эякулирует 2000 раз.
+        /// </summary>
+        internal static string _773 {
+            get {
+                return ResourceManager.GetString("773", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Уровень радиации может измеряться бананами.
+        /// </summary>
+        internal static string _774 {
+            get {
+                return ResourceManager.GetString("774", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Глаз страуса больше его мозга.
+        /// </summary>
+        internal static string _775 {
+            get {
+                return ResourceManager.GetString("775", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В большинстве реклам, включая газеты, время, показанное на часах 10:10.
+        /// </summary>
+        internal static string _776 {
+            get {
+                return ResourceManager.GetString("776", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Человек посещает туалет примерно 2500 раз в год.
+        /// </summary>
+        internal static string _777 {
+            get {
+                return ResourceManager.GetString("777", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to До 1703 года Чистые пруды в Москве назывались Погаными прудами.
+        /// </summary>
+        internal static string _778 {
+            get {
+                return ResourceManager.GetString("778", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Миннесоте вы можете попасть в тюрьму за то, что спите голым.
+        /// </summary>
+        internal static string _779 {
+            get {
+                return ResourceManager.GetString("779", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самыми глупыми собаками считаются афганские борзые..
         /// </summary>
         internal static string _78 {
             get {
@@ -3576,7 +10137,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Верблюд может обходиться без воды две недели..
+        ///   Looks up a localized string similar to Человеческий глаз мигает в среднем 4 млн. 200 тыс. раз в год.
+        /// </summary>
+        internal static string _780 {
+            get {
+                return ResourceManager.GetString("780", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Антарктиде банкоматов в 2 раза больше, чем постоянных жителей.
+        /// </summary>
+        internal static string _781 {
+            get {
+                return ResourceManager.GetString("781", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У Циона Хана самая большая в мире семья — 39 жен, 94 ребёнка и 33 внука.
+        /// </summary>
+        internal static string _782 {
+            get {
+                return ResourceManager.GetString("782", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Музей программы «Поле Чудес» действительно существует.
+        /// </summary>
+        internal static string _783 {
+            get {
+                return ResourceManager.GetString("783", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Венеция в Италии построена на 118 островках, присоединена 400 мостами.
+        /// </summary>
+        internal static string _784 {
+            get {
+                return ResourceManager.GetString("784", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Никто не знает, кто является автором первого флага США.
+        /// </summary>
+        internal static string _785 {
+            get {
+                return ResourceManager.GetString("785", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Вместимость зрительного зала Днепропетровского госцирка 1914 человек.
+        /// </summary>
+        internal static string _786 {
+            get {
+                return ResourceManager.GetString("786", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мыльный пузырь лопается за 0.001 секунду.
+        /// </summary>
+        internal static string _787 {
+            get {
+                return ResourceManager.GetString("787", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Австралийские гигантские дождевые черви достигают четырех метров в длину.
+        /// </summary>
+        internal static string _788 {
+            get {
+                return ResourceManager.GetString("788", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В США 42 процента населения пробовали наркотическую продукцию из конопли.
+        /// </summary>
+        internal static string _789 {
+            get {
+                return ResourceManager.GetString("789", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Львы могут спариваться больше 50 раз в день..
         /// </summary>
         internal static string _79 {
             get {
@@ -3585,8 +10236,98 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Животные тоже видят сны.
-        ///Проведённые на животных исследования показывают, что их мозг работает так же, как мозг спящего человека. Впрочем, это известно каждому собаководу. Во сне пёс может поскуливать, дёргать лапами и очень выразительно демонстрировать, что ему снится что-то вроде азартной погони..
+        ///   Looks up a localized string similar to Зубная эмаль самая твердая ткань, производимая организмом человека.
+        /// </summary>
+        internal static string _790 {
+            get {
+                return ResourceManager.GetString("790", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На земле живет около 65 млн. рыжеволосых людей.
+        /// </summary>
+        internal static string _791 {
+            get {
+                return ResourceManager.GetString("791", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В период с 1950 по 1990 год количество самоубийств выросло в четыре раза.
+        /// </summary>
+        internal static string _792 {
+            get {
+                return ResourceManager.GetString("792", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У Эштона Катчера на ногах два перепончатых пальца.
+        /// </summary>
+        internal static string _793 {
+            get {
+                return ResourceManager.GetString("793", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Требуется всего 14 секунд, чтобы ощипать курицу в специальном автомате.
+        /// </summary>
+        internal static string _794 {
+            get {
+                return ResourceManager.GetString("794", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чаще всего американцы теряют девственность в июне.
+        /// </summary>
+        internal static string _795 {
+            get {
+                return ResourceManager.GetString("795", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Огайо особым законом запрещено предлагать рыбам спиртные напитки.
+        /// </summary>
+        internal static string _796 {
+            get {
+                return ResourceManager.GetString("796", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В городе Волдвин парк в Калифорнии официально запрещено заезжать на велосипеде в бассейн.
+        /// </summary>
+        internal static string _797 {
+            get {
+                return ResourceManager.GetString("797", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Боязнь воздуха — анемофобия (Anemophobia).
+        /// </summary>
+        internal static string _798 {
+            get {
+                return ResourceManager.GetString("798", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Как и мужчины, женщины чаще смотрят на других женщин, чем на мужчин.
+        /// </summary>
+        internal static string _799 {
+            get {
+                return ResourceManager.GetString("799", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Количество сновидений за одну ночь.
+        ///Еженощно мы можем увидеть от четырёх до семи сновидений. В среднем спящий человек за ночь может видеть сны один-два часа..
         /// </summary>
         internal static string _8 {
             get {
@@ -3595,7 +10336,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Жираф может обходиться без воды дольше, чем верблюд..
+        ///   Looks up a localized string similar to Верблюд может обходиться без воды две недели..
         /// </summary>
         internal static string _80 {
             get {
@@ -3604,7 +10345,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Крысы могут обходиться без воды дольше всех..
+        ///   Looks up a localized string similar to Петух не может петь, если не вытянет шею.
+        /// </summary>
+        internal static string _800 {
+            get {
+                return ResourceManager.GetString("800", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Некоторые лягушки способны выжить после заморозки и оттаивания.
+        /// </summary>
+        internal static string _801 {
+            get {
+                return ResourceManager.GetString("801", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Настоящее имя Боба Дилана — Роберт Циммерман.
+        /// </summary>
+        internal static string _802 {
+            get {
+                return ResourceManager.GetString("802", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Первый рекламный баннер в Интернете был размещён в 1994-м году.
+        /// </summary>
+        internal static string _803 {
+            get {
+                return ResourceManager.GetString("803", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Боязнь холода, льда и мороза — криофобия (Cryophobta).
+        /// </summary>
+        internal static string _804 {
+            get {
+                return ResourceManager.GetString("804", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Атеисты составляют приблизительно 15% населения земного шара.
+        /// </summary>
+        internal static string _805 {
+            get {
+                return ResourceManager.GetString("805", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Белые вина со временем темнеют, а красные – светлеют.
+        /// </summary>
+        internal static string _806 {
+            get {
+                return ResourceManager.GetString("806", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самый популярный вкус съедобного нижнего белья в сексшопах – вишня.
+        /// </summary>
+        internal static string _807 {
+            get {
+                return ResourceManager.GetString("807", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Большую часть потребляемой энергии мозг тратит неизвестно на что.
+        /// </summary>
+        internal static string _808 {
+            get {
+                return ResourceManager.GetString("808", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Люди, страдающие манией величия, чаще остальных практикуют случайный секс.
+        /// </summary>
+        internal static string _809 {
+            get {
+                return ResourceManager.GetString("809", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Жираф может обходиться без воды дольше, чем верблюд..
         /// </summary>
         internal static string _81 {
             get {
@@ -3613,7 +10444,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Кенгуровая крыса не пьёт воду вовсе. Жидкости ей нужно так мало, что всю жидкость кенгуровая крыса получает из своего скудного рациона..
+        ///   Looks up a localized string similar to Член можно сломать.
+        /// </summary>
+        internal static string _810 {
+            get {
+                return ResourceManager.GetString("810", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Масса мячика для игры в настольный теннис — 2,5 грамма.
+        /// </summary>
+        internal static string _811 {
+            get {
+                return ResourceManager.GetString("811", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дождевые черви имеют пять сердец.
+        /// </summary>
+        internal static string _812 {
+            get {
+                return ResourceManager.GetString("812", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Около 72% Земли покрыто океаном.
+        /// </summary>
+        internal static string _813 {
+            get {
+                return ResourceManager.GetString("813", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to «Эрмитаж» в переводе с французского означает «место уединения».
+        /// </summary>
+        internal static string _814 {
+            get {
+                return ResourceManager.GetString("814", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Фламинго живут до 80 лет.
+        /// </summary>
+        internal static string _815 {
+            get {
+                return ResourceManager.GetString("815", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В песнях Битлз слово «Любовь» встречается 613 раз.
+        /// </summary>
+        internal static string _816 {
+            get {
+                return ResourceManager.GetString("816", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самый распространенный размер женской обуви — 39.
+        /// </summary>
+        internal static string _817 {
+            get {
+                return ResourceManager.GetString("817", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Адольф Гитлер был вегетарианцем.
+        /// </summary>
+        internal static string _818 {
+            get {
+                return ResourceManager.GetString("818", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Стрекозы имеют шесть ног, но не могу ходить.
+        /// </summary>
+        internal static string _819 {
+            get {
+                return ResourceManager.GetString("819", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Крысы могут обходиться без воды дольше всех..
         /// </summary>
         internal static string _82 {
             get {
@@ -3622,7 +10543,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В козьем молоке в 5 раз меньше жира, чем в коровьем. Коровье молоко усваивается час, козье – 20 минут..
+        ///   Looks up a localized string similar to Нормальный человек смеется пять раз в день.
+        /// </summary>
+        internal static string _820 {
+            get {
+                return ResourceManager.GetString("820", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Собаки могут лаять с акцентом.
+        /// </summary>
+        internal static string _821 {
+            get {
+                return ResourceManager.GetString("821", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В стлолице Польши Варшаве есть улица, названная в честь Винни-Пуха.
+        /// </summary>
+        internal static string _822 {
+            get {
+                return ResourceManager.GetString("822", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Шахматы придумали в Индии.
+        /// </summary>
+        internal static string _823 {
+            get {
+                return ResourceManager.GetString("823", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Центр игровой индустрии Америки находится не в Лас-Вегасе, а рядом с ним.
+        /// </summary>
+        internal static string _824 {
+            get {
+                return ResourceManager.GetString("824", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Италии кукол Барби больше, чем канадцев в Канаде.
+        /// </summary>
+        internal static string _825 {
+            get {
+                return ResourceManager.GetString("825", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В ближайших окрестностях Москвы порядка 200 «официальных» свалок.
+        /// </summary>
+        internal static string _826 {
+            get {
+                return ResourceManager.GetString("826", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самый маленький в истории человеческий пенис был длинной 1.5 сантиметра.
+        /// </summary>
+        internal static string _827 {
+            get {
+                return ResourceManager.GetString("827", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Лайковые перчатки изготавливаются из кожи лам.
+        /// </summary>
+        internal static string _828 {
+            get {
+                return ResourceManager.GetString("828", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10 процентов доходов правительства России поступает от продажи водки.
+        /// </summary>
+        internal static string _829 {
+            get {
+                return ResourceManager.GetString("829", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Кенгуровая крыса не пьёт воду вовсе. Жидкости ей нужно так мало, что всю жидкость кенгуровая крыса получает из своего скудного рациона..
         /// </summary>
         internal static string _83 {
             get {
@@ -3631,7 +10642,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самые большие тигры – уссурийские. Высота в холке у них до 115 см, максимальная длина тела – больше 3 метров, максимальный вес – 280 кг..
+        ///   Looks up a localized string similar to Стрекозы имеют до 30 тысяч линз в каждом глазу.
+        /// </summary>
+        internal static string _830 {
+            get {
+                return ResourceManager.GetString("830", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Группа единорогов называется «благословение».
+        /// </summary>
+        internal static string _831 {
+            get {
+                return ResourceManager.GetString("831", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая быстрозаживающая часть человеческого тела — это язык.
+        /// </summary>
+        internal static string _832 {
+            get {
+                return ResourceManager.GetString("832", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Лимоны с тонкой кожицей сочнее лимонов с толстой кожурой.
+        /// </summary>
+        internal static string _833 {
+            get {
+                return ResourceManager.GetString("833", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бамбук может расти со скоростью 91 см в сутки.
+        /// </summary>
+        internal static string _834 {
+            get {
+                return ResourceManager.GetString("834", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Стоимость Земли — пять квадриллионов долларов.
+        /// </summary>
+        internal static string _835 {
+            get {
+                return ResourceManager.GetString("835", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Средняя женщина тратит около 3500 дней жизни на менструацию.
+        /// </summary>
+        internal static string _836 {
+            get {
+                return ResourceManager.GetString("836", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Длина тела самого крупного насекомого в мире составляет полметра.
+        /// </summary>
+        internal static string _837 {
+            get {
+                return ResourceManager.GetString("837", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У Вупи Голдберг нет бровей.
+        /// </summary>
+        internal static string _838 {
+            get {
+                return ResourceManager.GetString("838", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У курящих людей морщин на лице в 10 раз больше, чем у некурящих.
+        /// </summary>
+        internal static string _839 {
+            get {
+                return ResourceManager.GetString("839", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В козьем молоке в 5 раз меньше жира, чем в коровьем. Коровье молоко усваивается час, козье – 20 минут..
         /// </summary>
         internal static string _84 {
             get {
@@ -3640,7 +10741,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Крупнейший аллигатор был пойман во Флориде, США. Его длина составляла 4 метра 35 сантиметров, весил он почти 297 килограммов..
+        ///   Looks up a localized string similar to За последний век яркость Солнца выросла на один процент.
+        /// </summary>
+        internal static string _840 {
+            get {
+                return ResourceManager.GetString("840", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Антарктика официально не является государством, это научный заповедник.
+        /// </summary>
+        internal static string _841 {
+            get {
+                return ResourceManager.GetString("841", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чаще всего самоубийства совершают в понедельник.
+        /// </summary>
+        internal static string _842 {
+            get {
+                return ResourceManager.GetString("842", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 90% таксистов Нью-Йорка — иммигранты.
+        /// </summary>
+        internal static string _843 {
+            get {
+                return ResourceManager.GetString("843", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В некоторых частях пустыни Атакама дождя не было 400 лет.
+        /// </summary>
+        internal static string _844 {
+            get {
+                return ResourceManager.GetString("844", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40% американцев никогда не были у стоматолога.
+        /// </summary>
+        internal static string _845 {
+            get {
+                return ResourceManager.GetString("845", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 18-м веке стоматологи использовали для пломбирования зубов резину.
+        /// </summary>
+        internal static string _846 {
+            get {
+                return ResourceManager.GetString("846", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Японии можно купить клубничные Cheetos.
+        /// </summary>
+        internal static string _847 {
+            get {
+                return ResourceManager.GetString("847", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Слон может стоять на голове.
+        /// </summary>
+        internal static string _848 {
+            get {
+                return ResourceManager.GetString("848", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Красный — самый распространённый цвет на национальных флагах.
+        /// </summary>
+        internal static string _849 {
+            get {
+                return ResourceManager.GetString("849", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самые большие тигры – уссурийские. Высота в холке у них до 115 см, максимальная длина тела – больше 3 метров, максимальный вес – 280 кг..
         /// </summary>
         internal static string _85 {
             get {
@@ -3649,7 +10840,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Срок жизни черепах похож на срок жизни людей. Некоторые из них живут более 100 лет..
+        ///   Looks up a localized string similar to 48% англичан засыпают во время секса.
+        /// </summary>
+        internal static string _850 {
+            get {
+                return ResourceManager.GetString("850", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бензин в Венесуэле стоит около 0,05 долларов США за литр.
+        /// </summary>
+        internal static string _851 {
+            get {
+                return ResourceManager.GetString("851", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Верблюды имеют три веки, чтобы защитить себя от песчаных бурь.
+        /// </summary>
+        internal static string _852 {
+            get {
+                return ResourceManager.GetString("852", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 95% людей сначала надевают левый носок, потом правый.
+        /// </summary>
+        internal static string _853 {
+            get {
+                return ResourceManager.GetString("853", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Десять лет назад миллиардеров в США было в 2 раза меньше.
+        /// </summary>
+        internal static string _854 {
+            get {
+                return ResourceManager.GetString("854", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1995-м году впервые в истории японцы съели больше мяса, чем риса.
+        /// </summary>
+        internal static string _855 {
+            get {
+                return ResourceManager.GetString("855", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Удивительно то, что сердце у креветок находится в голове.
+        /// </summary>
+        internal static string _856 {
+            get {
+                return ResourceManager.GetString("856", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to «Папарацци» в переводе с итальянского означает «назойливый комар».
+        /// </summary>
+        internal static string _857 {
+            get {
+                return ResourceManager.GetString("857", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждый день около 150 пар женятся в Лас-Вегасе.
+        /// </summary>
+        internal static string _858 {
+            get {
+                return ResourceManager.GetString("858", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Корейские женщины считаются наименее удовлетворенными во всем мире.
+        /// </summary>
+        internal static string _859 {
+            get {
+                return ResourceManager.GetString("859", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Крупнейший аллигатор был пойман во Флориде, США. Его длина составляла 4 метра 35 сантиметров, весил он почти 297 килограммов..
         /// </summary>
         internal static string _86 {
             get {
@@ -3658,7 +10939,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самые быстрые сухопутные насекомые – тараканы. Они могут бежать со скоростью шесть с половиной километров в час..
+        ///   Looks up a localized string similar to Размер ноги Пэрис Хилтон — 44.
+        /// </summary>
+        internal static string _860 {
+            get {
+                return ResourceManager.GetString("860", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Японии кремируют 98% всех умерших.
+        /// </summary>
+        internal static string _861 {
+            get {
+                return ResourceManager.GetString("861", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Индии астрология официально считается наукой.
+        /// </summary>
+        internal static string _862 {
+            get {
+                return ResourceManager.GetString("862", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждый день «Макдоналдс» обслуживает более 46 миллионов человек.
+        /// </summary>
+        internal static string _863 {
+            get {
+                return ResourceManager.GetString("863", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Флорида (штат США) больше, чем Англия.
+        /// </summary>
+        internal static string _864 {
+            get {
+                return ResourceManager.GetString("864", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая дорогая игрушка в мире — это Hello Kitty стоимостью $167 000.
+        /// </summary>
+        internal static string _865 {
+            get {
+                return ResourceManager.GetString("865", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На Бигмаке 178 семян кунжута. Почти всегда.
+        /// </summary>
+        internal static string _866 {
+            get {
+                return ResourceManager.GetString("866", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Коала спит 18-22 часа в сутки.
+        /// </summary>
+        internal static string _867 {
+            get {
+                return ResourceManager.GetString("867", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Полный мочевой пузырь по размеру, как бейсбольный мяч.
+        /// </summary>
+        internal static string _868 {
+            get {
+                return ResourceManager.GetString("868", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более 70% всех живущих на Земле организмов составляют бактерии.
+        /// </summary>
+        internal static string _869 {
+            get {
+                return ResourceManager.GetString("869", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Срок жизни черепах похож на срок жизни людей. Некоторые из них живут более 100 лет..
         /// </summary>
         internal static string _87 {
             get {
@@ -3667,7 +11038,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Рабочие и охранные функции у муравьёв выполняют самки. У муравьиных самцов только одно предназначение – спаривание..
+        ///   Looks up a localized string similar to В предложении «В этом предложении тридцать две буквы» тридцать две буквы.
+        /// </summary>
+        internal static string _870 {
+            get {
+                return ResourceManager.GetString("870", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если крысу щекочут, она хихикает в ультразвуковом диапазоне.
+        /// </summary>
+        internal static string _871 {
+            get {
+                return ResourceManager.GetString("871", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to За время вашей жизни вы съедите количество еды, равное весу 6 слонов.
+        /// </summary>
+        internal static string _872 {
+            get {
+                return ResourceManager.GetString("872", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На заводе Foxconn на производство каждого iPhone 4 уходит 5 секунд.
+        /// </summary>
+        internal static string _873 {
+            get {
+                return ResourceManager.GetString("873", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Гиены регулярно едят фекалии других животных.
+        /// </summary>
+        internal static string _874 {
+            get {
+                return ResourceManager.GetString("874", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая частая причина, по которой люди обращаются ко врачу – ОРЗ.
+        /// </summary>
+        internal static string _875 {
+            get {
+                return ResourceManager.GetString("875", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Средний срок хранения латексных презервативов составляет около двух лет.
+        /// </summary>
+        internal static string _876 {
+            get {
+                return ResourceManager.GetString("876", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Атмосфера Марса на 95% состоит из углекислого газа.
+        /// </summary>
+        internal static string _877 {
+            get {
+                return ResourceManager.GetString("877", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пятна на шкуре жирафа уникальны, как отпечатки пальца человека.
+        /// </summary>
+        internal static string _878 {
+            get {
+                return ResourceManager.GetString("878", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Молодые мужчины симулируют оргазм чаще, чем девушки.
+        /// </summary>
+        internal static string _879 {
+            get {
+                return ResourceManager.GetString("879", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самые быстрые сухопутные насекомые – тараканы. Они могут бежать со скоростью шесть с половиной километров в час..
         /// </summary>
         internal static string _88 {
             get {
@@ -3676,7 +11137,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 95% всех известных живых организмов на Земле – беспозвоночные..
+        ///   Looks up a localized string similar to Каждая третья женщина в год хотя бы несколько раз мечтает о лучшем сексе.
+        /// </summary>
+        internal static string _880 {
+            get {
+                return ResourceManager.GetString("880", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Боязнь ночи — никтофобия (Nyctophobia).
+        /// </summary>
+        internal static string _881 {
+            get {
+                return ResourceManager.GetString("881", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более 87 000 американцев стоят в очереди на пересадку органов.
+        /// </summary>
+        internal static string _882 {
+            get {
+                return ResourceManager.GetString("882", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сердце касатки бьется 30 раз в минуту под водой и 60 раз на поверхности.
+        /// </summary>
+        internal static string _883 {
+            get {
+                return ResourceManager.GetString("883", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Размещение глаза осла позволяет ему всегда видеть все четыре ноги.
+        /// </summary>
+        internal static string _884 {
+            get {
+                return ResourceManager.GetString("884", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Писая в душе, вы сэкономите примерно 4400 литров воды в год.
+        /// </summary>
+        internal static string _885 {
+            get {
+                return ResourceManager.GetString("885", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to За время жизни кожа человека сменяется примерно 1000 раз.
+        /// </summary>
+        internal static string _886 {
+            get {
+                return ResourceManager.GetString("886", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Во рту человека около 40 000 бактерий.
+        /// </summary>
+        internal static string _887 {
+            get {
+                return ResourceManager.GetString("887", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Акулы могут жить до 100 лет.
+        /// </summary>
+        internal static string _888 {
+            get {
+                return ResourceManager.GetString("888", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Токио продаются парики для собак.
+        /// </summary>
+        internal static string _889 {
+            get {
+                return ResourceManager.GetString("889", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Рабочие и охранные функции у муравьёв выполняют самки. У муравьиных самцов только одно предназначение – спаривание..
         /// </summary>
         internal static string _89 {
             get {
@@ -3685,8 +11236,98 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Фаза телесного паралича во сне.
-        ///Существует фаза сновидений, которая называется фазой быстрых движений глаз, БДГ. Именно в это время мы видим образы, которые запоминаются нами как сновидение. Фаза быстрых движений глаз занимает по 20-25% времени ночного отдыха, то есть 90-120 минут. Во время БДГ в мозге включается особый механизм, парализующий тело. Это помогает предотвратить лишние телодвижения и возможные травмы во сне. Когда фаза быстрых движений глаз оканчивается, мы снова можем двигаться во сне – перево [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to 5 апреля - Всемирный День Лжи.
+        /// </summary>
+        internal static string _890 {
+            get {
+                return ResourceManager.GetString("890", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Боязнь всего нового — неофобия (Neophobia).
+        /// </summary>
+        internal static string _891 {
+            get {
+                return ResourceManager.GetString("891", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самая дорогая квартира в Москве стоит как 825 квартир в области.
+        /// </summary>
+        internal static string _892 {
+            get {
+                return ResourceManager.GetString("892", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Длина самого большого бассейна в мире — 1 км.
+        /// </summary>
+        internal static string _893 {
+            get {
+                return ResourceManager.GetString("893", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На Гаити только у 1 из 200 человек есть автомобиль.
+        /// </summary>
+        internal static string _894 {
+            get {
+                return ResourceManager.GetString("894", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Осьминоги — самые умные животные среди беспозвоночных.
+        /// </summary>
+        internal static string _895 {
+            get {
+                return ResourceManager.GetString("895", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Боязнь снега — хионофобия (Chionophobia).
+        /// </summary>
+        internal static string _896 {
+            get {
+                return ResourceManager.GetString("896", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 85% киноактеров зарабатывают всего около 5000 долларов в год.
+        /// </summary>
+        internal static string _897 {
+            get {
+                return ResourceManager.GetString("897", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В государственном гимне Испании нет фиксированного официального текста.
+        /// </summary>
+        internal static string _898 {
+            get {
+                return ResourceManager.GetString("898", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Лос-Анджелесе автомобилей больше, чем людей.
+        /// </summary>
+        internal static string _899 {
+            get {
+                return ResourceManager.GetString("899", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Животные тоже видят сны.
+        ///Проведённые на животных исследования показывают, что их мозг работает так же, как мозг спящего человека. Впрочем, это известно каждому собаководу. Во сне пёс может поскуливать, дёргать лапами и очень выразительно демонстрировать, что ему снится что-то вроде азартной погони..
         /// </summary>
         internal static string _9 {
             get {
@@ -3695,7 +11336,7 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Учёным известны 1 100 000 видов членистоногих, 24 500 видов рыб, 9 000 видов млекопитающих и птиц, 8 000 видов пресмыкающихся, 5 000 земноводных и 260 000 видов растений..
+        ///   Looks up a localized string similar to 95% всех известных живых организмов на Земле – беспозвоночные..
         /// </summary>
         internal static string _90 {
             get {
@@ -3704,7 +11345,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to В Ирландии, Исландии, Гренландии и Антарктиде нет змей..
+        ///   Looks up a localized string similar to «Twitcher» — так называют людей, которые гоняются за редкими птицами.
+        /// </summary>
+        internal static string _900 {
+            get {
+                return ResourceManager.GetString("900", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Обычным карандашом можно провести линию длиной 55 километров.
+        /// </summary>
+        internal static string _901 {
+            get {
+                return ResourceManager.GetString("901", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Технически 40-дневный пост длится 46 дней (воскресенья не считаются).
+        /// </summary>
+        internal static string _902 {
+            get {
+                return ResourceManager.GetString("902", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В некоторых зубных пастах содержится мелкозернистая вулканическая зола.
+        /// </summary>
+        internal static string _903 {
+            get {
+                return ResourceManager.GetString("903", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если помазать калом собаки место укуса насекомого, спадет зуд и отек.
+        /// </summary>
+        internal static string _904 {
+            get {
+                return ResourceManager.GetString("904", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1982 году компьютер был назван &apos;Человеком года&apos; журналом &apos;Тайм&apos;.
+        /// </summary>
+        internal static string _905 {
+            get {
+                return ResourceManager.GetString("905", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Яйца рифовой акулы благодаря своей спиралевидной форме зарываются в песок.
+        /// </summary>
+        internal static string _906 {
+            get {
+                return ResourceManager.GetString("906", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самолетный черный ящик имеет оранжевый цвет, чтоб его легче было искать.
+        /// </summary>
+        internal static string _907 {
+            get {
+                return ResourceManager.GetString("907", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Медведь гризли в день может поймать и съесть до 40 000 бабочек.
+        /// </summary>
+        internal static string _908 {
+            get {
+                return ResourceManager.GetString("908", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если вы безумно любите сыр, вас можно назвать турофилом.
+        /// </summary>
+        internal static string _909 {
+            get {
+                return ResourceManager.GetString("909", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Учёным известны 1 100 000 видов членистоногих, 24 500 видов рыб, 9 000 видов млекопитающих и птиц, 8 000 видов пресмыкающихся, 5 000 земноводных и 260 000 видов растений..
         /// </summary>
         internal static string _91 {
             get {
@@ -3713,7 +11444,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Басенджи – единственная собака, которая не может лаять..
+        ///   Looks up a localized string similar to Женщины возбуждаются от легкой боли в своей сексуальной жизни.
+        /// </summary>
+        internal static string _910 {
+            get {
+                return ResourceManager.GetString("910", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to За всю жизнь у мужчин вырабатывается около 15 литров спермы.
+        /// </summary>
+        internal static string _911 {
+            get {
+                return ResourceManager.GetString("911", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Кошки могут производить около сотни различных звуков. Собаки около десяти.
+        /// </summary>
+        internal static string _912 {
+            get {
+                return ResourceManager.GetString("912", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Средняя скорость семяизвержения – 44 км/час.
+        /// </summary>
+        internal static string _913 {
+            get {
+                return ResourceManager.GetString("913", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Погонофобия — это боязнь бород.
+        /// </summary>
+        internal static string _914 {
+            get {
+                return ResourceManager.GetString("914", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У детей аллергия на тараканов бывает чаще, чем аллергия на кошек.
+        /// </summary>
+        internal static string _915 {
+            get {
+                return ResourceManager.GetString("915", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Слой льда, покрывающий Антарктиду, местами достигает 4 км.
+        /// </summary>
+        internal static string _916 {
+            get {
+                return ResourceManager.GetString("916", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to С каждым вдохом в наших легких обновляется около 17% воздуха.
+        /// </summary>
+        internal static string _917 {
+            get {
+                return ResourceManager.GetString("917", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Боязнь северного сияния — аурорафобия (Auroraphobia).
+        /// </summary>
+        internal static string _918 {
+            get {
+                return ResourceManager.GetString("918", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Почти половина всех костей человека находится в запястьях и ступнях.
+        /// </summary>
+        internal static string _919 {
+            get {
+                return ResourceManager.GetString("919", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Ирландии, Исландии, Гренландии и Антарктиде нет змей..
         /// </summary>
         internal static string _92 {
             get {
@@ -3722,7 +11543,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Гигантский червяк миксина имеет зубы на языке..
+        ///   Looks up a localized string similar to У кошки по 32 мышцы в каждом ухе.
+        /// </summary>
+        internal static string _920 {
+            get {
+                return ResourceManager.GetString("920", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Всех людей на планете можно с комфортом уложить в куб со стороной 1000 метров.
+        /// </summary>
+        internal static string _921 {
+            get {
+                return ResourceManager.GetString("921", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждый второй человек женщина.
+        /// </summary>
+        internal static string _922 {
+            get {
+                return ResourceManager.GetString("922", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На шаре для гольфа 336 ямочек.
+        /// </summary>
+        internal static string _923 {
+            get {
+                return ResourceManager.GetString("923", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Женщины во время разговора смотрят в глаза намного чаще, чем мужчины.
+        /// </summary>
+        internal static string _924 {
+            get {
+                return ResourceManager.GetString("924", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У слизней четыре носа.
+        /// </summary>
+        internal static string _925 {
+            get {
+                return ResourceManager.GetString("925", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Шашки старее шахмат.
+        /// </summary>
+        internal static string _926 {
+            get {
+                return ResourceManager.GetString("926", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Насвай содержит экскременты птиц и животных.
+        /// </summary>
+        internal static string _927 {
+            get {
+                return ResourceManager.GetString("927", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Слово «dream» до 13-го века означало не «сон», а «музыка» или «шум».
+        /// </summary>
+        internal static string _928 {
+            get {
+                return ResourceManager.GetString("928", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В течение 3000 лет самой распространенной культурой в мире была конопля.
+        /// </summary>
+        internal static string _929 {
+            get {
+                return ResourceManager.GetString("929", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Басенджи – единственная собака, которая не может лаять..
         /// </summary>
         internal static string _93 {
             get {
@@ -3731,7 +11642,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Сова не переваривает мех, перья и кости. Она их отрыгивает через несколько часов после еды..
+        ///   Looks up a localized string similar to Самцы и самки крыс могут заниматься сексом до 20 раз в день.
+        /// </summary>
+        internal static string _930 {
+            get {
+                return ResourceManager.GetString("930", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В среднем, в одном гороховом стручке 8 горошин.
+        /// </summary>
+        internal static string _931 {
+            get {
+                return ResourceManager.GetString("931", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Орел может напасть, убить и унести животное размером с маленького олененка.
+        /// </summary>
+        internal static string _932 {
+            get {
+                return ResourceManager.GetString("932", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Боязнь наводнения — антлофобия (Antlophobia).
+        /// </summary>
+        internal static string _933 {
+            get {
+                return ResourceManager.GetString("933", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Первым продуктом со штрих-кодом была жевательная резинка Wrigleys.
+        /// </summary>
+        internal static string _934 {
+            get {
+                return ResourceManager.GetString("934", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to У пауков прозрачная кровь.
+        /// </summary>
+        internal static string _935 {
+            get {
+                return ResourceManager.GetString("935", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Больше людей гибнет от ослов, чем в авиакатастрофах.
+        /// </summary>
+        internal static string _936 {
+            get {
+                return ResourceManager.GetString("936", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В дикой природе лев убивает не больше 20 раз в год.
+        /// </summary>
+        internal static string _937 {
+            get {
+                return ResourceManager.GetString("937", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Согласно опросам, люди чаще поют в автомобиле, чем в ванной.
+        /// </summary>
+        internal static string _938 {
+            get {
+                return ResourceManager.GetString("938", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1790 году только пять процентов американцев жили в городах.
+        /// </summary>
+        internal static string _939 {
+            get {
+                return ResourceManager.GetString("939", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Гигантский червяк миксина имеет зубы на языке..
         /// </summary>
         internal static string _94 {
             get {
@@ -3740,7 +11741,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Плюющаяся индийская кобра способна плюнуть ядом точно в глаз жертвы на расстояние 2,4 метра..
+        ///   Looks up a localized string similar to Ежедневно население Земли увеличивается в среднем на 237 748 человек, ежесекундно рождается минимум 4 ребёнка.
+        /// </summary>
+        internal static string _940 {
+            get {
+                return ResourceManager.GetString("940", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В среднем в женском гардеробе есть 11 бюстгальтеров и 22 пары трусиков.
+        /// </summary>
+        internal static string _941 {
+            get {
+                return ResourceManager.GetString("941", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более 20% населения Земли зарабатывает в год менее 425 долларов.
+        /// </summary>
+        internal static string _942 {
+            get {
+                return ResourceManager.GetString("942", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 1916 году Чарли Чаплин зарабатывал $10 000 в неделю, что делало его самым высокооплачиваемым актером своего времени.
+        /// </summary>
+        internal static string _943 {
+            get {
+                return ResourceManager.GetString("943", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Древнем Риме считалось грехом употреблять в пищу мясо дятлов.
+        /// </summary>
+        internal static string _944 {
+            get {
+                return ResourceManager.GetString("944", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самый мощный электрический угорь, живущий в реках Бразилии, Колумбии, Венесуэлы и Перу, способен произвести разряд мощностью 400-650 вольт.
+        /// </summary>
+        internal static string _945 {
+            get {
+                return ResourceManager.GetString("945", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Лицо, обязанное выставлять аргументы против решения о канонизации нового святого, носило должность «адвоката Дьявола».
+        /// </summary>
+        internal static string _946 {
+            get {
+                return ResourceManager.GetString("946", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Каждую минуту операторы мобильной связи зарабатывают $812 000 на SMS.
+        /// </summary>
+        internal static string _947 {
+            get {
+                return ResourceManager.GetString("947", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Более 90% всех видов животных, живших на Земле, вымерли ещё до появления человека.
+        /// </summary>
+        internal static string _948 {
+            get {
+                return ResourceManager.GetString("948", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мадонна и Селин Дион являются кузинами жены принца Чарльза, Камиллы.
+        /// </summary>
+        internal static string _949 {
+            get {
+                return ResourceManager.GetString("949", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сова не переваривает мех, перья и кости. Она их отрыгивает через несколько часов после еды..
         /// </summary>
         internal static string _95 {
             get {
@@ -3749,7 +11840,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Раненый или напуганный опоссум падает мёртвым, у него стекленеют глаза, изо рта течёт пена, а из анальных желёз источается зловоние. После того, как опасность минует, опоссум оживает и выздоравливает..
+        ///   Looks up a localized string similar to Крокодил не может высунуть язык.
+        /// </summary>
+        internal static string _950 {
+            get {
+                return ResourceManager.GetString("950", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Австралии есть город под названием «Скорость убивает».
+        /// </summary>
+        internal static string _951 {
+            get {
+                return ResourceManager.GetString("951", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чаще всего в английских библиотеках воруют Книгу рекордов Гиннесса.
+        /// </summary>
+        internal static string _952 {
+            get {
+                return ResourceManager.GetString("952", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Америке «ВКонтакте» считается пиратским сайтом.
+        /// </summary>
+        internal static string _953 {
+            get {
+                return ResourceManager.GetString("953", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бабочки могут «напиться» забродившим фруктовым соком и впасть в состояние опьянения.
+        /// </summary>
+        internal static string _954 {
+            get {
+                return ResourceManager.GetString("954", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Слово «алиби» переводится с латинского как «в другом месте».
+        /// </summary>
+        internal static string _955 {
+            get {
+                return ResourceManager.GetString("955", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Примерно 10 000 птиц в год разбиваются об окна.
+        /// </summary>
+        internal static string _956 {
+            get {
+                return ResourceManager.GetString("956", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На каждом дюйме человеческого тела примерно 32 миллиона бактерий.
+        /// </summary>
+        internal static string _957 {
+            get {
+                return ResourceManager.GetString("957", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Акула — единственная рыба, которая может моргать обоими глазами одновременно.
+        /// </summary>
+        internal static string _958 {
+            get {
+                return ResourceManager.GetString("958", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В современном мире еда, прежде чем попасть на ваш стол, преодолевает в среднем 2400 километров.
+        /// </summary>
+        internal static string _959 {
+            get {
+                return ResourceManager.GetString("959", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Плюющаяся индийская кобра способна плюнуть ядом точно в глаз жертвы на расстояние 2,4 метра..
         /// </summary>
         internal static string _96 {
             get {
@@ -3758,7 +11939,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Самки тли рождаются беременными..
+        ///   Looks up a localized string similar to Первый клип, прозвучавший на канале MTV Europe, был «Money for Nothing» группы Dire Straits.
+        /// </summary>
+        internal static string _960 {
+            get {
+                return ResourceManager.GetString("960", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Однажды знак «&amp;» (амперсанд) серьезно рассматривался в качестве кандидата на включение в английский алфавит.
+        /// </summary>
+        internal static string _961 {
+            get {
+                return ResourceManager.GetString("961", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На флаге Ирана 22 раза повторена надпись «Аллах акбар».
+        /// </summary>
+        internal static string _962 {
+            get {
+                return ResourceManager.GetString("962", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 93% людей печатают «LOL» c совершенно пустым выражением лица.
+        /// </summary>
+        internal static string _963 {
+            get {
+                return ResourceManager.GetString("963", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самое насыщенное паразитами дерево в джунглях — какао, являющееся источником главного из компонентов шоколада.
+        /// </summary>
+        internal static string _964 {
+            get {
+                return ResourceManager.GetString("964", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Мэром Вашингтона является президент США.
+        /// </summary>
+        internal static string _965 {
+            get {
+                return ResourceManager.GetString("965", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Жираф - единственное млекопитающее, которое не умеет зевать.
+        /// </summary>
+        internal static string _966 {
+            get {
+                return ResourceManager.GetString("966", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Марк Твен в своё время имел возможность вложить деньги в телефонную компанию Александра Бэлла, но отказался это делать.
+        /// </summary>
+        internal static string _967 {
+            get {
+                return ResourceManager.GetString("967", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to За чувство одиночества отвечает тот же участок мозга, что и за физическую боль.
+        /// </summary>
+        internal static string _968 {
+            get {
+                return ResourceManager.GetString("968", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Япония потребляет электроэнергии больше, чем любая другая страна в мире.
+        /// </summary>
+        internal static string _969 {
+            get {
+                return ResourceManager.GetString("969", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Раненый или напуганный опоссум падает мёртвым, у него стекленеют глаза, изо рта течёт пена, а из анальных желёз источается зловоние. После того, как опасность минует, опоссум оживает и выздоравливает..
         /// </summary>
         internal static string _97 {
             get {
@@ -3767,7 +12038,97 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Взрослый клоп год может жить без пищи..
+        ///   Looks up a localized string similar to За первый год работы доход Microsoft составил 16 005 долларов.
+        /// </summary>
+        internal static string _970 {
+            get {
+                return ResourceManager.GetString("970", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Бикини получило свое название благодаря атомной бомбе.
+        /// </summary>
+        internal static string _971 {
+            get {
+                return ResourceManager.GetString("971", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В Зионе, штат Иллинойс, запрещено давать зажжённую сигарету собаке, кошке или другому домашнему животному.
+        /// </summary>
+        internal static string _972 {
+            get {
+                return ResourceManager.GetString("972", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Пчела за свою жизнь производит всего 1-2 чайные ложки меда.
+        /// </summary>
+        internal static string _973 {
+            get {
+                return ResourceManager.GetString("973", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Средний житель развитой страны 14% купленной еды выбрасывает в мусорку.
+        /// </summary>
+        internal static string _974 {
+            get {
+                return ResourceManager.GetString("974", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 18 веке восклицательный знак называли «точкой удивления».
+        /// </summary>
+        internal static string _975 {
+            get {
+                return ResourceManager.GetString("975", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Взрослая свинья пробегает километр за 5 минут.
+        /// </summary>
+        internal static string _976 {
+            get {
+                return ResourceManager.GetString("976", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Колибри весит меньше монетки в 1 пенни.
+        /// </summary>
+        internal static string _977 {
+            get {
+                return ResourceManager.GetString("977", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to За свою жизнь человек съедает примерно 40 тонн различного продовольствия.
+        /// </summary>
+        internal static string _978 {
+            get {
+                return ResourceManager.GetString("978", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to В 2003 году количество людей, живущих вместе до брака, немногим превышало 70%. (В 60-е года это число составляло 5%).
+        /// </summary>
+        internal static string _979 {
+            get {
+                return ResourceManager.GetString("979", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самки тли рождаются беременными..
         /// </summary>
         internal static string _98 {
             get {
@@ -3776,11 +12137,191 @@ namespace MainBook.Infrastructure.Resourses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Тарантул может жить без пищи два года..
+        ///   Looks up a localized string similar to Первая письменная «кулинарная книга» опубликована в 62-м году нашей эры.
+        /// </summary>
+        internal static string _980 {
+            get {
+                return ResourceManager.GetString("980", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Продолжительность одного «года» на Плутоне — 247,7 земных лет.
+        /// </summary>
+        internal static string _981 {
+            get {
+                return ResourceManager.GetString("981", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самое популярное в мире женское имя — Анна. Его носят почти 100 миллионов женщин.
+        /// </summary>
+        internal static string _982 {
+            get {
+                return ResourceManager.GetString("982", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to На съемках фильма «Человек-паук» было украдено 4 костюма главного героя стоимостью по $50 тыс.
+        /// </summary>
+        internal static string _983 {
+            get {
+                return ResourceManager.GetString("983", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Трое из 6 самых богатых людей на планете заработали свое состояние, работая в IT-сфере.
+        /// </summary>
+        internal static string _984 {
+            get {
+                return ResourceManager.GetString("984", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Чаще всего жёны миллионеров — учителя.
+        /// </summary>
+        internal static string _985 {
+            get {
+                return ResourceManager.GetString("985", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Первый бытовой холодильник стоил примерно 16 000 долларов.
+        /// </summary>
+        internal static string _986 {
+            get {
+                return ResourceManager.GetString("986", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Язык — единственная мышца, прикрепленная к телу только с одного конца.
+        /// </summary>
+        internal static string _987 {
+            get {
+                return ResourceManager.GetString("987", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Джулия Робертс — первая в истории киноактриса, получившая 20 миллионов долларов за роль в фильме.
+        /// </summary>
+        internal static string _988 {
+            get {
+                return ResourceManager.GetString("988", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Банкоматы такие же грязные, как общественные туалеты.
+        /// </summary>
+        internal static string _989 {
+            get {
+                return ResourceManager.GetString("989", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Взрослый клоп год может жить без пищи..
         /// </summary>
         internal static string _99 {
             get {
                 return ResourceManager.GetString("99", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Джордж Вашингтон не пожимал руки при встрече — он предпочитал кланяться.
+        /// </summary>
+        internal static string _990 {
+            get {
+                return ResourceManager.GetString("990", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самое широко распространённое название пабов в Великобритании — «Red Lion» («Красный лев»). Так названо около 630 пабов.
+        /// </summary>
+        internal static string _991 {
+            get {
+                return ResourceManager.GetString("991", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Швейцария не находилась в состоянии войны с 1515-го года.
+        /// </summary>
+        internal static string _992 {
+            get {
+                return ResourceManager.GetString("992", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Гинекологи обнаружили, что у женщин, часто занимающихся оральным сексом, на 50% снижается риск преэклампсии — осложнения беременности.
+        /// </summary>
+        internal static string _993 {
+            get {
+                return ResourceManager.GetString("993", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Самое древнее существо на земле — рыба oilus vulgaris. Эти рыбы живут исключительно возле месторождений нефти.
+        /// </summary>
+        internal static string _994 {
+            get {
+                return ResourceManager.GetString("994", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Компакт-диски читаются от центра к краю, а записываются — от края к центру.
+        /// </summary>
+        internal static string _995 {
+            get {
+                return ResourceManager.GetString("995", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Сыр можно сделать из молока 24-х различных видов животных, включая верблюдов, оленей, лосей, овец и т. д.
+        /// </summary>
+        internal static string _996 {
+            get {
+                return ResourceManager.GetString("996", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Днём облака находятся выше, чем ночью.
+        /// </summary>
+        internal static string _997 {
+            get {
+                return ResourceManager.GetString("997", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Среднее время «жизни» зонтика — полтора года.
+        /// </summary>
+        internal static string _998 {
+            get {
+                return ResourceManager.GetString("998", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 25% ваших костей находятся в ногах.
+        /// </summary>
+        internal static string _999 {
+            get {
+                return ResourceManager.GetString("999", resourceCulture);
             }
         }
     }

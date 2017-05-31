@@ -22,7 +22,7 @@ namespace MainBook.Infrastructure.CommonData
         {
             _factRepository = factRepository;
             _settingsRepository = settingsRepository;
-            FactCount = 411;
+            FactCount = 1361;
             AllReadedFacts = _factRepository.GetAllFacts();
             AlreadyGeneratedNames = new List<int>();
             var settings = _settingsRepository.GetSettings();

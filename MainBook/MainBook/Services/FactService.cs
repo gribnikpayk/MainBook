@@ -27,6 +27,7 @@ namespace MainBook.Services
         public FactFrame GetFact()
         {
             var factName = _rnd.Next(0, CommonData.FactCount);
+            var s = (Facts.ResourceManager.GetString(factName.ToString()));
             if (FactMustBeUnique())
             {
                 while (CommonData.AlreadyGeneratedNames.Any(x => x == factName) && CommonData.AllReadedFacts.Any(x => x.ReadedFactName == factName))
