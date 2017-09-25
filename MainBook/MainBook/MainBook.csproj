@@ -38,6 +38,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CustomControls\AdControl.cs" />
     <Compile Include="CustomControls\BGPrevFrame.cs" />
     <Compile Include="CustomControls\CustomFrame.cs" />
     <Compile Include="CustomControls\EmptyLabel.cs" />
@@ -47,6 +48,7 @@
     <Compile Include="CustomControls\NextButton_Right.cs" />
     <Compile Include="CustomControls\ShareButton.cs" />
     <Compile Include="Infrastructure\CommonData\CommonData.cs" />
+    <Compile Include="Infrastructure\Constants\CommonConstants.cs" />
     <Compile Include="Infrastructure\Constants\MessagingCenterConstants.cs" />
     <Compile Include="Infrastructure\DataManagers\LocalDbManager\Domain\BaseEntity.cs" />
     <Compile Include="Infrastructure\DataManagers\LocalDbManager\Domain\FactEntity.cs" />

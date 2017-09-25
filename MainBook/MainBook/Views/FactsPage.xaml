@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:customControls="clr-namespace:MainBook.CustomControls;assembly=MainBook"
+             xmlns:constants="clr-namespace:MainBook.Infrastructure.Constants;assembly=MainBook"
              x:Class="MainBook.Views.FactsPage"
              >
   <AbsoluteLayout x:Name="MainWrapper">
@@ -20,5 +21,12 @@
       <customControls:LikeButton HorizontalOptions="CenterAndExpand"></customControls:LikeButton>
       <customControls:NextButton_Right HorizontalOptions="CenterAndExpand"></customControls:NextButton_Right>
     </StackLayout>
+  <customControls:AdControl AbsoluteLayout.LayoutFlags="PositionProportional"
+                            AbsoluteLayout.LayoutBounds="0.5,1,300,50"
+                            WidthRequest="300"
+                            HeightRequest="50"
+                            ApplicationId="{x:Static constants:CommonConstants.AdControl_ApplicationId}"
+                            AdUnitId="{x:Static constants:CommonConstants.AdControl_UnitId}">
+  </customControls:AdControl>
   </AbsoluteLayout>
 </ContentPage>
