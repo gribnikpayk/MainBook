@@ -1,1 +1,1 @@
-D:\Work Folder\MainBook_\MainBook\MainBook.UWP\AppPackages\MainBook.UWP_1.2.11.0\MainBook.UWP_1.2.11.0_x86_x64_arm.appxbundle
+D:\Work Folder\MainBook_\MainBook\MainBook.UWP\bin\ARM\Release\Upload\MainBook.UWP_1.3.13.0\MainBook.UWP_1.3.13.0_x86_x64_arm.appxbundle

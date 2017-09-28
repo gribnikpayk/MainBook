@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="34589DenisChaykin.2560592F9C416" Publisher="CN=4B82504F-6445-42A2-A46C-A7F5D41ED84E" Version="1.2.11.0" />
+  <Identity Name="34589DenisChaykin.2560592F9C416" Publisher="CN=4B82504F-6445-42A2-A46C-A7F5D41ED84E" Version="1.3.13.0" />
   <mp:PhoneIdentity PhoneProductId="008dad8e-d72d-429f-bd0a-0b847c276436" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Лучшие Факты</DisplayName>
